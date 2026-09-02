@@ -1,6 +1,6 @@
 {
   "name": "Sync World Clocks Packet Payload",
-  "hash": "7fcf02c4c7c5f61be8297fe5c9df43485685aaf8ea19b210e1187dbe6ce59a2a",
+  "hash": "06ee414780d9c80e2373325941370cd46af53efac35cda6d89600fe41644cb55",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

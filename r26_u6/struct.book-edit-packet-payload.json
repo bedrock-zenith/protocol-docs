@@ -1,6 +1,6 @@
 {
   "name": "Book Edit Packet Payload",
-  "hash": "bd3124c65eda4a77236d49cbcb4663a5ad008862d14123024d97e19b74d514e8",
+  "hash": "7948e54633e2b51364e0d6efe0063b1ba902ddfd0b556665a22e835f6f11fc22",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

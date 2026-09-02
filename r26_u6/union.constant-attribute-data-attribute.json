@@ -1,6 +1,6 @@
 {
   "name": "Constant Attribute Data Attribute",
-  "hash": "8ec2771b103ccd7ec2c4e042f7722f79cd3c6bf57bf6574d91567b05916dab56",
+  "hash": "a3c6f2dd34630ca5e2a937591188ff943d10144c640fec64cc03ad4ccab94a79",
   "bind_type": "union",
   "is_bind_type": true,
   "fields": [
@@ -10,7 +10,7 @@
         "bind_type": "struct",
         "is_bind_type": true
       },
-      "enum_literal": "Bool Attribute Data0"
+      "enum_literal": "Bool Attribute Data"
     },
     {
       "type": {
@@ -18,7 +18,7 @@
         "bind_type": "struct",
         "is_bind_type": true
       },
-      "enum_literal": "Float Attribute Data1"
+      "enum_literal": "Float Attribute Data"
     },
     {
       "type": {
@@ -26,7 +26,7 @@
         "bind_type": "struct",
         "is_bind_type": true
       },
-      "enum_literal": "Color Attribute Data2"
+      "enum_literal": "Color Attribute Data"
     }
   ],
   "backing_enum": {

@@ -1,6 +1,6 @@
 {
   "name": "Primitive Shape Data Payload",
-  "hash": "17c7224401c3aeb891b98124670f1b1a7cd7998df5b38161fd364b0b298c6f40",
+  "hash": "51f37b07f1e0975c174754d636ba908b042bcd9d4fd7f76e80b3bbb5b802ed99",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

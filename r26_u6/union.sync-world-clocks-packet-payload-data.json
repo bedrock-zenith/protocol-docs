@@ -1,6 +1,6 @@
 {
   "name": "Sync World Clocks Packet Payload Data",
-  "hash": "2a945a1c85d394dc0f1942997f1bc9c6cae3077b6c6dffb1435decadd399cc11",
+  "hash": "44e7d9fced3dcc342a5ba5ff73484b07019164479d2af051ef806cac30d784ca",
   "bind_type": "union",
   "is_bind_type": true,
   "fields": [
@@ -10,7 +10,7 @@
         "bind_type": "struct",
         "is_bind_type": true
       },
-      "enum_literal": "Sync State Data0"
+      "enum_literal": "Sync State Data"
     },
     {
       "type": {
@@ -18,7 +18,7 @@
         "bind_type": "struct",
         "is_bind_type": true
       },
-      "enum_literal": "Initialize Registry Data1"
+      "enum_literal": "Initialize Registry Data"
     },
     {
       "type": {
@@ -26,7 +26,7 @@
         "bind_type": "struct",
         "is_bind_type": true
       },
-      "enum_literal": "Add Time Marker Data2"
+      "enum_literal": "Add Time Marker Data"
     },
     {
       "type": {
@@ -34,7 +34,7 @@
         "bind_type": "struct",
         "is_bind_type": true
       },
-      "enum_literal": "Remove Time Marker Data3"
+      "enum_literal": "Remove Time Marker Data"
     }
   ],
   "backing_enum": {

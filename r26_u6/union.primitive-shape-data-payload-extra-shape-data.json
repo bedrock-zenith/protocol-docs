@@ -1,6 +1,6 @@
 {
   "name": "Primitive Shape Data Payload Extra Shape Data",
-  "hash": "beafdd654aaa8382e10afd79cc5b3872a9a62d0d4f4ef679f0284fe01211647e",
+  "hash": "c238bee6f9eb4afb871626bdb637286530c31985e6c437fa49a261cab56b5057",
   "bind_type": "union",
   "is_bind_type": true,
   "fields": [
@@ -9,7 +9,7 @@
         "name": "void",
         "is_bind_type": false
       },
-      "enum_literal": "void0"
+      "enum_literal": "void"
     },
     {
       "type": {
@@ -17,7 +17,7 @@
         "bind_type": "struct",
         "is_bind_type": true
       },
-      "enum_literal": "Arrow Data Payload1"
+      "enum_literal": "Arrow Data Payload"
     },
     {
       "type": {
@@ -25,7 +25,7 @@
         "bind_type": "struct",
         "is_bind_type": true
       },
-      "enum_literal": "Text Data Payload2"
+      "enum_literal": "Text Data Payload"
     },
     {
       "type": {
@@ -33,7 +33,7 @@
         "bind_type": "struct",
         "is_bind_type": true
       },
-      "enum_literal": "Box Data Payload3"
+      "enum_literal": "Box Data Payload"
     },
     {
       "type": {
@@ -41,7 +41,7 @@
         "bind_type": "struct",
         "is_bind_type": true
       },
-      "enum_literal": "Line Data Payload4"
+      "enum_literal": "Line Data Payload"
     },
     {
       "type": {
@@ -49,7 +49,7 @@
         "bind_type": "struct",
         "is_bind_type": true
       },
-      "enum_literal": "Sphere Data Payload5"
+      "enum_literal": "Sphere Data Payload"
     },
     {
       "type": {
@@ -57,7 +57,7 @@
         "bind_type": "struct",
         "is_bind_type": true
       },
-      "enum_literal": "Cylinder Data Payload6"
+      "enum_literal": "Cylinder Data Payload"
     },
     {
       "type": {
@@ -65,7 +65,7 @@
         "bind_type": "struct",
         "is_bind_type": true
       },
-      "enum_literal": "Pyramid Data Payload7"
+      "enum_literal": "Pyramid Data Payload"
     },
     {
       "type": {
@@ -73,7 +73,7 @@
         "bind_type": "struct",
         "is_bind_type": true
       },
-      "enum_literal": "Ellipsoid Data Payload8"
+      "enum_literal": "Ellipsoid Data Payload"
     },
     {
       "type": {
@@ -81,7 +81,7 @@
         "bind_type": "struct",
         "is_bind_type": true
       },
-      "enum_literal": "Cone Data Payload9"
+      "enum_literal": "Cone Data Payload"
     }
   ],
   "backing_enum": {

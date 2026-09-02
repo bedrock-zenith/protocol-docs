@@ -1,6 +1,6 @@
 {
   "name": "Environment Attribute Data Payload",
-  "hash": "729c7706384d7ce1d9ddc30ec13e5fd2eda81b3c41a451567b587fc419eae319",
+  "hash": "46999fb669cd9be6ab23e2e298eb5763ebbdb55021dab7c9b7d05c8d24d18b66",
   "bind_type": "union",
   "is_bind_type": true,
   "fields": [
@@ -10,7 +10,7 @@
         "bind_type": "struct",
         "is_bind_type": true
       },
-      "enum_literal": "Constant Attribute Data0"
+      "enum_literal": "Constant Attribute Data"
     },
     {
       "type": {
@@ -18,7 +18,7 @@
         "bind_type": "struct",
         "is_bind_type": true
       },
-      "enum_literal": "Transition Attribute Data1"
+      "enum_literal": "Transition Attribute Data"
     },
     {
       "type": {
@@ -26,7 +26,7 @@
         "bind_type": "struct",
         "is_bind_type": true
       },
-      "enum_literal": "Noise Transition Attribute Data2"
+      "enum_literal": "Noise Transition Attribute Data"
     }
   ],
   "backing_enum": {

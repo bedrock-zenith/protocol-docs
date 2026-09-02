@@ -1,12 +1,12 @@
 {
   "name": "Text Packet Payload Body Control",
-  "hash": "95613b553c4672c4fb0f7e054ae59568807824dbc2250ea93a65b3389ab58e7a",
+  "hash": "b3a2e13ff67a73a52d967eee74a00f2607568ce4775db08e73467e119e44af11",
   "bind_type": "enum",
   "is_bind_type": true,
   "enum_kind": "literal",
   "enum": {
-    "Message Only0": 0,
-    "Author And Message1": 1,
-    "Message And Params2": 2
+    "Message Only": 0,
+    "Author And Message": 1,
+    "Message And Params": 2
   }
 }

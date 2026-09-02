@@ -1,12 +1,12 @@
 {
   "name": "Noise Transition Attribute Data From Attribute Control",
-  "hash": "d4447b02e26f99d1ec552fc18eb4aff52758c237bc550300c358a76e803c2914",
+  "hash": "a964789e36dcc72d73006ec02c07c540b67a3a46080c3ee5b665ee2b4f1425cf",
   "bind_type": "enum",
   "is_bind_type": true,
   "enum_kind": "literal",
   "enum": {
-    "Bool Attribute Data0": 0,
-    "Float Attribute Data1": 1,
-    "Color Attribute Data2": 2
+    "Bool Attribute Data": 0,
+    "Float Attribute Data": 1,
+    "Color Attribute Data": 2
   }
 }

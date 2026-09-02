@@ -1,6 +1,6 @@
 {
   "name": "Color Norm Rgb",
-  "hash": "8c82261bca88f02f1f5f5a4daa630067a8a2c9cde5071ec61e919d94c7cebb0f",
+  "hash": "b3c9b12a588b7f3c5a4d443652655922aae9c6d0bd1665c8c8abe4e96c19fcf5",
   "bind_type": "union",
   "is_bind_type": true,
   "fields": [
@@ -19,7 +19,7 @@
           "data_encoding": "zleb128"
         }
       },
-      "enum_literal": "string0"
+      "enum_literal": "string"
     },
     {
       "type": {
@@ -45,7 +45,7 @@
           "data_encoding": "leb128"
         }
       },
-      "enum_literal": "array1"
+      "enum_literal": "array"
     }
   ],
   "backing_enum": {

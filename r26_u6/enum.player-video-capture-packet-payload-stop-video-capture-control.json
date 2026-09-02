@@ -1,11 +1,11 @@
 {
   "name": "Player Video Capture Packet Payload Stop Video Capture Control",
-  "hash": "c5f9583ea99aa6c3b97d940b56ffd537781aa9565b0bbf79d31dcdb05945a94d",
+  "hash": "6c0259e97cbb163e4d282d051b59c18e17275d7ab7198b468030de63fc0900ae",
   "bind_type": "enum",
   "is_bind_type": true,
   "enum_kind": "literal",
   "enum": {
-    "Start Video Capture0": 0,
-    "Stop Video Capture1": 1
+    "art Video Capture": 0,
+    "op Video Capture": 1
   }
 }

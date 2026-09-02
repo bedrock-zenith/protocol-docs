@@ -1,11 +1,11 @@
 {
   "name": "Disconnect Packet Payload Messages Control",
-  "hash": "7a1a245d875f9667c2f487b525bf3c0f99cef7deec711dba7d0b8fcf197f5cb9",
+  "hash": "7eb1058782e205ac322bce2f00687b45951dd849e2480e03654f55a6997a0e36",
   "bind_type": "enum",
   "is_bind_type": true,
   "enum_kind": "literal",
   "enum": {
-    "Disconnect Packet Messages0": 0,
-    "void1": 1
+    "Disconnect Packet Messages": 0,
+    "void": 1
   }
 }

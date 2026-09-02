@@ -1,6 +1,6 @@
 {
   "name": "Color255 Rgb",
-  "hash": "fbb32557eb57618a06b3b867e8a6002d50bb493019d20298f5aac4e74de9c697",
+  "hash": "0b26858849a2de54febf181c5b93754c25860fa38f3e75106bb52a39fb1471f8",
   "bind_type": "union",
   "is_bind_type": true,
   "fields": [
@@ -19,7 +19,7 @@
           "data_encoding": "zleb128"
         }
       },
-      "enum_literal": "string0"
+      "enum_literal": "string"
     },
     {
       "type": {
@@ -45,7 +45,7 @@
           "data_encoding": "leb128"
         }
       },
-      "enum_literal": "array1"
+      "enum_literal": "array"
     }
   ],
   "backing_enum": {

@@ -1,16 +1,16 @@
 {
   "name": "Clientbound Update Sound Data Packet Payload Seek To Control",
-  "hash": "925d5ead783be7fc16e72a2a103e9cac3f8ec7da000ffc2c2e37af9582584ad9",
+  "hash": "66af018879ed03939e86a94da267d2d289b98749f9968b49885e4fc65544e79d",
   "bind_type": "enum",
   "is_bind_type": true,
   "enum_kind": "literal",
   "enum": {
-    "Stop0": 0,
-    "Set Volume1": 1,
-    "Set Pitch2": 2,
-    "Fade3": 3,
-    "Seek To4": 4,
-    "Pause5": 5,
-    "Resume6": 6
+    "Stop": 0,
+    "Set Volume": 1,
+    "Set Pitch": 2,
+    "Fade": 3,
+    "Seek To": 4,
+    "Pause": 5,
+    "Resume": 6
   }
 }

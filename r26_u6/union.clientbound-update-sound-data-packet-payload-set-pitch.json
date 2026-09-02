@@ -1,6 +1,6 @@
 {
   "name": "Clientbound Update Sound Data Packet Payload Set Pitch",
-  "hash": "c3654a1f28e59bb7e9ca9b04c81d7b77a759adb2058d12406da13f9447eaba7a",
+  "hash": "fa752bb36a8fa2a198c4723b29e02b4dd9559e00944919c87789d950da2ef8d5",
   "bind_type": "union",
   "is_bind_type": true,
   "fields": [
@@ -10,7 +10,7 @@
         "bind_type": "struct",
         "is_bind_type": true
       },
-      "enum_literal": "Stop0"
+      "enum_literal": "Stop"
     },
     {
       "type": {
@@ -18,7 +18,7 @@
         "bind_type": "struct",
         "is_bind_type": true
       },
-      "enum_literal": "Set Volume1"
+      "enum_literal": "Set Volume"
     },
     {
       "type": {
@@ -26,7 +26,7 @@
         "bind_type": "struct",
         "is_bind_type": true
       },
-      "enum_literal": "Set Pitch2"
+      "enum_literal": "Set Pitch"
     },
     {
       "type": {
@@ -34,7 +34,7 @@
         "bind_type": "struct",
         "is_bind_type": true
       },
-      "enum_literal": "Fade3"
+      "enum_literal": "Fade"
     },
     {
       "type": {
@@ -42,7 +42,7 @@
         "bind_type": "struct",
         "is_bind_type": true
       },
-      "enum_literal": "Seek To4"
+      "enum_literal": "Seek To"
     },
     {
       "type": {
@@ -50,7 +50,7 @@
         "bind_type": "struct",
         "is_bind_type": true
       },
-      "enum_literal": "Pause5"
+      "enum_literal": "Pause"
     },
     {
       "type": {
@@ -58,7 +58,7 @@
         "bind_type": "struct",
         "is_bind_type": true
       },
-      "enum_literal": "Resume6"
+      "enum_literal": "Resume"
     }
   ],
   "backing_enum": {

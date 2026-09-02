@@ -1,6 +1,6 @@
 {
   "name": "Text Packet Payload",
-  "hash": "9aecabba72a5fc01ca8725e5bf50bba4693cc368227ec707f50bfc9f0e50c3cf",
+  "hash": "b6e9c55c45e925ddccf9f84c9c70be87caba3a89a0a9adcf967c5b61b6db4e45",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

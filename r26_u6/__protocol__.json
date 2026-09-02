@@ -652,37 +652,37 @@
     },
     {
       "name": "Color255 Rgba Control",
-      "hash": "f2c4b4268e71705784e0f4f89deab4883fdc0640dfd55b13b6c9610fa9882400",
+      "hash": "3c07c13aacb4fc3adfcfd14e2c64e8d80a37153c2470e4acf75cd9148a41277d",
       "bind_type": "enum",
       "is_bind_type": true,
       "enum_kind": "literal",
       "enum": {
-        "string0": 0,
-        "array1": 1
+        "string": 0,
+        "array": 1
       }
     },
     {
       "name": "Constant Attribute Data Attribute Control",
-      "hash": "73e4786e28b53973392e74ade742ce2883a617775ddd248f080c50077e0bb76c",
+      "hash": "7311fb960d1f97b03717a636fa23f693420be248ea52023a831e5c24e44e9985",
       "bind_type": "enum",
       "is_bind_type": true,
       "enum_kind": "literal",
       "enum": {
-        "Bool Attribute Data0": 0,
-        "Float Attribute Data1": 1,
-        "Color Attribute Data2": 2
+        "Bool Attribute Data": 0,
+        "Float Attribute Data": 1,
+        "Color Attribute Data": 2
       }
     },
     {
       "name": "Transition Attribute Data From Attribute Control",
-      "hash": "48631c31b2bc3a82a76a0417f7493837402b859652c51416d12033df776408b2",
+      "hash": "44974cc8bb8166d07c417dba2bf84a2b1a55cc0cbcb827d77b9ca58b6c6d5d5a",
       "bind_type": "enum",
       "is_bind_type": true,
       "enum_kind": "literal",
       "enum": {
-        "Bool Attribute Data0": 0,
-        "Float Attribute Data1": 1,
-        "Color Attribute Data2": 2
+        "Bool Attribute Data": 0,
+        "Float Attribute Data": 1,
+        "Color Attribute Data": 2
       }
     },
     {
@@ -729,26 +729,26 @@
     },
     {
       "name": "Transition Attribute Data To Attribute Control",
-      "hash": "dcbea2c62269a5bf709335b53fff3bf36ceb0a163a7e4c2222fddb51a17ff33e",
+      "hash": "6c4b0c0d5966bd8cc57863304f45ecdb4157c683cb825bea2fe82e211e6aa776",
       "bind_type": "enum",
       "is_bind_type": true,
       "enum_kind": "literal",
       "enum": {
-        "Bool Attribute Data0": 0,
-        "Float Attribute Data1": 1,
-        "Color Attribute Data2": 2
+        "Bool Attribute Data": 0,
+        "Float Attribute Data": 1,
+        "Color Attribute Data": 2
       }
     },
     {
       "name": "Noise Transition Attribute Data From Attribute Control",
-      "hash": "d4447b02e26f99d1ec552fc18eb4aff52758c237bc550300c358a76e803c2914",
+      "hash": "a964789e36dcc72d73006ec02c07c540b67a3a46080c3ee5b665ee2b4f1425cf",
       "bind_type": "enum",
       "is_bind_type": true,
       "enum_kind": "literal",
       "enum": {
-        "Bool Attribute Data0": 0,
-        "Float Attribute Data1": 1,
-        "Color Attribute Data2": 2
+        "Bool Attribute Data": 0,
+        "Float Attribute Data": 1,
+        "Color Attribute Data": 2
       }
     },
     {
@@ -764,26 +764,26 @@
     },
     {
       "name": "Noise Transition Attribute Data To Attribute Control",
-      "hash": "31c6bdf1cc64b1579623d7b0767099c7e27208cbabbc4d427d982ba733b4f25d",
+      "hash": "849edff4727f5882094635bc4fc879e142e3fae47211dd24926943c32c84b3e0",
       "bind_type": "enum",
       "is_bind_type": true,
       "enum_kind": "literal",
       "enum": {
-        "Bool Attribute Data0": 0,
-        "Float Attribute Data1": 1,
-        "Color Attribute Data2": 2
+        "Bool Attribute Data": 0,
+        "Float Attribute Data": 1,
+        "Color Attribute Data": 2
       }
     },
     {
       "name": "Environment Attribute Data Payload Control",
-      "hash": "bc30410e3fe47b6f66c7a608eedd6d458e179a2e3e5264f19849be6893ef4584",
+      "hash": "c758e07141a9e6af17fa54764a57100a18a32573b329415276a8955e9c62cb2e",
       "bind_type": "enum",
       "is_bind_type": true,
       "enum_kind": "literal",
       "enum": {
-        "Constant Attribute Data0": 0,
-        "Transition Attribute Data1": 1,
-        "Noise Transition Attribute Data2": 2
+        "Constant Attribute Data": 0,
+        "Transition Attribute Data": 1,
+        "Noise Transition Attribute Data": 2
       }
     },
     {
@@ -898,16 +898,16 @@
     },
     {
       "name": "Book Edit Packet Payload Operation Control",
-      "hash": "08a8e94c8f23ec2e385d5cf187da2736222fba895d958e66e73869683913de2d",
+      "hash": "c5116c5c3a7711cb8377172a9bd439d4bdf88e72ae8b91ec568adeb93c8e78b0",
       "bind_type": "enum",
       "is_bind_type": true,
       "enum_kind": "literal",
       "enum": {
-        "Book Edit Action Replace Page0": 0,
-        "Book Edit Action Add Page1": 1,
-        "Book Edit Action Delete Page2": 2,
-        "Book Edit Action Swap Pages3": 3,
-        "Book Edit Action Finalize4": 4
+        "Replace Page": 0,
+        "Add Page": 1,
+        "Delete Page": 2,
+        "Swap Pages": 3,
+        "Finalize": 4
       }
     },
     {
@@ -1092,15 +1092,15 @@
     },
     {
       "name": "Clientbound Attribute Layer Sync Packet Payload Data Control",
-      "hash": "160a27a8bc04d0c56bc20ba65053751979c6f8ffccd5cd5b8d382075f4b9f3db",
+      "hash": "1401c08ad5d1fa7cb7f620ce758a9acaa5fa1e8e9dd0f0e914cbac4f9ab843ae",
       "bind_type": "enum",
       "is_bind_type": true,
       "enum_kind": "literal",
       "enum": {
-        "Update Attribute Layers Data0": 0,
-        "Update Attribute Layer Settings Data1": 1,
-        "Update Environment Attributes Data2": 2,
-        "Remove Environment Attributes Data3": 3
+        "Update Attribute Layers Data": 0,
+        "Update Attribute Layer Settings Data": 1,
+        "Update Environment Attributes Data": 2,
+        "Remove Environment Attributes Data": 3
       }
     },
     {
@@ -1187,138 +1187,138 @@
     },
     {
       "name": "Clientbound Update Sound Data Packet Payload Fade Control",
-      "hash": "e2392f607480a96e02f5a2a651761cc55b2a46de49af6ff59dc9352ad6193ecf",
+      "hash": "ec560e2cae37dec85adc345d519de8e137541dd10b882d21497033ec4575d19f",
       "bind_type": "enum",
       "is_bind_type": true,
       "enum_kind": "literal",
       "enum": {
-        "Stop0": 0,
-        "Set Volume1": 1,
-        "Set Pitch2": 2,
-        "Fade3": 3,
-        "Seek To4": 4,
-        "Pause5": 5,
-        "Resume6": 6
+        "Stop": 0,
+        "Set Volume": 1,
+        "Set Pitch": 2,
+        "Fade": 3,
+        "Seek To": 4,
+        "Pause": 5,
+        "Resume": 6
       }
     },
     {
       "name": "Clientbound Update Sound Data Packet Payload Pause Control",
-      "hash": "0f7a88cfbfb40bac7874d4cfe5b293e590bacf17dbc3e9867c1d6fa999ea84bf",
+      "hash": "3579f775353c270e0097a9bdaff9db2eecb0fe82ac8373d3a8e056f4ec8fb9ed",
       "bind_type": "enum",
       "is_bind_type": true,
       "enum_kind": "literal",
       "enum": {
-        "Stop0": 0,
-        "Set Volume1": 1,
-        "Set Pitch2": 2,
-        "Fade3": 3,
-        "Seek To4": 4,
-        "Pause5": 5,
-        "Resume6": 6
+        "Stop": 0,
+        "Set Volume": 1,
+        "Set Pitch": 2,
+        "Fade": 3,
+        "Seek To": 4,
+        "Pause": 5,
+        "Resume": 6
       }
     },
     {
       "name": "Clientbound Update Sound Data Packet Payload Resume Control",
-      "hash": "cc1e3583c8cdbabbea8bfe335bcb4922922127005b0fa44e04d1039c7ae0b4d3",
+      "hash": "2ebd0666c4109b644a1307118918a2a7c6cd2c116e1309d440d0a3caba92dc08",
       "bind_type": "enum",
       "is_bind_type": true,
       "enum_kind": "literal",
       "enum": {
-        "Stop0": 0,
-        "Set Volume1": 1,
-        "Set Pitch2": 2,
-        "Fade3": 3,
-        "Seek To4": 4,
-        "Pause5": 5,
-        "Resume6": 6
+        "Stop": 0,
+        "Set Volume": 1,
+        "Set Pitch": 2,
+        "Fade": 3,
+        "Seek To": 4,
+        "Pause": 5,
+        "Resume": 6
       }
     },
     {
       "name": "Clientbound Update Sound Data Packet Payload Seek To Control",
-      "hash": "925d5ead783be7fc16e72a2a103e9cac3f8ec7da000ffc2c2e37af9582584ad9",
+      "hash": "66af018879ed03939e86a94da267d2d289b98749f9968b49885e4fc65544e79d",
       "bind_type": "enum",
       "is_bind_type": true,
       "enum_kind": "literal",
       "enum": {
-        "Stop0": 0,
-        "Set Volume1": 1,
-        "Set Pitch2": 2,
-        "Fade3": 3,
-        "Seek To4": 4,
-        "Pause5": 5,
-        "Resume6": 6
+        "Stop": 0,
+        "Set Volume": 1,
+        "Set Pitch": 2,
+        "Fade": 3,
+        "Seek To": 4,
+        "Pause": 5,
+        "Resume": 6
       }
     },
     {
       "name": "Clientbound Update Sound Data Packet Payload Set Pitch Control",
-      "hash": "7021eebcf37157e43c47788ec08fc98276dad11b00391da92b5a48d71e40e2cf",
+      "hash": "6f004282ead702d79ded1e412db32d1ae13dde59a745ba6c2854f0c9fd6b43b5",
       "bind_type": "enum",
       "is_bind_type": true,
       "enum_kind": "literal",
       "enum": {
-        "Stop0": 0,
-        "Set Volume1": 1,
-        "Set Pitch2": 2,
-        "Fade3": 3,
-        "Seek To4": 4,
-        "Pause5": 5,
-        "Resume6": 6
+        "Stop": 0,
+        "Set Volume": 1,
+        "Set Pitch": 2,
+        "Fade": 3,
+        "Seek To": 4,
+        "Pause": 5,
+        "Resume": 6
       }
     },
     {
       "name": "Clientbound Update Sound Data Packet Payload Set Volume Control",
-      "hash": "911344b7063d2e1e76d3f5913d79ba5854e3f0e8d3a816d1c40dbb34beac821f",
+      "hash": "eab5580d9f32fc12b40d55afee7be9e90a2b8a9765b6ac6bf2e41b8a0d44e2a0",
       "bind_type": "enum",
       "is_bind_type": true,
       "enum_kind": "literal",
       "enum": {
-        "Stop0": 0,
-        "Set Volume1": 1,
-        "Set Pitch2": 2,
-        "Fade3": 3,
-        "Seek To4": 4,
-        "Pause5": 5,
-        "Resume6": 6
+        "Stop": 0,
+        "Set Volume": 1,
+        "Set Pitch": 2,
+        "Fade": 3,
+        "Seek To": 4,
+        "Pause": 5,
+        "Resume": 6
       }
     },
     {
       "name": "Clientbound Update Sound Data Packet Payload Stop Control",
-      "hash": "e331f8422a5a4d7c0009b8861e34473d9fecc4ff14fcf74088c9594c690668ee",
+      "hash": "aa6d1cb5f229c636db64ffde405f51378fc4777472a52e441300011b0f94f12c",
       "bind_type": "enum",
       "is_bind_type": true,
       "enum_kind": "literal",
       "enum": {
-        "Stop0": 0,
-        "Set Volume1": 1,
-        "Set Pitch2": 2,
-        "Fade3": 3,
-        "Seek To4": 4,
-        "Pause5": 5,
-        "Resume6": 6
+        "Stop": 0,
+        "Set Volume": 1,
+        "Set Pitch": 2,
+        "Fade": 3,
+        "Seek To": 4,
+        "Pause": 5,
+        "Resume": 6
       }
     },
     {
       "name": "Data Store Update Data Control",
-      "hash": "a93163a711c97c74ff5b81bd21c538eaf6c934843ff966e20debefa08bd28ed6",
+      "hash": "8a93e34df62cd7632207d7e92fd984eb468ee9cbf7a5729674ebc19770ce8614",
       "bind_type": "enum",
       "is_bind_type": true,
       "enum_kind": "literal",
       "enum": {
-        "float0": 0,
-        "boolean1": 1,
-        "string2": 2
+        "float": 0,
+        "boolean": 1,
+        "string": 2
       }
     },
     {
       "name": "Clientbound Data Store Payload Updates Item Control",
-      "hash": "63680ff5b943f3e54719b5e8cd30968e12d208ddf5b59e67d989b360ccbf8174",
+      "hash": "4e3bd3650fbea555ea4c7fc8d63dcae372a00593c4b0bae3f59d509964e4512b",
       "bind_type": "enum",
       "is_bind_type": true,
       "enum_kind": "literal",
       "enum": {
-        "Data Store Update0": 0,
-        "Data Store Change1": 1,
-        "Data Store Removal2": 2
+        "Update": 0,
+        "Change": 1,
+        "Removal": 2
       }
     },
     {
@@ -1393,24 +1393,24 @@
     },
     {
       "name": "Color255 Rgb Control",
-      "hash": "6ee6e0205437181ba3d1b5a6a4fa461eaf361a7fc4cfccb39db94a63f390e782",
+      "hash": "a70ebf756ed7791b6063c9b3f0ecbed93805954a366673792488964e038dd782",
       "bind_type": "enum",
       "is_bind_type": true,
       "enum_kind": "literal",
       "enum": {
-        "string0": 0,
-        "array1": 1
+        "string": 0,
+        "array": 1
       }
     },
     {
       "name": "Color Norm Rgb Control",
-      "hash": "bd366939a0ec05aee869753a21783ac90b17ebf7c5796b46388dda3677d09bd7",
+      "hash": "83543d2998cdcf5d714503e962fbfdc14bb4891c33a6aee19e04afd0ec1df51e",
       "bind_type": "enum",
       "is_bind_type": true,
       "enum_kind": "literal",
       "enum": {
-        "string0": 0,
-        "array1": 1
+        "string": 0,
+        "array": 1
       }
     },
     {
@@ -1428,13 +1428,13 @@
     },
     {
       "name": "Command Block Update Packet Payload Target Control",
-      "hash": "c1f0ae3bd89079c8edb2706d198fc70d02956ffded3a1853f3d5ced0b03e460b",
+      "hash": "45d459dbf742a388a370862ee380dd2094846983b15c1e859f8f5a9663c57353",
       "bind_type": "enum",
       "is_bind_type": true,
       "enum_kind": "literal",
       "enum": {
-        "Entity Command Target0": 0,
-        "Block Command Data1": 1
+        "Entity Command Target": 0,
+        "Block Command Data": 1
       }
     },
     {
@@ -2051,13 +2051,13 @@
     },
     {
       "name": "Disconnect Packet Payload Messages Control",
-      "hash": "7a1a245d875f9667c2f487b525bf3c0f99cef7deec711dba7d0b8fcf197f5cb9",
+      "hash": "7eb1058782e205ac322bce2f00687b45951dd849e2480e03654f55a6997a0e36",
       "bind_type": "enum",
       "is_bind_type": true,
       "enum_kind": "literal",
       "enum": {
-        "Disconnect Packet Messages0": 0,
-        "void1": 1
+        "Disconnect Packet Messages": 0,
+        "void": 1
       }
     },
     {
@@ -2307,15 +2307,15 @@
     },
     {
       "name": "Game Rule Rule Value Control",
-      "hash": "b95a985c006a585a20bd730f125ecdfccfec4d23c602dcd29e5d711719dc8c36",
+      "hash": "62ef1104b54f42c093d8f5906066efe95968e63cc9f8671d8ce68532026c6e5e",
       "bind_type": "enum",
       "is_bind_type": true,
       "enum_kind": "literal",
       "enum": {
-        "void0": 0,
-        "boolean1": 1,
-        "integer2": 2,
-        "float3": 3
+        "void": 0,
+        "boolean": 1,
+        "integer": 2,
+        "float": 3
       }
     },
     {
@@ -2670,16 +2670,16 @@
     },
     {
       "name": "Inventory Transaction Packet Payload Transaction Control",
-      "hash": "542806f82b55b9a5953c38ba0f2ffb20ea28db843f04ec076a787f1cec28fec5",
+      "hash": "04fee21ab023aef677731d6dee78c723b38db1bda542dfc4f15bd3ee7b5e1ad2",
       "bind_type": "enum",
       "is_bind_type": true,
       "enum_kind": "literal",
       "enum": {
-        "Normal Transaction Data0": 0,
-        "Inventory Mismatch Data1": 1,
-        "Item Use Inventory Transaction2": 2,
-        "Item Use On Actor Inventory Transaction3": 3,
-        "Item Release Inventory Transaction4": 4
+        "Normal Transaction Data": 0,
+        "Inventory Mismatch Data": 1,
+        "Item Use Inventory Transaction": 2,
+        "Item Use On Actor Inventory Transaction": 3,
+        "Item Release Inventory Transaction": 4
       }
     },
     {
@@ -2944,33 +2944,33 @@
     },
     {
       "name": "Legacy Telemetry Event Packet Payload Event Data Control",
-      "hash": "52a3fa1fe20750c078508ea0ec0814631e3cb98608c704eb8e62fe152adfa646",
+      "hash": "be0c5a69de020738f135837775885a4a2a58b86a818ca4c09e570ef78d2fa04d",
       "bind_type": "enum",
       "is_bind_type": true,
       "enum_kind": "literal",
       "enum": {
-        "Achievement0": 0,
-        "Interaction1": 1,
-        "Portal Created2": 2,
-        "Portal Used3": 3,
-        "Mob Killed4": 4,
-        "Cauldron Used5": 5,
-        "Player Died6": 6,
-        "Boss Killed7": 7,
-        "Slash Command8": 8,
-        "Mob Born9": 9,
-        "Poi Cauldron Used10": 10,
-        "Composter Used11": 11,
-        "Bell Used12": 12,
-        "Actor Definition13": 13,
-        "Raid Update14": 14,
-        "Target Block Hit15": 15,
-        "Piglin Barter16": 16,
-        "Player Waxed Or Unwaxed Copper17": 17,
-        "Code Builder Runtime Action18": 18,
-        "Code Builder Scoreboard19": 19,
-        "Item Used20": 20,
-        "Empty21": 21
+        "Achievement": 0,
+        "Interaction": 1,
+        "Portal Created": 2,
+        "Portal Used": 3,
+        "Mob Killed": 4,
+        "Cauldron Used": 5,
+        "Player Died": 6,
+        "Boss Killed": 7,
+        "Slash Command": 8,
+        "Mob Born": 9,
+        "Poi Cauldron Used": 10,
+        "Composter Used": 11,
+        "Bell Used": 12,
+        "Actor Definition": 13,
+        "Raid Update": 14,
+        "Target Block Hit": 15,
+        "Piglin Barter": 16,
+        "Player Waxed Or Unwaxed Copper": 17,
+        "Code Builder Runtime Action": 18,
+        "Code Builder Scoreboard": 19,
+        "Item Used": 20,
+        "Empty": 21
       }
     },
     {
@@ -4422,13 +4422,13 @@
     },
     {
       "name": "Player List Packet Payload Entries Item Control",
-      "hash": "e5f566f47d9d9f0bc7d922430e7fb2fc0ae634a591a847d5f731ac73e2303094",
+      "hash": "dcdb2118708cbba86bfdd1dfb64f55f08744c20fb6486dc5fca7bdcabc2ae089",
       "bind_type": "enum",
       "is_bind_type": true,
       "enum_kind": "literal",
       "enum": {
-        "Player List Remove Entry0": 0,
-        "Player List Add Entry1": 1
+        "Remove Entry": 0,
+        "Add Entry": 1
       }
     },
     {
@@ -4445,13 +4445,13 @@
     },
     {
       "name": "Player Location Packet Payload Location Control",
-      "hash": "0558c486b51f61a948d9f4e1f3cffb744369ef88898e41505ca4fadab39c3d2f",
+      "hash": "0243609d8fbdccc8b1694a52cb08ebbf8461dc2c9e4819731dd49dfd362d05ee",
       "bind_type": "enum",
       "is_bind_type": true,
       "enum_kind": "literal",
       "enum": {
-        "Coordinates Location0": 0,
-        "Hidden Location1": 1
+        "Coordinates Location": 0,
+        "Hidden Location": 1
       }
     },
     {
@@ -4481,24 +4481,24 @@
     },
     {
       "name": "Player Video Capture Packet Payload Start Video Capture Control",
-      "hash": "e5200515090d0dc355e0884c232b61ee058246d4d4660b810e124b4c5063dce2",
+      "hash": "1cc1d0aa5cc2fa4b2654118d83572f459f62060394830e1f9439ebd388ff1891",
       "bind_type": "enum",
       "is_bind_type": true,
       "enum_kind": "literal",
       "enum": {
-        "Start Video Capture0": 0,
-        "Stop Video Capture1": 1
+        "art Video Capture": 0,
+        "op Video Capture": 1
       }
     },
     {
       "name": "Player Video Capture Packet Payload Stop Video Capture Control",
-      "hash": "c5f9583ea99aa6c3b97d940b56ffd537781aa9565b0bbf79d31dcdb05945a94d",
+      "hash": "6c0259e97cbb163e4d282d051b59c18e17275d7ab7198b468030de63fc0900ae",
       "bind_type": "enum",
       "is_bind_type": true,
       "enum_kind": "literal",
       "enum": {
-        "Start Video Capture0": 0,
-        "Stop Video Capture1": 1
+        "art Video Capture": 0,
+        "op Video Capture": 1
       }
     },
     {
@@ -4547,21 +4547,21 @@
     },
     {
       "name": "Primitive Shape Data Payload Extra Shape Data Control",
-      "hash": "ad0766769d07aa983628e7b25d471ee39776bf92511324915e94396f3881dd62",
+      "hash": "0d784e2b1daad9cb40ec0008194b168ff5c8b097b260ad1c4dd54e62e2b7e7da",
       "bind_type": "enum",
       "is_bind_type": true,
       "enum_kind": "literal",
       "enum": {
-        "void0": 0,
-        "Arrow Data Payload1": 1,
-        "Text Data Payload2": 2,
-        "Box Data Payload3": 3,
-        "Line Data Payload4": 4,
-        "Sphere Data Payload5": 5,
-        "Cylinder Data Payload6": 6,
-        "Pyramid Data Payload7": 7,
-        "Ellipsoid Data Payload8": 8,
-        "Cone Data Payload9": 9
+        "void": 0,
+        "Arrow Data Payload": 1,
+        "Text Data Payload": 2,
+        "Box Data Payload": 3,
+        "Line Data Payload": 4,
+        "Sphere Data Payload": 5,
+        "Cylinder Data Payload": 6,
+        "Pyramid Data Payload": 7,
+        "Ellipsoid Data Payload": 8,
+        "Cone Data Payload": 9
       }
     },
     {
@@ -4650,15 +4650,15 @@
     },
     {
       "name": "Serverbound Pack Setting Change Packet Payload Pack Setting Value Control",
-      "hash": "6818e68bbca6c9b982e87316bfa3811d69c94c7916c5fdeb70ead978a7c296fc",
+      "hash": "9f6b46d2d933ce770a0a4241ff5ead44988693b883416062cd4e326b677a0329",
       "bind_type": "enum",
       "is_bind_type": true,
       "enum_kind": "literal",
       "enum": {
-        "float0": 0,
-        "boolean1": 1,
-        "string2": 2,
-        "array3": 3
+        "float": 0,
+        "boolean": 1,
+        "string": 2,
+        "array": 3
       }
     },
     {
@@ -4967,27 +4967,27 @@
     },
     {
       "name": "Sync World Clocks Packet Payload Data Control",
-      "hash": "b274e1b0a2e2e43bc54cc20fa26a06f7b952aa93feed96527eefb681c9ffee99",
+      "hash": "6bde231bda360bbdef3db2453e9169c0a7a17d40cf45d7597472868affcaffcd",
       "bind_type": "enum",
       "is_bind_type": true,
       "enum_kind": "literal",
       "enum": {
-        "Sync State Data0": 0,
-        "Initialize Registry Data1": 1,
-        "Add Time Marker Data2": 2,
-        "Remove Time Marker Data3": 3
+        "Sync State Data": 0,
+        "Initialize Registry Data": 1,
+        "Add Time Marker Data": 2,
+        "Remove Time Marker Data": 3
       }
     },
     {
       "name": "Text Packet Payload Body Control",
-      "hash": "95613b553c4672c4fb0f7e054ae59568807824dbc2250ea93a65b3389ab58e7a",
+      "hash": "b3a2e13ff67a73a52d967eee74a00f2607568ce4775db08e73467e119e44af11",
       "bind_type": "enum",
       "is_bind_type": true,
       "enum_kind": "literal",
       "enum": {
-        "Message Only0": 0,
-        "Author And Message1": 1,
-        "Message And Params2": 2
+        "Message Only": 0,
+        "Author And Message": 1,
+        "Message And Params": 2
       }
     },
     {
@@ -8163,7 +8163,7 @@
     },
     {
       "name": "Color Attribute Data",
-      "hash": "47f5cf7053958caea0dc2c67fb195955579a3794dcbfef180f75b1468664066a",
+      "hash": "2f432a5df3a67a52e1bd89b046d2ab5d1228e64430808006032705eb22a64ab2",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -8223,7 +8223,7 @@
     },
     {
       "name": "Constant Attribute Data",
-      "hash": "4c7081397eacbea11e3540d5f3694820a02f4728f0f20e7a82fdce520e91db41",
+      "hash": "adfe3193dd0282cb39832ea244f68dd231ffc695677d71d8a5b88d5608422100",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -8326,7 +8326,7 @@
     },
     {
       "name": "Transition Attribute Data",
-      "hash": "2b347e8a27e44f2603024b198b3ffd505f808c4c917c1c9dd28552309a45090f",
+      "hash": "8b669dc7fa78d30fb22224f8f860a3c65092f736b5d13184c786ec27c9ca0dcd",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -8542,7 +8542,7 @@
     },
     {
       "name": "Noise Transition Attribute Data",
-      "hash": "12f9a69bd73210eeb4c05b91b486f9b382cd4d07b8034ac5a17b6760cddc6634",
+      "hash": "b553b2d010fa4d302ce9571b3aad687ecc2a00465fe6ff694d373e51d3576fb3",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -8605,7 +8605,7 @@
     },
     {
       "name": "Environment Attribute Data",
-      "hash": "1c1c1c4095511992981231d9d2c7c7a6628b555b2b1aa6c8cca2df6fd95b94c5",
+      "hash": "76b6910d4bd168786f1645b29cee5cf41dde8af6b8ed087934a6d7ddf83f4643",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -8702,7 +8702,7 @@
     },
     {
       "name": "Attribute Layer Data",
-      "hash": "6dccd20ba95d71526b049115edf0579457b77b203d87dd73f47786ef69b39d82",
+      "hash": "16a4f3fdaa879214edb8df10868282a92baaa414e7214ec5448112f80568bb26",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -12102,7 +12102,7 @@
     },
     {
       "name": "Book Edit Packet Payload",
-      "hash": "bd3124c65eda4a77236d49cbcb4663a5ad008862d14123024d97e19b74d514e8",
+      "hash": "7948e54633e2b51364e0d6efe0063b1ba902ddfd0b556665a22e835f6f11fc22",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -15349,7 +15349,7 @@
     },
     {
       "name": "Update Attribute Layers Data",
-      "hash": "a1a5b020a0cd47a0c9e7c926dafedd8f739e73d624b25fb2503de82a66235543",
+      "hash": "5340aa370f1062a1852f028331d0dca615c8381ad6eb386284abbac6e7ebd071",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -15424,7 +15424,7 @@
     },
     {
       "name": "Update Environment Attributes Data",
-      "hash": "5cc2a713b311f70dc48346e04acd389d923391dfa5c4d008cffdb75b6adb0b02",
+      "hash": "cdb470acc498a5ea1b8a711c562d61b8600583efc0964ddded061596e8f9515a",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -15549,7 +15549,7 @@
     },
     {
       "name": "Clientbound Attribute Layer Sync Packet Payload",
-      "hash": "9e85276daf112b27292dd2e9e75f56eb695d51d4bff7a283da13c3944631a4cb",
+      "hash": "8adae4fde937df8991817222315d8f9bdea4ea484d1d551b93920a7e953ca8e7",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -16376,7 +16376,7 @@
     },
     {
       "name": "Clientbound Update Sound Data Packet Payload",
-      "hash": "eb293f5ed49a89cbc41abf8298811649bccad2b96e0f81df45c840e477e81849",
+      "hash": "841ad7ebdfada9e5880f2b53ff482bd8ba9e7776586657bbd079554fb861cdc3",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -16694,7 +16694,7 @@
     },
     {
       "name": "Data Store Update",
-      "hash": "2d2b82a10bf2424ade1fa9e33ddbc60f74a4d9ae08c5294301dcdb75942e5f43",
+      "hash": "1912eb5ba3863790b687e7fd495bfe0d562f1d3c8b0ae709a60a54ce37223edb",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -16907,7 +16907,7 @@
     },
     {
       "name": "Clientbound Data Store Payload",
-      "hash": "79f061913041bc1a3f6f0b51f8b86b4973a46cfab26bf8d4a30be24aa58792e7",
+      "hash": "de5d11c47b75fd0e1c713a0c70c2adcf68d4d35365f53118513cd4e8446a3ea9",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -17448,7 +17448,7 @@
     },
     {
       "name": "Command Block Update Packet Payload",
-      "hash": "c3048db3d756084c1f4316624d6ec369396018dd176d0729c4906f8dfb342670",
+      "hash": "ab32c1e7c7e2f246c97dc86989037e3a85fdd1516a52dd2387f15e7d6297d082",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -20346,7 +20346,7 @@
     },
     {
       "name": "Disconnect Packet Payload",
-      "hash": "c999f78eded3bb238bd8620b87f6422fcac22abd331a72809be8cb78d635ae15",
+      "hash": "bfce732eeab596e9a51dd992aceed55194c7f574827e3882fa420255c09bc441",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -21296,7 +21296,7 @@
     },
     {
       "name": "Game Rule",
-      "hash": "6edc8c4714fcd4c31b632d0088c0dfc78e151893678c5827271a8e141c70f066",
+      "hash": "8984b06f947fb2b98fa2ea5addadb7de1c401ab2d14f3f68f9754d8f1567a463",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -21351,7 +21351,7 @@
     },
     {
       "name": "Game Rules Changed Packet Data",
-      "hash": "c3b146f96e1c537e835b6f3b49515037e6ae628ccb6bfecad13202ad32793538",
+      "hash": "9f029bbbb35a0b611525224505fdfe75911b5139e041b7f374b0312d7b0b7491",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -21379,7 +21379,7 @@
     },
     {
       "name": "Game Rules Changed Packet Payload",
-      "hash": "4e7f9f8d259d15beaaa56325d00870b961b800e14a434085b143f6c61281a763",
+      "hash": "e9cc07e6cbb501c06aeb6b96d8513968dc7507fde6d0bc2d133b5efd58afee1c",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -23126,7 +23126,7 @@
     },
     {
       "name": "Inventory Transaction Packet Payload",
-      "hash": "ef51746f4347c5125fff56da311756599de2fa7fc3a4c6410c7a16d556299fea",
+      "hash": "dd1f59dbcc283b6e9c6d395dc26a3f58255c4b358fd6df0c776e86afe658b3f4",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -25514,7 +25514,7 @@
     },
     {
       "name": "Legacy Telemetry Event Packet Payload",
-      "hash": "a2cb16c1ff7ac775abf99413c8443ea8c5ed476b1ce0927cd68b019439f7ad0e",
+      "hash": "9adf05eeac3a3154a9f352bad149518ac9281bcf117249dcfca1cc3c1ed8786d",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -25873,7 +25873,7 @@
     },
     {
       "name": "Level Settings",
-      "hash": "bfb097b05537304741198e64bc1913f72500b3c541f0c4f7c37304fc73033bb3",
+      "hash": "6681e0445858d8537d986207eaa2cb80f746bde34aa9ad41c5af1deb63cf5ef2",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -30069,7 +30069,7 @@
     },
     {
       "name": "Player List Packet Payload",
-      "hash": "b2539e0fad47eaa41a073576ff3021a8ab2a4108c81a407910db2c55bef78932",
+      "hash": "c1da4dff84b7996124526c3c18f20bc5cdd5c837b5071e809d6f87ebe78146b9",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -30121,7 +30121,7 @@
     },
     {
       "name": "Player Location Packet Payload",
-      "hash": "55d5ce9cc75a054a5c4a81054a297c58c4042913a4c76a94982f74dc7fe0d4c3",
+      "hash": "cc9b35196cae7e1c28ac1aad60dadc26503d0fee5f898c5578e47dc73db23197",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -30447,7 +30447,7 @@
     },
     {
       "name": "Player Video Capture Packet Payload",
-      "hash": "9f972cc6b3f6148dbf3f79abd52f14648a3511f35ea40d18b24119d133e07e87",
+      "hash": "565d9642e4958c206208c1ee0e599432236732ff932134b93a2b8bd3a125609b",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -30962,7 +30962,7 @@
     },
     {
       "name": "Primitive Shape Data Payload",
-      "hash": "17c7224401c3aeb891b98124670f1b1a7cd7998df5b38161fd364b0b298c6f40",
+      "hash": "51f37b07f1e0975c174754d636ba908b042bcd9d4fd7f76e80b3bbb5b802ed99",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -31146,7 +31146,7 @@
     },
     {
       "name": "Primitive Shapes Packet Payload",
-      "hash": "be012a5234613af09802e7181de1d715c522267e5cd7e16de34316697e3ef6b0",
+      "hash": "ee029a045bec392b886f54669847796580c56c6f0a5a798ff529793fbf2e6896",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -32851,7 +32851,7 @@
     },
     {
       "name": "Serverbound Pack Setting Change Packet Payload",
-      "hash": "875beac1dda7303478f63a534c8d9c293c082ae6f5296a9585c12c502bdc89b6",
+      "hash": "24c30fe889387d060c4ffa71831d6e702611f154893749944e5858242a14ab8f",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -32943,7 +32943,7 @@
     },
     {
       "name": "Serverbound Data Store Update",
-      "hash": "4be49054a9103c995cc45af91fe374c5aff588af8f95b84707fc749e246b5d70",
+      "hash": "a7d2ab66aa7ff372b9b5e5894f9a560feb1d8bafef79889e823343bd08f98611",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -34273,7 +34273,7 @@
     },
     {
       "name": "Start Game Packet Payload",
-      "hash": "f8f511ae4f6ef763b1c8f2ea232427f25cc88b19830fc63235c851dc0d7a7fca",
+      "hash": "28fe964fd82a69f58a7c8c4e2453aea1f0372cf680330bd80f57c0a324ae3af3",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -35604,7 +35604,7 @@
     },
     {
       "name": "Sync World Clocks Packet Payload",
-      "hash": "7fcf02c4c7c5f61be8297fe5c9df43485685aaf8ea19b210e1187dbe6ce59a2a",
+      "hash": "06ee414780d9c80e2373325941370cd46af53efac35cda6d89600fe41644cb55",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -35661,7 +35661,7 @@
     },
     {
       "name": "Text Packet Payload",
-      "hash": "9aecabba72a5fc01ca8725e5bf50bba4693cc368227ec707f50bfc9f0e50c3cf",
+      "hash": "b6e9c55c45e925ddccf9f84c9c70be87caba3a89a0a9adcf967c5b61b6db4e45",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -37171,7 +37171,7 @@
     },
     {
       "name": "Color255 Rgba",
-      "hash": "ca9aef69ed54ff6c14eb4e1def169fbb632d9b2c8eef97ec18fb1c77826636bc",
+      "hash": "f5c8c5003a2b0cec3d72ccf8c56b3dffdbce122a376115478f1f270865b6012e",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -37190,7 +37190,7 @@
               "data_encoding": "zleb128"
             }
           },
-          "enum_literal": "string0"
+          "enum_literal": "string"
         },
         {
           "type": {
@@ -37216,7 +37216,7 @@
               "data_encoding": "leb128"
             }
           },
-          "enum_literal": "array1"
+          "enum_literal": "array"
         }
       ],
       "backing_enum": {
@@ -37227,7 +37227,7 @@
     },
     {
       "name": "Constant Attribute Data Attribute",
-      "hash": "8ec2771b103ccd7ec2c4e042f7722f79cd3c6bf57bf6574d91567b05916dab56",
+      "hash": "a3c6f2dd34630ca5e2a937591188ff943d10144c640fec64cc03ad4ccab94a79",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -37237,7 +37237,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Bool Attribute Data0"
+          "enum_literal": "Bool Attribute Data"
         },
         {
           "type": {
@@ -37245,7 +37245,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Float Attribute Data1"
+          "enum_literal": "Float Attribute Data"
         },
         {
           "type": {
@@ -37253,7 +37253,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Color Attribute Data2"
+          "enum_literal": "Color Attribute Data"
         }
       ],
       "backing_enum": {
@@ -37264,7 +37264,7 @@
     },
     {
       "name": "Transition Attribute Data From Attribute",
-      "hash": "a318928148a00847021e27a8a403b20e72cc4ad5c25b985abf69a75ac1f886b3",
+      "hash": "1b616f18ce68cc4fc9472fe569ee62dbf87d69ff556a07064ffae9acf9709c23",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -37274,7 +37274,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Bool Attribute Data0"
+          "enum_literal": "Bool Attribute Data"
         },
         {
           "type": {
@@ -37282,7 +37282,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Float Attribute Data1"
+          "enum_literal": "Float Attribute Data"
         },
         {
           "type": {
@@ -37290,7 +37290,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Color Attribute Data2"
+          "enum_literal": "Color Attribute Data"
         }
       ],
       "backing_enum": {
@@ -37301,7 +37301,7 @@
     },
     {
       "name": "Transition Attribute Data To Attribute",
-      "hash": "296c8d2367ad8a71f985e142c9b6ee3975347a7f4291274fa4609d7c995f73bf",
+      "hash": "3216fc73e5a8ce4279aff53b2c4dadf0d77a4171affe90ff728f0a7aa5c2f22e",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -37311,7 +37311,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Bool Attribute Data0"
+          "enum_literal": "Bool Attribute Data"
         },
         {
           "type": {
@@ -37319,7 +37319,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Float Attribute Data1"
+          "enum_literal": "Float Attribute Data"
         },
         {
           "type": {
@@ -37327,7 +37327,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Color Attribute Data2"
+          "enum_literal": "Color Attribute Data"
         }
       ],
       "backing_enum": {
@@ -37338,7 +37338,7 @@
     },
     {
       "name": "Noise Transition Attribute Data From Attribute",
-      "hash": "8d72d0fe73464655b64b1780487231d94f067a8440b12201854f30c57eaf4e84",
+      "hash": "f443d38caf20f44cead0882f767b8be19c4fef0c905840f52787dd0ed0c192f9",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -37348,7 +37348,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Bool Attribute Data0"
+          "enum_literal": "Bool Attribute Data"
         },
         {
           "type": {
@@ -37356,7 +37356,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Float Attribute Data1"
+          "enum_literal": "Float Attribute Data"
         },
         {
           "type": {
@@ -37364,7 +37364,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Color Attribute Data2"
+          "enum_literal": "Color Attribute Data"
         }
       ],
       "backing_enum": {
@@ -37375,7 +37375,7 @@
     },
     {
       "name": "Noise Transition Attribute Data To Attribute",
-      "hash": "28f17b9d89dded960dbbadc3bc6c5d50b9b44d149ee22ffcb4b1db3a67f8597f",
+      "hash": "ec5b7048d2f55c1a22189a87ebea799fa4eebcd017242506db5f071052915496",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -37385,7 +37385,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Bool Attribute Data0"
+          "enum_literal": "Bool Attribute Data"
         },
         {
           "type": {
@@ -37393,7 +37393,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Float Attribute Data1"
+          "enum_literal": "Float Attribute Data"
         },
         {
           "type": {
@@ -37401,7 +37401,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Color Attribute Data2"
+          "enum_literal": "Color Attribute Data"
         }
       ],
       "backing_enum": {
@@ -37412,7 +37412,7 @@
     },
     {
       "name": "Environment Attribute Data Payload",
-      "hash": "729c7706384d7ce1d9ddc30ec13e5fd2eda81b3c41a451567b587fc419eae319",
+      "hash": "46999fb669cd9be6ab23e2e298eb5763ebbdb55021dab7c9b7d05c8d24d18b66",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -37422,7 +37422,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Constant Attribute Data0"
+          "enum_literal": "Constant Attribute Data"
         },
         {
           "type": {
@@ -37430,7 +37430,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Transition Attribute Data1"
+          "enum_literal": "Transition Attribute Data"
         },
         {
           "type": {
@@ -37438,7 +37438,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Noise Transition Attribute Data2"
+          "enum_literal": "Noise Transition Attribute Data"
         }
       ],
       "backing_enum": {
@@ -37449,7 +37449,7 @@
     },
     {
       "name": "Book Edit Packet Payload Operation",
-      "hash": "dca47cc1fd5f51175f5072d732d8bd2107a74b56839c91c1e49eecd49952d6e0",
+      "hash": "d702b1cdcd5eee23eb6a95f2b59739920e418453e22b675c88beb6e93a5f0a55",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -37459,7 +37459,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Book Edit Action Replace Page0"
+          "enum_literal": "Replace Page"
         },
         {
           "type": {
@@ -37467,7 +37467,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Book Edit Action Add Page1"
+          "enum_literal": "Add Page"
         },
         {
           "type": {
@@ -37475,7 +37475,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Book Edit Action Delete Page2"
+          "enum_literal": "Delete Page"
         },
         {
           "type": {
@@ -37483,7 +37483,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Book Edit Action Swap Pages3"
+          "enum_literal": "Swap Pages"
         },
         {
           "type": {
@@ -37491,7 +37491,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Book Edit Action Finalize4"
+          "enum_literal": "Finalize"
         }
       ],
       "backing_enum": {
@@ -37502,7 +37502,7 @@
     },
     {
       "name": "Clientbound Attribute Layer Sync Packet Payload Data",
-      "hash": "be966d828909a3207764408d7ebc1379fa929bce42d948f632d873c63cabeb90",
+      "hash": "c44ea300e81e2abf723ff59b61f3fd1d290c4c6c507b21c9be1ff8ce3298ff38",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -37512,7 +37512,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Update Attribute Layers Data0"
+          "enum_literal": "Update Attribute Layers Data"
         },
         {
           "type": {
@@ -37520,7 +37520,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Update Attribute Layer Settings Data1"
+          "enum_literal": "Update Attribute Layer Settings Data"
         },
         {
           "type": {
@@ -37528,7 +37528,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Update Environment Attributes Data2"
+          "enum_literal": "Update Environment Attributes Data"
         },
         {
           "type": {
@@ -37536,7 +37536,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Remove Environment Attributes Data3"
+          "enum_literal": "Remove Environment Attributes Data"
         }
       ],
       "backing_enum": {
@@ -37547,7 +37547,7 @@
     },
     {
       "name": "Clientbound Update Sound Data Packet Payload Fade",
-      "hash": "118f27550a09d39cecd02e79fb396ab22d3e78c335c1c52e5d1e4e8190ccfa4e",
+      "hash": "595a2cd5946adf9b24f9ce965fa7569dad98c4439a7014107db3a8223f4bc2ee",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -37557,7 +37557,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Stop0"
+          "enum_literal": "Stop"
         },
         {
           "type": {
@@ -37565,7 +37565,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Set Volume1"
+          "enum_literal": "Set Volume"
         },
         {
           "type": {
@@ -37573,7 +37573,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Set Pitch2"
+          "enum_literal": "Set Pitch"
         },
         {
           "type": {
@@ -37581,7 +37581,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Fade3"
+          "enum_literal": "Fade"
         },
         {
           "type": {
@@ -37589,7 +37589,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Seek To4"
+          "enum_literal": "Seek To"
         },
         {
           "type": {
@@ -37597,7 +37597,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Pause5"
+          "enum_literal": "Pause"
         },
         {
           "type": {
@@ -37605,7 +37605,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Resume6"
+          "enum_literal": "Resume"
         }
       ],
       "backing_enum": {
@@ -37616,7 +37616,7 @@
     },
     {
       "name": "Clientbound Update Sound Data Packet Payload Pause",
-      "hash": "0d12e287fc346c76ec9ddaa85fbab8c0fd89ee27976721e996d62577e59e3211",
+      "hash": "9d0261e01bea151f29a1679bffa85d2363f153fa7955cfd8502e4bdd590619c4",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -37626,7 +37626,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Stop0"
+          "enum_literal": "Stop"
         },
         {
           "type": {
@@ -37634,7 +37634,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Set Volume1"
+          "enum_literal": "Set Volume"
         },
         {
           "type": {
@@ -37642,7 +37642,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Set Pitch2"
+          "enum_literal": "Set Pitch"
         },
         {
           "type": {
@@ -37650,7 +37650,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Fade3"
+          "enum_literal": "Fade"
         },
         {
           "type": {
@@ -37658,7 +37658,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Seek To4"
+          "enum_literal": "Seek To"
         },
         {
           "type": {
@@ -37666,7 +37666,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Pause5"
+          "enum_literal": "Pause"
         },
         {
           "type": {
@@ -37674,7 +37674,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Resume6"
+          "enum_literal": "Resume"
         }
       ],
       "backing_enum": {
@@ -37685,7 +37685,7 @@
     },
     {
       "name": "Clientbound Update Sound Data Packet Payload Resume",
-      "hash": "c94ccb3151b13f902b4409a2821424ce7390c587631ebb8003429c16868396bb",
+      "hash": "6ea78d704434d891da945c64e26effbbb83b56583e9385efea81d58c328daf45",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -37695,7 +37695,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Stop0"
+          "enum_literal": "Stop"
         },
         {
           "type": {
@@ -37703,7 +37703,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Set Volume1"
+          "enum_literal": "Set Volume"
         },
         {
           "type": {
@@ -37711,7 +37711,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Set Pitch2"
+          "enum_literal": "Set Pitch"
         },
         {
           "type": {
@@ -37719,7 +37719,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Fade3"
+          "enum_literal": "Fade"
         },
         {
           "type": {
@@ -37727,7 +37727,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Seek To4"
+          "enum_literal": "Seek To"
         },
         {
           "type": {
@@ -37735,7 +37735,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Pause5"
+          "enum_literal": "Pause"
         },
         {
           "type": {
@@ -37743,7 +37743,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Resume6"
+          "enum_literal": "Resume"
         }
       ],
       "backing_enum": {
@@ -37754,7 +37754,7 @@
     },
     {
       "name": "Clientbound Update Sound Data Packet Payload Seek To",
-      "hash": "fd625438cad1dca8e4ff1b117740b58700d9a1b8ee75d06800a51381e3fa469d",
+      "hash": "8b048caf6c1372b13533771f2ef83175c7492b95f2f33bd691d88743b8b15dca",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -37764,7 +37764,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Stop0"
+          "enum_literal": "Stop"
         },
         {
           "type": {
@@ -37772,7 +37772,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Set Volume1"
+          "enum_literal": "Set Volume"
         },
         {
           "type": {
@@ -37780,7 +37780,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Set Pitch2"
+          "enum_literal": "Set Pitch"
         },
         {
           "type": {
@@ -37788,7 +37788,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Fade3"
+          "enum_literal": "Fade"
         },
         {
           "type": {
@@ -37796,7 +37796,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Seek To4"
+          "enum_literal": "Seek To"
         },
         {
           "type": {
@@ -37804,7 +37804,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Pause5"
+          "enum_literal": "Pause"
         },
         {
           "type": {
@@ -37812,7 +37812,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Resume6"
+          "enum_literal": "Resume"
         }
       ],
       "backing_enum": {
@@ -37823,7 +37823,7 @@
     },
     {
       "name": "Clientbound Update Sound Data Packet Payload Set Pitch",
-      "hash": "c3654a1f28e59bb7e9ca9b04c81d7b77a759adb2058d12406da13f9447eaba7a",
+      "hash": "fa752bb36a8fa2a198c4723b29e02b4dd9559e00944919c87789d950da2ef8d5",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -37833,7 +37833,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Stop0"
+          "enum_literal": "Stop"
         },
         {
           "type": {
@@ -37841,7 +37841,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Set Volume1"
+          "enum_literal": "Set Volume"
         },
         {
           "type": {
@@ -37849,7 +37849,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Set Pitch2"
+          "enum_literal": "Set Pitch"
         },
         {
           "type": {
@@ -37857,7 +37857,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Fade3"
+          "enum_literal": "Fade"
         },
         {
           "type": {
@@ -37865,7 +37865,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Seek To4"
+          "enum_literal": "Seek To"
         },
         {
           "type": {
@@ -37873,7 +37873,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Pause5"
+          "enum_literal": "Pause"
         },
         {
           "type": {
@@ -37881,7 +37881,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Resume6"
+          "enum_literal": "Resume"
         }
       ],
       "backing_enum": {
@@ -37892,7 +37892,7 @@
     },
     {
       "name": "Clientbound Update Sound Data Packet Payload Set Volume",
-      "hash": "53c64462d48a5fc0704a34d74b990b9172f954d9b433c035c3df1ecdd13a430f",
+      "hash": "bb10e3af1bc57bdf90d8bac78aff406e66bd3a580c656b225e85a96cbb92271b",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -37902,7 +37902,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Stop0"
+          "enum_literal": "Stop"
         },
         {
           "type": {
@@ -37910,7 +37910,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Set Volume1"
+          "enum_literal": "Set Volume"
         },
         {
           "type": {
@@ -37918,7 +37918,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Set Pitch2"
+          "enum_literal": "Set Pitch"
         },
         {
           "type": {
@@ -37926,7 +37926,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Fade3"
+          "enum_literal": "Fade"
         },
         {
           "type": {
@@ -37934,7 +37934,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Seek To4"
+          "enum_literal": "Seek To"
         },
         {
           "type": {
@@ -37942,7 +37942,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Pause5"
+          "enum_literal": "Pause"
         },
         {
           "type": {
@@ -37950,7 +37950,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Resume6"
+          "enum_literal": "Resume"
         }
       ],
       "backing_enum": {
@@ -37961,7 +37961,7 @@
     },
     {
       "name": "Clientbound Update Sound Data Packet Payload Stop",
-      "hash": "a9f9f431ccd44ae1a74a5d82f4c307934a32b13ed9436ef7231406af77a739f6",
+      "hash": "ac51041c658797655150c9be3a326de0826375c1f3d0396c23a46c487bc63466",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -37971,7 +37971,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Stop0"
+          "enum_literal": "Stop"
         },
         {
           "type": {
@@ -37979,7 +37979,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Set Volume1"
+          "enum_literal": "Set Volume"
         },
         {
           "type": {
@@ -37987,7 +37987,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Set Pitch2"
+          "enum_literal": "Set Pitch"
         },
         {
           "type": {
@@ -37995,7 +37995,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Fade3"
+          "enum_literal": "Fade"
         },
         {
           "type": {
@@ -38003,7 +38003,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Seek To4"
+          "enum_literal": "Seek To"
         },
         {
           "type": {
@@ -38011,7 +38011,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Pause5"
+          "enum_literal": "Pause"
         },
         {
           "type": {
@@ -38019,7 +38019,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Resume6"
+          "enum_literal": "Resume"
         }
       ],
       "backing_enum": {
@@ -38030,7 +38030,7 @@
     },
     {
       "name": "Data Store Update Data",
-      "hash": "92dd862c1d2b28b8b7127e2135c3d03921c6f717a7b6e22fe95e2c072c8a09d0",
+      "hash": "2cf206611f1bc4a0f79af3deaebf28719e7dd8c8d7d198b9ee8b51d5a86e5688",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -38042,7 +38042,7 @@
             "reinterpret": "f64",
             "data_encoding": "little_endian"
           },
-          "enum_literal": "float0"
+          "enum_literal": "float"
         },
         {
           "type": {
@@ -38050,7 +38050,7 @@
             "is_bind_type": false,
             "data_encoding": "bool"
           },
-          "enum_literal": "boolean1"
+          "enum_literal": "boolean"
         },
         {
           "type": {
@@ -38067,7 +38067,7 @@
               "data_encoding": "zleb128"
             }
           },
-          "enum_literal": "string2"
+          "enum_literal": "string"
         }
       ],
       "backing_enum": {
@@ -38078,7 +38078,7 @@
     },
     {
       "name": "Clientbound Data Store Payload Updates Item",
-      "hash": "caf291c31b4bef4465261a9c8dcfcb71ca5d0592c5c81257ab60c0cfd382b5c3",
+      "hash": "a93a4fde0bdcdffca88c9aa6439d0add7d78a69614d245d9310a19ebb0ab9ca6",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -38088,7 +38088,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Data Store Update0"
+          "enum_literal": "Update"
         },
         {
           "type": {
@@ -38096,7 +38096,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Data Store Change1"
+          "enum_literal": "Change"
         },
         {
           "type": {
@@ -38104,7 +38104,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Data Store Removal2"
+          "enum_literal": "Removal"
         }
       ],
       "backing_enum": {
@@ -38115,7 +38115,7 @@
     },
     {
       "name": "Color255 Rgb",
-      "hash": "fbb32557eb57618a06b3b867e8a6002d50bb493019d20298f5aac4e74de9c697",
+      "hash": "0b26858849a2de54febf181c5b93754c25860fa38f3e75106bb52a39fb1471f8",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -38134,7 +38134,7 @@
               "data_encoding": "zleb128"
             }
           },
-          "enum_literal": "string0"
+          "enum_literal": "string"
         },
         {
           "type": {
@@ -38160,7 +38160,7 @@
               "data_encoding": "leb128"
             }
           },
-          "enum_literal": "array1"
+          "enum_literal": "array"
         }
       ],
       "backing_enum": {
@@ -38171,7 +38171,7 @@
     },
     {
       "name": "Color Norm Rgb",
-      "hash": "8c82261bca88f02f1f5f5a4daa630067a8a2c9cde5071ec61e919d94c7cebb0f",
+      "hash": "b3c9b12a588b7f3c5a4d443652655922aae9c6d0bd1665c8c8abe4e96c19fcf5",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -38190,7 +38190,7 @@
               "data_encoding": "zleb128"
             }
           },
-          "enum_literal": "string0"
+          "enum_literal": "string"
         },
         {
           "type": {
@@ -38216,7 +38216,7 @@
               "data_encoding": "leb128"
             }
           },
-          "enum_literal": "array1"
+          "enum_literal": "array"
         }
       ],
       "backing_enum": {
@@ -38227,7 +38227,7 @@
     },
     {
       "name": "Command Block Update Packet Payload Target",
-      "hash": "5f606943f8b777987552c9f32d97f6fc1b8d8dabfecd20895823ac6ac6532f14",
+      "hash": "8c6deec95d7ac16189483cacc5326e1a2eb9d69f66980f0fb91725cbfd419aed",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -38237,7 +38237,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Entity Command Target0"
+          "enum_literal": "Entity Command Target"
         },
         {
           "type": {
@@ -38245,7 +38245,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Block Command Data1"
+          "enum_literal": "Block Command Data"
         }
       ],
       "backing_enum": {
@@ -38301,7 +38301,7 @@
     },
     {
       "name": "Disconnect Packet Payload Messages",
-      "hash": "d138cc240fb6a3c570abf91a78aa5212bbae84aa20e3b5238cefb0f5ee0b0d42",
+      "hash": "4f6894cadf8701f106ab979b12e6c9189183ad30ed258577c1b209c6ba4dc2b7",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -38311,14 +38311,14 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Disconnect Packet Messages0"
+          "enum_literal": "Disconnect Packet Messages"
         },
         {
           "type": {
             "name": "void",
             "is_bind_type": false
           },
-          "enum_literal": "void1"
+          "enum_literal": "void"
         }
       ],
       "backing_enum": {
@@ -38329,7 +38329,7 @@
     },
     {
       "name": "Game Rule Rule Value",
-      "hash": "e3a1b7b36400161dba21471b37748b96efe2d3c4ba0e3319b0a1f47e3bed9186",
+      "hash": "c2ed749b367209969afb5fc11f1b8d7a23db8aee37f8927f604ef3ffdd9942db",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -38338,7 +38338,7 @@
             "name": "void",
             "is_bind_type": false
           },
-          "enum_literal": "void0"
+          "enum_literal": "void"
         },
         {
           "type": {
@@ -38346,7 +38346,7 @@
             "is_bind_type": false,
             "data_encoding": "bool"
           },
-          "enum_literal": "boolean1"
+          "enum_literal": "boolean"
         },
         {
           "type": {
@@ -38356,7 +38356,7 @@
             "reinterpret": "i32",
             "data_encoding": "little_endian"
           },
-          "enum_literal": "integer2"
+          "enum_literal": "integer"
         },
         {
           "type": {
@@ -38366,7 +38366,7 @@
             "reinterpret": "f32",
             "data_encoding": "little_endian"
           },
-          "enum_literal": "float3"
+          "enum_literal": "float"
         }
       ],
       "backing_enum": {
@@ -38377,7 +38377,7 @@
     },
     {
       "name": "Inventory Transaction Packet Payload Transaction",
-      "hash": "439c2cefdc7d47cc070e03d0ebbe080a9199d3cb5186b5f07bbf696f21d13679",
+      "hash": "21e727c07a4e90e8fe5b2df7b97f616756112b687b28687d24d0cfc7124138ab",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -38387,7 +38387,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Normal Transaction Data0"
+          "enum_literal": "Normal Transaction Data"
         },
         {
           "type": {
@@ -38395,7 +38395,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Inventory Mismatch Data1"
+          "enum_literal": "Inventory Mismatch Data"
         },
         {
           "type": {
@@ -38403,7 +38403,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Item Use Inventory Transaction2"
+          "enum_literal": "Item Use Inventory Transaction"
         },
         {
           "type": {
@@ -38411,7 +38411,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Item Use On Actor Inventory Transaction3"
+          "enum_literal": "Item Use On Actor Inventory Transaction"
         },
         {
           "type": {
@@ -38419,7 +38419,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Item Release Inventory Transaction4"
+          "enum_literal": "Item Release Inventory Transaction"
         }
       ],
       "backing_enum": {
@@ -38632,7 +38632,7 @@
     },
     {
       "name": "Legacy Telemetry Event Packet Payload Event Data",
-      "hash": "c36a9c8d73f786092e75f3303bfd2f2377b99ce1eb27fbad7896ed7a56488700",
+      "hash": "8e0f9ef5b17da5cb9ed7f9fc1ffed7e0043a014536f2008301cf5af339c1bdf3",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -38642,7 +38642,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Achievement0"
+          "enum_literal": "Achievement"
         },
         {
           "type": {
@@ -38650,7 +38650,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Interaction1"
+          "enum_literal": "Interaction"
         },
         {
           "type": {
@@ -38658,7 +38658,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Portal Created2"
+          "enum_literal": "Portal Created"
         },
         {
           "type": {
@@ -38666,7 +38666,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Portal Used3"
+          "enum_literal": "Portal Used"
         },
         {
           "type": {
@@ -38674,7 +38674,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Mob Killed4"
+          "enum_literal": "Mob Killed"
         },
         {
           "type": {
@@ -38682,7 +38682,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Cauldron Used5"
+          "enum_literal": "Cauldron Used"
         },
         {
           "type": {
@@ -38690,7 +38690,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Player Died6"
+          "enum_literal": "Player Died"
         },
         {
           "type": {
@@ -38698,7 +38698,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Boss Killed7"
+          "enum_literal": "Boss Killed"
         },
         {
           "type": {
@@ -38706,7 +38706,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Slash Command8"
+          "enum_literal": "Slash Command"
         },
         {
           "type": {
@@ -38714,7 +38714,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Mob Born9"
+          "enum_literal": "Mob Born"
         },
         {
           "type": {
@@ -38722,7 +38722,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Poi Cauldron Used10"
+          "enum_literal": "Poi Cauldron Used"
         },
         {
           "type": {
@@ -38730,7 +38730,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Composter Used11"
+          "enum_literal": "Composter Used"
         },
         {
           "type": {
@@ -38738,7 +38738,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Bell Used12"
+          "enum_literal": "Bell Used"
         },
         {
           "type": {
@@ -38746,7 +38746,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Actor Definition13"
+          "enum_literal": "Actor Definition"
         },
         {
           "type": {
@@ -38754,7 +38754,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Raid Update14"
+          "enum_literal": "Raid Update"
         },
         {
           "type": {
@@ -38762,7 +38762,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Target Block Hit15"
+          "enum_literal": "Target Block Hit"
         },
         {
           "type": {
@@ -38770,7 +38770,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Piglin Barter16"
+          "enum_literal": "Piglin Barter"
         },
         {
           "type": {
@@ -38778,7 +38778,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Player Waxed Or Unwaxed Copper17"
+          "enum_literal": "Player Waxed Or Unwaxed Copper"
         },
         {
           "type": {
@@ -38786,7 +38786,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Code Builder Runtime Action18"
+          "enum_literal": "Code Builder Runtime Action"
         },
         {
           "type": {
@@ -38794,7 +38794,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Code Builder Scoreboard19"
+          "enum_literal": "Code Builder Scoreboard"
         },
         {
           "type": {
@@ -38802,7 +38802,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Item Used20"
+          "enum_literal": "Item Used"
         },
         {
           "type": {
@@ -38810,7 +38810,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Empty21"
+          "enum_literal": "Empty"
         }
       ],
       "backing_enum": {
@@ -38821,7 +38821,7 @@
     },
     {
       "name": "Player List Packet Payload Entries Item",
-      "hash": "56a3a95169b86147c093ff60d9d814bea877b3546aa40402da5220ad40e21b12",
+      "hash": "bd709f051db94bf1e7e077cc650bdb5ef2241581ba241dbd82afb6533e722716",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -38831,7 +38831,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Player List Remove Entry0"
+          "enum_literal": "Remove Entry"
         },
         {
           "type": {
@@ -38839,7 +38839,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Player List Add Entry1"
+          "enum_literal": "Add Entry"
         }
       ],
       "backing_enum": {
@@ -38850,7 +38850,7 @@
     },
     {
       "name": "Player Location Packet Payload Location",
-      "hash": "a19ff1183929625eb647f21870e44af3ec7b5312ee7a547de9bf7370b1e00295",
+      "hash": "677d8e063362fca37978a718d99470bf8a0015e1d23f9c9c86cb78c460b90a05",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -38860,7 +38860,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Coordinates Location0"
+          "enum_literal": "Coordinates Location"
         },
         {
           "type": {
@@ -38868,7 +38868,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Hidden Location1"
+          "enum_literal": "Hidden Location"
         }
       ],
       "backing_enum": {
@@ -38924,7 +38924,7 @@
     },
     {
       "name": "Player Video Capture Packet Payload Start Video Capture",
-      "hash": "76e5631b0abc38d3cea2d7f7c28f957e71e28babcfe732a2e962d032bfe66317",
+      "hash": "c952b4828e2195078f44a2c463ff8767392afb56b85a0fcdf9000b5fb3e57e12",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -38934,7 +38934,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Start Video Capture0"
+          "enum_literal": "art Video Capture"
         },
         {
           "type": {
@@ -38942,7 +38942,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Stop Video Capture1"
+          "enum_literal": "op Video Capture"
         }
       ],
       "backing_enum": {
@@ -38953,7 +38953,7 @@
     },
     {
       "name": "Player Video Capture Packet Payload Stop Video Capture",
-      "hash": "8ea6ccd3f9133a7c5b94c741979d82cce54615abf6cd6830e78fb6ca18e2d332",
+      "hash": "a631121db0ddaf7fcec97bf07ad1bc0fe18e88783c12dd35d8457b3b16371f21",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -38963,7 +38963,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Start Video Capture0"
+          "enum_literal": "art Video Capture"
         },
         {
           "type": {
@@ -38971,7 +38971,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Stop Video Capture1"
+          "enum_literal": "op Video Capture"
         }
       ],
       "backing_enum": {
@@ -38982,7 +38982,7 @@
     },
     {
       "name": "Primitive Shape Data Payload Extra Shape Data",
-      "hash": "beafdd654aaa8382e10afd79cc5b3872a9a62d0d4f4ef679f0284fe01211647e",
+      "hash": "c238bee6f9eb4afb871626bdb637286530c31985e6c437fa49a261cab56b5057",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -38991,7 +38991,7 @@
             "name": "void",
             "is_bind_type": false
           },
-          "enum_literal": "void0"
+          "enum_literal": "void"
         },
         {
           "type": {
@@ -38999,7 +38999,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Arrow Data Payload1"
+          "enum_literal": "Arrow Data Payload"
         },
         {
           "type": {
@@ -39007,7 +39007,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Text Data Payload2"
+          "enum_literal": "Text Data Payload"
         },
         {
           "type": {
@@ -39015,7 +39015,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Box Data Payload3"
+          "enum_literal": "Box Data Payload"
         },
         {
           "type": {
@@ -39023,7 +39023,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Line Data Payload4"
+          "enum_literal": "Line Data Payload"
         },
         {
           "type": {
@@ -39031,7 +39031,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Sphere Data Payload5"
+          "enum_literal": "Sphere Data Payload"
         },
         {
           "type": {
@@ -39039,7 +39039,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Cylinder Data Payload6"
+          "enum_literal": "Cylinder Data Payload"
         },
         {
           "type": {
@@ -39047,7 +39047,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Pyramid Data Payload7"
+          "enum_literal": "Pyramid Data Payload"
         },
         {
           "type": {
@@ -39055,7 +39055,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Ellipsoid Data Payload8"
+          "enum_literal": "Ellipsoid Data Payload"
         },
         {
           "type": {
@@ -39063,7 +39063,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Cone Data Payload9"
+          "enum_literal": "Cone Data Payload"
         }
       ],
       "backing_enum": {
@@ -39119,7 +39119,7 @@
     },
     {
       "name": "Serverbound Pack Setting Change Packet Payload Pack Setting Value",
-      "hash": "4f5c93b5b44433fbdd97da91567a4285e50cecbe17807ab0af089e9d89707464",
+      "hash": "15d20049b475809f979e6706a100d8534329fa965377a27911e9424626f7cb56",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -39131,7 +39131,7 @@
             "reinterpret": "f32",
             "data_encoding": "little_endian"
           },
-          "enum_literal": "float0"
+          "enum_literal": "float"
         },
         {
           "type": {
@@ -39139,7 +39139,7 @@
             "is_bind_type": false,
             "data_encoding": "bool"
           },
-          "enum_literal": "boolean1"
+          "enum_literal": "boolean"
         },
         {
           "type": {
@@ -39153,7 +39153,7 @@
               "data_encoding": "zleb128"
             }
           },
-          "enum_literal": "string2"
+          "enum_literal": "string"
         },
         {
           "type": {
@@ -39178,7 +39178,7 @@
               "data_encoding": "leb128"
             }
           },
-          "enum_literal": "array3"
+          "enum_literal": "array"
         }
       ],
       "backing_enum": {
@@ -39234,7 +39234,7 @@
     },
     {
       "name": "Sync World Clocks Packet Payload Data",
-      "hash": "2a945a1c85d394dc0f1942997f1bc9c6cae3077b6c6dffb1435decadd399cc11",
+      "hash": "44e7d9fced3dcc342a5ba5ff73484b07019164479d2af051ef806cac30d784ca",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -39244,7 +39244,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Sync State Data0"
+          "enum_literal": "Sync State Data"
         },
         {
           "type": {
@@ -39252,7 +39252,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Initialize Registry Data1"
+          "enum_literal": "Initialize Registry Data"
         },
         {
           "type": {
@@ -39260,7 +39260,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Add Time Marker Data2"
+          "enum_literal": "Add Time Marker Data"
         },
         {
           "type": {
@@ -39268,7 +39268,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Remove Time Marker Data3"
+          "enum_literal": "Remove Time Marker Data"
         }
       ],
       "backing_enum": {
@@ -39279,7 +39279,7 @@
     },
     {
       "name": "Text Packet Payload Body",
-      "hash": "d4da7495a659ceff9731579e28fa99bf367d5fb02e372b28033c420dc7f17918",
+      "hash": "7f0403e02aa029cebcd4b5d5ce77b4617838ecff77df08af13de0f4ad001f89f",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -39289,7 +39289,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Message Only0"
+          "enum_literal": "Message Only"
         },
         {
           "type": {
@@ -39297,7 +39297,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Author And Message1"
+          "enum_literal": "Author And Message"
         },
         {
           "type": {
@@ -39305,7 +39305,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Message And Params2"
+          "enum_literal": "Message And Params"
         }
       ],
       "backing_enum": {

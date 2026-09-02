@@ -1,6 +1,6 @@
 {
   "name": "Start Game Packet Payload",
-  "hash": "f8f511ae4f6ef763b1c8f2ea232427f25cc88b19830fc63235c851dc0d7a7fca",
+  "hash": "28fe964fd82a69f58a7c8c4e2453aea1f0372cf680330bd80f57c0a324ae3af3",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

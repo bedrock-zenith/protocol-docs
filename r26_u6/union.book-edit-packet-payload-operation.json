@@ -1,6 +1,6 @@
 {
   "name": "Book Edit Packet Payload Operation",
-  "hash": "dca47cc1fd5f51175f5072d732d8bd2107a74b56839c91c1e49eecd49952d6e0",
+  "hash": "d702b1cdcd5eee23eb6a95f2b59739920e418453e22b675c88beb6e93a5f0a55",
   "bind_type": "union",
   "is_bind_type": true,
   "fields": [
@@ -10,7 +10,7 @@
         "bind_type": "struct",
         "is_bind_type": true
       },
-      "enum_literal": "Book Edit Action Replace Page0"
+      "enum_literal": "Replace Page"
     },
     {
       "type": {
@@ -18,7 +18,7 @@
         "bind_type": "struct",
         "is_bind_type": true
       },
-      "enum_literal": "Book Edit Action Add Page1"
+      "enum_literal": "Add Page"
     },
     {
       "type": {
@@ -26,7 +26,7 @@
         "bind_type": "struct",
         "is_bind_type": true
       },
-      "enum_literal": "Book Edit Action Delete Page2"
+      "enum_literal": "Delete Page"
     },
     {
       "type": {
@@ -34,7 +34,7 @@
         "bind_type": "struct",
         "is_bind_type": true
       },
-      "enum_literal": "Book Edit Action Swap Pages3"
+      "enum_literal": "Swap Pages"
     },
     {
       "type": {
@@ -42,7 +42,7 @@
         "bind_type": "struct",
         "is_bind_type": true
       },
-      "enum_literal": "Book Edit Action Finalize4"
+      "enum_literal": "Finalize"
     }
   ],
   "backing_enum": {

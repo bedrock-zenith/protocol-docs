@@ -1,6 +1,6 @@
 {
   "name": "Inventory Transaction Packet Payload Transaction",
-  "hash": "439c2cefdc7d47cc070e03d0ebbe080a9199d3cb5186b5f07bbf696f21d13679",
+  "hash": "21e727c07a4e90e8fe5b2df7b97f616756112b687b28687d24d0cfc7124138ab",
   "bind_type": "union",
   "is_bind_type": true,
   "fields": [
@@ -10,7 +10,7 @@
         "bind_type": "struct",
         "is_bind_type": true
       },
-      "enum_literal": "Normal Transaction Data0"
+      "enum_literal": "Normal Transaction Data"
     },
     {
       "type": {
@@ -18,7 +18,7 @@
         "bind_type": "struct",
         "is_bind_type": true
       },
-      "enum_literal": "Inventory Mismatch Data1"
+      "enum_literal": "Inventory Mismatch Data"
     },
     {
       "type": {
@@ -26,7 +26,7 @@
         "bind_type": "struct",
         "is_bind_type": true
       },
-      "enum_literal": "Item Use Inventory Transaction2"
+      "enum_literal": "Item Use Inventory Transaction"
     },
     {
       "type": {
@@ -34,7 +34,7 @@
         "bind_type": "struct",
         "is_bind_type": true
       },
-      "enum_literal": "Item Use On Actor Inventory Transaction3"
+      "enum_literal": "Item Use On Actor Inventory Transaction"
     },
     {
       "type": {
@@ -42,7 +42,7 @@
         "bind_type": "struct",
         "is_bind_type": true
       },
-      "enum_literal": "Item Release Inventory Transaction4"
+      "enum_literal": "Item Release Inventory Transaction"
     }
   ],
   "backing_enum": {

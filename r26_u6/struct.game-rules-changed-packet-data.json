@@ -1,6 +1,6 @@
 {
   "name": "Game Rules Changed Packet Data",
-  "hash": "c3b146f96e1c537e835b6f3b49515037e6ae628ccb6bfecad13202ad32793538",
+  "hash": "9f029bbbb35a0b611525224505fdfe75911b5139e041b7f374b0312d7b0b7491",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

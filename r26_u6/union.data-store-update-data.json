@@ -1,6 +1,6 @@
 {
   "name": "Data Store Update Data",
-  "hash": "92dd862c1d2b28b8b7127e2135c3d03921c6f717a7b6e22fe95e2c072c8a09d0",
+  "hash": "2cf206611f1bc4a0f79af3deaebf28719e7dd8c8d7d198b9ee8b51d5a86e5688",
   "bind_type": "union",
   "is_bind_type": true,
   "fields": [
@@ -12,7 +12,7 @@
         "reinterpret": "f64",
         "data_encoding": "little_endian"
       },
-      "enum_literal": "float0"
+      "enum_literal": "float"
     },
     {
       "type": {
@@ -20,7 +20,7 @@
         "is_bind_type": false,
         "data_encoding": "bool"
       },
-      "enum_literal": "boolean1"
+      "enum_literal": "boolean"
     },
     {
       "type": {
@@ -37,7 +37,7 @@
           "data_encoding": "zleb128"
         }
       },
-      "enum_literal": "string2"
+      "enum_literal": "string"
     }
   ],
   "backing_enum": {

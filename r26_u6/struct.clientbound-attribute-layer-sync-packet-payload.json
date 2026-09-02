@@ -1,6 +1,6 @@
 {
   "name": "Clientbound Attribute Layer Sync Packet Payload",
-  "hash": "9e85276daf112b27292dd2e9e75f56eb695d51d4bff7a283da13c3944631a4cb",
+  "hash": "8adae4fde937df8991817222315d8f9bdea4ea484d1d551b93920a7e953ca8e7",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

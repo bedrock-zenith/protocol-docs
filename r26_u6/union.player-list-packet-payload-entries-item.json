@@ -1,6 +1,6 @@
 {
   "name": "Player List Packet Payload Entries Item",
-  "hash": "56a3a95169b86147c093ff60d9d814bea877b3546aa40402da5220ad40e21b12",
+  "hash": "bd709f051db94bf1e7e077cc650bdb5ef2241581ba241dbd82afb6533e722716",
   "bind_type": "union",
   "is_bind_type": true,
   "fields": [
@@ -10,7 +10,7 @@
         "bind_type": "struct",
         "is_bind_type": true
       },
-      "enum_literal": "Player List Remove Entry0"
+      "enum_literal": "Remove Entry"
     },
     {
       "type": {
@@ -18,7 +18,7 @@
         "bind_type": "struct",
         "is_bind_type": true
       },
-      "enum_literal": "Player List Add Entry1"
+      "enum_literal": "Add Entry"
     }
   ],
   "backing_enum": {

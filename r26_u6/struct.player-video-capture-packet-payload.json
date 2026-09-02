@@ -1,6 +1,6 @@
 {
   "name": "Player Video Capture Packet Payload",
-  "hash": "9f972cc6b3f6148dbf3f79abd52f14648a3511f35ea40d18b24119d133e07e87",
+  "hash": "565d9642e4958c206208c1ee0e599432236732ff932134b93a2b8bd3a125609b",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

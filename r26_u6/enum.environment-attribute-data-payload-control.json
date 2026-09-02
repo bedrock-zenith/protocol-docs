@@ -1,12 +1,12 @@
 {
   "name": "Environment Attribute Data Payload Control",
-  "hash": "bc30410e3fe47b6f66c7a608eedd6d458e179a2e3e5264f19849be6893ef4584",
+  "hash": "c758e07141a9e6af17fa54764a57100a18a32573b329415276a8955e9c62cb2e",
   "bind_type": "enum",
   "is_bind_type": true,
   "enum_kind": "literal",
   "enum": {
-    "Constant Attribute Data0": 0,
-    "Transition Attribute Data1": 1,
-    "Noise Transition Attribute Data2": 2
+    "Constant Attribute Data": 0,
+    "Transition Attribute Data": 1,
+    "Noise Transition Attribute Data": 2
   }
 }

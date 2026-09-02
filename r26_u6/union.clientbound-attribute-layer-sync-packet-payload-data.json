@@ -1,6 +1,6 @@
 {
   "name": "Clientbound Attribute Layer Sync Packet Payload Data",
-  "hash": "be966d828909a3207764408d7ebc1379fa929bce42d948f632d873c63cabeb90",
+  "hash": "c44ea300e81e2abf723ff59b61f3fd1d290c4c6c507b21c9be1ff8ce3298ff38",
   "bind_type": "union",
   "is_bind_type": true,
   "fields": [
@@ -10,7 +10,7 @@
         "bind_type": "struct",
         "is_bind_type": true
       },
-      "enum_literal": "Update Attribute Layers Data0"
+      "enum_literal": "Update Attribute Layers Data"
     },
     {
       "type": {
@@ -18,7 +18,7 @@
         "bind_type": "struct",
         "is_bind_type": true
       },
-      "enum_literal": "Update Attribute Layer Settings Data1"
+      "enum_literal": "Update Attribute Layer Settings Data"
     },
     {
       "type": {
@@ -26,7 +26,7 @@
         "bind_type": "struct",
         "is_bind_type": true
       },
-      "enum_literal": "Update Environment Attributes Data2"
+      "enum_literal": "Update Environment Attributes Data"
     },
     {
       "type": {
@@ -34,7 +34,7 @@
         "bind_type": "struct",
         "is_bind_type": true
       },
-      "enum_literal": "Remove Environment Attributes Data3"
+      "enum_literal": "Remove Environment Attributes Data"
     }
   ],
   "backing_enum": {

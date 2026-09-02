@@ -1,6 +1,6 @@
 {
   "name": "Color255 Rgba",
-  "hash": "ca9aef69ed54ff6c14eb4e1def169fbb632d9b2c8eef97ec18fb1c77826636bc",
+  "hash": "f5c8c5003a2b0cec3d72ccf8c56b3dffdbce122a376115478f1f270865b6012e",
   "bind_type": "union",
   "is_bind_type": true,
   "fields": [
@@ -19,7 +19,7 @@
           "data_encoding": "zleb128"
         }
       },
-      "enum_literal": "string0"
+      "enum_literal": "string"
     },
     {
       "type": {
@@ -45,7 +45,7 @@
           "data_encoding": "leb128"
         }
       },
-      "enum_literal": "array1"
+      "enum_literal": "array"
     }
   ],
   "backing_enum": {

@@ -1,6 +1,6 @@
 {
   "name": "Player Video Capture Packet Payload Start Video Capture",
-  "hash": "76e5631b0abc38d3cea2d7f7c28f957e71e28babcfe732a2e962d032bfe66317",
+  "hash": "c952b4828e2195078f44a2c463ff8767392afb56b85a0fcdf9000b5fb3e57e12",
   "bind_type": "union",
   "is_bind_type": true,
   "fields": [
@@ -10,7 +10,7 @@
         "bind_type": "struct",
         "is_bind_type": true
       },
-      "enum_literal": "Start Video Capture0"
+      "enum_literal": "art Video Capture"
     },
     {
       "type": {
@@ -18,7 +18,7 @@
         "bind_type": "struct",
         "is_bind_type": true
       },
-      "enum_literal": "Stop Video Capture1"
+      "enum_literal": "op Video Capture"
     }
   ],
   "backing_enum": {

@@ -1,6 +1,6 @@
 {
   "name": "Disconnect Packet Payload Messages",
-  "hash": "d138cc240fb6a3c570abf91a78aa5212bbae84aa20e3b5238cefb0f5ee0b0d42",
+  "hash": "4f6894cadf8701f106ab979b12e6c9189183ad30ed258577c1b209c6ba4dc2b7",
   "bind_type": "union",
   "is_bind_type": true,
   "fields": [
@@ -10,14 +10,14 @@
         "bind_type": "struct",
         "is_bind_type": true
       },
-      "enum_literal": "Disconnect Packet Messages0"
+      "enum_literal": "Disconnect Packet Messages"
     },
     {
       "type": {
         "name": "void",
         "is_bind_type": false
       },
-      "enum_literal": "void1"
+      "enum_literal": "void"
     }
   ],
   "backing_enum": {
