@@ -1,0 +1,12 @@
+{
+  "name": "Objective Sort Order",
+  "hash": "2c779d1f150d7818cf38798b7be3feb628a1ab64ca30356bf00ee7839040b3c0",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "Ascending": 0,
+    "Descending": 1
+  }
+}

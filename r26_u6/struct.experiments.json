@@ -1,0 +1,37 @@
+{
+  "name": "Experiments",
+  "hash": "82b6879d7b40bea280e05362c3a729c9322486011783993d7a16dc79982781aa",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Toggles",
+      "is_constant": false,
+      "type": {
+        "name": "array",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Experiment Toggle",
+          "bind_type": "struct",
+          "is_bind_type": true
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "little_endian"
+        }
+      }
+    },
+    {
+      "name": "Experiments Ever Toggled",
+      "is_constant": false,
+      "type": {
+        "name": "boolean",
+        "is_bind_type": false,
+        "data_encoding": "bool"
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Clear Override",
+  "hash": "48fb0742c4dba6151ae3c12e80317a2d3bdbc5bb31dc7de1947291f82b27c426",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Type",
+      "is_constant": true,
+      "type": {
+        "name": "Update Type",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "literal",
+        "data_encoding": {
+          "name": "string",
+          "is_bind_type": false,
+          "length_encoding": {
+            "name": "integer",
+            "is_bind_type": false,
+            "interpretation": "i32",
+            "reinterpret": "i32",
+            "data_encoding": "zleb128"
+          }
+        }
+      },
+      "metadata": {
+        "constant_value": "clearoverrides"
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Set Health Packet Payload",
+  "hash": "df345027065bb8f40c8e632b11caf1491f6451868f880071f01311a51e0877e1",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Health",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "i32",
+        "reinterpret": "i32",
+        "data_encoding": "zleb128"
+      }
+    }
+  ]
+}

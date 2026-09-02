@@ -1,0 +1,120 @@
+{
+  "name": "Command Block Update Packet Payload",
+  "hash": "c3048db3d756084c1f4316624d6ec369396018dd176d0729c4906f8dfb342670",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Target",
+      "is_constant": false,
+      "type": {
+        "name": "Command Block Update Packet Payload Target",
+        "bind_type": "union",
+        "is_bind_type": true,
+        "enum_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        },
+        "control_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    },
+    {
+      "name": "Command",
+      "is_constant": false,
+      "type": {
+        "name": "string",
+        "is_bind_type": false,
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      }
+    },
+    {
+      "name": "Last Output",
+      "is_constant": false,
+      "type": {
+        "name": "string",
+        "is_bind_type": false,
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      }
+    },
+    {
+      "name": "Name",
+      "is_constant": false,
+      "type": {
+        "name": "string",
+        "is_bind_type": false,
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      }
+    },
+    {
+      "name": "Filtered Name",
+      "is_constant": false,
+      "type": {
+        "name": "string",
+        "is_bind_type": false,
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      }
+    },
+    {
+      "name": "Track Output",
+      "is_constant": false,
+      "type": {
+        "name": "boolean",
+        "is_bind_type": false,
+        "data_encoding": "bool"
+      }
+    },
+    {
+      "name": "Tick Delay",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "i32",
+        "reinterpret": "i32",
+        "data_encoding": "little_endian"
+      }
+    },
+    {
+      "name": "Execute On First Tick",
+      "is_constant": false,
+      "type": {
+        "name": "boolean",
+        "is_bind_type": false,
+        "data_encoding": "bool"
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Camera Instruction Fade Instruction",
+  "hash": "d1ca807f43c53e127502172634516562ffeb14fc133d8ef104ff418eabbe9eaa",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Time",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Camera Instruction Fade Instruction Time Option",
+          "bind_type": "struct",
+          "is_bind_type": true
+        }
+      }
+    },
+    {
+      "name": "Color",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Camera Instruction Fade Instruction Color Option",
+          "bind_type": "struct",
+          "is_bind_type": true
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Update Attribute Layer Settings Data",
+  "hash": "bc25502a55b23286b799f09db424955e9409abd7bb0a68ee5793a116f7693f5d",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Attribute Layer Name",
+      "is_constant": false,
+      "type": {
+        "name": "string",
+        "is_bind_type": false,
+        "metadata": {
+          "max_length": 128
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      }
+    },
+    {
+      "name": "Attribute Layer Dimension",
+      "is_constant": false,
+      "type": {
+        "name": "Dimension Type",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Attributes Layer Settings",
+      "is_constant": false,
+      "type": {
+        "name": "Attribute Layer Settings",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

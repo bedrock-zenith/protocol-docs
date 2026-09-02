@@ -1,0 +1,7 @@
+{
+  "name": "Serverbound Matchmaking Cancel Packet Payload",
+  "hash": "0d0cdce591f1975f818b69a647cc1e1d0f85fd58148e5e09f2bb7910f2b5d97a",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": []
+}

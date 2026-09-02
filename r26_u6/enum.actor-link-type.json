@@ -1,0 +1,13 @@
+{
+  "name": "Actor Link Type",
+  "hash": "8fd1f2c708fdec551a2c881086d2fda8afd9eab3beb9d2eea43a165d87e71960",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "None": 0,
+    "Riding": 1,
+    "Passenger": 2
+  }
+}

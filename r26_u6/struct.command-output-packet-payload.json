@@ -1,0 +1,26 @@
+{
+  "name": "Command Output Packet Payload",
+  "hash": "e61ac13ac93d8ec41236a1256e0523933302d3a3688d90daa25798d04071056c",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Origin Data",
+      "is_constant": false,
+      "type": {
+        "name": "Command Origin Data",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Output",
+      "is_constant": false,
+      "type": {
+        "name": "Command Output",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

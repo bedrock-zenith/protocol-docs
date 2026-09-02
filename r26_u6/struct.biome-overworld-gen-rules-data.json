@@ -1,0 +1,148 @@
+{
+  "name": "Biome Overworld Gen Rules Data",
+  "hash": "f764a64c344335558e1c8967545b7933ecaabb1f7c615128cd2644f10dee3f95",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Hills Transformations",
+      "is_constant": false,
+      "type": {
+        "name": "array",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Biome Weighted Data",
+          "bind_type": "struct",
+          "is_bind_type": true
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    },
+    {
+      "name": "Mutate Transformations",
+      "is_constant": false,
+      "type": {
+        "name": "array",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Biome Weighted Data",
+          "bind_type": "struct",
+          "is_bind_type": true
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    },
+    {
+      "name": "River Transformations",
+      "is_constant": false,
+      "type": {
+        "name": "array",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Biome Weighted Data",
+          "bind_type": "struct",
+          "is_bind_type": true
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    },
+    {
+      "name": "Shore Transformations",
+      "is_constant": false,
+      "type": {
+        "name": "array",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Biome Weighted Data",
+          "bind_type": "struct",
+          "is_bind_type": true
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    },
+    {
+      "name": "Pre Hills Edge",
+      "is_constant": false,
+      "type": {
+        "name": "array",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Biome Conditional Transformation Data",
+          "bind_type": "struct",
+          "is_bind_type": true
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    },
+    {
+      "name": "Post Shore Edge",
+      "is_constant": false,
+      "type": {
+        "name": "array",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Biome Conditional Transformation Data",
+          "bind_type": "struct",
+          "is_bind_type": true
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    },
+    {
+      "name": "Climate",
+      "is_constant": false,
+      "type": {
+        "name": "array",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Biome Weighted Temperature Data",
+          "bind_type": "struct",
+          "is_bind_type": true
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    }
+  ]
+}

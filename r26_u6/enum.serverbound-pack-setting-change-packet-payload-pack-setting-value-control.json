@@ -1,0 +1,13 @@
+{
+  "name": "Serverbound Pack Setting Change Packet Payload Pack Setting Value Control",
+  "hash": "6818e68bbca6c9b982e87316bfa3811d69c94c7916c5fdeb70ead978a7c296fc",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "literal",
+  "enum": {
+    "float0": 0,
+    "boolean1": 1,
+    "string2": 2,
+    "array3": 3
+  }
+}

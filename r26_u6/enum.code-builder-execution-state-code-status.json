@@ -1,0 +1,16 @@
+{
+  "name": "Code Builder Execution State Code Status",
+  "hash": "50d27f8e39d00e7db68601ba3128742d4a4a3dfa47308ef6d0eb036de25bfefa",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "None": 0,
+    "NotStarted": 1,
+    "InProgress": 2,
+    "Paused": 3,
+    "Error": 4,
+    "Succeeded": 5
+  }
+}

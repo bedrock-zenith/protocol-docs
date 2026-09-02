@@ -1,0 +1,28 @@
+{
+  "name": "Biome Consolidated Features Data",
+  "hash": "c7778d523dac2c1341208222a0a7a97fd5b0c59de7a86ce5fc008de38c0636d9",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Features",
+      "is_constant": false,
+      "type": {
+        "name": "array",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Biome Consolidated Feature Data",
+          "bind_type": "struct",
+          "is_bind_type": true
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "name": "Update Block Synced Packet Payload",
+  "hash": "440978bdb28b4493babf1e305b03ad396a2c86db8a45a7b6d1ead89dc70d4df1",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Block Position",
+      "is_constant": false,
+      "type": {
+        "name": "Block Pos",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Block Runtime Id",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "u32",
+        "metadata": {
+          "min_value": 0
+        },
+        "reinterpret": "u32",
+        "data_encoding": "leb128"
+      }
+    },
+    {
+      "name": "Flags",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "u32",
+        "metadata": {
+          "min_value": 0
+        },
+        "reinterpret": "u32",
+        "data_encoding": "leb128"
+      }
+    },
+    {
+      "name": "Layer",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "u32",
+        "metadata": {
+          "min_value": 0
+        },
+        "reinterpret": "u32",
+        "data_encoding": "leb128"
+      }
+    },
+    {
+      "name": "Unique Actor Id",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "u64",
+        "metadata": {
+          "min_value": 0
+        },
+        "reinterpret": "u64",
+        "data_encoding": "leb128"
+      }
+    },
+    {
+      "name": "Actor Sync Message",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "u64",
+        "metadata": {
+          "min_value": 0
+        },
+        "reinterpret": "u64",
+        "data_encoding": "leb128"
+      }
+    }
+  ]
+}

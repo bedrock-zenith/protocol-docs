@@ -1,0 +1,12 @@
+{
+  "name": "Camera Shake Action",
+  "hash": "0b1af5fa52db687fc1ae69f8767349cf29899b6003e7225710f72c7c7037a5ea",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "Add": 0,
+    "Stop": 1
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "name": "Change Dimension Packet Payload",
+  "hash": "0b5f788a1bb3e743cfbebdf03e7e2219d9b72034673388b1245f44c10180f957",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Dimension Id",
+      "is_constant": false,
+      "type": {
+        "name": "Dimension Type",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Position",
+      "is_constant": false,
+      "type": {
+        "name": "Vec3",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Respawn",
+      "is_constant": false,
+      "type": {
+        "name": "boolean",
+        "is_bind_type": false,
+        "data_encoding": "bool"
+      }
+    },
+    {
+      "name": "Loading Screen Id",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "metadata": {
+            "min_value": 0
+          },
+          "reinterpret": "u32",
+          "data_encoding": "little_endian"
+        }
+      }
+    }
+  ]
+}

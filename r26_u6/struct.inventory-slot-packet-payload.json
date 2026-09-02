@@ -1,0 +1,72 @@
+{
+  "name": "Inventory Slot Packet Payload",
+  "hash": "65cea70d9c1262393424ede46ceab8191da8f654ad6471acda6d6cdb8e6066fa",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Container Id",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "u8",
+        "metadata": {
+          "min_value": 0,
+          "max_value": 255
+        },
+        "reinterpret": "u8",
+        "data_encoding": "leb128"
+      }
+    },
+    {
+      "name": "Slot",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "u32",
+        "metadata": {
+          "min_value": 0
+        },
+        "reinterpret": "u32",
+        "data_encoding": "leb128"
+      }
+    },
+    {
+      "name": "Full Container Name",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Full Container Name",
+          "bind_type": "struct",
+          "is_bind_type": true
+        }
+      }
+    },
+    {
+      "name": "Storage Item",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Cerealizer Network Item Stack Descriptor Serialized Data",
+          "bind_type": "struct",
+          "is_bind_type": true
+        }
+      }
+    },
+    {
+      "name": "Item",
+      "is_constant": false,
+      "type": {
+        "name": "Cerealizer Network Item Stack Descriptor Serialized Data",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

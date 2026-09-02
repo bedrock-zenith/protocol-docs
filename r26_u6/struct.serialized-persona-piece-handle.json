@@ -1,0 +1,74 @@
+{
+  "name": "Serialized Persona Piece Handle",
+  "hash": "040beabbced02cdfc68d69ae44070ad63ac485cdd7ff68eb6592b5183f0069f6",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Piece Id",
+      "is_constant": false,
+      "type": {
+        "name": "string",
+        "is_bind_type": false,
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      }
+    },
+    {
+      "name": "Piece Type",
+      "is_constant": false,
+      "type": {
+        "name": "Persona Piece Type",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "numeric",
+        "data_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "little_endian"
+        }
+      }
+    },
+    {
+      "name": "Pack Id",
+      "is_constant": false,
+      "type": {
+        "name": "Mce Uuid",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Is Default Piece",
+      "is_constant": false,
+      "type": {
+        "name": "boolean",
+        "is_bind_type": false,
+        "data_encoding": "bool"
+      }
+    },
+    {
+      "name": "Product Id",
+      "is_constant": false,
+      "type": {
+        "name": "string",
+        "is_bind_type": false,
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Camera Aim Assist Category Definition",
+  "hash": "88edac754c9c28223da72f77793c7466609ee90cf5dbf0fcc99b05025000b8e8",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Name",
+      "is_constant": false,
+      "type": {
+        "name": "string",
+        "is_bind_type": false,
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      }
+    },
+    {
+      "name": "Priorities",
+      "is_constant": false,
+      "type": {
+        "name": "Camera Aim Assist Category Priorities",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

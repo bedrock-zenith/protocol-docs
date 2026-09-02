@@ -1,0 +1,13 @@
+{
+  "name": "Packet Compression Algorithm",
+  "hash": "3e0ff0b7d59b392dd3c07cda6b6035c6a53de889fda3f4a4b440c111b1cd2767",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u16",
+  "enum": {
+    "ZLib": 0,
+    "Snappy": 1,
+    "None": 65535
+  }
+}

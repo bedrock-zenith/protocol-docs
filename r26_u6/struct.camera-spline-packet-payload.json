@@ -1,0 +1,28 @@
+{
+  "name": "Camera Spline Packet Payload",
+  "hash": "90cfc57b6e43d0a9bd6690fa9f4d45e3d4ed9217c90c53f14bf834314990ff2c",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Camera Data Splines",
+      "is_constant": false,
+      "type": {
+        "name": "array",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Camera Spline Definition",
+          "bind_type": "struct",
+          "is_bind_type": true
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    }
+  ]
+}

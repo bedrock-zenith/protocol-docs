@@ -1,0 +1,78 @@
+{
+  "name": "Spawn Particle Effect Packet Payload",
+  "hash": "4d7fe2dd7ccf8b9416f82fe522165844b64a740dfdc56f8f8bc0fa0e22c93a74",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Dimension Id",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "u8",
+        "metadata": {
+          "min_value": 0,
+          "max_value": 255
+        },
+        "reinterpret": "u8",
+        "data_encoding": "little_endian"
+      }
+    },
+    {
+      "name": "Actor Id",
+      "is_constant": false,
+      "type": {
+        "name": "Actor Unique Id",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Position",
+      "is_constant": false,
+      "type": {
+        "name": "Vec3",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Effect Name",
+      "is_constant": false,
+      "type": {
+        "name": "string",
+        "is_bind_type": false,
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      }
+    },
+    {
+      "name": "Molang Variables",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "string",
+          "is_bind_type": false,
+          "metadata": {
+            "constrain": "Verify that the string can be parsed as valid JSON"
+          },
+          "length_encoding": {
+            "name": "integer",
+            "is_bind_type": false,
+            "interpretation": "i32",
+            "reinterpret": "i32",
+            "data_encoding": "zleb128"
+          }
+        }
+      }
+    }
+  ]
+}

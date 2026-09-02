@@ -1,0 +1,104 @@
+{
+  "name": "Biome Coordinate Data",
+  "hash": "e55b0d984859233595fb8b05db41d30092907ed8157f9e68590f09f51af61b52",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Min Value Type",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "i32",
+        "reinterpret": "i32",
+        "data_encoding": "zleb128"
+      }
+    },
+    {
+      "name": "Min Value",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "u16",
+        "metadata": {
+          "min_value": 0
+        },
+        "reinterpret": "u16",
+        "data_encoding": "little_endian"
+      }
+    },
+    {
+      "name": "Max Value Type",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "i32",
+        "reinterpret": "i32",
+        "data_encoding": "zleb128"
+      }
+    },
+    {
+      "name": "Max Value",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "u16",
+        "metadata": {
+          "min_value": 0
+        },
+        "reinterpret": "u16",
+        "data_encoding": "little_endian"
+      }
+    },
+    {
+      "name": "Grid Offset",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "u32",
+        "metadata": {
+          "min_value": 0
+        },
+        "reinterpret": "u32",
+        "data_encoding": "little_endian"
+      }
+    },
+    {
+      "name": "Grid Step Size",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "u32",
+        "metadata": {
+          "min_value": 0
+        },
+        "reinterpret": "u32",
+        "data_encoding": "little_endian"
+      }
+    },
+    {
+      "name": "Distribution",
+      "is_constant": false,
+      "type": {
+        "name": "Random Distribution Type",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "numeric",
+        "data_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      }
+    }
+  ]
+}

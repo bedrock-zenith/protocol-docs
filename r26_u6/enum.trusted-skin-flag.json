@@ -1,0 +1,12 @@
+{
+  "name": "Trusted Skin Flag",
+  "hash": "168553aa4478143221990d19a55f107927eb67f10e667c3c421aaa78ec35a7fc",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "literal",
+  "enum": {
+    "Unset": 0,
+    "False": 1,
+    "True": 2
+  }
+}

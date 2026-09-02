@@ -1,0 +1,10 @@
+{
+  "name": "Entity Reference",
+  "hash": "54da52c513cf9c18b3d2a3a2e24baef1ae8017810b57680beae5a9be6ab69805",
+  "bind_type": "alias",
+  "is_bind_type": true,
+  "element_type": {
+    "name": "string",
+    "is_bind_type": false
+  }
+}

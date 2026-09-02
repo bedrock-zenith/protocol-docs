@@ -1,0 +1,26 @@
+{
+  "name": "World Position",
+  "hash": "e798fa64eb8860554378b962c8fef6ee8b291aa29a94e647cd088a9294f084f9",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Position",
+      "is_constant": false,
+      "type": {
+        "name": "Vec3",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Dimension Type",
+      "is_constant": false,
+      "type": {
+        "name": "Dimension Type",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

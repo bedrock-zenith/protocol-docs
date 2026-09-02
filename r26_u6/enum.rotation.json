@@ -1,0 +1,17 @@
+{
+  "name": "Rotation",
+  "hash": "9cdee4a6abcf0539f560cd0976755c0a2beeb61235eb472d19ba0b9c62db9ef4",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "None": 0,
+    "Rotate90": 1,
+    "Rotate180": 2,
+    "Rotate270": 3,
+    "Clockwise90": 1,
+    "Clockwise180": 2,
+    "CounterClockwise90": 3
+  }
+}

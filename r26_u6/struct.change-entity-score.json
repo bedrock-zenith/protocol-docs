@@ -1,0 +1,77 @@
+{
+  "name": "Change Entity Score",
+  "hash": "388c35d93b70255f8f70bf567402be637ebc5ef6c0050b340f0ca55a2bc7fe19",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Action",
+      "is_constant": true,
+      "type": {
+        "name": "Score Packet Entry Action",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "literal",
+        "data_encoding": {
+          "name": "string",
+          "is_bind_type": false,
+          "length_encoding": {
+            "name": "integer",
+            "is_bind_type": false,
+            "interpretation": "i32",
+            "reinterpret": "i32",
+            "data_encoding": "zleb128"
+          }
+        }
+      },
+      "metadata": {
+        "constant_value": "changeentity"
+      }
+    },
+    {
+      "name": "Scoreboard Id",
+      "is_constant": false,
+      "type": {
+        "name": "Scoreboard Id",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Objective Name",
+      "is_constant": false,
+      "type": {
+        "name": "string",
+        "is_bind_type": false,
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      }
+    },
+    {
+      "name": "Score Value",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "i32",
+        "reinterpret": "i32",
+        "data_encoding": "little_endian"
+      }
+    },
+    {
+      "name": "Actor Id",
+      "is_constant": false,
+      "type": {
+        "name": "Actor Unique Id",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

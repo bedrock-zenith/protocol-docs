@@ -1,0 +1,26 @@
+{
+  "name": "Record Started Packet Payload",
+  "hash": "5d5098a94407a5686987642b610dfe53237b98f04b8f583592a38d6f00207263",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Block Position",
+      "is_constant": false,
+      "type": {
+        "name": "Block Pos",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Server Sound Handle",
+      "is_constant": false,
+      "type": {
+        "name": "Server Sound Handle",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

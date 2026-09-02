@@ -1,0 +1,31 @@
+{
+  "name": "Sync State Data",
+  "hash": "951e584ff287ac31738b84e0af98a9a206c6e0d3531ca433ff75bf0e0284bd7e",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Clock Data",
+      "is_constant": false,
+      "type": {
+        "name": "array",
+        "is_bind_type": false,
+        "metadata": {
+          "max_length": 256
+        },
+        "element_type": {
+          "name": "Sync World Clock State Data",
+          "bind_type": "struct",
+          "is_bind_type": true
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    }
+  ]
+}

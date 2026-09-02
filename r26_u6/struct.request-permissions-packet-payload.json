@@ -1,0 +1,44 @@
+{
+  "name": "Request Permissions Packet Payload",
+  "hash": "556fb2d013aaf3645f1d2050e0f40604d02ddc6e7607e9fcbf3ae77e976b9274",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Target Player Id S Raw Id",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "i64",
+        "reinterpret": "i64",
+        "data_encoding": "little_endian"
+      }
+    },
+    {
+      "name": "Player Permission Level",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "i32",
+        "reinterpret": "i32",
+        "data_encoding": "zleb128"
+      }
+    },
+    {
+      "name": "Custom Permission Flags",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "u16",
+        "metadata": {
+          "min_value": 0
+        },
+        "reinterpret": "u16",
+        "data_encoding": "little_endian"
+      }
+    }
+  ]
+}

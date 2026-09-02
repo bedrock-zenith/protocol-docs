@@ -1,0 +1,17 @@
+{
+  "name": "Death Info Packet Payload",
+  "hash": "0ba5fde42d4753b9ea75512b6ba1faf051529ab7fb9b9292f33e11c9f7bca82b",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Death Cause Message",
+      "is_constant": false,
+      "type": {
+        "name": "Death Cause Message Type",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

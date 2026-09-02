@@ -1,0 +1,12 @@
+{
+  "name": "Agent Animation",
+  "hash": "97c2cb46ef494d92b0734a9f6aa5ec41ffe869d4bfaaa73cbb0b87c8813c9ce6",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "ArmSwing": 0,
+    "Shrug": 1
+  }
+}

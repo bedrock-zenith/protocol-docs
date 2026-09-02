@@ -1,0 +1,35 @@
+{
+  "name": "Set Actor Motion Packet Payload",
+  "hash": "44dea4f1be345fae41bf2386899f34b19692675092a7b70a868bcb5fd3d87f26",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Target Runtime Id",
+      "is_constant": false,
+      "type": {
+        "name": "Actor Runtime Id",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Motion",
+      "is_constant": false,
+      "type": {
+        "name": "Vec3",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Tick",
+      "is_constant": false,
+      "type": {
+        "name": "Player Input Tick",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

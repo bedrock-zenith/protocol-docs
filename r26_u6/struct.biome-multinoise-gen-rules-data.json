@@ -1,0 +1,63 @@
+{
+  "name": "Biome Multinoise Gen Rules Data",
+  "hash": "04ff3b60f2f58cbcff16fe6a0f207b315cc0de15776eddf4c12e03671c9c59d3",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Temperature",
+      "is_constant": false,
+      "type": {
+        "name": "float",
+        "is_bind_type": false,
+        "interpretation": "f32",
+        "reinterpret": "f32",
+        "data_encoding": "little_endian"
+      }
+    },
+    {
+      "name": "Humidity",
+      "is_constant": false,
+      "type": {
+        "name": "float",
+        "is_bind_type": false,
+        "interpretation": "f32",
+        "reinterpret": "f32",
+        "data_encoding": "little_endian"
+      }
+    },
+    {
+      "name": "Altitude",
+      "is_constant": false,
+      "type": {
+        "name": "float",
+        "is_bind_type": false,
+        "interpretation": "f32",
+        "reinterpret": "f32",
+        "data_encoding": "little_endian"
+      }
+    },
+    {
+      "name": "Weirdness",
+      "is_constant": false,
+      "type": {
+        "name": "float",
+        "is_bind_type": false,
+        "interpretation": "f32",
+        "reinterpret": "f32",
+        "data_encoding": "little_endian"
+      }
+    },
+    {
+      "name": "Weight",
+      "is_constant": false,
+      "type": {
+        "name": "float",
+        "is_bind_type": false,
+        "interpretation": "f32",
+        "reinterpret": "f32",
+        "data_encoding": "little_endian"
+      }
+    }
+  ]
+}

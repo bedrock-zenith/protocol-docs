@@ -1,0 +1,50 @@
+{
+  "name": "Camera Instruction Spline Instruction Spline Rotation Option",
+  "hash": "4b1d1d732469ed0e837424c789df449c834374509b08ac897698a54713604820",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Key Frame Value",
+      "is_constant": false,
+      "type": {
+        "name": "Vec3",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Key Frame Time",
+      "is_constant": false,
+      "type": {
+        "name": "float",
+        "is_bind_type": false,
+        "interpretation": "f32",
+        "reinterpret": "f32",
+        "data_encoding": "little_endian"
+      }
+    },
+    {
+      "name": "Key Frame Easing Func",
+      "is_constant": false,
+      "type": {
+        "name": "Easing Function",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "literal",
+        "data_encoding": {
+          "name": "string",
+          "is_bind_type": false,
+          "length_encoding": {
+            "name": "integer",
+            "is_bind_type": false,
+            "interpretation": "i32",
+            "reinterpret": "i32",
+            "data_encoding": "zleb128"
+          }
+        }
+      }
+    }
+  ]
+}

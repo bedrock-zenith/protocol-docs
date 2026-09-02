@@ -1,0 +1,41 @@
+{
+  "name": "Boss Killed",
+  "hash": "4828730a14a62c9debd6cb4748bf456294f1904de171f78aa0ba653008628b82",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Boss Actor Id",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "i64",
+        "reinterpret": "i64",
+        "data_encoding": "zleb128"
+      }
+    },
+    {
+      "name": "Party Size",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "i32",
+        "reinterpret": "i32",
+        "data_encoding": "zleb128"
+      }
+    },
+    {
+      "name": "Boss Type",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "i32",
+        "reinterpret": "i32",
+        "data_encoding": "zleb128"
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Anvil Damage Packet Payload",
+  "hash": "a43c995c5dcbf214ceb3b8c5bfb56a251cb765fb4426ecd40ac99ea51b51195c",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Block Position",
+      "is_constant": false,
+      "type": {
+        "name": "Block Pos",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

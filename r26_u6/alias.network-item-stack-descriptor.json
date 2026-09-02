@@ -1,0 +1,11 @@
+{
+  "name": "Network Item Stack Descriptor",
+  "hash": "47af622d7eb1b1d346e9d20e275328e5532cdf38e6817e771fe22b7d022514c9",
+  "bind_type": "alias",
+  "is_bind_type": true,
+  "element_type": {
+    "name": "Cerealizer Network Item Stack Descriptor Serialized Data",
+    "bind_type": "struct",
+    "is_bind_type": true
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Player Location Packet Type",
+  "hash": "67d44e1fd4ce240972403aa8d7b5ec5d01b54c9410adcbbd27e9ba71cf208ba1",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "i32",
+  "enum": {
+    "PLAYER_LOCATION_COORDINATES": 0,
+    "PLAYER_LOCATION_HIDE": 1
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Property Sync Data",
+  "hash": "38c8fbdd01fb00a8d23442774691c5a4f1ab521e651c508f69b69758b04d68d9",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Int Entries List",
+      "is_constant": false,
+      "type": {
+        "name": "array",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Property Sync Data Property Sync Int Entry",
+          "bind_type": "struct",
+          "is_bind_type": true
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    },
+    {
+      "name": "Float Entries List",
+      "is_constant": false,
+      "type": {
+        "name": "array",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Property Sync Data Property Sync Float Entry",
+          "bind_type": "struct",
+          "is_bind_type": true
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    }
+  ]
+}

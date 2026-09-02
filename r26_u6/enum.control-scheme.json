@@ -1,0 +1,15 @@
+{
+  "name": "Control Scheme",
+  "hash": "4ad946c5f0c655d9ed73f5852ed3b61dbd2ca855c5203ec23d206c8e7d7a66bd",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "locked_player_relative_strafe": 0,
+    "camera_relative": 1,
+    "camera_relative_strafe": 2,
+    "player_relative": 3,
+    "player_relative_strafe": 4
+  }
+}

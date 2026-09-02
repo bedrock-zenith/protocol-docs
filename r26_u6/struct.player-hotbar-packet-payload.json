@@ -1,0 +1,46 @@
+{
+  "name": "Player Hotbar Packet Payload",
+  "hash": "a21efba61fdffed90a06c222b52d057b184e728e7eb1f5ba5029998a891cf5eb",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Selected Slot",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "u32",
+        "metadata": {
+          "min_value": 0
+        },
+        "reinterpret": "u32",
+        "data_encoding": "leb128"
+      }
+    },
+    {
+      "name": "Container Id",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "u8",
+        "metadata": {
+          "min_value": 0,
+          "max_value": 255
+        },
+        "reinterpret": "u8",
+        "data_encoding": "little_endian"
+      }
+    },
+    {
+      "name": "Should Select Slot",
+      "is_constant": false,
+      "type": {
+        "name": "boolean",
+        "is_bind_type": false,
+        "data_encoding": "bool"
+      }
+    }
+  ]
+}

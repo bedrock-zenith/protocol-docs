@@ -1,0 +1,96 @@
+{
+  "name": "Biome Surface Builder Data",
+  "hash": "79df6f79e137301aa9132c05e7b2c0163ead23f79c9ab13b9b941c7899083cd9",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Surface Materials",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Biome Surface Material Data",
+          "bind_type": "struct",
+          "is_bind_type": true
+        }
+      }
+    },
+    {
+      "name": "Has Default Overworld Surface",
+      "is_constant": false,
+      "type": {
+        "name": "boolean",
+        "is_bind_type": false,
+        "data_encoding": "bool"
+      }
+    },
+    {
+      "name": "Has Swamp Surface",
+      "is_constant": false,
+      "type": {
+        "name": "boolean",
+        "is_bind_type": false,
+        "data_encoding": "bool"
+      }
+    },
+    {
+      "name": "Has Frozen Ocean Surface",
+      "is_constant": false,
+      "type": {
+        "name": "boolean",
+        "is_bind_type": false,
+        "data_encoding": "bool"
+      }
+    },
+    {
+      "name": "Has The End Surface",
+      "is_constant": false,
+      "type": {
+        "name": "boolean",
+        "is_bind_type": false,
+        "data_encoding": "bool"
+      }
+    },
+    {
+      "name": "Mesa Surface",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Biome Mesa Surface Data",
+          "bind_type": "struct",
+          "is_bind_type": true
+        }
+      }
+    },
+    {
+      "name": "Capped Surface",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Biome Capped Surface Data",
+          "bind_type": "struct",
+          "is_bind_type": true
+        }
+      }
+    },
+    {
+      "name": "Noise Gradient Surface",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Biome Noise Gradient Surface Data",
+          "bind_type": "struct",
+          "is_bind_type": true
+        }
+      }
+    }
+  ]
+}

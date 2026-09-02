@@ -1,0 +1,53 @@
+{
+  "name": "Set Spawn Position Packet Payload",
+  "hash": "33204294a70f94df63de500c44d2735dcdbc857931bb29529f6f553a06152115",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Spawn Position Type",
+      "is_constant": false,
+      "type": {
+        "name": "Spawn Position Type",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "numeric",
+        "data_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      }
+    },
+    {
+      "name": "Block Position",
+      "is_constant": false,
+      "type": {
+        "name": "Block Pos",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Dimension Type",
+      "is_constant": false,
+      "type": {
+        "name": "Dimension Type",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Spawn Block Pos",
+      "is_constant": false,
+      "type": {
+        "name": "Block Pos",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

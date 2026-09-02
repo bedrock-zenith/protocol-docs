@@ -1,0 +1,17 @@
+{
+  "name": "Npc Request Packet Payload Request Type",
+  "hash": "083d40a8bff18c1db39c82400237ed6abb545bc6bc9b3379525f715af4fec394",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "SetActions": 0,
+    "ExecuteAction": 1,
+    "ExecuteClosingCommands": 2,
+    "SetName": 3,
+    "SetSkin": 4,
+    "SetInteractText": 5,
+    "ExecuteOpeningCommands": 6
+  }
+}

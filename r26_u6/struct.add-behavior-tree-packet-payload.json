@@ -1,0 +1,23 @@
+{
+  "name": "Add Behavior Tree Packet Payload",
+  "hash": "d629f11a5f2180dc830c085b748a12856667bd776d14f46a86d16f2fb7caac82",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Behavior Tree Structure Json",
+      "is_constant": false,
+      "type": {
+        "name": "string",
+        "is_bind_type": false,
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      }
+    }
+  ]
+}

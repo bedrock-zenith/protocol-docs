@@ -1,0 +1,62 @@
+{
+  "name": "Item Stack Request Drop Action",
+  "hash": "63ec1d854ab30d531b6aebda835f9b169532bc227d7db68e51acb008f54928c7",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Action Type",
+      "is_constant": true,
+      "type": {
+        "name": "Item Stack Request Action Type",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "numeric",
+        "data_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u8",
+          "reinterpret": "u8",
+          "data_encoding": "little_endian"
+        }
+      },
+      "metadata": {
+        "constant_value": "drop"
+      }
+    },
+    {
+      "name": "Amount",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "u8",
+        "metadata": {
+          "min_value": 1,
+          "max_value": 64
+        },
+        "reinterpret": "u8",
+        "data_encoding": "little_endian"
+      }
+    },
+    {
+      "name": "Source",
+      "is_constant": false,
+      "type": {
+        "name": "Item Stack Request Slot Info",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Randomly",
+      "is_constant": false,
+      "type": {
+        "name": "boolean",
+        "is_bind_type": false,
+        "data_encoding": "bool"
+      }
+    }
+  ]
+}

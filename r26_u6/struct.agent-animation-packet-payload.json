@@ -1,0 +1,35 @@
+{
+  "name": "Agent Animation Packet Payload",
+  "hash": "adc89857556234b1da8ddcdfb7c4f9e943e51089279a8f69555493490b89a38e",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Agent Animation",
+      "is_constant": false,
+      "type": {
+        "name": "Agent Animation",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "numeric",
+        "data_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u8",
+          "reinterpret": "u8",
+          "data_encoding": "little_endian"
+        }
+      }
+    },
+    {
+      "name": "Runtime Id",
+      "is_constant": false,
+      "type": {
+        "name": "Actor Runtime Id",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

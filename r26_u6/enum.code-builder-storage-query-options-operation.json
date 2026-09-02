@@ -1,0 +1,14 @@
+{
+  "name": "Code Builder Storage Query Options Operation",
+  "hash": "60c7b56d27fd7c435a94961f5265ccd3d87f7bf3f8f5939f3329263dc870bcda",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "None": 0,
+    "Get": 1,
+    "Set": 2,
+    "Reset": 3
+  }
+}

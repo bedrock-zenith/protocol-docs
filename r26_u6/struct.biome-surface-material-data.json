@@ -1,0 +1,89 @@
+{
+  "name": "Biome Surface Material Data",
+  "hash": "979351b980c10f74e1071035f6d6fc0a59e451c0c3591abc670a6eff01c98fb1",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Top Block",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "u32",
+        "metadata": {
+          "min_value": 0
+        },
+        "reinterpret": "u32",
+        "data_encoding": "little_endian"
+      }
+    },
+    {
+      "name": "Mid Block",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "u32",
+        "metadata": {
+          "min_value": 0
+        },
+        "reinterpret": "u32",
+        "data_encoding": "little_endian"
+      }
+    },
+    {
+      "name": "Sea Floor Block",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "u32",
+        "metadata": {
+          "min_value": 0
+        },
+        "reinterpret": "u32",
+        "data_encoding": "little_endian"
+      }
+    },
+    {
+      "name": "Foundation Block",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "u32",
+        "metadata": {
+          "min_value": 0
+        },
+        "reinterpret": "u32",
+        "data_encoding": "little_endian"
+      }
+    },
+    {
+      "name": "Sea Block",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "u32",
+        "metadata": {
+          "min_value": 0
+        },
+        "reinterpret": "u32",
+        "data_encoding": "little_endian"
+      }
+    },
+    {
+      "name": "Sea Floor Depth",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "i32",
+        "reinterpret": "i32",
+        "data_encoding": "little_endian"
+      }
+    }
+  ]
+}

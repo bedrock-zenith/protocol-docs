@@ -1,0 +1,29 @@
+{
+  "name": "Player Video Capture Packet Payload Stop Video Capture",
+  "hash": "8ea6ccd3f9133a7c5b94c741979d82cce54615abf6cd6830e78fb6ca18e2d332",
+  "bind_type": "union",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "type": {
+        "name": "Start Video Capture",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Start Video Capture0"
+    },
+    {
+      "type": {
+        "name": "Stop Video Capture",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Stop Video Capture1"
+    }
+  ],
+  "backing_enum": {
+    "name": "Player Video Capture Packet Payload Stop Video Capture Control",
+    "bind_type": "enum",
+    "is_bind_type": true
+  }
+}

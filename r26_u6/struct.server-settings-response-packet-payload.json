@@ -1,0 +1,37 @@
+{
+  "name": "Server Settings Response Packet Payload",
+  "hash": "e039af333906192936a8d1997686a1e592b5fd2a8d1e70c48a750533e4d48eb5",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Form Id",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "u32",
+        "metadata": {
+          "min_value": 0
+        },
+        "reinterpret": "u32",
+        "data_encoding": "leb128"
+      }
+    },
+    {
+      "name": "Form Ui Json",
+      "is_constant": false,
+      "type": {
+        "name": "string",
+        "is_bind_type": false,
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      }
+    }
+  ]
+}

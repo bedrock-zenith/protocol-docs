@@ -1,0 +1,28 @@
+{
+  "name": "Show Credits Packet Payload",
+  "hash": "a308b7acda82bc211be455a65bc46a9e24a0b0492f8f831fa8e0ab42aa9bd602",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Player Runtime Id",
+      "is_constant": false,
+      "type": {
+        "name": "Actor Runtime Id",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Credits State",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "i32",
+        "reinterpret": "i32",
+        "data_encoding": "zleb128"
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Coordinates Location",
+  "hash": "ffdbc4e59e59869ca01d89ab9baba26d0cbb055e66a8230bd3d12d5d097184fa",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Packet Type",
+      "is_constant": false,
+      "type": {
+        "name": "Packet Type",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "numeric",
+        "data_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      }
+    },
+    {
+      "name": "Position",
+      "is_constant": false,
+      "type": {
+        "name": "Vec3",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

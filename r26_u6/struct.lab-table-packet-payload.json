@@ -1,0 +1,53 @@
+{
+  "name": "Lab Table Packet Payload",
+  "hash": "413b6a5d93444fcf1eac659a239cbec9fb81cc5ab18a59030cba17cf9e8e0433",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Type",
+      "is_constant": false,
+      "type": {
+        "name": "Lab Table Packet Payload Type",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "numeric",
+        "data_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u8",
+          "reinterpret": "u8",
+          "data_encoding": "little_endian"
+        }
+      }
+    },
+    {
+      "name": "Position",
+      "is_constant": false,
+      "type": {
+        "name": "Block Pos",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Reaction",
+      "is_constant": false,
+      "type": {
+        "name": "Lab Table Reaction Type",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "numeric",
+        "data_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u8",
+          "reinterpret": "u8",
+          "data_encoding": "little_endian"
+        }
+      }
+    }
+  ]
+}

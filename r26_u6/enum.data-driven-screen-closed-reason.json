@@ -1,0 +1,15 @@
+{
+  "name": "Data Driven Screen Closed Reason",
+  "hash": "6f389bc05993874a135042ed3501468ea733e6b9219d47bf7ae468ca347e0c9a",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "ProgrammaticClose": 0,
+    "ProgrammaticCloseAll": 1,
+    "ClientCanceled": 2,
+    "UserBusy": 3,
+    "InvalidForm": 4
+  }
+}

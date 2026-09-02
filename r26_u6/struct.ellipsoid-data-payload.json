@@ -1,0 +1,32 @@
+{
+  "name": "Ellipsoid Data Payload",
+  "hash": "1237f56b49c1c020402b219942e829da52aa923f7478b7273fe63a0b47183b13",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Radii",
+      "is_constant": false,
+      "type": {
+        "name": "Vec3",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Segments Per Axis",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "u8",
+        "metadata": {
+          "min_value": 0,
+          "max_value": 255
+        },
+        "reinterpret": "u8",
+        "data_encoding": "little_endian"
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Client Cache Blob Status Packet Payload",
+  "hash": "bce6f996554608bd52fcbdebd6372d2d36407cf584777083a163148102e1db1d",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Missing Ids",
+      "is_constant": false,
+      "type": {
+        "name": "array",
+        "is_bind_type": false,
+        "metadata": {
+          "max_length": 4095
+        },
+        "element_type": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u64",
+          "metadata": {
+            "min_value": 0
+          },
+          "reinterpret": "u64",
+          "data_encoding": "little_endian"
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    },
+    {
+      "name": "Found Ids",
+      "is_constant": false,
+      "type": {
+        "name": "array",
+        "is_bind_type": false,
+        "metadata": {
+          "max_length": 4095
+        },
+        "element_type": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u64",
+          "metadata": {
+            "min_value": 0
+          },
+          "reinterpret": "u64",
+          "data_encoding": "little_endian"
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    }
+  ]
+}

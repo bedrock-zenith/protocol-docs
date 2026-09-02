@@ -1,0 +1,12 @@
+{
+  "name": "Camera Aim Assist Presets Packet Operation",
+  "hash": "c48e2b51b9462a10c17519d8cf0cd6bd95b000952d459d837d465841f7ac114f",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "Set": 0,
+    "AddToExisting": 1
+  }
+}

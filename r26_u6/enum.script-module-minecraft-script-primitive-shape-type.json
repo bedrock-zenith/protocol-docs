@@ -1,0 +1,20 @@
+{
+  "name": "Script Module Minecraft Script Primitive Shape Type",
+  "hash": "eb6ce1662312087b683b3d479fed4cb35ee86f29a0ead1ede8fd077af24a99da",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "Line": 0,
+    "Box": 1,
+    "Sphere": 2,
+    "Circle": 3,
+    "Text": 4,
+    "Arrow": 5,
+    "Cylinder": 6,
+    "Pyramid": 7,
+    "Ellipsoid": 8,
+    "Cone": 9
+  }
+}

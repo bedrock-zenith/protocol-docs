@@ -1,0 +1,49 @@
+{
+  "name": "Disconnect Packet Payload",
+  "hash": "c999f78eded3bb238bd8620b87f6422fcac22abd331a72809be8cb78d635ae15",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Reason",
+      "is_constant": false,
+      "type": {
+        "name": "Disconnect Fail Reason",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "numeric",
+        "data_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      }
+    },
+    {
+      "name": "Messages",
+      "is_constant": false,
+      "type": {
+        "name": "Disconnect Packet Payload Messages",
+        "bind_type": "union",
+        "is_bind_type": true,
+        "enum_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        },
+        "control_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    }
+  ]
+}

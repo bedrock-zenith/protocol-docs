@@ -1,0 +1,17 @@
+{
+  "name": "Update Abilities Packet Payload",
+  "hash": "4dc5f22d025bde26073e262ce28f089659565c2eaddda03e27a96e6339dadefe",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Data",
+      "is_constant": false,
+      "type": {
+        "name": "Serialized Abilities Data",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

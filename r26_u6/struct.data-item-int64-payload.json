@@ -1,0 +1,40 @@
+{
+  "name": "Data Item Int64 Payload",
+  "hash": "ecfcbad704eff4c825bf0c1e11c85499b34037f8620c7717842e8e5842f7336c",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Type",
+      "is_constant": true,
+      "type": {
+        "name": "Data Item Type",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "numeric",
+        "data_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u8",
+          "reinterpret": "u8",
+          "data_encoding": "little_endian"
+        }
+      },
+      "metadata": {
+        "constant_value": "int64"
+      }
+    },
+    {
+      "name": "Value",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "i64",
+        "reinterpret": "i64",
+        "data_encoding": "zleb128"
+      }
+    }
+  ]
+}

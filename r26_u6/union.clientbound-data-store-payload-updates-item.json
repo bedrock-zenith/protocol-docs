@@ -1,0 +1,37 @@
+{
+  "name": "Clientbound Data Store Payload Updates Item",
+  "hash": "caf291c31b4bef4465261a9c8dcfcb71ca5d0592c5c81257ab60c0cfd382b5c3",
+  "bind_type": "union",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "type": {
+        "name": "Data Store Update",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Data Store Update0"
+    },
+    {
+      "type": {
+        "name": "Data Store Change",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Data Store Change1"
+    },
+    {
+      "type": {
+        "name": "Data Store Removal",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Data Store Removal2"
+    }
+  ],
+  "backing_enum": {
+    "name": "Clientbound Data Store Payload Updates Item Control",
+    "bind_type": "enum",
+    "is_bind_type": true
+  }
+}

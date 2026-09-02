@@ -1,0 +1,123 @@
+{
+  "name": "Shapeless Recipe Payload",
+  "hash": "22cc80fd5dbd08d0f494011abd17dda7a8742a75b43d268cbfea983a4a64f158",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Recipe Id",
+      "is_constant": false,
+      "type": {
+        "name": "string",
+        "is_bind_type": false,
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      }
+    },
+    {
+      "name": "Ingredients",
+      "is_constant": false,
+      "type": {
+        "name": "array",
+        "is_bind_type": false,
+        "metadata": {
+          "max_length": 128
+        },
+        "element_type": {
+          "name": "Recipe Ingredient",
+          "bind_type": "struct",
+          "is_bind_type": true
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    },
+    {
+      "name": "Results",
+      "is_constant": false,
+      "type": {
+        "name": "array",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Network Item Instance Descriptor Data",
+          "bind_type": "struct",
+          "is_bind_type": true
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    },
+    {
+      "name": "Uuid",
+      "is_constant": false,
+      "type": {
+        "name": "Mce Uuid",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Tag",
+      "is_constant": false,
+      "type": {
+        "name": "string",
+        "is_bind_type": false,
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      }
+    },
+    {
+      "name": "Priority",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "i32",
+        "reinterpret": "i32",
+        "data_encoding": "zleb128"
+      }
+    },
+    {
+      "name": "Unlocking Requirement",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Recipe Unlocking Requirement",
+          "bind_type": "struct",
+          "is_bind_type": true
+        }
+      }
+    },
+    {
+      "name": "Net Id",
+      "is_constant": false,
+      "type": {
+        "name": "Recipe Net Id",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

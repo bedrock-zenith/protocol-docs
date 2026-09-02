@@ -1,0 +1,12 @@
+{
+  "name": "Camera Aim Assist Packet Payload Target Mode",
+  "hash": "73e59f87dcc05f722ceb961d22f1eb5623c5b824a7ccb30feacdb58bac98517f",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "Angle": 0,
+    "Distance": 1
+  }
+}

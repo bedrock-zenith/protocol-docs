@@ -1,0 +1,15 @@
+{
+  "name": "Command Output Type",
+  "hash": "b9b7c9e1eaccad759a6a522f96b303687465a20d9a7bef32b321c17aa5744553",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "i32",
+  "enum": {
+    "None": 0,
+    "LastOutput": 1,
+    "Silent": 2,
+    "AllOutput": 3,
+    "DataSet": 4
+  }
+}

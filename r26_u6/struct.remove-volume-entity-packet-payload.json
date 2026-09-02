@@ -1,0 +1,26 @@
+{
+  "name": "Remove Volume Entity Packet Payload",
+  "hash": "07090083a28527e2a371bac07233e4fb4550e9f09875662620cc4a462c7745b6",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Entity Network Id",
+      "is_constant": false,
+      "type": {
+        "name": "Entity Net Id",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Dimension Type",
+      "is_constant": false,
+      "type": {
+        "name": "Dimension Type",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

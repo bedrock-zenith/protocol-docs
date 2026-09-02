@@ -1,0 +1,31 @@
+{
+  "name": "Player Armor Damage Packet Payload",
+  "hash": "250129e2769786f48247a28ff61e16fd861941b356c6c3ad627c6184226aee83",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Armor Slot And Damage Pairs",
+      "is_constant": false,
+      "type": {
+        "name": "array",
+        "is_bind_type": false,
+        "metadata": {
+          "max_length": 5
+        },
+        "element_type": {
+          "name": "Armor Slot And Damage Pair",
+          "bind_type": "struct",
+          "is_bind_type": true
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    }
+  ]
+}

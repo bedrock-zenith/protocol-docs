@@ -1,0 +1,51 @@
+{
+  "name": "Serverbound Data Driven Screen Closed Packet Payload",
+  "hash": "fc86efddaa6133a971066a6d0f6f579e4df88f0d53de91550b8e2a0cd8aab972",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Form Id",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "metadata": {
+            "min_value": 0
+          },
+          "reinterpret": "u32",
+          "data_encoding": "little_endian"
+        }
+      },
+      "metadata": {
+        "default_value": 0
+      }
+    },
+    {
+      "name": "Close Reason",
+      "is_constant": false,
+      "type": {
+        "name": "Data Driven Screen Closed Reason",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "literal",
+        "data_encoding": {
+          "name": "string",
+          "is_bind_type": false,
+          "length_encoding": {
+            "name": "integer",
+            "is_bind_type": false,
+            "interpretation": "i32",
+            "reinterpret": "i32",
+            "data_encoding": "zleb128"
+          }
+        }
+      }
+    }
+  ]
+}

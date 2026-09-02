@@ -1,0 +1,46 @@
+{
+  "name": "Update Attributes Packet Payload",
+  "hash": "bd3e73ca0fc92ba933a1566ac0078688ea3b25e1c6c4f4c1f6f7adedbf24d8ff",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Target Runtime Id",
+      "is_constant": false,
+      "type": {
+        "name": "Actor Runtime Id",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Attribute List",
+      "is_constant": false,
+      "type": {
+        "name": "array",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Attribute Data",
+          "bind_type": "struct",
+          "is_bind_type": true
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    },
+    {
+      "name": "Tick",
+      "is_constant": false,
+      "type": {
+        "name": "Player Input Tick",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

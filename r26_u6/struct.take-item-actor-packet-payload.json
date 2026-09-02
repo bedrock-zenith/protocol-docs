@@ -1,0 +1,26 @@
+{
+  "name": "Take Item Actor Packet Payload",
+  "hash": "2a9675a52ba746ca890e99f8db261985d7ef8712932c2b78bf6c93b26d920ab9",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Item Runtime Id",
+      "is_constant": false,
+      "type": {
+        "name": "Actor Runtime Id",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Actor Runtime Id",
+      "is_constant": false,
+      "type": {
+        "name": "Actor Runtime Id",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

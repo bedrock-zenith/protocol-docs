@@ -1,0 +1,13 @@
+{
+  "name": "Player Respawn State",
+  "hash": "df572a3da0bd2ec99e2b47449534722f18d577a52bf8fb4fbc610daedbdce041",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "SearchingForSpawn": 0,
+    "ReadyToSpawn": 1,
+    "ClientReadyToSpawn": 2
+  }
+}

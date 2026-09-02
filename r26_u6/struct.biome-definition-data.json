@@ -1,0 +1,123 @@
+{
+  "name": "Biome Definition Data",
+  "hash": "4eb59150b30dd07e6696a995f090658e5c95f3f068a12aecbba7f4ff4903769f",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Id",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "u16",
+        "metadata": {
+          "min_value": 0
+        },
+        "reinterpret": "u16",
+        "data_encoding": "little_endian"
+      }
+    },
+    {
+      "name": "Temperature",
+      "is_constant": false,
+      "type": {
+        "name": "float",
+        "is_bind_type": false,
+        "interpretation": "f32",
+        "reinterpret": "f32",
+        "data_encoding": "little_endian"
+      }
+    },
+    {
+      "name": "Downfall",
+      "is_constant": false,
+      "type": {
+        "name": "float",
+        "is_bind_type": false,
+        "interpretation": "f32",
+        "reinterpret": "f32",
+        "data_encoding": "little_endian"
+      }
+    },
+    {
+      "name": "Foliage Snow",
+      "is_constant": false,
+      "type": {
+        "name": "float",
+        "is_bind_type": false,
+        "interpretation": "f32",
+        "reinterpret": "f32",
+        "data_encoding": "little_endian"
+      }
+    },
+    {
+      "name": "Depth",
+      "is_constant": false,
+      "type": {
+        "name": "float",
+        "is_bind_type": false,
+        "interpretation": "f32",
+        "reinterpret": "f32",
+        "data_encoding": "little_endian"
+      }
+    },
+    {
+      "name": "Scale",
+      "is_constant": false,
+      "type": {
+        "name": "float",
+        "is_bind_type": false,
+        "interpretation": "f32",
+        "reinterpret": "f32",
+        "data_encoding": "little_endian"
+      }
+    },
+    {
+      "name": "Map Water Color Argb",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "i32",
+        "reinterpret": "i32",
+        "data_encoding": "little_endian"
+      }
+    },
+    {
+      "name": "Rain",
+      "is_constant": false,
+      "type": {
+        "name": "boolean",
+        "is_bind_type": false,
+        "data_encoding": "bool"
+      }
+    },
+    {
+      "name": "Tags",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Biome Tags Data",
+          "bind_type": "struct",
+          "is_bind_type": true
+        }
+      }
+    },
+    {
+      "name": "Chunk Gen Data",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Biome Definition Chunk Gen Data",
+          "bind_type": "struct",
+          "is_bind_type": true
+        }
+      }
+    }
+  ]
+}

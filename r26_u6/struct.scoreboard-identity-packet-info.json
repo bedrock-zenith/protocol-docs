@@ -1,0 +1,32 @@
+{
+  "name": "Scoreboard Identity Packet Info",
+  "hash": "50e5add5e349be002c35c292f78ebc3828cbe1af56ea807e5b3ffcd5d9562ba9",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Scoreboard Id",
+      "is_constant": false,
+      "type": {
+        "name": "Scoreboard Id",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Player Unique Id",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i64",
+          "reinterpret": "i64",
+          "data_encoding": "zleb128"
+        }
+      }
+    }
+  ]
+}

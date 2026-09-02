@@ -1,0 +1,32 @@
+{
+  "name": "Camera Instruction Target Instruction",
+  "hash": "5ce422758b10db4e72ddecf5352e222ee60526bf6d34bd1ccf568b08db6bdf07",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Target Center Offset",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Vec3",
+          "bind_type": "struct",
+          "is_bind_type": true
+        }
+      }
+    },
+    {
+      "name": "Target Actor Id",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "i64",
+        "reinterpret": "i64",
+        "data_encoding": "little_endian"
+      }
+    }
+  ]
+}

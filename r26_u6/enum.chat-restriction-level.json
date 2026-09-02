@@ -1,0 +1,13 @@
+{
+  "name": "Chat Restriction Level",
+  "hash": "a28eb6ba8283c99aa3f9eab11b4e889ee438519d71421bc9d89316ec74b2530a",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "None": 0,
+    "Dropped": 1,
+    "Disabled": 2
+  }
+}

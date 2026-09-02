@@ -1,0 +1,14 @@
+{
+  "name": "Mob Effect Packet Payload Event",
+  "hash": "ec0f648c8e15efdfbaef348e29ffc53e4dd58d363def213ac53e117ea94575f0",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "Invalid": 0,
+    "Add": 1,
+    "Update": 2,
+    "Remove": 3
+  }
+}

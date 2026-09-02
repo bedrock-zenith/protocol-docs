@@ -1,0 +1,69 @@
+{
+  "name": "Item Data",
+  "hash": "15ea4dd6687b5aad5c411ddfa327b63e999fc67980ef704dc5d74c1b276cf278",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Item Name",
+      "is_constant": false,
+      "type": {
+        "name": "string",
+        "is_bind_type": false,
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      }
+    },
+    {
+      "name": "Item Id",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "i16",
+        "reinterpret": "i16",
+        "data_encoding": "little_endian"
+      }
+    },
+    {
+      "name": "Is Component Based",
+      "is_constant": false,
+      "type": {
+        "name": "boolean",
+        "is_bind_type": false,
+        "data_encoding": "bool"
+      }
+    },
+    {
+      "name": "Item Version",
+      "is_constant": false,
+      "type": {
+        "name": "Item Version",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "numeric",
+        "data_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      }
+    },
+    {
+      "name": "Item Component Data",
+      "is_constant": false,
+      "type": {
+        "name": "nbt_compound",
+        "is_bind_type": false
+      }
+    }
+  ]
+}

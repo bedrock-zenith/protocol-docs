@@ -1,0 +1,81 @@
+{
+  "name": "Sub Chunk Packet Data",
+  "hash": "c52ee2af4820b948620df3227112f2a9ee61d43524ba8bfc4be4b3de6b02ff24",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Sub Chunk Pos Offset",
+      "is_constant": false,
+      "type": {
+        "name": "Sub Chunk Pos Offset",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Sub Chunk Request Result",
+      "is_constant": false,
+      "type": {
+        "name": "Sub Chunk Request Result",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "numeric",
+        "data_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u8",
+          "reinterpret": "u8",
+          "data_encoding": "little_endian"
+        }
+      }
+    },
+    {
+      "name": "Serialized Sub Chunk",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "string",
+          "is_bind_type": false,
+          "length_encoding": {
+            "name": "integer",
+            "is_bind_type": false,
+            "interpretation": "i32",
+            "reinterpret": "i32",
+            "data_encoding": "zleb128"
+          }
+        }
+      }
+    },
+    {
+      "name": "Height Map Data",
+      "is_constant": false,
+      "type": {
+        "name": "Sub Chunk Heightmap Data",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Blob Id",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u64",
+          "metadata": {
+            "min_value": 0
+          },
+          "reinterpret": "u64",
+          "data_encoding": "little_endian"
+        }
+      }
+    }
+  ]
+}

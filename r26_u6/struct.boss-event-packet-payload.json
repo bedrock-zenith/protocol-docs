@@ -1,0 +1,118 @@
+{
+  "name": "Boss Event Packet Payload",
+  "hash": "773982bc572d721be53a7241c0780b1c3aab7c636411a104b446e8b63f1a799d",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Target Actor Id",
+      "is_constant": false,
+      "type": {
+        "name": "Actor Unique Id",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Event Type",
+      "is_constant": false,
+      "type": {
+        "name": "Boss Event Update Type",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "numeric",
+        "data_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u8",
+          "reinterpret": "u8",
+          "data_encoding": "leb128"
+        }
+      }
+    },
+    {
+      "name": "Name",
+      "is_constant": false,
+      "type": {
+        "name": "string",
+        "is_bind_type": false,
+        "metadata": {
+          "max_length": 256
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      }
+    },
+    {
+      "name": "Filtered Name",
+      "is_constant": false,
+      "type": {
+        "name": "string",
+        "is_bind_type": false,
+        "metadata": {
+          "max_length": 256
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      }
+    },
+    {
+      "name": "Health Percent",
+      "is_constant": false,
+      "type": {
+        "name": "float",
+        "is_bind_type": false,
+        "interpretation": "f32",
+        "reinterpret": "f32",
+        "data_encoding": "little_endian"
+      }
+    },
+    {
+      "name": "Color",
+      "is_constant": false,
+      "type": {
+        "name": "Boss Bar Color",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "numeric",
+        "data_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u8",
+          "reinterpret": "u8",
+          "data_encoding": "leb128"
+        }
+      }
+    },
+    {
+      "name": "Overlay",
+      "is_constant": false,
+      "type": {
+        "name": "Boss Bar Overlay",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "numeric",
+        "data_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u8",
+          "reinterpret": "u8",
+          "data_encoding": "leb128"
+        }
+      }
+    }
+  ]
+}

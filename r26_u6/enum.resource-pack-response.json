@@ -1,0 +1,14 @@
+{
+  "name": "Resource Pack Response",
+  "hash": "9819f55ccd24284ccaf0b860594e931f101f65897274eafec23e1a1a9873284f",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "i8",
+  "enum": {
+    "Cancel": 1,
+    "Downloading": 2,
+    "DownloadingFinished": 3,
+    "ResourcePackStackFinished": 4
+  }
+}

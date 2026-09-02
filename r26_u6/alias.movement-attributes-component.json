@@ -1,0 +1,10 @@
+{
+  "name": "Movement Attributes Component",
+  "hash": "ae937436ed3817c4f1c686a26c56b19b6f445ac83d38a5167f396c1800403c3a",
+  "bind_type": "alias",
+  "is_bind_type": true,
+  "element_type": {
+    "name": "array",
+    "is_bind_type": false
+  }
+}

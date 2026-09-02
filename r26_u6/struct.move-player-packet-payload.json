@@ -1,0 +1,104 @@
+{
+  "name": "Move Player Packet Payload",
+  "hash": "96091a13196b4703fe8bad6af083ee6503be137b761fb50b98828ec9ba1acc84",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Player Runtime Id",
+      "is_constant": false,
+      "type": {
+        "name": "Actor Runtime Id",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Position",
+      "is_constant": false,
+      "type": {
+        "name": "Vec3",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Rotation",
+      "is_constant": false,
+      "type": {
+        "name": "Vec2",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Y Head Rotation",
+      "is_constant": false,
+      "type": {
+        "name": "float",
+        "is_bind_type": false,
+        "interpretation": "f32",
+        "reinterpret": "f32",
+        "data_encoding": "little_endian"
+      }
+    },
+    {
+      "name": "Position Mode",
+      "is_constant": false,
+      "type": {
+        "name": "Position Mode",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "numeric",
+        "data_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u8",
+          "reinterpret": "u8",
+          "data_encoding": "little_endian"
+        }
+      }
+    },
+    {
+      "name": "On Ground",
+      "is_constant": false,
+      "type": {
+        "name": "boolean",
+        "is_bind_type": false,
+        "data_encoding": "bool"
+      }
+    },
+    {
+      "name": "Riding Runtime Id",
+      "is_constant": false,
+      "type": {
+        "name": "Actor Runtime Id",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Teleport Data",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Move Player Teleport Data",
+          "bind_type": "struct",
+          "is_bind_type": true
+        }
+      }
+    },
+    {
+      "name": "Tick",
+      "is_constant": false,
+      "type": {
+        "name": "Player Input Tick",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

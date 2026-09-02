@@ -1,0 +1,13 @@
+{
+  "name": "Item Version",
+  "hash": "0fb5c063f1d1c621aa3edb3fcc14618fe3e358de3c71abdf10427b77138c67df",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "i32",
+  "enum": {
+    "Legacy": 0,
+    "DataDriven": 1,
+    "None": 2
+  }
+}

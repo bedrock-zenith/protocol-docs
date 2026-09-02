@@ -1,0 +1,31 @@
+{
+  "name": "Server Block Property",
+  "hash": "96364556671af63ef15f25ed50115665f1e8a09c6ef9a90796fadc86e9279efe",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Block Name",
+      "is_constant": false,
+      "type": {
+        "name": "string",
+        "is_bind_type": false,
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      }
+    },
+    {
+      "name": "Block Definition",
+      "is_constant": false,
+      "type": {
+        "name": "nbt_compound",
+        "is_bind_type": false
+      }
+    }
+  ]
+}

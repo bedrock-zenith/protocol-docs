@@ -1,0 +1,14 @@
+{
+  "name": "Subtype",
+  "hash": "5893f959afa45fb4939939d4c3f1837fa171f21ed4dab60fab77f2ec38729069",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u16",
+  "enum": {
+    "UninitializedSubtype": 0,
+    "EnableCommands": 1,
+    "DisableCommands": 2,
+    "UnlockWorldTemplateSettings": 3
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Clientbound Attribute Layer Sync Packet Payload",
+  "hash": "9e85276daf112b27292dd2e9e75f56eb695d51d4bff7a283da13c3944631a4cb",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Data",
+      "is_constant": false,
+      "type": {
+        "name": "Clientbound Attribute Layer Sync Packet Payload Data",
+        "bind_type": "union",
+        "is_bind_type": true,
+        "enum_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        },
+        "control_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Server Player Post Move Position Packet Payload",
+  "hash": "24f2922e1ed7b432a4d8270896ca812d47966e88c2fb4cfff6a8710b651bd444",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Pos",
+      "is_constant": false,
+      "type": {
+        "name": "Vec3",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

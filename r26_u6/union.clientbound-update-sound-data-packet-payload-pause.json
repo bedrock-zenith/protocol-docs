@@ -1,0 +1,69 @@
+{
+  "name": "Clientbound Update Sound Data Packet Payload Pause",
+  "hash": "0d12e287fc346c76ec9ddaa85fbab8c0fd89ee27976721e996d62577e59e3211",
+  "bind_type": "union",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "type": {
+        "name": "Stop",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Stop0"
+    },
+    {
+      "type": {
+        "name": "Set Volume",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Set Volume1"
+    },
+    {
+      "type": {
+        "name": "Set Pitch",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Set Pitch2"
+    },
+    {
+      "type": {
+        "name": "Fade",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Fade3"
+    },
+    {
+      "type": {
+        "name": "Seek To",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Seek To4"
+    },
+    {
+      "type": {
+        "name": "Pause",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Pause5"
+    },
+    {
+      "type": {
+        "name": "Resume",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Resume6"
+    }
+  ],
+  "backing_enum": {
+    "name": "Clientbound Update Sound Data Packet Payload Pause Control",
+    "bind_type": "enum",
+    "is_bind_type": true
+  }
+}

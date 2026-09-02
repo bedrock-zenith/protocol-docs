@@ -1,0 +1,56 @@
+{
+  "name": "Biome Conditional Transformation Data",
+  "hash": "101ef3b8130f9f4658d9189ef78f425eb7a9c783876fd773fb3e170342eba1f4",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Transforms Into",
+      "is_constant": false,
+      "type": {
+        "name": "array",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Biome Weighted Data",
+          "bind_type": "struct",
+          "is_bind_type": true
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    },
+    {
+      "name": "Condition Json",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "u16",
+        "metadata": {
+          "min_value": 0
+        },
+        "reinterpret": "u16",
+        "data_encoding": "little_endian"
+      }
+    },
+    {
+      "name": "Min Passing Neighbors",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "u32",
+        "metadata": {
+          "min_value": 0
+        },
+        "reinterpret": "u32",
+        "data_encoding": "little_endian"
+      }
+    }
+  ]
+}

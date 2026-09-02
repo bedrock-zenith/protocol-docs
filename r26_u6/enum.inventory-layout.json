@@ -1,0 +1,14 @@
+{
+  "name": "Inventory Layout",
+  "hash": "0088141ed806268dfebe2a80b5f33cfea1411405a9a21dfd6b87e22101f6ca73",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "i32",
+  "enum": {
+    "None": 0,
+    "InventoryOnly": 1,
+    "Default": 2,
+    "RecipeBookOnly": 3
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Client Cache Miss Response Packet Payload",
+  "hash": "0550b3d3e70bff3f2be766b309c057b2d6da2a9a339ad26e5403bc3283c3ef92",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Missing Blobs",
+      "is_constant": false,
+      "type": {
+        "name": "array",
+        "is_bind_type": false,
+        "metadata": {
+          "max_length": 4095
+        },
+        "element_type": {
+          "name": "Missing Blob Data",
+          "bind_type": "struct",
+          "is_bind_type": true
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "name": "Movement Effect Packet Payload",
+  "hash": "2374733469536dfddf1a4410cd7f04555dd699a9a84f4bb14862c9654ce9c4a4",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Target Runtime Id",
+      "is_constant": false,
+      "type": {
+        "name": "Actor Runtime Id",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Effect Id",
+      "is_constant": false,
+      "type": {
+        "name": "Movement Effect Type",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "numeric",
+        "data_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      }
+    },
+    {
+      "name": "Effect Duration",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "i32",
+        "reinterpret": "i32",
+        "data_encoding": "zleb128"
+      }
+    },
+    {
+      "name": "Tick",
+      "is_constant": false,
+      "type": {
+        "name": "Player Input Tick",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

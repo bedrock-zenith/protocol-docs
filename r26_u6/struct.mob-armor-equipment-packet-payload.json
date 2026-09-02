@@ -1,0 +1,62 @@
+{
+  "name": "Mob Armor Equipment Packet Payload",
+  "hash": "688bd85e0b23fddb984d52cf479c048e04ab756505c214c4cc2bb2ac1039931c",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Target Runtime Id",
+      "is_constant": false,
+      "type": {
+        "name": "Actor Runtime Id",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Head",
+      "is_constant": false,
+      "type": {
+        "name": "Cerealizer Network Item Stack Descriptor Serialized Data",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Torso",
+      "is_constant": false,
+      "type": {
+        "name": "Cerealizer Network Item Stack Descriptor Serialized Data",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Legs",
+      "is_constant": false,
+      "type": {
+        "name": "Cerealizer Network Item Stack Descriptor Serialized Data",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Feet",
+      "is_constant": false,
+      "type": {
+        "name": "Cerealizer Network Item Stack Descriptor Serialized Data",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Body",
+      "is_constant": false,
+      "type": {
+        "name": "Cerealizer Network Item Stack Descriptor Serialized Data",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Game Publish Setting",
+  "hash": "34a2ed6f292d7ff97ecbc3018ea11289d68af6ac7a847f2d0d2399ffae578ca4",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "i32",
+  "enum": {
+    "NoMultiPlay": 0,
+    "InviteOnly": 1,
+    "FriendsOnly": 2,
+    "FriendsOfFriends": 3,
+    "Public": 4
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Server Editor Connection Policy",
+  "hash": "e67fbc4ea9bfb05fff0176869fa9750a439172c5a19aa187b0fa7e40d01ca593",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "i32",
+  "enum": {
+    "MatchWorldType": 0,
+    "EditorOnly": 1,
+    "VanillaOnly": 2,
+    "Mixed": 3
+  }
+}

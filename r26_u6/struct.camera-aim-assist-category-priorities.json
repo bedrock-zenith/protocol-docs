@@ -1,0 +1,222 @@
+{
+  "name": "Camera Aim Assist Category Priorities",
+  "hash": "4f5acdb46530fbc83ac417b4824a7ea4aa037ed6c004b8841191ef3a5112a797",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Entities",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "map",
+          "is_bind_type": false,
+          "key_type": {
+            "name": "string",
+            "is_bind_type": false,
+            "length_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "i32",
+              "reinterpret": "i32",
+              "data_encoding": "zleb128"
+            }
+          },
+          "value_type": {
+            "name": "integer",
+            "is_bind_type": false,
+            "interpretation": "i32",
+            "metadata": {
+              "min_value": 0,
+              "max_value": 100
+            },
+            "reinterpret": "i32",
+            "data_encoding": "little_endian"
+          },
+          "length_encoding": {
+            "name": "integer",
+            "is_bind_type": false,
+            "interpretation": "u32",
+            "reinterpret": "u32",
+            "data_encoding": "leb128"
+          }
+        }
+      },
+      "metadata": {
+        "default_value": []
+      }
+    },
+    {
+      "name": "Blocks",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "map",
+          "is_bind_type": false,
+          "key_type": {
+            "name": "string",
+            "is_bind_type": false,
+            "length_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "i32",
+              "reinterpret": "i32",
+              "data_encoding": "zleb128"
+            }
+          },
+          "value_type": {
+            "name": "integer",
+            "is_bind_type": false,
+            "interpretation": "i32",
+            "metadata": {
+              "min_value": 0,
+              "max_value": 100
+            },
+            "reinterpret": "i32",
+            "data_encoding": "little_endian"
+          },
+          "length_encoding": {
+            "name": "integer",
+            "is_bind_type": false,
+            "interpretation": "u32",
+            "reinterpret": "u32",
+            "data_encoding": "leb128"
+          }
+        }
+      },
+      "metadata": {
+        "default_value": []
+      }
+    },
+    {
+      "name": "Block Tags",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "map",
+          "is_bind_type": false,
+          "key_type": {
+            "name": "string",
+            "is_bind_type": false,
+            "length_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "i32",
+              "reinterpret": "i32",
+              "data_encoding": "zleb128"
+            }
+          },
+          "value_type": {
+            "name": "integer",
+            "is_bind_type": false,
+            "interpretation": "i32",
+            "metadata": {
+              "min_value": 0,
+              "max_value": 100
+            },
+            "reinterpret": "i32",
+            "data_encoding": "little_endian"
+          },
+          "length_encoding": {
+            "name": "integer",
+            "is_bind_type": false,
+            "interpretation": "u32",
+            "reinterpret": "u32",
+            "data_encoding": "leb128"
+          }
+        }
+      },
+      "metadata": {
+        "default_value": {}
+      }
+    },
+    {
+      "name": "Entity Type Families",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "map",
+          "is_bind_type": false,
+          "key_type": {
+            "name": "string",
+            "is_bind_type": false,
+            "length_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "i32",
+              "reinterpret": "i32",
+              "data_encoding": "zleb128"
+            }
+          },
+          "value_type": {
+            "name": "integer",
+            "is_bind_type": false,
+            "interpretation": "i32",
+            "metadata": {
+              "min_value": 0,
+              "max_value": 100
+            },
+            "reinterpret": "i32",
+            "data_encoding": "little_endian"
+          },
+          "length_encoding": {
+            "name": "integer",
+            "is_bind_type": false,
+            "interpretation": "u32",
+            "reinterpret": "u32",
+            "data_encoding": "leb128"
+          }
+        }
+      },
+      "metadata": {
+        "default_value": {}
+      }
+    },
+    {
+      "name": "Entity Default",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "metadata": {
+            "min_value": 0,
+            "max_value": 100
+          },
+          "reinterpret": "i32",
+          "data_encoding": "little_endian"
+        }
+      }
+    },
+    {
+      "name": "Block Default",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "metadata": {
+            "min_value": 0,
+            "max_value": 100
+          },
+          "reinterpret": "i32",
+          "data_encoding": "little_endian"
+        }
+      }
+    }
+  ]
+}

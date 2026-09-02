@@ -1,0 +1,26 @@
+{
+  "name": "Simulation Type Packet Payload",
+  "hash": "6bcfcbd74fc994d2ef0e4f8ccd051e337c2270bf5fae83d9fdffecdab6406198",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Sim Type",
+      "is_constant": false,
+      "type": {
+        "name": "Simulation Type",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "numeric",
+        "data_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u8",
+          "reinterpret": "u8",
+          "data_encoding": "little_endian"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Data Item Entry",
+  "hash": "7fd74d4ceb68f2a87b57315cef87895dd3d85b9277e9874b818994fc7d48aa80",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Id",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "u32",
+        "metadata": {
+          "min_value": 0
+        },
+        "reinterpret": "u32",
+        "data_encoding": "leb128"
+      }
+    },
+    {
+      "name": "Payload",
+      "is_constant": false,
+      "type": {
+        "name": "Data Item Entry Payload",
+        "bind_type": "union",
+        "is_bind_type": true,
+        "enum_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        },
+        "control_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    }
+  ]
+}

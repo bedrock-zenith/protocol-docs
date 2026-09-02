@@ -1,0 +1,17 @@
+{
+  "name": "Creative Item Category",
+  "hash": "70fd114e3682c58bbf76410fce4cda33ea0b0cc8985c8944c8807418a2061db4",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "All": 0,
+    "Construction": 1,
+    "Nature": 2,
+    "Equipment": 3,
+    "Items": 4,
+    "ItemCommandOnly": 5,
+    "Undefined": 6
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Camera Aim Assist Category Reference",
+  "hash": "fea9cbd7991d72b690f5d4438bb6b5d6885cd6aeb9f752f042bbcbb36729717f",
+  "bind_type": "alias",
+  "is_bind_type": true,
+  "element_type": {
+    "name": "string",
+    "is_bind_type": false
+  }
+}

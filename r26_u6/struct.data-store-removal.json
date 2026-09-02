@@ -1,0 +1,27 @@
+{
+  "name": "Data Store Removal",
+  "hash": "46b60f5137a987b9c9eb7feb24d0b0625a2d9d866d525390ff7456ba86c69d66",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Data Store Name",
+      "is_constant": false,
+      "type": {
+        "name": "string",
+        "is_bind_type": false,
+        "metadata": {
+          "min_length": 1,
+          "max_length": 1000
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      }
+    }
+  ]
+}

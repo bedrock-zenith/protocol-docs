@@ -1,0 +1,40 @@
+{
+  "name": "Creative Item Entry Payload",
+  "hash": "c056d57af3bce52dd027b368b61942227675897c8e20e0026df94e959a41f731",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Creative Net Id",
+      "is_constant": false,
+      "type": {
+        "name": "Creative Item Net Id",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Item Instance",
+      "is_constant": false,
+      "type": {
+        "name": "Network Item Instance Descriptor Data",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Group Index",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "u32",
+        "metadata": {
+          "min_value": 0
+        },
+        "reinterpret": "u32",
+        "data_encoding": "leb128"
+      }
+    }
+  ]
+}

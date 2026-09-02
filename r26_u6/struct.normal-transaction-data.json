@@ -1,0 +1,17 @@
+{
+  "name": "Normal Transaction Data",
+  "hash": "b75b124d5b51b9939435fb85652af00a5980416e8cb38ecb2050b1b8daebe335",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Actions",
+      "is_constant": false,
+      "type": {
+        "name": "Inventory Transaction",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Camera Instruction Set Instruction View Offset Option",
+  "hash": "7ed7347776d057abf2b147ac7bc6cd0a78888cb60eac02c88d9f72f014435f61",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "X",
+      "is_constant": false,
+      "type": {
+        "name": "float",
+        "is_bind_type": false,
+        "interpretation": "f32",
+        "reinterpret": "f32",
+        "data_encoding": "little_endian"
+      }
+    },
+    {
+      "name": "Y",
+      "is_constant": false,
+      "type": {
+        "name": "float",
+        "is_bind_type": false,
+        "interpretation": "f32",
+        "reinterpret": "f32",
+        "data_encoding": "little_endian"
+      }
+    }
+  ]
+}

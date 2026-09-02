@@ -1,0 +1,33 @@
+{
+  "name": "Resource Pack Client Response Cancel",
+  "hash": "684aed60e33545af83993613f37175dff10b9dc8280c8b4498adb43c3fb2fc71",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Response Type",
+      "is_constant": true,
+      "type": {
+        "name": "Resource Pack Response",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "literal",
+        "data_encoding": {
+          "name": "string",
+          "is_bind_type": false,
+          "length_encoding": {
+            "name": "integer",
+            "is_bind_type": false,
+            "interpretation": "i32",
+            "reinterpret": "i32",
+            "data_encoding": "zleb128"
+          }
+        }
+      },
+      "metadata": {
+        "constant_value": "cancel"
+      }
+    }
+  ]
+}

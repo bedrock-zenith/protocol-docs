@@ -1,0 +1,41 @@
+{
+  "name": "Sub Chunk Pos",
+  "hash": "31ce76cbcef285252a0c474090191a2fe76dc643d8e6e805bb284f03c6e95f0f",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Subchunk Position X",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "i32",
+        "reinterpret": "i32",
+        "data_encoding": "little_endian"
+      }
+    },
+    {
+      "name": "Subchunk Position Y",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "i32",
+        "reinterpret": "i32",
+        "data_encoding": "little_endian"
+      }
+    },
+    {
+      "name": "Subchunk Position Z",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "i32",
+        "reinterpret": "i32",
+        "data_encoding": "little_endian"
+      }
+    }
+  ]
+}

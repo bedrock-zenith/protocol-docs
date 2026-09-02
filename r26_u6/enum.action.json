@@ -1,0 +1,11 @@
+{
+  "name": "Action",
+  "hash": "dcf20818d6f2a2905284445ccbdf2036ff3931918d2be591f02a0a4a03db5d91",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "Remove": 1
+  }
+}

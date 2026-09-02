@@ -1,0 +1,59 @@
+{
+  "name": "Item Stack Response Info",
+  "hash": "41840dde5317ad01a3129ec390de0f8ce3933af1dadea90b418ff048373916e8",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Result",
+      "is_constant": false,
+      "type": {
+        "name": "Result",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "numeric",
+        "data_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u8",
+          "reinterpret": "u8",
+          "data_encoding": "little_endian"
+        }
+      }
+    },
+    {
+      "name": "Client Request Id",
+      "is_constant": false,
+      "type": {
+        "name": "Item Stack Request Id",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Containers",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "array",
+          "is_bind_type": false,
+          "element_type": {
+            "name": "Item Stack Response Container Info",
+            "bind_type": "struct",
+            "is_bind_type": true
+          },
+          "length_encoding": {
+            "name": "integer",
+            "is_bind_type": false,
+            "interpretation": "u32",
+            "reinterpret": "u32",
+            "data_encoding": "leb128"
+          }
+        }
+      }
+    }
+  ]
+}

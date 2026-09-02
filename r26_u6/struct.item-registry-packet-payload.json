@@ -1,0 +1,31 @@
+{
+  "name": "Item Registry Packet Payload",
+  "hash": "f69d9b3dfc769237c55fb8e10146a73eb6181f09ecea022b975e18651439054d",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Item Data",
+      "is_constant": false,
+      "type": {
+        "name": "array",
+        "is_bind_type": false,
+        "metadata": {
+          "constrain": "Verify that specified items exist"
+        },
+        "element_type": {
+          "name": "Item Data",
+          "bind_type": "struct",
+          "is_bind_type": true
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    }
+  ]
+}

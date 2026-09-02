@@ -1,0 +1,14 @@
+{
+  "name": "New Interaction Model",
+  "hash": "8aca6d37026746790c07dd2254f4bba58ca73b2270d722fa70ee1a3479f1fbf2",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "i32",
+  "enum": {
+    "Touch": 0,
+    "Crosshair": 1,
+    "Classic": 2,
+    "Count": 3
+  }
+}

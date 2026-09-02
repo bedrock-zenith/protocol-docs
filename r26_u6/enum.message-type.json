@@ -1,0 +1,16 @@
+{
+  "name": "Message Type",
+  "hash": "398f30264fbe6236629c33a2bdb595e6df86c9928f4df3c0c6e51b8df9e9a704",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "raw": 0,
+    "tip": 5,
+    "systemMessage": 6,
+    "textObjectWhisper": 9,
+    "textObject": 10,
+    "textObjectAnnouncement": 11
+  }
+}

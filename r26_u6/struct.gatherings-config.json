@@ -1,0 +1,183 @@
+{
+  "name": "Gatherings Config",
+  "hash": "9a2f072649deac0cf86314538f5480aea487afa6e41ba78d6bd0cd87372ffa35",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Experience Id",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Mce Uuid",
+          "bind_type": "struct",
+          "is_bind_type": true,
+          "metadata": {
+            "pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+          }
+        }
+      },
+      "metadata": {
+        "default_value": {
+          "Most Significant Bits": 0,
+          "Least Significant Bits": 0
+        }
+      }
+    },
+    {
+      "name": "Experience Name",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "string",
+          "is_bind_type": false,
+          "metadata": {
+            "min_length": 1,
+            "max_length": 29
+          },
+          "length_encoding": {
+            "name": "integer",
+            "is_bind_type": false,
+            "interpretation": "i32",
+            "reinterpret": "i32",
+            "data_encoding": "zleb128"
+          }
+        }
+      },
+      "metadata": {
+        "default_value": ""
+      }
+    },
+    {
+      "name": "World Id",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Mce Uuid",
+          "bind_type": "struct",
+          "is_bind_type": true,
+          "metadata": {
+            "pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+          }
+        }
+      }
+    },
+    {
+      "name": "World Name",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "string",
+          "is_bind_type": false,
+          "metadata": {
+            "min_length": 1,
+            "max_length": 29
+          },
+          "length_encoding": {
+            "name": "integer",
+            "is_bind_type": false,
+            "interpretation": "i32",
+            "reinterpret": "i32",
+            "data_encoding": "zleb128"
+          }
+        }
+      }
+    },
+    {
+      "name": "Creator Id",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "string",
+          "is_bind_type": false,
+          "metadata": {
+            "min_length": 1,
+            "max_length": 60
+          },
+          "length_encoding": {
+            "name": "integer",
+            "is_bind_type": false,
+            "interpretation": "i32",
+            "reinterpret": "i32",
+            "data_encoding": "zleb128"
+          }
+        }
+      },
+      "metadata": {
+        "default_value": ""
+      }
+    },
+    {
+      "name": "Target Id",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Mce Uuid",
+          "bind_type": "struct",
+          "is_bind_type": true,
+          "metadata": {
+            "pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+          }
+        }
+      }
+    },
+    {
+      "name": "Scenario Id",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "string",
+          "is_bind_type": false,
+          "metadata": {
+            "min_length": 1,
+            "max_length": 100
+          },
+          "length_encoding": {
+            "name": "integer",
+            "is_bind_type": false,
+            "interpretation": "i32",
+            "reinterpret": "i32",
+            "data_encoding": "zleb128"
+          }
+        }
+      }
+    },
+    {
+      "name": "Server Id",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "string",
+          "is_bind_type": false,
+          "metadata": {
+            "min_length": 1,
+            "max_length": 100
+          },
+          "length_encoding": {
+            "name": "integer",
+            "is_bind_type": false,
+            "interpretation": "i32",
+            "reinterpret": "i32",
+            "data_encoding": "zleb128"
+          }
+        }
+      }
+    }
+  ]
+}

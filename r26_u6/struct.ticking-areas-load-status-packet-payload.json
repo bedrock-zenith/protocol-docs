@@ -1,0 +1,17 @@
+{
+  "name": "Ticking Areas Load Status Packet Payload",
+  "hash": "dce0c6a797e157b3cca1bc53082340036823c97240e78fbb7007d5397733f0d4",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Waiting For Preload",
+      "is_constant": false,
+      "type": {
+        "name": "boolean",
+        "is_bind_type": false,
+        "data_encoding": "bool"
+      }
+    }
+  ]
+}

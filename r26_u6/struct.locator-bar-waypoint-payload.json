@@ -1,0 +1,44 @@
+{
+  "name": "Locator Bar Waypoint Payload",
+  "hash": "15576e6bb5cb3e4d60f2285631d656e499ff1e52a13159e0dea43d4c1df706da",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Group Handle",
+      "is_constant": false,
+      "type": {
+        "name": "Waypoint Group Waypoint Handle",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Server Waypoint Payload",
+      "is_constant": false,
+      "type": {
+        "name": "Server Waypoint Payload",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Action Flag",
+      "is_constant": false,
+      "type": {
+        "name": "Server Waypoint Group Action",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "numeric",
+        "data_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u8",
+          "reinterpret": "u8",
+          "data_encoding": "leb128"
+        }
+      }
+    }
+  ]
+}

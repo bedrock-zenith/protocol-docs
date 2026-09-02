@@ -1,0 +1,17 @@
+{
+  "name": "Server To Client Handshake Packet Payload",
+  "hash": "a3244287bd6f3fa7e53a7fc2aa363f0d8a9184d53ce07065a0aab587f5226979",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Handshake Web Token",
+      "is_constant": false,
+      "type": {
+        "name": "Web Token",
+        "bind_type": "symbol",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

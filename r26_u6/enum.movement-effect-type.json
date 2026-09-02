@@ -1,0 +1,13 @@
+{
+  "name": "Movement Effect Type",
+  "hash": "aeb1a4605a15d8fbfd6aa16a54c9cc7bcd49b2b8415344b55287c02157db98e5",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "i32",
+  "enum": {
+    "GLIDE_BOOST": 0,
+    "DOLPHIN_BOOST": 1,
+    "GEYSER_BOOST": 2
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Multi Recipe Payload",
+  "hash": "f94e664540e37fc4db221dca514254d53584f07303b27992692c1a5713f22a81",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Multi Recipe Uuid",
+      "is_constant": false,
+      "type": {
+        "name": "Mce Uuid",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Net Id",
+      "is_constant": false,
+      "type": {
+        "name": "Recipe Net Id",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Multiplayer Settings Packet Payload",
+  "hash": "2a8f84cdaeadebfe216e5b85de76c8bf3e9dacb81881ab302de78032a05d543d",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Packet Type",
+      "is_constant": false,
+      "type": {
+        "name": "Multiplayer Settings Packet Type",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "numeric",
+        "data_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      }
+    }
+  ]
+}

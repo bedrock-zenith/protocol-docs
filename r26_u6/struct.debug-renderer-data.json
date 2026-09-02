@@ -1,0 +1,43 @@
+{
+  "name": "Debug Renderer Data",
+  "hash": "7dd0b755c1b2d97f36ea1404d7c8a0c1eb00af348f84ef4c6a33e9b2130f0550",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Type",
+      "is_constant": false,
+      "type": {
+        "name": "Type",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "literal",
+        "data_encoding": {
+          "name": "string",
+          "is_bind_type": false,
+          "length_encoding": {
+            "name": "integer",
+            "is_bind_type": false,
+            "interpretation": "i32",
+            "reinterpret": "i32",
+            "data_encoding": "zleb128"
+          }
+        }
+      }
+    },
+    {
+      "name": "Debug Marker Data",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Debug Marker Data",
+          "bind_type": "struct",
+          "is_bind_type": true
+        }
+      }
+    }
+  ]
+}

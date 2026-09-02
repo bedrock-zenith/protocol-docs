@@ -1,0 +1,12 @@
+{
+  "name": "Hand Slot",
+  "hash": "7becfa76c715ec0e4ac41d4c725adceb7faa54835fa8235f18d7f8354df65732",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "Mainhand": 0,
+    "Offhand": 1
+  }
+}

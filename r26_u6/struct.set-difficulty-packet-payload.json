@@ -1,0 +1,22 @@
+{
+  "name": "Set Difficulty Packet Payload",
+  "hash": "c189726ac2e68ae082f2d96005adbe15a33194d288b3c8655a3e823aa8c511e1",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Difficulty",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "u32",
+        "metadata": {
+          "min_value": 0
+        },
+        "reinterpret": "u32",
+        "data_encoding": "leb128"
+      }
+    }
+  ]
+}

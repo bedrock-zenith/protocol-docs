@@ -1,0 +1,14 @@
+{
+  "name": "Mirror",
+  "hash": "c5f211f8a98b5258a9cb0571c1932ed2930e1f98d948e6a93c4a2d2e3bbdeb34",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "None": 0,
+    "X": 1,
+    "Z": 2,
+    "XZ": 3
+  }
+}

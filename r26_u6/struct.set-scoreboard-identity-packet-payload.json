@@ -1,0 +1,46 @@
+{
+  "name": "Set Scoreboard Identity Packet Payload",
+  "hash": "1cdfaf9d723fb98e884bf2efe82fbd292d3857f3a4f17abd6d1ded9f2d823300",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Scoreboard Identity Packet Type",
+      "is_constant": false,
+      "type": {
+        "name": "Scoreboard Identity Packet Type",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "numeric",
+        "data_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u8",
+          "reinterpret": "u8",
+          "data_encoding": "little_endian"
+        }
+      }
+    },
+    {
+      "name": "Scoreboard Identity Info",
+      "is_constant": false,
+      "type": {
+        "name": "array",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Scoreboard Identity Packet Info",
+          "bind_type": "struct",
+          "is_bind_type": true
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    }
+  ]
+}

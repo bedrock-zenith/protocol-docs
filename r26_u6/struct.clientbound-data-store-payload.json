@@ -1,0 +1,45 @@
+{
+  "name": "Clientbound Data Store Payload",
+  "hash": "79f061913041bc1a3f6f0b51f8b86b4973a46cfab26bf8d4a30be24aa58792e7",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Updates",
+      "is_constant": false,
+      "type": {
+        "name": "array",
+        "is_bind_type": false,
+        "metadata": {
+          "max_length": 500
+        },
+        "element_type": {
+          "name": "Clientbound Data Store Payload Updates Item",
+          "bind_type": "union",
+          "is_bind_type": true,
+          "enum_encoding": {
+            "name": "integer",
+            "is_bind_type": false,
+            "interpretation": "u32",
+            "reinterpret": "u32",
+            "data_encoding": "leb128"
+          },
+          "control_encoding": {
+            "name": "integer",
+            "is_bind_type": false,
+            "interpretation": "u32",
+            "reinterpret": "u32",
+            "data_encoding": "leb128"
+          }
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    }
+  ]
+}

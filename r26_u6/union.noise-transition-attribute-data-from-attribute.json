@@ -1,0 +1,37 @@
+{
+  "name": "Noise Transition Attribute Data From Attribute",
+  "hash": "8d72d0fe73464655b64b1780487231d94f067a8440b12201854f30c57eaf4e84",
+  "bind_type": "union",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "type": {
+        "name": "Bool Attribute Data",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Bool Attribute Data0"
+    },
+    {
+      "type": {
+        "name": "Float Attribute Data",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Float Attribute Data1"
+    },
+    {
+      "type": {
+        "name": "Color Attribute Data",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Color Attribute Data2"
+    }
+  ],
+  "backing_enum": {
+    "name": "Noise Transition Attribute Data From Attribute Control",
+    "bind_type": "enum",
+    "is_bind_type": true
+  }
+}

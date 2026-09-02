@@ -1,0 +1,15 @@
+{
+  "name": "Inventory Source Type",
+  "hash": "844fa66c26dd592df16e477a9ba73cc3e30d20cde695404b44e73f64079caff8",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u32",
+  "enum": {
+    "Container Inventory": 0,
+    "Global Inventory": 1,
+    "World Interaction": 2,
+    "Creative Inventory": 3,
+    "Non Implemented Feature TODO": 99999
+  }
+}

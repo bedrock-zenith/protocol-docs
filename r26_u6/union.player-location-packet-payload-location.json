@@ -1,0 +1,29 @@
+{
+  "name": "Player Location Packet Payload Location",
+  "hash": "a19ff1183929625eb647f21870e44af3ec7b5312ee7a547de9bf7370b1e00295",
+  "bind_type": "union",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "type": {
+        "name": "Coordinates Location",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Coordinates Location0"
+    },
+    {
+      "type": {
+        "name": "Hidden Location",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Hidden Location1"
+    }
+  ],
+  "backing_enum": {
+    "name": "Player Location Packet Payload Location Control",
+    "bind_type": "enum",
+    "is_bind_type": true
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Server Presence Info Packet Payload",
+  "hash": "22b3a13c59773b9161bf45dd28af3da8a57b8bbe65e21e592a7eb12ce20a3e95",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Presence Configuration",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Presence Config",
+          "bind_type": "struct",
+          "is_bind_type": true
+        }
+      }
+    }
+  ]
+}

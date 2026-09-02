@@ -1,0 +1,62 @@
+{
+  "name": "Biome Noise Gradient Surface Data",
+  "hash": "b330ff5f29a7e10ea4260c23a4f7a3d5a6d2a5c33959e42c011f2964390d9d54",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Non Replaceable Blocks",
+      "is_constant": false,
+      "type": {
+        "name": "array",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "metadata": {
+            "min_value": 0
+          },
+          "reinterpret": "u32",
+          "data_encoding": "little_endian"
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    },
+    {
+      "name": "Gradient Blocks",
+      "is_constant": false,
+      "type": {
+        "name": "array",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Serialized Noise Block Specifier",
+          "bind_type": "struct",
+          "is_bind_type": true
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    },
+    {
+      "name": "Noise",
+      "is_constant": false,
+      "type": {
+        "name": "Noise Descriptor",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

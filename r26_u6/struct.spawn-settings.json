@@ -1,0 +1,52 @@
+{
+  "name": "Spawn Settings",
+  "hash": "7ab464c94da2cabf6936da8f2f295d813bafc3d6ddec77c69fb13da03527c434",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Spawn Biome Type",
+      "is_constant": false,
+      "type": {
+        "name": "Spawn Biome Type",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "non_exhaustive",
+        "enum_encoding": "numeric",
+        "data_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i16",
+          "reinterpret": "i16",
+          "data_encoding": "little_endian"
+        }
+      }
+    },
+    {
+      "name": "User Defined Biome Name",
+      "is_constant": false,
+      "type": {
+        "name": "string",
+        "is_bind_type": false,
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      }
+    },
+    {
+      "name": "Dimension",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "i32",
+        "reinterpret": "i32",
+        "data_encoding": "zleb128"
+      }
+    }
+  ]
+}

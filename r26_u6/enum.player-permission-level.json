@@ -1,0 +1,14 @@
+{
+  "name": "Player Permission Level",
+  "hash": "20546d5629e96cb0ddfc25b86eff2419b9c8c5a874abbe7d70a9e9057d1f58b4",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "i8",
+  "enum": {
+    "Visitor": 0,
+    "Member": 1,
+    "Operator": 2,
+    "Custom": 3
+  }
+}

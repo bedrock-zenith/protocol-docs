@@ -1,0 +1,34 @@
+{
+  "name": "Camera Instruction Set Instruction Ease Option",
+  "hash": "495c5f6d51f810959a9a707ea0613960a406e926f44f35693b35b40d610ecf94",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Type",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "u8",
+        "metadata": {
+          "min_value": 0,
+          "max_value": 255
+        },
+        "reinterpret": "u8",
+        "data_encoding": "little_endian"
+      }
+    },
+    {
+      "name": "Time",
+      "is_constant": false,
+      "type": {
+        "name": "float",
+        "is_bind_type": false,
+        "interpretation": "f32",
+        "reinterpret": "f32",
+        "data_encoding": "little_endian"
+      }
+    }
+  ]
+}

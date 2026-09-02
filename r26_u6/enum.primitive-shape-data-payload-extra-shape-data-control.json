@@ -1,0 +1,19 @@
+{
+  "name": "Primitive Shape Data Payload Extra Shape Data Control",
+  "hash": "ad0766769d07aa983628e7b25d471ee39776bf92511324915e94396f3881dd62",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "literal",
+  "enum": {
+    "void0": 0,
+    "Arrow Data Payload1": 1,
+    "Text Data Payload2": 2,
+    "Box Data Payload3": 3,
+    "Line Data Payload4": 4,
+    "Sphere Data Payload5": 5,
+    "Cylinder Data Payload6": 6,
+    "Pyramid Data Payload7": 7,
+    "Ellipsoid Data Payload8": 8,
+    "Cone Data Payload9": 9
+  }
+}

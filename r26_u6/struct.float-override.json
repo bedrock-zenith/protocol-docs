@@ -1,0 +1,47 @@
+{
+  "name": "Float Override",
+  "hash": "8443ad45f7d258d2f6c77af295ae043b6ddf83b21d13f65dc757dcd874d2b5c5",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Type",
+      "is_constant": true,
+      "type": {
+        "name": "Update Type",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "literal",
+        "data_encoding": {
+          "name": "string",
+          "is_bind_type": false,
+          "length_encoding": {
+            "name": "integer",
+            "is_bind_type": false,
+            "interpretation": "i32",
+            "reinterpret": "i32",
+            "data_encoding": "zleb128"
+          }
+        }
+      },
+      "metadata": {
+        "constant_value": "setfloatoverride"
+      }
+    },
+    {
+      "name": "Value",
+      "is_constant": false,
+      "type": {
+        "name": "float",
+        "is_bind_type": false,
+        "metadata": {
+          "constrain": "Must be a finite (non-NaN, non-infinite) floating-point value"
+        },
+        "interpretation": "f32",
+        "reinterpret": "f32",
+        "data_encoding": "little_endian"
+      }
+    }
+  ]
+}

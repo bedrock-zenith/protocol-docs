@@ -1,0 +1,31 @@
+{
+  "name": "Inventory Transaction",
+  "hash": "c183c064df1937ed891fa56705f657358efa6079ee5334520b617c662a5e76c4",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Actions",
+      "is_constant": false,
+      "type": {
+        "name": "array",
+        "is_bind_type": false,
+        "metadata": {
+          "constrain": "Verify that the number of InventoryActions does not exceed 100"
+        },
+        "element_type": {
+          "name": "Inventory Action",
+          "bind_type": "struct",
+          "is_bind_type": true
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    }
+  ]
+}

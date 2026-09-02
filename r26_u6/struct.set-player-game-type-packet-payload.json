@@ -1,0 +1,26 @@
+{
+  "name": "Set Player Game Type Packet Payload",
+  "hash": "117970ab3ae126d51da77b77eddc42e4f307ea573ec1c41634d24f15fed5aa06",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Player Game Type",
+      "is_constant": false,
+      "type": {
+        "name": "Game Type",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "numeric",
+        "data_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Set Local Player As Initialized Packet Payload",
+  "hash": "c76ed7e4e6c1fbac3bc404ee3af8b8fd4d8b54aa28770b4e4852b81827843ca7",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Player Id",
+      "is_constant": false,
+      "type": {
+        "name": "Actor Runtime Id",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Persona Animated Texture Type",
+  "hash": "e53a856f3c35d710d5041aba6b207a2d7fe6c41f6fd540933f65f1f4b7dc0c5b",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u32",
+  "enum": {
+    "None": 0,
+    "Face": 1,
+    "Body32x32": 2,
+    "Body128x128": 3
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Game Rule Rule Value Control",
+  "hash": "b95a985c006a585a20bd730f125ecdfccfec4d23c602dcd29e5d711719dc8c36",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "literal",
+  "enum": {
+    "void0": 0,
+    "boolean1": 1,
+    "integer2": 2,
+    "float3": 3
+  }
+}

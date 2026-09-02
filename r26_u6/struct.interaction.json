@@ -1,0 +1,74 @@
+{
+  "name": "Interaction",
+  "hash": "c9556d6a16342446b3de87de20875d27eb888ccaade1ba0c26eee24839577211",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Interacted Entity Id",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "i64",
+        "reinterpret": "i64",
+        "data_encoding": "zleb128"
+      }
+    },
+    {
+      "name": "Interaction Type",
+      "is_constant": false,
+      "type": {
+        "name": "Minecraft Eventing Interaction Type",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "numeric",
+        "data_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u8",
+          "reinterpret": "u8",
+          "data_encoding": "leb128"
+        }
+      }
+    },
+    {
+      "name": "Interaction Actor Type",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "i32",
+        "reinterpret": "i32",
+        "data_encoding": "zleb128"
+      }
+    },
+    {
+      "name": "Interaction Actor Variant",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "i32",
+        "reinterpret": "i32",
+        "data_encoding": "zleb128"
+      }
+    },
+    {
+      "name": "Interaction Actor Color",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "u8",
+        "metadata": {
+          "min_value": 0,
+          "max_value": 255
+        },
+        "reinterpret": "u8",
+        "data_encoding": "leb128"
+      }
+    }
+  ]
+}

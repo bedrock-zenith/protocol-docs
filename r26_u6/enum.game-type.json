@@ -1,0 +1,17 @@
+{
+  "name": "Game Type",
+  "hash": "3bb54a98dfa1b69b5d4f514747e4a406c1500798d5010b4292ff06135ef42023",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "i32",
+  "enum": {
+    "Undefined": -1,
+    "Survival": 0,
+    "Creative": 1,
+    "Adventure": 2,
+    "Default": 5,
+    "Spectator": 6,
+    "WorldDefault": 0
+  }
+}

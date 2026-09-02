@@ -1,0 +1,23 @@
+{
+  "name": "Sem Version",
+  "hash": "0a14c7036c3d0faecece5998b6d60f05d209d5fca622a23cab7f0532bb81b371",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Version",
+      "is_constant": false,
+      "type": {
+        "name": "string",
+        "is_bind_type": false,
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      }
+    }
+  ]
+}

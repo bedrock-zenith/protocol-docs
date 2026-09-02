@@ -1,0 +1,13 @@
+{
+  "name": "Party Destination Cookie Intent",
+  "hash": "a71ef8023e1b4348a1a1334ca92270317f31b1a184f6219452383bc54b00f548",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "i8",
+  "enum": {
+    "Notify": 0,
+    "OptIn": 1,
+    "OptOut": 2
+  }
+}

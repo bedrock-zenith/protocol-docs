@@ -1,0 +1,12 @@
+{
+  "name": "Player List Packet Type",
+  "hash": "c281e77aca56962db6ef89ae6075c7648803c660539db783591612aa9c56e629",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "Add": 0,
+    "Remove": 1
+  }
+}

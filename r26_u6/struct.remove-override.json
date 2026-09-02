@@ -1,0 +1,33 @@
+{
+  "name": "Remove Override",
+  "hash": "51e902a004b36df6cffdf4517386fc5e883a19ab8d2812dc33a3abc63d503d6a",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Type",
+      "is_constant": true,
+      "type": {
+        "name": "Update Type",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "literal",
+        "data_encoding": {
+          "name": "string",
+          "is_bind_type": false,
+          "length_encoding": {
+            "name": "integer",
+            "is_bind_type": false,
+            "interpretation": "i32",
+            "reinterpret": "i32",
+            "data_encoding": "zleb128"
+          }
+        }
+      },
+      "metadata": {
+        "constant_value": "removeoverride"
+      }
+    }
+  ]
+}

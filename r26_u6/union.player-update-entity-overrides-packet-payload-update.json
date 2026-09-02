@@ -1,0 +1,45 @@
+{
+  "name": "Player Update Entity Overrides Packet Payload Update",
+  "hash": "eb6ec4871229ef8b9b5cd3bbdd93869ca06729ce2e8fccd0e8d85176ddd5e620",
+  "bind_type": "union",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "type": {
+        "name": "Clear Override",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "clearoverrides"
+    },
+    {
+      "type": {
+        "name": "Remove Override",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "removeoverride"
+    },
+    {
+      "type": {
+        "name": "Int Override",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "setintoverride"
+    },
+    {
+      "type": {
+        "name": "Float Override",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "setfloatoverride"
+    }
+  ],
+  "backing_enum": {
+    "name": "Update Type",
+    "bind_type": "enum",
+    "is_bind_type": true
+  }
+}

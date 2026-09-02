@@ -1,0 +1,19 @@
+{
+  "name": "Seek To",
+  "hash": "19e6ffaff856bcfa3c9b19736366375c26a30752532386bb178c8c044c98757d",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Seconds",
+      "is_constant": false,
+      "type": {
+        "name": "float",
+        "is_bind_type": false,
+        "interpretation": "f32",
+        "reinterpret": "f32",
+        "data_encoding": "little_endian"
+      }
+    }
+  ]
+}

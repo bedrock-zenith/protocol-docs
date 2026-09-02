@@ -1,0 +1,19 @@
+{
+  "name": "Player Waxed Or Unwaxed Copper",
+  "hash": "0ee6bdb6e7735da2b61d21348f6b8f186c92271352f4b304ac4d33ce7b89c615",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Player Waxed Or Unwaxed Copper Block Id",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "i32",
+        "reinterpret": "i32",
+        "data_encoding": "zleb128"
+      }
+    }
+  ]
+}

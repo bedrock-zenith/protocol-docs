@@ -1,0 +1,157 @@
+{
+  "name": "Item Stack Request Actions Item",
+  "hash": "d295d0a01ca21b62517eb79f5c425d40934cc59f7e7f2c233a0d284c2cc25948",
+  "bind_type": "union",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "type": {
+        "name": "Item Stack Request Take Action",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "take"
+    },
+    {
+      "type": {
+        "name": "Item Stack Request Place Action",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "place"
+    },
+    {
+      "type": {
+        "name": "Item Stack Request Swap Action",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "swap"
+    },
+    {
+      "type": {
+        "name": "Item Stack Request Drop Action",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "drop"
+    },
+    {
+      "type": {
+        "name": "Item Stack Request Destroy Action",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "destroy"
+    },
+    {
+      "type": {
+        "name": "Item Stack Request Consume Action",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "consume"
+    },
+    {
+      "type": {
+        "name": "Item Stack Request Create Action",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "create"
+    },
+    {
+      "type": {
+        "name": "Item Stack Request Lab Table Combine Action",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "screenlabtablecombine"
+    },
+    {
+      "type": {
+        "name": "Item Stack Request Beacon Payment Action",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "screenbeaconpayment"
+    },
+    {
+      "type": {
+        "name": "Item Stack Request Mine Block Action",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "screenhudmineblock"
+    },
+    {
+      "type": {
+        "name": "Item Stack Request Craft Recipe Action",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "craftrecipe"
+    },
+    {
+      "type": {
+        "name": "Item Stack Request Craft Recipe Auto Action",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "craftrecipeauto"
+    },
+    {
+      "type": {
+        "name": "Item Stack Request Craft Creative Action",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "craftcreative"
+    },
+    {
+      "type": {
+        "name": "Item Stack Request Craft Recipe Optional Action",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "craftrecipeoptional"
+    },
+    {
+      "type": {
+        "name": "Item Stack Request Craft Repair And Disenchant Action",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "craftrepairanddisenchant"
+    },
+    {
+      "type": {
+        "name": "Item Stack Request Craft Loom Action",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "craftloom"
+    },
+    {
+      "type": {
+        "name": "Item Stack Request Craft Non Implemented Deprecated Action",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "craftnonimplemented"
+    },
+    {
+      "type": {
+        "name": "Item Stack Request Craft Results Deprecated Action",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "craftresults"
+    }
+  ],
+  "backing_enum": {
+    "name": "Item Stack Request Action Type",
+    "bind_type": "enum",
+    "is_bind_type": true
+  }
+}

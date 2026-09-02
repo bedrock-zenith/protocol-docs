@@ -1,0 +1,59 @@
+{
+  "name": "Item Stack Request Craft Loom Action",
+  "hash": "6ab5429737f4024accab2ff807e898f93d48c5348d6da6a83178b0ad01891830",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Action Type",
+      "is_constant": true,
+      "type": {
+        "name": "Item Stack Request Action Type",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "numeric",
+        "data_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u8",
+          "reinterpret": "u8",
+          "data_encoding": "little_endian"
+        }
+      },
+      "metadata": {
+        "constant_value": "craftloom"
+      }
+    },
+    {
+      "name": "Pattern Name Id",
+      "is_constant": false,
+      "type": {
+        "name": "string",
+        "is_bind_type": false,
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      }
+    },
+    {
+      "name": "Num Crafts",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "u8",
+        "metadata": {
+          "min_value": 1,
+          "max_value": 255
+        },
+        "reinterpret": "u8",
+        "data_encoding": "little_endian"
+      }
+    }
+  ]
+}

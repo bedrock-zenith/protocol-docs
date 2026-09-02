@@ -1,0 +1,15 @@
+{
+  "name": "Clientbound Texture Shift Packet Payload Action",
+  "hash": "f2ae4a5282ab123e62ee7399d673b3d126cfbc22d5561d599c3394e38f9900c0",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "Invalid": 0,
+    "Initialize": 1,
+    "Start": 2,
+    "SetEnabled": 3,
+    "Sync": 4
+  }
+}

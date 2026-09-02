@@ -1,0 +1,11 @@
+{
+  "name": "Packet Type",
+  "hash": "f8977f13f2a06153a41c48021548ffd11d3f4f20633878945721fd92adf6ec4b",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "i32",
+  "enum": {
+    "PLAYER_LOCATION_HIDE": 1
+  }
+}

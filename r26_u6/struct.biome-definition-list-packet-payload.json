@@ -1,0 +1,47 @@
+{
+  "name": "Biome Definition List Packet Payload",
+  "hash": "cfae073a0f43fbaaf6e437fbde79734b40bcf4754e0ac3c25f7d0089e9bb607c",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Map Of Biome Names To Data",
+      "is_constant": false,
+      "type": {
+        "name": "map",
+        "is_bind_type": false,
+        "key_type": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u16",
+          "metadata": {
+            "min_value": 0
+          },
+          "reinterpret": "u16",
+          "data_encoding": "little_endian"
+        },
+        "value_type": {
+          "name": "Biome Definition Data",
+          "bind_type": "struct",
+          "is_bind_type": true
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    },
+    {
+      "name": "String List",
+      "is_constant": false,
+      "type": {
+        "name": "Biome String List",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

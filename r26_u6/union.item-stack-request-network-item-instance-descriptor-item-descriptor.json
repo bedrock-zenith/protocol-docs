@@ -1,0 +1,45 @@
+{
+  "name": "Item Stack Request Network Item Instance Descriptor Item Descriptor",
+  "hash": "a7b360c47c1571ce392b015efb8c79b648de12db59717490829fe2dcaea75672",
+  "bind_type": "union",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "type": {
+        "name": "Empty Item Descriptor",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "empty"
+    },
+    {
+      "type": {
+        "name": "Item Name Descriptor",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "itemname"
+    },
+    {
+      "type": {
+        "name": "Molang Item Descriptor",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "molang"
+    },
+    {
+      "type": {
+        "name": "Item Tag Descriptor",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "itemtag"
+    }
+  ],
+  "backing_enum": {
+    "name": "Item Descriptor Type",
+    "bind_type": "enum",
+    "is_bind_type": true
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Shared Types Legacy Armor Slot",
+  "hash": "66fd35937fe26ff89a06fbabf7e68d5aefd49d0f276464b9a1996d1544423b06",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "i32",
+  "enum": {
+    "Head": 0,
+    "Torso": 1,
+    "Legs": 2,
+    "Feet": 3,
+    "Body": 4
+  }
+}

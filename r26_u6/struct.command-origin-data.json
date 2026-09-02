@@ -1,0 +1,82 @@
+{
+  "name": "Command Origin Data",
+  "hash": "54ca42eeac4a9b5684865aa304af362873cc74ac3a60f0540b02c127bda9e0ca",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Type",
+      "is_constant": false,
+      "type": {
+        "name": "Type",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "literal",
+        "data_encoding": {
+          "name": "string",
+          "is_bind_type": false,
+          "length_encoding": {
+            "name": "integer",
+            "is_bind_type": false,
+            "interpretation": "i32",
+            "reinterpret": "i32",
+            "data_encoding": "zleb128"
+          }
+        }
+      }
+    },
+    {
+      "name": "Uuid",
+      "is_constant": false,
+      "type": {
+        "name": "Mce Uuid",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Request Id",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "string",
+          "is_bind_type": false,
+          "metadata": {
+            "max_length": 39
+          },
+          "length_encoding": {
+            "name": "integer",
+            "is_bind_type": false,
+            "interpretation": "i32",
+            "reinterpret": "i32",
+            "data_encoding": "zleb128"
+          }
+        }
+      },
+      "metadata": {
+        "default_value": ""
+      }
+    },
+    {
+      "name": "Player Id",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i64",
+          "reinterpret": "i64",
+          "data_encoding": "little_endian"
+        }
+      },
+      "metadata": {
+        "default_value": 0
+      }
+    }
+  ]
+}

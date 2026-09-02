@@ -1,0 +1,23 @@
+{
+  "name": "Web Socket Packet Data",
+  "hash": "71e3a1653ecb78473e08c69f20e6285ab4ecc54176466fc69a3d59fdaa49dc94",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Websocket Server Uri",
+      "is_constant": false,
+      "type": {
+        "name": "string",
+        "is_bind_type": false,
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      }
+    }
+  ]
+}

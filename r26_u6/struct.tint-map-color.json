@@ -1,0 +1,33 @@
+{
+  "name": "Tint Map Color",
+  "hash": "d0848a79bcfe59635ffd743fc9349622f7627eaf5a474b1ca4ab3ccb2e6022bb",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Colors",
+      "is_constant": false,
+      "type": {
+        "name": "array",
+        "is_bind_type": false,
+        "metadata": {
+          "min_length": 4,
+          "max_length": 4
+        },
+        "vector_dimension": 4,
+        "element_type": {
+          "name": "Color",
+          "bind_type": "struct",
+          "is_bind_type": true
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    }
+  ]
+}

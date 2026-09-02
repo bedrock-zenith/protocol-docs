@@ -1,0 +1,13 @@
+{
+  "name": "Soft Enum Update Type",
+  "hash": "c9c89168f825052f6365713482dad50f0259e9aa85f3aab0f597ffc649d40948",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "Add": 0,
+    "Remove": 1,
+    "Replace": 2
+  }
+}

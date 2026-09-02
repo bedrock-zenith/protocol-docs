@@ -1,0 +1,53 @@
+{
+  "name": "Item Stack Request Destroy Action",
+  "hash": "866250003868233e9c5e971879b9056c5fa46a1bb8590544dd0b4914e2c40300",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Action Type",
+      "is_constant": true,
+      "type": {
+        "name": "Item Stack Request Action Type",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "numeric",
+        "data_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u8",
+          "reinterpret": "u8",
+          "data_encoding": "little_endian"
+        }
+      },
+      "metadata": {
+        "constant_value": "destroy"
+      }
+    },
+    {
+      "name": "Amount",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "u8",
+        "metadata": {
+          "min_value": 1,
+          "max_value": 64
+        },
+        "reinterpret": "u8",
+        "data_encoding": "little_endian"
+      }
+    },
+    {
+      "name": "Source",
+      "is_constant": false,
+      "type": {
+        "name": "Item Stack Request Slot Info",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "name": "Item Stack Request Network Item Instance Descriptor",
+  "hash": "f0a0b12d2ee2a6703f26613bada4bdb628ae44673db33536dfe3daeb206b4c6d",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Item Descriptor",
+      "is_constant": false,
+      "type": {
+        "name": "Item Stack Request Network Item Instance Descriptor Item Descriptor",
+        "bind_type": "union",
+        "is_bind_type": true,
+        "enum_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        },
+        "control_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    },
+    {
+      "name": "Stack Size",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "u16",
+        "metadata": {
+          "min_value": 1,
+          "max_value": 64
+        },
+        "reinterpret": "u16",
+        "data_encoding": "little_endian"
+      }
+    },
+    {
+      "name": "Block Runtime Id",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "u32",
+        "metadata": {
+          "min_value": 0
+        },
+        "reinterpret": "u32",
+        "data_encoding": "leb128"
+      }
+    },
+    {
+      "name": "User Data Buffer",
+      "is_constant": false,
+      "type": {
+        "name": "string",
+        "is_bind_type": false,
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      }
+    }
+  ]
+}

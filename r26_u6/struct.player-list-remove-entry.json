@@ -1,0 +1,35 @@
+{
+  "name": "Player List Remove Entry",
+  "hash": "0304afd0f5cda4da8dc4998d18068d347dea4b7269d3f38d24d5491eb40a8674",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Action",
+      "is_constant": false,
+      "type": {
+        "name": "Action",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "numeric",
+        "data_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u8",
+          "reinterpret": "u8",
+          "data_encoding": "little_endian"
+        }
+      }
+    },
+    {
+      "name": "Uuid",
+      "is_constant": false,
+      "type": {
+        "name": "Mce Uuid",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

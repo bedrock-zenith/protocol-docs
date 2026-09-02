@@ -1,0 +1,71 @@
+{
+  "name": "Client Movement Prediction Sync Packet Payload",
+  "hash": "b8695083b0747ed32a0bf04ad96d2db6c40c805c725506b99d90a4568ad685ac",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Actor Data Flag",
+      "is_constant": false,
+      "type": {
+        "name": "Actor Data Flag Component",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Actor Bounding Box",
+      "is_constant": false,
+      "type": {
+        "name": "Actor Data Bounding Box Component",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Movement Attributes",
+      "is_constant": false,
+      "type": {
+        "name": "array",
+        "is_bind_type": false,
+        "metadata": {
+          "min_length": 9,
+          "max_length": 9
+        },
+        "vector_dimension": 9,
+        "element_type": {
+          "name": "float",
+          "is_bind_type": false,
+          "interpretation": "f32",
+          "reinterpret": "f32",
+          "data_encoding": "little_endian"
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    },
+    {
+      "name": "Actor Unique Id",
+      "is_constant": false,
+      "type": {
+        "name": "Actor Unique Id",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Actor Flying State",
+      "is_constant": false,
+      "type": {
+        "name": "boolean",
+        "is_bind_type": false,
+        "data_encoding": "bool"
+      }
+    }
+  ]
+}

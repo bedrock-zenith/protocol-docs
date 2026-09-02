@@ -1,0 +1,49 @@
+{
+  "name": "Structure Template Data Response Packet Payload",
+  "hash": "48363e27b5cb0e50a81d3fc513f2eb7048081d8c404932fc5cafbddc28061e61",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Structure Name",
+      "is_constant": false,
+      "type": {
+        "name": "string",
+        "is_bind_type": false,
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      }
+    },
+    {
+      "name": "Structure S Nbt",
+      "is_constant": false,
+      "type": {
+        "name": "nbt_compound",
+        "is_bind_type": false
+      }
+    },
+    {
+      "name": "Response Type",
+      "is_constant": false,
+      "type": {
+        "name": "Structure Template Response Type",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "numeric",
+        "data_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u8",
+          "reinterpret": "u8",
+          "data_encoding": "little_endian"
+        }
+      }
+    }
+  ]
+}

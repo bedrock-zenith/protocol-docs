@@ -1,0 +1,15 @@
+{
+  "name": "Input Mode",
+  "hash": "00652ef72b1b06cb005c917e6915ec0fd3329ec8df662a7a39b837c4233698ac",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u32",
+  "enum": {
+    "Undefined": 0,
+    "Mouse": 1,
+    "Touch": 2,
+    "GamePad": 3,
+    "Count": 5
+  }
+}

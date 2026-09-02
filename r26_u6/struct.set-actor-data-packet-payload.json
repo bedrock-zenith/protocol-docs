@@ -1,0 +1,44 @@
+{
+  "name": "Set Actor Data Packet Payload",
+  "hash": "0fe0b0cfcd9547ca7cc0544e53c278743ee5b7c82908ec32548b15edd68aab5a",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Target Runtime Id",
+      "is_constant": false,
+      "type": {
+        "name": "Actor Runtime Id",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Actor Data",
+      "is_constant": false,
+      "type": {
+        "name": "Synched Actor Data List",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Synched Properties",
+      "is_constant": false,
+      "type": {
+        "name": "Property Sync Data",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Tick",
+      "is_constant": false,
+      "type": {
+        "name": "Player Input Tick",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

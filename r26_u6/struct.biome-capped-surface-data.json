@@ -1,0 +1,112 @@
+{
+  "name": "Biome Capped Surface Data",
+  "hash": "d13ab04d38ed462b50eecd92f49cdbeaeb17319ff5b69ce7428b036b541f907d",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Floor Blocks",
+      "is_constant": false,
+      "type": {
+        "name": "array",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "metadata": {
+            "min_value": 0
+          },
+          "reinterpret": "u32",
+          "data_encoding": "little_endian"
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    },
+    {
+      "name": "Ceiling Blocks",
+      "is_constant": false,
+      "type": {
+        "name": "array",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "metadata": {
+            "min_value": 0
+          },
+          "reinterpret": "u32",
+          "data_encoding": "little_endian"
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    },
+    {
+      "name": "Sea Block",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "metadata": {
+            "min_value": 0
+          },
+          "reinterpret": "u32",
+          "data_encoding": "little_endian"
+        }
+      }
+    },
+    {
+      "name": "Foundation Block",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "metadata": {
+            "min_value": 0
+          },
+          "reinterpret": "u32",
+          "data_encoding": "little_endian"
+        }
+      }
+    },
+    {
+      "name": "Beach Block",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "metadata": {
+            "min_value": 0
+          },
+          "reinterpret": "u32",
+          "data_encoding": "little_endian"
+        }
+      }
+    }
+  ]
+}

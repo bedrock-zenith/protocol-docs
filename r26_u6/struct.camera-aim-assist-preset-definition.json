@@ -1,0 +1,159 @@
+{
+  "name": "Camera Aim Assist Preset Definition",
+  "hash": "121c30d49692b10bcd031734dd2dfa5362e7f0609376cafe0a0ffd8ad5d00f31",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Identifier",
+      "is_constant": false,
+      "type": {
+        "name": "string",
+        "is_bind_type": false,
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      }
+    },
+    {
+      "name": "Exclusion Settings",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Camera Aim Assist Preset Exclusion Definition",
+          "bind_type": "struct",
+          "is_bind_type": true
+        }
+      },
+      "metadata": {
+        "default_value": {
+          "blocks": [],
+          "entities": [],
+          "block_tags": [],
+          "entity_type_families": []
+        }
+      }
+    },
+    {
+      "name": "Liquid Targeting List",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "array",
+          "is_bind_type": false,
+          "element_type": {
+            "name": "string",
+            "is_bind_type": false,
+            "length_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "i32",
+              "reinterpret": "i32",
+              "data_encoding": "zleb128"
+            }
+          },
+          "length_encoding": {
+            "name": "integer",
+            "is_bind_type": false,
+            "interpretation": "u32",
+            "reinterpret": "u32",
+            "data_encoding": "leb128"
+          }
+        }
+      },
+      "metadata": {
+        "default_value": []
+      }
+    },
+    {
+      "name": "Item Settings",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "map",
+          "is_bind_type": false,
+          "key_type": {
+            "name": "string",
+            "is_bind_type": false,
+            "length_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "i32",
+              "reinterpret": "i32",
+              "data_encoding": "zleb128"
+            }
+          },
+          "value_type": {
+            "name": "string",
+            "is_bind_type": false,
+            "length_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "i32",
+              "reinterpret": "i32",
+              "data_encoding": "zleb128"
+            }
+          },
+          "length_encoding": {
+            "name": "integer",
+            "is_bind_type": false,
+            "interpretation": "u32",
+            "reinterpret": "u32",
+            "data_encoding": "leb128"
+          }
+        }
+      },
+      "metadata": {
+        "default_value": []
+      }
+    },
+    {
+      "name": "Default Item Settings",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "string",
+          "is_bind_type": false,
+          "length_encoding": {
+            "name": "integer",
+            "is_bind_type": false,
+            "interpretation": "i32",
+            "reinterpret": "i32",
+            "data_encoding": "zleb128"
+          }
+        }
+      }
+    },
+    {
+      "name": "Hand Settings",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "string",
+          "is_bind_type": false,
+          "length_encoding": {
+            "name": "integer",
+            "is_bind_type": false,
+            "interpretation": "i32",
+            "reinterpret": "i32",
+            "data_encoding": "zleb128"
+          }
+        }
+      }
+    }
+  ]
+}

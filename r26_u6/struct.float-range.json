@@ -1,0 +1,44 @@
+{
+  "name": "Float Range",
+  "hash": "3c3c4d60868ea6c0cfeabfbbcf2adb413f25a4384aac9caf7aaad3c3a731178f",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Min",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "float",
+          "is_bind_type": false,
+          "interpretation": "f32",
+          "reinterpret": "f32",
+          "data_encoding": "little_endian"
+        }
+      },
+      "metadata": {
+        "default_value": 0
+      }
+    },
+    {
+      "name": "Max",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "float",
+          "is_bind_type": false,
+          "interpretation": "f32",
+          "reinterpret": "f32",
+          "data_encoding": "little_endian"
+        }
+      },
+      "metadata": {
+        "default_value": 0
+      }
+    }
+  ]
+}

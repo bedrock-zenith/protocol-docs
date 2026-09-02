@@ -1,0 +1,11 @@
+{
+  "name": "Item Stack Net Id Variant",
+  "hash": "e58fde26c7d1d22de089ae4abde2f41399c49979ee205200fdd779b79a3d4a82",
+  "bind_type": "alias",
+  "is_bind_type": true,
+  "element_type": {
+    "name": "integer",
+    "is_bind_type": false,
+    "interpretation": "i32"
+  }
+}

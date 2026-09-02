@@ -1,0 +1,31 @@
+{
+  "name": "Legacy Telemetry Event Packet Payload Event Data Control",
+  "hash": "52a3fa1fe20750c078508ea0ec0814631e3cb98608c704eb8e62fe152adfa646",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "literal",
+  "enum": {
+    "Achievement0": 0,
+    "Interaction1": 1,
+    "Portal Created2": 2,
+    "Portal Used3": 3,
+    "Mob Killed4": 4,
+    "Cauldron Used5": 5,
+    "Player Died6": 6,
+    "Boss Killed7": 7,
+    "Slash Command8": 8,
+    "Mob Born9": 9,
+    "Poi Cauldron Used10": 10,
+    "Composter Used11": 11,
+    "Bell Used12": 12,
+    "Actor Definition13": 13,
+    "Raid Update14": 14,
+    "Target Block Hit15": 15,
+    "Piglin Barter16": 16,
+    "Player Waxed Or Unwaxed Copper17": 17,
+    "Code Builder Runtime Action18": 18,
+    "Code Builder Scoreboard19": 19,
+    "Item Used20": 20,
+    "Empty21": 21
+  }
+}

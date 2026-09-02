@@ -1,0 +1,14 @@
+{
+  "name": "Height Map Type",
+  "hash": "5e1b6f5278718aa83601ef05d712bbbf6a1af6e37915170a80ec1b474eda8e59",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "NoData": 0,
+    "HasData": 1,
+    "AllTooHigh": 2,
+    "AllTooLow": 3
+  }
+}

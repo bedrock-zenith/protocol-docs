@@ -1,0 +1,28 @@
+{
+  "name": "Item Stack Response Packet Payload",
+  "hash": "53ed062d698678a1825d1865ac8a5ff1ad5e4ce9370fbfcc81b348504c7fe9e7",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Responses",
+      "is_constant": false,
+      "type": {
+        "name": "array",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Item Stack Response Info",
+          "bind_type": "struct",
+          "is_bind_type": true
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    }
+  ]
+}

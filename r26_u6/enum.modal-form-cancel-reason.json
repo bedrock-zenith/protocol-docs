@@ -1,0 +1,12 @@
+{
+  "name": "Modal Form Cancel Reason",
+  "hash": "bb6e51f43b5649a6fd39fd765f4ecd08b21933cce5209bcffce97a9bd5c22d5c",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "UserClosed": 0,
+    "UserBusy": 1
+  }
+}

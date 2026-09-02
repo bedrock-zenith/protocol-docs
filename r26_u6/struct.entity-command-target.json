@@ -1,0 +1,17 @@
+{
+  "name": "Entity Command Target",
+  "hash": "04051d78b4939155ef35087607c4e840afd653c4b729a8c93e42611e61649b49",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Target Runtime Id",
+      "is_constant": false,
+      "type": {
+        "name": "Actor Runtime Id",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

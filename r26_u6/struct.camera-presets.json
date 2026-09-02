@@ -1,0 +1,358 @@
+{
+  "name": "Camera Presets",
+  "hash": "0eff3668977c433fe7af096d31ff58f127371c7e1e822e3896f1359b5d3cdc6a",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Name",
+      "is_constant": false,
+      "type": {
+        "name": "string",
+        "is_bind_type": false,
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      }
+    },
+    {
+      "name": "Inherit From",
+      "is_constant": false,
+      "type": {
+        "name": "string",
+        "is_bind_type": false,
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      }
+    },
+    {
+      "name": "Pos X",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "float",
+          "is_bind_type": false,
+          "interpretation": "f32",
+          "reinterpret": "f32",
+          "data_encoding": "little_endian"
+        }
+      }
+    },
+    {
+      "name": "Pos Y",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "float",
+          "is_bind_type": false,
+          "interpretation": "f32",
+          "reinterpret": "f32",
+          "data_encoding": "little_endian"
+        }
+      }
+    },
+    {
+      "name": "Pos Z",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "float",
+          "is_bind_type": false,
+          "interpretation": "f32",
+          "reinterpret": "f32",
+          "data_encoding": "little_endian"
+        }
+      }
+    },
+    {
+      "name": "Rot X",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "float",
+          "is_bind_type": false,
+          "interpretation": "f32",
+          "reinterpret": "f32",
+          "data_encoding": "little_endian"
+        }
+      }
+    },
+    {
+      "name": "Rot Y",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "float",
+          "is_bind_type": false,
+          "interpretation": "f32",
+          "reinterpret": "f32",
+          "data_encoding": "little_endian"
+        }
+      }
+    },
+    {
+      "name": "Rotation Speed",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "float",
+          "is_bind_type": false,
+          "interpretation": "f32",
+          "reinterpret": "f32",
+          "data_encoding": "little_endian"
+        }
+      }
+    },
+    {
+      "name": "Snap To Target",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "boolean",
+          "is_bind_type": false,
+          "data_encoding": "bool"
+        }
+      }
+    },
+    {
+      "name": "Horizontal Rotation Limit",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Vec2",
+          "bind_type": "struct",
+          "is_bind_type": true
+        }
+      }
+    },
+    {
+      "name": "Vertical Rotation Limit",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Vec2",
+          "bind_type": "struct",
+          "is_bind_type": true
+        }
+      }
+    },
+    {
+      "name": "Continue Targeting",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "boolean",
+          "is_bind_type": false,
+          "data_encoding": "bool"
+        }
+      }
+    },
+    {
+      "name": "Block Listening Radius",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "float",
+          "is_bind_type": false,
+          "interpretation": "f32",
+          "reinterpret": "f32",
+          "data_encoding": "little_endian"
+        }
+      }
+    },
+    {
+      "name": "View Offset",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Vec2",
+          "bind_type": "struct",
+          "is_bind_type": true
+        }
+      }
+    },
+    {
+      "name": "Entity Offset",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Vec3",
+          "bind_type": "struct",
+          "is_bind_type": true
+        }
+      }
+    },
+    {
+      "name": "Radius",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "float",
+          "is_bind_type": false,
+          "interpretation": "f32",
+          "reinterpret": "f32",
+          "data_encoding": "little_endian"
+        }
+      }
+    },
+    {
+      "name": "Yaw Limit Min",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "float",
+          "is_bind_type": false,
+          "interpretation": "f32",
+          "reinterpret": "f32",
+          "data_encoding": "little_endian"
+        }
+      }
+    },
+    {
+      "name": "Yaw Limit Max",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "float",
+          "is_bind_type": false,
+          "interpretation": "f32",
+          "reinterpret": "f32",
+          "data_encoding": "little_endian"
+        }
+      }
+    },
+    {
+      "name": "Listener",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Shared Types Comprehensive Camera Preset Audio Listener",
+          "bind_type": "enum",
+          "is_bind_type": true,
+          "exhaustive": "exhaustive",
+          "enum_encoding": "numeric",
+          "data_encoding": {
+            "name": "integer",
+            "is_bind_type": false,
+            "interpretation": "u8",
+            "reinterpret": "u8",
+            "data_encoding": "little_endian"
+          }
+        }
+      }
+    },
+    {
+      "name": "Player Effects",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "boolean",
+          "is_bind_type": false,
+          "data_encoding": "bool"
+        }
+      }
+    },
+    {
+      "name": "Aim Assist",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Shared Types Comprehensive Camera Aim Assist Command Definition",
+          "bind_type": "struct",
+          "is_bind_type": true
+        }
+      }
+    },
+    {
+      "name": "Control Scheme",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Control Scheme",
+          "bind_type": "enum",
+          "is_bind_type": true,
+          "exhaustive": "exhaustive",
+          "enum_encoding": "numeric",
+          "data_encoding": {
+            "name": "integer",
+            "is_bind_type": false,
+            "interpretation": "u8",
+            "reinterpret": "u8",
+            "data_encoding": "little_endian"
+          }
+        }
+      }
+    },
+    {
+      "name": "Apply Inherited Starting Rotation",
+      "is_constant": false,
+      "type": {
+        "name": "boolean",
+        "is_bind_type": false,
+        "data_encoding": "bool"
+      }
+    },
+    {
+      "name": "Starting Rotation",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Vec2",
+          "bind_type": "struct",
+          "is_bind_type": true
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Remove Actor Packet Payload",
+  "hash": "04d0130d57bb6ece83cff69c18a76f3d54e03e9ffe984f17c7bbe805c029c1f0",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Target Actor Id",
+      "is_constant": false,
+      "type": {
+        "name": "Actor Unique Id",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

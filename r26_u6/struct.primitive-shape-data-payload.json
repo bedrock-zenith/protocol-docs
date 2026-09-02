@@ -1,0 +1,184 @@
+{
+  "name": "Primitive Shape Data Payload",
+  "hash": "17c7224401c3aeb891b98124670f1b1a7cd7998df5b38161fd364b0b298c6f40",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Network Id",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "u64",
+        "metadata": {
+          "min_value": 0
+        },
+        "reinterpret": "u64",
+        "data_encoding": "leb128"
+      }
+    },
+    {
+      "name": "Shape Type",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Script Module Minecraft Script Primitive Shape Type",
+          "bind_type": "enum",
+          "is_bind_type": true,
+          "exhaustive": "exhaustive",
+          "enum_encoding": "numeric",
+          "data_encoding": {
+            "name": "integer",
+            "is_bind_type": false,
+            "interpretation": "u8",
+            "reinterpret": "u8",
+            "data_encoding": "little_endian"
+          }
+        }
+      }
+    },
+    {
+      "name": "Location",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Vec3",
+          "bind_type": "struct",
+          "is_bind_type": true
+        }
+      }
+    },
+    {
+      "name": "Scale",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "float",
+          "is_bind_type": false,
+          "interpretation": "f32",
+          "reinterpret": "f32",
+          "data_encoding": "little_endian"
+        }
+      }
+    },
+    {
+      "name": "Rotation",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Vec3",
+          "bind_type": "struct",
+          "is_bind_type": true
+        }
+      }
+    },
+    {
+      "name": "Total Time Left",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "float",
+          "is_bind_type": false,
+          "interpretation": "f32",
+          "reinterpret": "f32",
+          "data_encoding": "little_endian"
+        }
+      }
+    },
+    {
+      "name": "Maximum Render Distance",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "float",
+          "is_bind_type": false,
+          "interpretation": "f32",
+          "reinterpret": "f32",
+          "data_encoding": "little_endian"
+        }
+      }
+    },
+    {
+      "name": "Color",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Color",
+          "bind_type": "struct",
+          "is_bind_type": true
+        }
+      }
+    },
+    {
+      "name": "Dimension Id",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Dimension Type",
+          "bind_type": "struct",
+          "is_bind_type": true
+        }
+      }
+    },
+    {
+      "name": "Attached To Entity Id",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Actor Unique Id",
+          "bind_type": "struct",
+          "is_bind_type": true
+        }
+      }
+    },
+    {
+      "name": "Extra Shape Data",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Primitive Shape Data Payload Extra Shape Data",
+          "bind_type": "union",
+          "is_bind_type": true,
+          "enum_encoding": {
+            "name": "integer",
+            "is_bind_type": false,
+            "interpretation": "u32",
+            "reinterpret": "u32",
+            "data_encoding": "leb128"
+          },
+          "control_encoding": {
+            "name": "integer",
+            "is_bind_type": false,
+            "interpretation": "u32",
+            "reinterpret": "u32",
+            "data_encoding": "leb128"
+          }
+        }
+      },
+      "metadata": {
+        "default_value": null
+      }
+    }
+  ]
+}

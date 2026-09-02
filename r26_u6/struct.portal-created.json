@@ -1,0 +1,19 @@
+{
+  "name": "Portal Created",
+  "hash": "bc4640f383fa3cb23314349caf3b892f6be3b1fc9d5428f5951914b3cf48c24b",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Dimension Id",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "i32",
+        "reinterpret": "i32",
+        "data_encoding": "zleb128"
+      }
+    }
+  ]
+}

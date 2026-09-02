@@ -1,0 +1,80 @@
+{
+  "name": "Whisker Scope Data Summary",
+  "hash": "def90d39b47c11f6a905d94f1974ee8c9d387832bad3faadad896ece092cd3e3",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Label",
+      "is_constant": false,
+      "type": {
+        "name": "string",
+        "is_bind_type": false,
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      }
+    },
+    {
+      "name": "Indentation",
+      "is_constant": false,
+      "type": {
+        "name": "string",
+        "is_bind_type": false,
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      }
+    },
+    {
+      "name": "Total High Cost Ns",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "u64",
+        "metadata": {
+          "min_value": 0
+        },
+        "reinterpret": "u64",
+        "data_encoding": "little_endian"
+      }
+    },
+    {
+      "name": "Total Mid Cost Ns",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "u64",
+        "metadata": {
+          "min_value": 0
+        },
+        "reinterpret": "u64",
+        "data_encoding": "little_endian"
+      }
+    },
+    {
+      "name": "Total Low Cost Ns",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "u64",
+        "metadata": {
+          "min_value": 0
+        },
+        "reinterpret": "u64",
+        "data_encoding": "little_endian"
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Clientbound Update Sound Data Packet Payload Resume Control",
+  "hash": "cc1e3583c8cdbabbea8bfe335bcb4922922127005b0fa44e04d1039c7ae0b4d3",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "literal",
+  "enum": {
+    "Stop0": 0,
+    "Set Volume1": 1,
+    "Set Pitch2": 2,
+    "Fade3": 3,
+    "Seek To4": 4,
+    "Pause5": 5,
+    "Resume6": 6
+  }
+}

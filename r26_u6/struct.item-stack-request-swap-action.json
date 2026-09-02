@@ -1,0 +1,47 @@
+{
+  "name": "Item Stack Request Swap Action",
+  "hash": "7fda0c0388a95e7979891c79793ee4039640f304b0e151a4c8f50ee546893bf4",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Action Type",
+      "is_constant": true,
+      "type": {
+        "name": "Item Stack Request Action Type",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "numeric",
+        "data_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u8",
+          "reinterpret": "u8",
+          "data_encoding": "little_endian"
+        }
+      },
+      "metadata": {
+        "constant_value": "swap"
+      }
+    },
+    {
+      "name": "Source",
+      "is_constant": false,
+      "type": {
+        "name": "Item Stack Request Slot Info",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Destination",
+      "is_constant": false,
+      "type": {
+        "name": "Item Stack Request Slot Info",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

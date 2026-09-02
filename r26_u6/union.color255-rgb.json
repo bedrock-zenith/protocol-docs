@@ -1,0 +1,56 @@
+{
+  "name": "Color255 Rgb",
+  "hash": "fbb32557eb57618a06b3b867e8a6002d50bb493019d20298f5aac4e74de9c697",
+  "bind_type": "union",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "type": {
+        "name": "string",
+        "is_bind_type": false,
+        "metadata": {
+          "pattern": "^#[a-fA-F0-9]{6}$"
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      },
+      "enum_literal": "string0"
+    },
+    {
+      "type": {
+        "name": "array",
+        "is_bind_type": false,
+        "metadata": {
+          "min_length": 3,
+          "max_length": 3
+        },
+        "vector_dimension": 3,
+        "element_type": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "little_endian"
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      },
+      "enum_literal": "array1"
+    }
+  ],
+  "backing_enum": {
+    "name": "Color255 Rgb Control",
+    "bind_type": "enum",
+    "is_bind_type": true
+  }
+}

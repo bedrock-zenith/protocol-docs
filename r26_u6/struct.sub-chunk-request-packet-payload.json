@@ -1,0 +1,49 @@
+{
+  "name": "Sub Chunk Request Packet Payload",
+  "hash": "3b1006ae98bd3718c42042689710c8fa81571db3944fb98216da2ee4cb555e56",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Dimension Type",
+      "is_constant": false,
+      "type": {
+        "name": "Dimension Type",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Sub Chunk Position Offset List",
+      "is_constant": false,
+      "type": {
+        "name": "array",
+        "is_bind_type": false,
+        "metadata": {
+          "max_length": 8192
+        },
+        "element_type": {
+          "name": "Sub Chunk Pos Offset",
+          "bind_type": "struct",
+          "is_bind_type": true
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    },
+    {
+      "name": "Center Pos",
+      "is_constant": false,
+      "type": {
+        "name": "Sub Chunk Pos",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

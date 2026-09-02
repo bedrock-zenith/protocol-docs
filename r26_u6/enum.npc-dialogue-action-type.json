@@ -1,0 +1,12 @@
+{
+  "name": "Npc Dialogue Action Type",
+  "hash": "170cbc443850321399a7f9c917a99ade4bd4faf035e4ad5742544a6882b4d732",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "i32",
+  "enum": {
+    "Open": 0,
+    "Close": 1
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "name": "Skin Image",
+  "hash": "dc5c0ced343a042833cd6027953afcca83e80ce18b5922e6de591ebe85d2986c",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Width",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "u32",
+        "metadata": {
+          "min_value": 0,
+          "max_value": 4096
+        },
+        "reinterpret": "u32",
+        "data_encoding": "little_endian"
+      }
+    },
+    {
+      "name": "Height",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "u32",
+        "metadata": {
+          "min_value": 0,
+          "max_value": 4096
+        },
+        "reinterpret": "u32",
+        "data_encoding": "little_endian"
+      }
+    },
+    {
+      "name": "Image Bytes",
+      "is_constant": false,
+      "type": {
+        "name": "array",
+        "is_bind_type": false,
+        "metadata": {
+          "max_length": 67108864
+        },
+        "element_type": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u8",
+          "metadata": {
+            "min_value": 0,
+            "max_value": 255
+          },
+          "reinterpret": "u8",
+          "data_encoding": "little_endian"
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    }
+  ]
+}

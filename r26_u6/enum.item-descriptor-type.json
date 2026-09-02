@@ -1,0 +1,14 @@
+{
+  "name": "Item Descriptor Type",
+  "hash": "c22276c8f9e71153dc926a9d32b86c03a8d80958e059148d7b3445802facae67",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "Empty": 0,
+    "ItemName": 1,
+    "Molang": 2,
+    "ItemTag": 3
+  }
+}

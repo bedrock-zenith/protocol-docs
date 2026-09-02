@@ -1,0 +1,17 @@
+{
+  "name": "Set Player Inventory Options Packet Payload",
+  "hash": "4d2b823ef6d4abeae9de9580ba636807cf4dcabb5fe1c8e2b762121271aada33",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Inventory Options",
+      "is_constant": false,
+      "type": {
+        "name": "Inventory Options",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

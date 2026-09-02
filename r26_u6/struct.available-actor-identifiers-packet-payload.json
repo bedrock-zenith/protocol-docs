@@ -1,0 +1,19 @@
+{
+  "name": "Available Actor Identifiers Packet Payload",
+  "hash": "3b1c7a83e0c473fe377461c917b32c3adae812f5bb1ea7639e2b136bc2b6de53",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Identifier List",
+      "is_constant": false,
+      "type": {
+        "name": "nbt_compound",
+        "is_bind_type": false,
+        "metadata": {
+          "constrain": "Verify that the tag contains at least the \"idlist\" key"
+        }
+      }
+    }
+  ]
+}

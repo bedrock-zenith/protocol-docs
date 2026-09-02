@@ -1,0 +1,31 @@
+{
+  "name": "Initialize Registry Data",
+  "hash": "773b37d03b7a5827e44c567908deec6359eafb8d456853aaa836b4330c6c2603",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Clock Data",
+      "is_constant": false,
+      "type": {
+        "name": "array",
+        "is_bind_type": false,
+        "metadata": {
+          "max_length": 256
+        },
+        "element_type": {
+          "name": "World Clock Data",
+          "bind_type": "struct",
+          "is_bind_type": true
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    }
+  ]
+}

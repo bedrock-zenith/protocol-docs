@@ -1,0 +1,12 @@
+{
+  "name": "Spawn Position Type",
+  "hash": "25101d0fe0911baf5e64f34da8ced5c79191b2b07aee84a68efe8ee537a9fda8",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "i32",
+  "enum": {
+    "PlayerRespawn": 0,
+    "WorldSpawn": 1
+  }
+}

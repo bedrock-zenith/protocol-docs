@@ -1,0 +1,7 @@
+{
+  "name": "Server Settings Request Packet Payload",
+  "hash": "3e1a846edde76d448cc99b05850489e415d2ee27c5b2500ddf40e4a373b789c5",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": []
+}

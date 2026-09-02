@@ -1,0 +1,14 @@
+{
+  "name": "Item Use Action Type",
+  "hash": "5dfe2a7b8884bbf9ef5662ce6b7e0fb24abf51d0a618d79ba59a2dcbfb725f5c",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "i32",
+  "enum": {
+    "Place": 0,
+    "Use": 1,
+    "Destroy": 2,
+    "Use As Attack": 3
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Education Settings Packet Payload",
+  "hash": "5e4ad241bc8848727bf330daed595884037cf15b4adbe1fd3191c468ac03ecef",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Education Level Settings",
+      "is_constant": false,
+      "type": {
+        "name": "Education Level Settings",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

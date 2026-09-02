@@ -1,0 +1,14 @@
+{
+  "name": "Graphics Mode",
+  "hash": "570145b835b3ee907d6a012b900d539835cc75aa5bca61708b30c4722b13eac9",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "Simple": 0,
+    "Fancy": 1,
+    "Advanced": 2,
+    "RayTraced": 3
+  }
+}

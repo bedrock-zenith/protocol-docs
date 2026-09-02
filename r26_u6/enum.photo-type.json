@@ -1,0 +1,13 @@
+{
+  "name": "Photo Type",
+  "hash": "cd131ab68cd53a3eb4ce154912c77f08686e2805d22e66647bca1fe68a3eefb9",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "Portfolio": 0,
+    "PhotoItem": 1,
+    "Book": 2
+  }
+}

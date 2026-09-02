@@ -1,0 +1,16 @@
+{
+  "name": "Command Permission Level",
+  "hash": "086c48aceb58d3d223b3efd12e7a54ead2d62bd81064f070e5bbd3f084f82c18",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "Any": 0,
+    "GameDirectors": 1,
+    "Admin": 2,
+    "Host": 3,
+    "Owner": 4,
+    "Internal": 5
+  }
+}

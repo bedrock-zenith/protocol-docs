@@ -1,0 +1,59 @@
+{
+  "name": "Set Hud Packet Payload",
+  "hash": "2e1e172abc6d2e9dd276da6fc92ccc48abc3a2063a787fc77eaa594bf232e890",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Hud Element",
+      "is_constant": false,
+      "type": {
+        "name": "array",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Hud Element",
+          "bind_type": "enum",
+          "is_bind_type": true,
+          "exhaustive": "exhaustive",
+          "enum_encoding": "literal",
+          "data_encoding": {
+            "name": "string",
+            "is_bind_type": false,
+            "length_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "i32",
+              "reinterpret": "i32",
+              "data_encoding": "zleb128"
+            }
+          }
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    },
+    {
+      "name": "Hud Visible",
+      "is_constant": false,
+      "type": {
+        "name": "Hud Visibility",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "numeric",
+        "data_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      }
+    }
+  ]
+}

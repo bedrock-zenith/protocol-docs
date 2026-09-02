@@ -1,0 +1,57 @@
+{
+  "name": "Client Camera Aim Assist Packet Payload",
+  "hash": "5bbc92f9bff7559ccfb54bdec5f127b1eba75420336a6a3a8d249148740fb2b2",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Camera Preset Id",
+      "is_constant": false,
+      "type": {
+        "name": "string",
+        "is_bind_type": false,
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      }
+    },
+    {
+      "name": "Action",
+      "is_constant": false,
+      "type": {
+        "name": "Client Camera Aim Assist Packet Action",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "numeric",
+        "data_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u8",
+          "reinterpret": "u8",
+          "data_encoding": "little_endian"
+        }
+      }
+    },
+    {
+      "name": "Allow Aim Assist",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "boolean",
+          "is_bind_type": false,
+          "data_encoding": "bool"
+        }
+      },
+      "metadata": {
+        "default_value": false
+      }
+    }
+  ]
+}

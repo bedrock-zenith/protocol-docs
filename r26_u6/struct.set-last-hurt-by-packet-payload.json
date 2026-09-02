@@ -1,0 +1,26 @@
+{
+  "name": "Set Last Hurt By Packet Payload",
+  "hash": "1c4410c223e6bd33efdf461aa0e02999da3313de2144d972f7ecb89263ee6c89",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Last Hurt By",
+      "is_constant": false,
+      "type": {
+        "name": "Actor Type",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "numeric",
+        "data_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      }
+    }
+  ]
+}

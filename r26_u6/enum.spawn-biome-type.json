@@ -1,0 +1,12 @@
+{
+  "name": "Spawn Biome Type",
+  "hash": "15d023ae4c9002d8d40cc091afc6ef6dc2d2ca32bb1195ff9f2af95c18acfb60",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "i16",
+  "enum": {
+    "Default": 0,
+    "UserDefined": 1
+  }
+}

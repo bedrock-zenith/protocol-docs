@@ -1,0 +1,22 @@
+{
+  "name": "Entity Net Id",
+  "hash": "d58997911ceff79df8c7ccaf3d597a39b60dec3b51b1cff6028711a50176beb5",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Raw Id",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "u32",
+        "metadata": {
+          "min_value": 0
+        },
+        "reinterpret": "u32",
+        "data_encoding": "leb128"
+      }
+    }
+  ]
+}

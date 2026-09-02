@@ -1,0 +1,37 @@
+{
+  "name": "Armor Slot And Damage Pair",
+  "hash": "d39a632589f33ce935e3a278c28f2487cee6f4534950984e6aa8db6607d09809",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Armor Slot",
+      "is_constant": false,
+      "type": {
+        "name": "Shared Types Legacy Armor Slot",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "numeric",
+        "data_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      }
+    },
+    {
+      "name": "Damage",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "i16",
+        "reinterpret": "i16",
+        "data_encoding": "little_endian"
+      }
+    }
+  ]
+}

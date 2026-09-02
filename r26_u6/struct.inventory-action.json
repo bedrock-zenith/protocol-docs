@@ -1,0 +1,49 @@
+{
+  "name": "Inventory Action",
+  "hash": "bb77f43390a1f0f70bb76530d6e941bac83eed58bf2608d88c2dc358419213b7",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Source",
+      "is_constant": false,
+      "type": {
+        "name": "Inventory Source",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Slot",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "u32",
+        "metadata": {
+          "min_value": 0
+        },
+        "reinterpret": "u32",
+        "data_encoding": "leb128"
+      }
+    },
+    {
+      "name": "From Item",
+      "is_constant": false,
+      "type": {
+        "name": "Cerealizer Network Item Stack Descriptor Serialized Data",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "To Item",
+      "is_constant": false,
+      "type": {
+        "name": "Cerealizer Network Item Stack Descriptor Serialized Data",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

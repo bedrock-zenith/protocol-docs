@@ -1,0 +1,56 @@
+{
+  "name": "Color255 Rgba",
+  "hash": "ca9aef69ed54ff6c14eb4e1def169fbb632d9b2c8eef97ec18fb1c77826636bc",
+  "bind_type": "union",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "type": {
+        "name": "string",
+        "is_bind_type": false,
+        "metadata": {
+          "pattern": "^#[a-fA-F0-9]{8}$"
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      },
+      "enum_literal": "string0"
+    },
+    {
+      "type": {
+        "name": "array",
+        "is_bind_type": false,
+        "metadata": {
+          "min_length": 4,
+          "max_length": 4
+        },
+        "vector_dimension": 4,
+        "element_type": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "little_endian"
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      },
+      "enum_literal": "array1"
+    }
+  ],
+  "backing_enum": {
+    "name": "Color255 Rgba Control",
+    "bind_type": "enum",
+    "is_bind_type": true
+  }
+}

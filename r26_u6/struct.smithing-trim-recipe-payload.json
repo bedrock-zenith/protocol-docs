@@ -1,0 +1,74 @@
+{
+  "name": "Smithing Trim Recipe Payload",
+  "hash": "19c6176893677d20be29c50a3bfc2df0d0357f8bf1e7aa83ee337b64138a9900",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Recipe Id",
+      "is_constant": false,
+      "type": {
+        "name": "string",
+        "is_bind_type": false,
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      }
+    },
+    {
+      "name": "Template Ingredient",
+      "is_constant": false,
+      "type": {
+        "name": "Recipe Ingredient",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Base Ingredient",
+      "is_constant": false,
+      "type": {
+        "name": "Recipe Ingredient",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Addition Ingredient",
+      "is_constant": false,
+      "type": {
+        "name": "Recipe Ingredient",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Tag",
+      "is_constant": false,
+      "type": {
+        "name": "string",
+        "is_bind_type": false,
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      }
+    },
+    {
+      "name": "Net Id",
+      "is_constant": false,
+      "type": {
+        "name": "Recipe Net Id",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

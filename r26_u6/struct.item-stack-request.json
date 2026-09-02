@@ -1,0 +1,105 @@
+{
+  "name": "Item Stack Request",
+  "hash": "ba877a09d175cd90ee911f0accb320506c56bf6c5ae3bdbcdf383995db73dde0",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Client Request Id",
+      "is_constant": false,
+      "type": {
+        "name": "Item Stack Request Id",
+        "bind_type": "struct",
+        "is_bind_type": true,
+        "metadata": {
+          "constrain": "Verify the request id is a valid negative odd client request id"
+        }
+      }
+    },
+    {
+      "name": "Actions",
+      "is_constant": false,
+      "type": {
+        "name": "array",
+        "is_bind_type": false,
+        "metadata": {
+          "min_length": 1,
+          "max_length": 100
+        },
+        "element_type": {
+          "name": "Item Stack Request Actions Item",
+          "bind_type": "union",
+          "is_bind_type": true,
+          "enum_encoding": {
+            "name": "integer",
+            "is_bind_type": false,
+            "interpretation": "u32",
+            "reinterpret": "u32",
+            "data_encoding": "leb128"
+          },
+          "control_encoding": {
+            "name": "integer",
+            "is_bind_type": false,
+            "interpretation": "u32",
+            "reinterpret": "u32",
+            "data_encoding": "leb128"
+          }
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    },
+    {
+      "name": "Strings To Filter",
+      "is_constant": false,
+      "type": {
+        "name": "array",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "string",
+          "is_bind_type": false,
+          "metadata": {
+            "max_length": 1000
+          },
+          "length_encoding": {
+            "name": "integer",
+            "is_bind_type": false,
+            "interpretation": "i32",
+            "reinterpret": "i32",
+            "data_encoding": "zleb128"
+          }
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    },
+    {
+      "name": "Strings To Filter Origin",
+      "is_constant": false,
+      "type": {
+        "name": "Text Processing Event Origin",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "numeric",
+        "data_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "little_endian"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Set Score Packet Payload",
+  "hash": "541c79b469c19670e89c78f803aa4a9104c7252039751763f94def374ee838ef",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Score Info",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "array",
+          "is_bind_type": false,
+          "element_type": {
+            "name": "Set Score Packet Payload Score Info Item",
+            "bind_type": "union",
+            "is_bind_type": true,
+            "enum_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "u32",
+              "reinterpret": "u32",
+              "data_encoding": "leb128"
+            },
+            "control_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "u32",
+              "reinterpret": "u32",
+              "data_encoding": "leb128"
+            }
+          },
+          "length_encoding": {
+            "name": "integer",
+            "is_bind_type": false,
+            "interpretation": "u32",
+            "reinterpret": "u32",
+            "data_encoding": "leb128"
+          }
+        }
+      },
+      "metadata": {
+        "default_value": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Structure Template Response Type",
+  "hash": "1a297dda163f50b75c3d5255c8a001145d1efef01a8af26c835d14a9847aef66",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "None": 0,
+    "Export": 1,
+    "Query": 2
+  }
+}

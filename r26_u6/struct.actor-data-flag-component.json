@@ -1,0 +1,34 @@
+{
+  "name": "Actor Data Flag Component",
+  "hash": "86e3477c2007f2915f769bf2ec9c623c72b83d54b7b377811d2bc4927952be24",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Actor Flag Bitset Data",
+      "is_constant": false,
+      "type": {
+        "name": "array",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u8",
+          "metadata": {
+            "min_value": 0,
+            "max_value": 255
+          },
+          "reinterpret": "u8",
+          "data_encoding": "little_endian"
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Update Attribute Layers Data",
+  "hash": "a1a5b020a0cd47a0c9e7c926dafedd8f739e73d624b25fb2503de82a66235543",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Attribute Layers",
+      "is_constant": false,
+      "type": {
+        "name": "array",
+        "is_bind_type": false,
+        "metadata": {
+          "max_length": 512
+        },
+        "element_type": {
+          "name": "Attribute Layer Data",
+          "bind_type": "struct",
+          "is_bind_type": true
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    }
+  ]
+}

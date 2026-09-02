@@ -1,0 +1,13 @@
+{
+  "name": "Multiplayer Settings Packet Type",
+  "hash": "074d4e2caafcf5778860e37ec1a3226fba015b89feedf4ac5fa13019dfe1322c",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "i32",
+  "enum": {
+    "EnableMultiplayer": 0,
+    "DisableMultiplayer": 1,
+    "RefreshJoincode": 2
+  }
+}

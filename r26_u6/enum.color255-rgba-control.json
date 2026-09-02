@@ -1,0 +1,11 @@
+{
+  "name": "Color255 Rgba Control",
+  "hash": "f2c4b4268e71705784e0f4f89deab4883fdc0640dfd55b13b6c9610fa9882400",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "literal",
+  "enum": {
+    "string0": 0,
+    "array1": 1
+  }
+}

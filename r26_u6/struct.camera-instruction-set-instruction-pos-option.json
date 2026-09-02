@@ -1,0 +1,17 @@
+{
+  "name": "Camera Instruction Set Instruction Pos Option",
+  "hash": "9ea482c7cbf3497b7e3c69950681ce38099e57b282e6b32de5e153e7abfd016c",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Pos",
+      "is_constant": false,
+      "type": {
+        "name": "Vec3",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

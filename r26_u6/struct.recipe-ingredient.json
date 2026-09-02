@@ -1,0 +1,46 @@
+{
+  "name": "Recipe Ingredient",
+  "hash": "7b61b90881b9cbc31ac07361954ececf6223accdfc8ed592ea2308ab7cb2bea6",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Item Descriptor",
+      "is_constant": false,
+      "type": {
+        "name": "Recipe Ingredient Item Descriptor",
+        "bind_type": "union",
+        "is_bind_type": true,
+        "enum_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        },
+        "control_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    },
+    {
+      "name": "Stack Size",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "u16",
+        "metadata": {
+          "min_value": 1,
+          "max_value": 65535
+        },
+        "reinterpret": "u16",
+        "data_encoding": "little_endian"
+      }
+    }
+  ]
+}

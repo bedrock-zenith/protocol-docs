@@ -1,0 +1,48 @@
+{
+  "name": "Game Rule Rule Value",
+  "hash": "e3a1b7b36400161dba21471b37748b96efe2d3c4ba0e3319b0a1f47e3bed9186",
+  "bind_type": "union",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "type": {
+        "name": "void",
+        "is_bind_type": false
+      },
+      "enum_literal": "void0"
+    },
+    {
+      "type": {
+        "name": "boolean",
+        "is_bind_type": false,
+        "data_encoding": "bool"
+      },
+      "enum_literal": "boolean1"
+    },
+    {
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "i32",
+        "reinterpret": "i32",
+        "data_encoding": "little_endian"
+      },
+      "enum_literal": "integer2"
+    },
+    {
+      "type": {
+        "name": "float",
+        "is_bind_type": false,
+        "interpretation": "f32",
+        "reinterpret": "f32",
+        "data_encoding": "little_endian"
+      },
+      "enum_literal": "float3"
+    }
+  ],
+  "backing_enum": {
+    "name": "Game Rule Rule Value Control",
+    "bind_type": "enum",
+    "is_bind_type": true
+  }
+}

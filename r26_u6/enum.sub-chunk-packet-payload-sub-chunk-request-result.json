@@ -1,0 +1,17 @@
+{
+  "name": "Sub Chunk Packet Payload Sub Chunk Request Result",
+  "hash": "ddd41caf53280aa6059ff830d595105291b1c0c876e461795a025b8f2a41a80b",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "Undefined": 0,
+    "Success": 1,
+    "LevelChunkDoesntExist": 2,
+    "WrongDimension": 3,
+    "PlayerDoesntExist": 4,
+    "IndexOutOfBounds": 5,
+    "SuccessAllAir": 6
+  }
+}

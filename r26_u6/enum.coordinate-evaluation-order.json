@@ -1,0 +1,16 @@
+{
+  "name": "Coordinate Evaluation Order",
+  "hash": "e37c30de1b074c4fd4dcf77209318e255f8e95e2b30d1d4af81e9e75394a18aa",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "i32",
+  "enum": {
+    "XYZ": 0,
+    "XZY": 1,
+    "YXZ": 2,
+    "YZX": 3,
+    "ZXY": 4,
+    "ZYX": 5
+  }
+}

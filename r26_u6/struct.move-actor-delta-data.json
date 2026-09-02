@@ -1,0 +1,169 @@
+{
+  "name": "Move Actor Delta Data",
+  "hash": "8e0e95b5dc14fdac9327ae3e0c3436234f0dee33224da0a0bac3856ea3d1a78e",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Actor Runtime Id",
+      "is_constant": false,
+      "type": {
+        "name": "Actor Runtime Id",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "New Position X",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "float",
+          "is_bind_type": false,
+          "interpretation": "f32",
+          "reinterpret": "f32",
+          "data_encoding": "little_endian"
+        }
+      }
+    },
+    {
+      "name": "New Position Y",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "float",
+          "is_bind_type": false,
+          "interpretation": "f32",
+          "reinterpret": "f32",
+          "data_encoding": "little_endian"
+        }
+      }
+    },
+    {
+      "name": "New Position Z",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "float",
+          "is_bind_type": false,
+          "interpretation": "f32",
+          "reinterpret": "f32",
+          "data_encoding": "little_endian"
+        }
+      }
+    },
+    {
+      "name": "Rotation X",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i8",
+          "metadata": {
+            "min_value": -128,
+            "max_value": 127
+          },
+          "reinterpret": "i8",
+          "data_encoding": "little_endian"
+        }
+      }
+    },
+    {
+      "name": "Rotation Y",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i8",
+          "metadata": {
+            "min_value": -128,
+            "max_value": 127
+          },
+          "reinterpret": "i8",
+          "data_encoding": "little_endian"
+        }
+      }
+    },
+    {
+      "name": "Rotation Y Head",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i8",
+          "metadata": {
+            "min_value": -128,
+            "max_value": 127
+          },
+          "reinterpret": "i8",
+          "data_encoding": "little_endian"
+        }
+      }
+    },
+    {
+      "name": "Is On Ground",
+      "is_constant": false,
+      "type": {
+        "name": "boolean",
+        "is_bind_type": false,
+        "data_encoding": "bool"
+      }
+    },
+    {
+      "name": "Force Move",
+      "is_constant": false,
+      "type": {
+        "name": "boolean",
+        "is_bind_type": false,
+        "data_encoding": "bool"
+      }
+    },
+    {
+      "name": "Force Move Local Entity",
+      "is_constant": false,
+      "type": {
+        "name": "boolean",
+        "is_bind_type": false,
+        "data_encoding": "bool"
+      }
+    },
+    {
+      "name": "Force Completion",
+      "is_constant": false,
+      "type": {
+        "name": "boolean",
+        "is_bind_type": false,
+        "data_encoding": "bool"
+      }
+    },
+    {
+      "name": "Ticks",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "u64",
+        "metadata": {
+          "min_value": 0
+        },
+        "reinterpret": "u64",
+        "data_encoding": "leb128"
+      }
+    }
+  ]
+}

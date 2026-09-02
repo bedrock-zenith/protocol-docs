@@ -1,0 +1,65 @@
+{
+  "name": "Command Output Message",
+  "hash": "ae90886b0804cf75410136ff7f1cf87608f050e5ee31de98861ac959994d9257",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Message Id",
+      "is_constant": false,
+      "type": {
+        "name": "string",
+        "is_bind_type": false,
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      }
+    },
+    {
+      "name": "Successful",
+      "is_constant": false,
+      "type": {
+        "name": "boolean",
+        "is_bind_type": false,
+        "data_encoding": "bool"
+      }
+    },
+    {
+      "name": "Parameters",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "array",
+          "is_bind_type": false,
+          "element_type": {
+            "name": "string",
+            "is_bind_type": false,
+            "length_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "i32",
+              "reinterpret": "i32",
+              "data_encoding": "zleb128"
+            }
+          },
+          "length_encoding": {
+            "name": "integer",
+            "is_bind_type": false,
+            "interpretation": "u32",
+            "reinterpret": "u32",
+            "data_encoding": "leb128"
+          }
+        }
+      },
+      "metadata": {
+        "default_value": []
+      }
+    }
+  ]
+}

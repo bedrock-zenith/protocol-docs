@@ -1,0 +1,12 @@
+{
+  "name": "Item Use Client Cooldown State",
+  "hash": "b59b0c890032f9fb6eb19327c4c87493a052a1922f736009996cc1dc05dd1534",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "Off": 0,
+    "On": 1
+  }
+}

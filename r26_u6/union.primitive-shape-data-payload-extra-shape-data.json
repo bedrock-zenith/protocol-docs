@@ -1,0 +1,92 @@
+{
+  "name": "Primitive Shape Data Payload Extra Shape Data",
+  "hash": "beafdd654aaa8382e10afd79cc5b3872a9a62d0d4f4ef679f0284fe01211647e",
+  "bind_type": "union",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "type": {
+        "name": "void",
+        "is_bind_type": false
+      },
+      "enum_literal": "void0"
+    },
+    {
+      "type": {
+        "name": "Arrow Data Payload",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Arrow Data Payload1"
+    },
+    {
+      "type": {
+        "name": "Text Data Payload",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Text Data Payload2"
+    },
+    {
+      "type": {
+        "name": "Box Data Payload",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Box Data Payload3"
+    },
+    {
+      "type": {
+        "name": "Line Data Payload",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Line Data Payload4"
+    },
+    {
+      "type": {
+        "name": "Sphere Data Payload",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Sphere Data Payload5"
+    },
+    {
+      "type": {
+        "name": "Cylinder Data Payload",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Cylinder Data Payload6"
+    },
+    {
+      "type": {
+        "name": "Pyramid Data Payload",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Pyramid Data Payload7"
+    },
+    {
+      "type": {
+        "name": "Ellipsoid Data Payload",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Ellipsoid Data Payload8"
+    },
+    {
+      "type": {
+        "name": "Cone Data Payload",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Cone Data Payload9"
+    }
+  ],
+  "backing_enum": {
+    "name": "Primitive Shape Data Payload Extra Shape Data Control",
+    "bind_type": "enum",
+    "is_bind_type": true
+  }
+}

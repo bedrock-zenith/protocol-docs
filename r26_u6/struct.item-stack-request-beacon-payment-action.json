@@ -1,0 +1,59 @@
+{
+  "name": "Item Stack Request Beacon Payment Action",
+  "hash": "18a4448e80af1f14544712b638e9e2ac352cc48c2a3779b652b9f637b19a4895",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Action Type",
+      "is_constant": true,
+      "type": {
+        "name": "Item Stack Request Action Type",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "numeric",
+        "data_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u8",
+          "reinterpret": "u8",
+          "data_encoding": "little_endian"
+        }
+      },
+      "metadata": {
+        "constant_value": "screenbeaconpayment"
+      }
+    },
+    {
+      "name": "Primary Effect Id",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "i32",
+        "metadata": {
+          "min_value": 0,
+          "max_value": 37
+        },
+        "reinterpret": "i32",
+        "data_encoding": "zleb128"
+      }
+    },
+    {
+      "name": "Secondary Effect Id",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "i32",
+        "metadata": {
+          "min_value": 0,
+          "max_value": 37
+        },
+        "reinterpret": "i32",
+        "data_encoding": "zleb128"
+      }
+    }
+  ]
+}

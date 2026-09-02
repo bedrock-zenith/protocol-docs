@@ -1,0 +1,12 @@
+{
+  "name": "Show Credits Packet Payload Credits State",
+  "hash": "0071e19b333ea2546a5ae33f8cb811932e1dabe44b1d33face34e20402866f95",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "i32",
+  "enum": {
+    "Start": 0,
+    "Finished": 1
+  }
+}

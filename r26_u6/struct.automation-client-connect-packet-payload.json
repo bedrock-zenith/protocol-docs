@@ -1,0 +1,17 @@
+{
+  "name": "Automation Client Connect Packet Payload",
+  "hash": "f853b530f6b73e85a5175997ad1e0d74f4629bb556eeb645f0be2c8123eadd70",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Web Socket Data",
+      "is_constant": false,
+      "type": {
+        "name": "Web Socket Packet Data",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

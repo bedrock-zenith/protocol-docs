@@ -1,0 +1,19 @@
+{
+  "name": "Set Pitch",
+  "hash": "c61c1905ec6433ec173a8ab222cffdc8b8e35e0a322a2ff0b89a3b778a534875",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Pitch",
+      "is_constant": false,
+      "type": {
+        "name": "float",
+        "is_bind_type": false,
+        "interpretation": "f32",
+        "reinterpret": "f32",
+        "data_encoding": "little_endian"
+      }
+    }
+  ]
+}

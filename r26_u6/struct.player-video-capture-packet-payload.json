@@ -1,0 +1,74 @@
+{
+  "name": "Player Video Capture Packet Payload",
+  "hash": "9f972cc6b3f6148dbf3f79abd52f14648a3511f35ea40d18b24119d133e07e87",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Start Video Capture",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Player Video Capture Packet Payload Start Video Capture",
+          "bind_type": "union",
+          "is_bind_type": true,
+          "enum_encoding": {
+            "name": "integer",
+            "is_bind_type": false,
+            "interpretation": "u32",
+            "reinterpret": "u32",
+            "data_encoding": "leb128"
+          },
+          "control_encoding": {
+            "name": "integer",
+            "is_bind_type": false,
+            "interpretation": "u32",
+            "reinterpret": "u32",
+            "data_encoding": "leb128"
+          }
+        }
+      },
+      "metadata": {
+        "default_value": {
+          "FrameRate": 30,
+          "FilePrefix": "Frame_"
+        }
+      }
+    },
+    {
+      "name": "Stop Video Capture",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Player Video Capture Packet Payload Stop Video Capture",
+          "bind_type": "union",
+          "is_bind_type": true,
+          "enum_encoding": {
+            "name": "integer",
+            "is_bind_type": false,
+            "interpretation": "u32",
+            "reinterpret": "u32",
+            "data_encoding": "leb128"
+          },
+          "control_encoding": {
+            "name": "integer",
+            "is_bind_type": false,
+            "interpretation": "u32",
+            "reinterpret": "u32",
+            "data_encoding": "leb128"
+          }
+        }
+      },
+      "metadata": {
+        "default_value": {
+          "FrameRate": 30,
+          "FilePrefix": "Frame_"
+        }
+      }
+    }
+  ]
+}

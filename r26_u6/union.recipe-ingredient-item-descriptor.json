@@ -1,0 +1,45 @@
+{
+  "name": "Recipe Ingredient Item Descriptor",
+  "hash": "efac166f46db0098ded6d0d8a93f7c5a9476db82db5c244f4af4bc2d4f8ebe83",
+  "bind_type": "union",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "type": {
+        "name": "Empty Item Descriptor",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "empty"
+    },
+    {
+      "type": {
+        "name": "Item Name Descriptor",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "itemname"
+    },
+    {
+      "type": {
+        "name": "Molang Item Descriptor",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "molang"
+    },
+    {
+      "type": {
+        "name": "Item Tag Descriptor",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "itemtag"
+    }
+  ],
+  "backing_enum": {
+    "name": "Item Descriptor Type",
+    "bind_type": "enum",
+    "is_bind_type": true
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Pack Id Version",
+  "hash": "85d8368b8b2881b8e56d2408545481cad20cacc6f5f8d48ed35aaf31c3aa22cf",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Pack Uuid",
+      "is_constant": false,
+      "type": {
+        "name": "Mce Uuid",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Pack Version",
+      "is_constant": false,
+      "type": {
+        "name": "Sem Version",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

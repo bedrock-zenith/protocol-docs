@@ -1,0 +1,22 @@
+{
+  "name": "Recipe Net Id",
+  "hash": "f0ec67b602e6cf087989e99f603d2040e859e2c4e08e8ba0fe7355cdb2a8cdde",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Raw Id",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "u32",
+        "metadata": {
+          "min_value": 0
+        },
+        "reinterpret": "u32",
+        "data_encoding": "leb128"
+      }
+    }
+  ]
+}

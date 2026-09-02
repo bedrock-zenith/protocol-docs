@@ -1,0 +1,40 @@
+{
+  "name": "Map Info Request Packet Payload",
+  "hash": "03c6f55acfe520c277547b6fd79751ab1b2ef11e43621fc6c11812e704e92ac0",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Map Unique Id",
+      "is_constant": false,
+      "type": {
+        "name": "Actor Unique Id",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Client Pixels List",
+      "is_constant": false,
+      "type": {
+        "name": "array",
+        "is_bind_type": false,
+        "metadata": {
+          "max_length": 16384
+        },
+        "element_type": {
+          "name": "Anonymous Namespace Map Info Request Packet Anon Client Pixels Proxy",
+          "bind_type": "struct",
+          "is_bind_type": true
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "little_endian"
+        }
+      }
+    }
+  ]
+}

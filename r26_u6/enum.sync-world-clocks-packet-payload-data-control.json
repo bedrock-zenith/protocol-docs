@@ -1,0 +1,13 @@
+{
+  "name": "Sync World Clocks Packet Payload Data Control",
+  "hash": "b274e1b0a2e2e43bc54cc20fa26a06f7b952aa93feed96527eefb681c9ffee99",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "literal",
+  "enum": {
+    "Sync State Data0": 0,
+    "Initialize Registry Data1": 1,
+    "Add Time Marker Data2": 2,
+    "Remove Time Marker Data3": 3
+  }
+}

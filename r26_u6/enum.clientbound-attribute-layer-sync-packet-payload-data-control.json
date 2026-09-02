@@ -1,0 +1,13 @@
+{
+  "name": "Clientbound Attribute Layer Sync Packet Payload Data Control",
+  "hash": "160a27a8bc04d0c56bc20ba65053751979c6f8ffccd5cd5b8d382075f4b9f3db",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "literal",
+  "enum": {
+    "Update Attribute Layers Data0": 0,
+    "Update Attribute Layer Settings Data1": 1,
+    "Update Environment Attributes Data2": 2,
+    "Remove Environment Attributes Data3": 3
+  }
+}

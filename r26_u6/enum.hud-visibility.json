@@ -1,0 +1,12 @@
+{
+  "name": "Hud Visibility",
+  "hash": "9fbb7b0d653208805e326615cdabb3a2eaa826d9bad6dfb2a254b3167af5ce7b",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "i32",
+  "enum": {
+    "Hide": 0,
+    "Reset": 1
+  }
+}

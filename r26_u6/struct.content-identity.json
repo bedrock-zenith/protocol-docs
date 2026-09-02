@@ -1,0 +1,23 @@
+{
+  "name": "Content Identity",
+  "hash": "e51ee8fc5a720969c4905f4412217edfde4e4bdd78168de749ee998eec4d2af1",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Identity",
+      "is_constant": false,
+      "type": {
+        "name": "string",
+        "is_bind_type": false,
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      }
+    }
+  ]
+}

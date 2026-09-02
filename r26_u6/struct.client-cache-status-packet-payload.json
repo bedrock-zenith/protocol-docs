@@ -1,0 +1,17 @@
+{
+  "name": "Client Cache Status Packet Payload",
+  "hash": "9b5a81e5ec70f9ce44e4aeab47fa98e011577baf54cbca2183c5441091b68d7c",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Is Cache Supported",
+      "is_constant": false,
+      "type": {
+        "name": "boolean",
+        "is_bind_type": false,
+        "data_encoding": "bool"
+      }
+    }
+  ]
+}

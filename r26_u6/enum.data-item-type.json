@@ -1,0 +1,19 @@
+{
+  "name": "Data Item Type",
+  "hash": "c7ccc9db9d8fd1a15eb9b767add4eb252201378f92ccabf15bc8592734ad4a10",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "Byte": 0,
+    "Short": 1,
+    "Int": 2,
+    "Float": 3,
+    "String": 4,
+    "CompoundTag": 5,
+    "Pos": 6,
+    "Int64": 7,
+    "Vec3": 8
+  }
+}

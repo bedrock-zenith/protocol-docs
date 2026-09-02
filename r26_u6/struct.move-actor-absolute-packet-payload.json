@@ -1,0 +1,17 @@
+{
+  "name": "Move Actor Absolute Packet Payload",
+  "hash": "e7427907f9e83633d705a0c45677c10186d27e71fe00cc19cc87eb0bc7c78814",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Move Data",
+      "is_constant": false,
+      "type": {
+        "name": "Move Actor Absolute Data",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

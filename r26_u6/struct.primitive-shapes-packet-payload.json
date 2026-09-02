@@ -1,0 +1,31 @@
+{
+  "name": "Primitive Shapes Packet Payload",
+  "hash": "be012a5234613af09802e7181de1d715c522267e5cd7e16de34316697e3ef6b0",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Array Of Primitive Shapes Can Be A Mix Of New Updated Or Removed",
+      "is_constant": false,
+      "type": {
+        "name": "array",
+        "is_bind_type": false,
+        "metadata": {
+          "max_length": 1048576
+        },
+        "element_type": {
+          "name": "Primitive Shape Data Payload",
+          "bind_type": "struct",
+          "is_bind_type": true
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    }
+  ]
+}

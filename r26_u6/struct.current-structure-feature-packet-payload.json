@@ -1,0 +1,23 @@
+{
+  "name": "Current Structure Feature Packet Payload",
+  "hash": "9d4ff4c009d019678b1cd83499aa9b9df10891a82fdc26c4370b91ea1999b9ec",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Current Structure Feature",
+      "is_constant": false,
+      "type": {
+        "name": "string",
+        "is_bind_type": false,
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      }
+    }
+  ]
+}

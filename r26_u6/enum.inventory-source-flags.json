@@ -1,0 +1,12 @@
+{
+  "name": "Inventory Source Flags",
+  "hash": "72be0557c21929fba5ac9f40c0747624abeae14aacdd22195c567f7a446fffb7",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u32",
+  "enum": {
+    "No Flag": 0,
+    "World Interaction Random": 1
+  }
+}

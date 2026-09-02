@@ -1,0 +1,97 @@
+{
+  "name": "Animate Packet Payload",
+  "hash": "0133ed7bb4f4d1487bcc89562f84abe971a23e2cba22b52733f28fe28fb1b218",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Action",
+      "is_constant": false,
+      "type": {
+        "name": "Animate Packet Payload Action",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "numeric",
+        "data_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u8",
+          "reinterpret": "u8",
+          "data_encoding": "little_endian"
+        }
+      }
+    },
+    {
+      "name": "Target Actor Runtime Id",
+      "is_constant": false,
+      "type": {
+        "name": "Actor Runtime Id",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Data",
+      "is_constant": false,
+      "type": {
+        "name": "float",
+        "is_bind_type": false,
+        "interpretation": "f32",
+        "reinterpret": "f32",
+        "data_encoding": "little_endian"
+      }
+    },
+    {
+      "name": "Swing Source",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Actor Swing Source",
+          "bind_type": "enum",
+          "is_bind_type": true,
+          "exhaustive": "exhaustive",
+          "enum_encoding": "literal",
+          "data_encoding": {
+            "name": "string",
+            "is_bind_type": false,
+            "length_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "i32",
+              "reinterpret": "i32",
+              "data_encoding": "zleb128"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Hand",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Hand Slot",
+          "bind_type": "enum",
+          "is_bind_type": true,
+          "exhaustive": "exhaustive",
+          "enum_encoding": "numeric",
+          "data_encoding": {
+            "name": "integer",
+            "is_bind_type": false,
+            "interpretation": "u8",
+            "reinterpret": "u8",
+            "data_encoding": "leb128"
+          }
+        }
+      },
+      "metadata": {
+        "default_value": "mainhand"
+      }
+    }
+  ]
+}

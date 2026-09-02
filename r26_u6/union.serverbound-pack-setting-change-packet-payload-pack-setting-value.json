@@ -1,0 +1,70 @@
+{
+  "name": "Serverbound Pack Setting Change Packet Payload Pack Setting Value",
+  "hash": "4f5c93b5b44433fbdd97da91567a4285e50cecbe17807ab0af089e9d89707464",
+  "bind_type": "union",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "type": {
+        "name": "float",
+        "is_bind_type": false,
+        "interpretation": "f32",
+        "reinterpret": "f32",
+        "data_encoding": "little_endian"
+      },
+      "enum_literal": "float0"
+    },
+    {
+      "type": {
+        "name": "boolean",
+        "is_bind_type": false,
+        "data_encoding": "bool"
+      },
+      "enum_literal": "boolean1"
+    },
+    {
+      "type": {
+        "name": "string",
+        "is_bind_type": false,
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      },
+      "enum_literal": "string2"
+    },
+    {
+      "type": {
+        "name": "array",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "string",
+          "is_bind_type": false,
+          "length_encoding": {
+            "name": "integer",
+            "is_bind_type": false,
+            "interpretation": "i32",
+            "reinterpret": "i32",
+            "data_encoding": "zleb128"
+          }
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      },
+      "enum_literal": "array3"
+    }
+  ],
+  "backing_enum": {
+    "name": "Serverbound Pack Setting Change Packet Payload Pack Setting Value Control",
+    "bind_type": "enum",
+    "is_bind_type": true
+  }
+}

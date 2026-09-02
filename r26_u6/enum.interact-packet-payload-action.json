@@ -1,0 +1,15 @@
+{
+  "name": "Interact Packet Payload Action",
+  "hash": "69228176d67d5352a4e6284547cbfc57db6195f3629f412466d4431af1419412",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "Invalid": 0,
+    "StopRiding": 3,
+    "InteractUpdate": 4,
+    "NpcOpen": 5,
+    "OpenInventory": 6
+  }
+}

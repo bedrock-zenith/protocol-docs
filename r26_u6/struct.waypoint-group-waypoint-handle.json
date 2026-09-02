@@ -1,0 +1,17 @@
+{
+  "name": "Waypoint Group Waypoint Handle",
+  "hash": "1b927fa8705190e4e279bd1bc300887aa85df1f2d57c55fecac4202ac18eb27e",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Uuid",
+      "is_constant": false,
+      "type": {
+        "name": "Mce Uuid",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

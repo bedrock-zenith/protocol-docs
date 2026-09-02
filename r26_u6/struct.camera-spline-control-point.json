@@ -1,0 +1,17 @@
+{
+  "name": "Camera Spline Control Point",
+  "hash": "79dc1d6c5f8049cb8b57662edd8c095de7a200c006d7ac1d74cf9c9b8be1e1b4",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Position",
+      "is_constant": false,
+      "type": {
+        "name": "Vec3",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

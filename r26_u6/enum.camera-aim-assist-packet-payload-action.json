@@ -1,0 +1,12 @@
+{
+  "name": "Camera Aim Assist Packet Payload Action",
+  "hash": "1db8f2a03508799bad6c1cd033e380fe9666193337453677426446cf1af1ec5d",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "Set": 0,
+    "Clear": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Play Status",
+  "hash": "43c4de5fd72b5284b53c5d397126850742e788815dfb29c6295abee34fe78b0b",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "i32",
+  "enum": {
+    "LoginSuccess": 0,
+    "LoginFailed_ClientOld": 1,
+    "LoginFailed_ServerOld": 2,
+    "PlayerSpawn": 3,
+    "LoginFailed_InvalidTenant": 4,
+    "LoginFailed_EditionMismatchEduToVanilla": 5,
+    "LoginFailed_EditionMismatchVanillaToEdu": 6,
+    "LoginFailed_ServerFullSubClient": 7,
+    "LoginFailed_EditorMismatchEditorToVanilla": 8,
+    "LoginFailed_EditorMismatchVanillaToEditor": 9
+  }
+}

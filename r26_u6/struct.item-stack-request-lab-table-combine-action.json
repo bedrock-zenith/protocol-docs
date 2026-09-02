@@ -1,0 +1,29 @@
+{
+  "name": "Item Stack Request Lab Table Combine Action",
+  "hash": "e80a20467d8f5e10720340713ee71aad83bbfa84cca5a3fbe477fc1bdd53e18d",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Action Type",
+      "is_constant": true,
+      "type": {
+        "name": "Item Stack Request Action Type",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "numeric",
+        "data_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u8",
+          "reinterpret": "u8",
+          "data_encoding": "little_endian"
+        }
+      },
+      "metadata": {
+        "constant_value": "screenlabtablecombine"
+      }
+    }
+  ]
+}

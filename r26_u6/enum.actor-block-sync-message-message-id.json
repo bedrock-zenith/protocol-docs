@@ -1,0 +1,13 @@
+{
+  "name": "Actor Block Sync Message Message Id",
+  "hash": "b04248fff390f7b0095f8a17df4d4b20b5187c76316ad38f29960218973e99ee",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u32",
+  "enum": {
+    "NONE": 0,
+    "CREATE": 1,
+    "DESTROY": 2
+  }
+}

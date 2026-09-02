@@ -1,0 +1,26 @@
+{
+  "name": "Achievement",
+  "hash": "2149bd8bf39268a155822390d8dc3aca5398e433c110ba4c501932a2ec1931dd",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Achievement Id",
+      "is_constant": false,
+      "type": {
+        "name": "Minecraft Eventing Achievement Ids",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "numeric",
+        "data_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u8",
+          "reinterpret": "u8",
+          "data_encoding": "leb128"
+        }
+      }
+    }
+  ]
+}

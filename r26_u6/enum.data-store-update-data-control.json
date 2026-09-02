@@ -1,0 +1,12 @@
+{
+  "name": "Data Store Update Data Control",
+  "hash": "a93163a711c97c74ff5b81bd21c538eaf6c934843ff966e20debefa08bd28ed6",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "literal",
+  "enum": {
+    "float0": 0,
+    "boolean1": 1,
+    "string2": 2
+  }
+}

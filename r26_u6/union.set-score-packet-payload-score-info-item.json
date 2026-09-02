@@ -1,0 +1,45 @@
+{
+  "name": "Set Score Packet Payload Score Info Item",
+  "hash": "91cdec5e5186d80acb3965418e2b7c438243a4dd7e008a32870d73cf97d6b140",
+  "bind_type": "union",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "type": {
+        "name": "Remove Score",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "remove"
+    },
+    {
+      "type": {
+        "name": "Change Player Score",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "changeplayer"
+    },
+    {
+      "type": {
+        "name": "Change Entity Score",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "changeentity"
+    },
+    {
+      "type": {
+        "name": "Change Fake Player Score",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "changefakeplayer"
+    }
+  ],
+  "backing_enum": {
+    "name": "Score Packet Entry Action",
+    "bind_type": "enum",
+    "is_bind_type": true
+  }
+}

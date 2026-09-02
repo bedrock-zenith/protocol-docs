@@ -1,0 +1,27 @@
+{
+  "name": "Minecraft Eventing Interaction Type",
+  "hash": "94dfdee673df0033d69532dd9907361432ea33beb6f8b080ae0fc219c0efeda9",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "Breeding": 1,
+    "Taming": 2,
+    "Curing": 3,
+    "Crafted": 4,
+    "Shearing": 5,
+    "Milking": 6,
+    "Trading": 7,
+    "Feeding": 8,
+    "Igniting": 9,
+    "Coloring": 10,
+    "Naming": 11,
+    "Leashing": 12,
+    "Unleashing": 13,
+    "PetSleep": 14,
+    "Trusting": 15,
+    "Commanding": 16,
+    "Equipping": 17
+  }
+}

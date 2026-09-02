@@ -1,0 +1,22 @@
+{
+  "name": "Server Sound Handle",
+  "hash": "c9db8cf13b3bb3847d4571c80b9588a8e07dcb8223c9f91b4df7e5408cf0d3b6",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Server Sound Handle",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "u64",
+        "metadata": {
+          "min_value": 0
+        },
+        "reinterpret": "u64",
+        "data_encoding": "little_endian"
+      }
+    }
+  ]
+}

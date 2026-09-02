@@ -1,0 +1,13 @@
+{
+  "name": "Item Use Trigger Type",
+  "hash": "04d5583be6dc220dda5dc81bbff3898e19ffda9b9ebb9b41c0e9cbf9e7753805",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "Unknown": 0,
+    "Player Input": 1,
+    "Simulation Tick": 2
+  }
+}

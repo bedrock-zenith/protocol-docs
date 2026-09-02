@@ -1,0 +1,17 @@
+{
+  "name": "Random Distribution Type",
+  "hash": "aef8458478e23eb229245c8242ba2ccbd44c1ec466fc9c157d5ac08dd9fb877b",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "i32",
+  "enum": {
+    "SingleValued": 0,
+    "Uniform": 1,
+    "Gaussian": 2,
+    "InverseGaussian": 3,
+    "FixedGrid": 4,
+    "JitteredGrid": 5,
+    "Triangle": 6
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Biome Legacy World Gen Rules Data",
+  "hash": "9c6bd43ac351135b93e9065dd08da85001a8b728a17ab15f43d9d9d5a5355111",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Legacy Pre Hills Edge",
+      "is_constant": false,
+      "type": {
+        "name": "array",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Biome Conditional Transformation Data",
+          "bind_type": "struct",
+          "is_bind_type": true
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    }
+  ]
+}

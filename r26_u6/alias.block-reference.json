@@ -1,0 +1,10 @@
+{
+  "name": "Block Reference",
+  "hash": "f12e7da063d15c01f20aafcd4d6fd82d681db176a76faf263103b327c19f12d2",
+  "bind_type": "alias",
+  "is_bind_type": true,
+  "element_type": {
+    "name": "string",
+    "is_bind_type": false
+  }
+}

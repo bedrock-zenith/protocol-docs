@@ -1,0 +1,13 @@
+{
+  "name": "Request Ability Packet Payload Type",
+  "hash": "5940a6961fc24bade7973c0ba6b3c914b26f9733cf0005ce23bc6c5d08840ba9",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "Unset": 0,
+    "Bool": 1,
+    "Float": 2
+  }
+}

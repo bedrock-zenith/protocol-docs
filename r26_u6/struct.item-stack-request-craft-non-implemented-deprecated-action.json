@@ -1,0 +1,29 @@
+{
+  "name": "Item Stack Request Craft Non Implemented Deprecated Action",
+  "hash": "ba1faf5dd88a101658fdefb3b365ca7ef3f7461ae9f851a21efd15ee8bbe8ea6",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Action Type",
+      "is_constant": true,
+      "type": {
+        "name": "Item Stack Request Action Type",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "numeric",
+        "data_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u8",
+          "reinterpret": "u8",
+          "data_encoding": "little_endian"
+        }
+      },
+      "metadata": {
+        "constant_value": "craftnonimplemented"
+      }
+    }
+  ]
+}

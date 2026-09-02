@@ -1,0 +1,35 @@
+{
+  "name": "Position Tracking Db Client Request Packet Payload",
+  "hash": "a50128eaa6084701d5e97bac6664df4372bcb6d88549cf9e45a4be076ab2908c",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Action",
+      "is_constant": false,
+      "type": {
+        "name": "Position Tracking Db Client Request Packet Payload Action",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "numeric",
+        "data_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u8",
+          "reinterpret": "u8",
+          "data_encoding": "little_endian"
+        }
+      }
+    },
+    {
+      "name": "Id",
+      "is_constant": false,
+      "type": {
+        "name": "Position Tracking Id",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

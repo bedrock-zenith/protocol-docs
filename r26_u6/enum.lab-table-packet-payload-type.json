@@ -1,0 +1,13 @@
+{
+  "name": "Lab Table Packet Payload Type",
+  "hash": "f13512dbed4f1a9e84b0e6539631e88e115afda7938cc17dc864fdeb4fc9a1b7",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "StartCombine": 0,
+    "StartReaction": 1,
+    "Reset": 2
+  }
+}

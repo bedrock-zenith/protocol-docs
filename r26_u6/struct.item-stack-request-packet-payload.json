@@ -1,0 +1,31 @@
+{
+  "name": "Item Stack Request Packet Payload",
+  "hash": "80c16d19f6866ec3b7167f26a82cf3d3f6fc8d44c16e7f82201f079d9c4ed464",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Requests",
+      "is_constant": false,
+      "type": {
+        "name": "array",
+        "is_bind_type": false,
+        "metadata": {
+          "max_length": 100
+        },
+        "element_type": {
+          "name": "Item Stack Request",
+          "bind_type": "struct",
+          "is_bind_type": true
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    }
+  ]
+}

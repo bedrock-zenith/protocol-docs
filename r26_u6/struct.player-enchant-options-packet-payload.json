@@ -1,0 +1,31 @@
+{
+  "name": "Player Enchant Options Packet Payload",
+  "hash": "f78a1b73b4f26b16cfde80053a19ffe5f7d964ec89f8f720e8bea703cdd11886",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Options",
+      "is_constant": false,
+      "type": {
+        "name": "array",
+        "is_bind_type": false,
+        "metadata": {
+          "max_length": 3
+        },
+        "element_type": {
+          "name": "Item Enchant Option",
+          "bind_type": "struct",
+          "is_bind_type": true
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    }
+  ]
+}

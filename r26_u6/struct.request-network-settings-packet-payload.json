@@ -1,0 +1,23 @@
+{
+  "name": "Request Network Settings Packet Payload",
+  "hash": "b0a1f9afe255b523693b575b3ab9888223062eb586c3c3e7bb584b32d80909ba",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Client Network Version",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "i32",
+        "metadata": {
+          "min_value": 2207,
+          "max_value": 2207
+        },
+        "reinterpret": "i32",
+        "data_encoding": "big_endian"
+      }
+    }
+  ]
+}

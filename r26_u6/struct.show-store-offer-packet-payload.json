@@ -1,0 +1,35 @@
+{
+  "name": "Show Store Offer Packet Payload",
+  "hash": "4e2947eb24053cfacda206bde11a5751bfcd0184394e548457964775c7116bae",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Offer Id",
+      "is_constant": false,
+      "type": {
+        "name": "Mce Uuid",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Redirect Type",
+      "is_constant": false,
+      "type": {
+        "name": "Show Store Offer Redirect Type",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "numeric",
+        "data_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u8",
+          "reinterpret": "u8",
+          "data_encoding": "little_endian"
+        }
+      }
+    }
+  ]
+}

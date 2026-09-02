@@ -1,0 +1,26 @@
+{
+  "name": "Play Status Packet Payload",
+  "hash": "825c1bab093992716a4a13851f3ad1cc0d7b6f6c01bd041c5a0f3258739e73c1",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Status",
+      "is_constant": false,
+      "type": {
+        "name": "Play Status",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "numeric",
+        "data_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "big_endian"
+        }
+      }
+    }
+  ]
+}

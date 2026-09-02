@@ -1,0 +1,14 @@
+{
+  "name": "Score Packet Entry Action",
+  "hash": "d954986ebe028c115dfceaccbfc44ca52373f4d8617eb2fca18f4fd69b1ef982",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "Remove": 0,
+    "ChangePlayer": 1,
+    "ChangeEntity": 2,
+    "ChangeFakePlayer": 3
+  }
+}

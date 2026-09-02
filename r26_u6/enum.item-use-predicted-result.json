@@ -1,0 +1,12 @@
+{
+  "name": "Item Use Predicted Result",
+  "hash": "a509def21fba17ea4bb55397492d0a3cf941b9313a57f437e48230ecee7b2b8d",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "Failure": 0,
+    "Success": 1
+  }
+}

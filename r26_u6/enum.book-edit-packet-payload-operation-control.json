@@ -1,0 +1,14 @@
+{
+  "name": "Book Edit Packet Payload Operation Control",
+  "hash": "08a8e94c8f23ec2e385d5cf187da2736222fba895d958e66e73869683913de2d",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "literal",
+  "enum": {
+    "Book Edit Action Replace Page0": 0,
+    "Book Edit Action Add Page1": 1,
+    "Book Edit Action Delete Page2": 2,
+    "Book Edit Action Swap Pages3": 3,
+    "Book Edit Action Finalize4": 4
+  }
+}

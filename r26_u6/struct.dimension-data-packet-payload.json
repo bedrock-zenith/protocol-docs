@@ -1,0 +1,42 @@
+{
+  "name": "Dimension Data Packet Payload",
+  "hash": "6d2842b9ab2152d61924d9672d9ca359e5b273e7d28fd4579e15fa509567fdcf",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Definitions",
+      "is_constant": false,
+      "type": {
+        "name": "map",
+        "is_bind_type": false,
+        "key_type": {
+          "name": "string",
+          "is_bind_type": false,
+          "metadata": {
+            "max_length": 256
+          },
+          "length_encoding": {
+            "name": "integer",
+            "is_bind_type": false,
+            "interpretation": "i32",
+            "reinterpret": "i32",
+            "data_encoding": "zleb128"
+          }
+        },
+        "value_type": {
+          "name": "Dimension Definition",
+          "bind_type": "struct",
+          "is_bind_type": true
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    }
+  ]
+}

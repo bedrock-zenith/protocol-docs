@@ -1,0 +1,189 @@
+{
+  "name": "Legacy Telemetry Event Packet Payload Event Data",
+  "hash": "c36a9c8d73f786092e75f3303bfd2f2377b99ce1eb27fbad7896ed7a56488700",
+  "bind_type": "union",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "type": {
+        "name": "Achievement",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Achievement0"
+    },
+    {
+      "type": {
+        "name": "Interaction",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Interaction1"
+    },
+    {
+      "type": {
+        "name": "Portal Created",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Portal Created2"
+    },
+    {
+      "type": {
+        "name": "Portal Used",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Portal Used3"
+    },
+    {
+      "type": {
+        "name": "Mob Killed",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Mob Killed4"
+    },
+    {
+      "type": {
+        "name": "Cauldron Used",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Cauldron Used5"
+    },
+    {
+      "type": {
+        "name": "Player Died",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Player Died6"
+    },
+    {
+      "type": {
+        "name": "Boss Killed",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Boss Killed7"
+    },
+    {
+      "type": {
+        "name": "Slash Command",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Slash Command8"
+    },
+    {
+      "type": {
+        "name": "Mob Born",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Mob Born9"
+    },
+    {
+      "type": {
+        "name": "Poi Cauldron Used",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Poi Cauldron Used10"
+    },
+    {
+      "type": {
+        "name": "Composter Used",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Composter Used11"
+    },
+    {
+      "type": {
+        "name": "Bell Used",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Bell Used12"
+    },
+    {
+      "type": {
+        "name": "Actor Definition",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Actor Definition13"
+    },
+    {
+      "type": {
+        "name": "Raid Update",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Raid Update14"
+    },
+    {
+      "type": {
+        "name": "Target Block Hit",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Target Block Hit15"
+    },
+    {
+      "type": {
+        "name": "Piglin Barter",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Piglin Barter16"
+    },
+    {
+      "type": {
+        "name": "Player Waxed Or Unwaxed Copper",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Player Waxed Or Unwaxed Copper17"
+    },
+    {
+      "type": {
+        "name": "Code Builder Runtime Action",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Code Builder Runtime Action18"
+    },
+    {
+      "type": {
+        "name": "Code Builder Scoreboard",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Code Builder Scoreboard19"
+    },
+    {
+      "type": {
+        "name": "Item Used",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Item Used20"
+    },
+    {
+      "type": {
+        "name": "Empty",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Empty21"
+    }
+  ],
+  "backing_enum": {
+    "name": "Legacy Telemetry Event Packet Payload Event Data Control",
+    "bind_type": "enum",
+    "is_bind_type": true
+  }
+}

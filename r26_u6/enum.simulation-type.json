@@ -1,0 +1,14 @@
+{
+  "name": "Simulation Type",
+  "hash": "6707e3d792da87697d6ecfc903f48585b84a95ceb9ccd7c15916f8fb8ca2c517",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "Game": 0,
+    "Editor": 1,
+    "Test": 2,
+    "INVALID": 3
+  }
+}

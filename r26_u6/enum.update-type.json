@@ -1,0 +1,14 @@
+{
+  "name": "Update Type",
+  "hash": "16b2f139ad748f0c82c2ccdeb0cad7f5b68ff36a1f1965c1ab476179d47f5eec",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "ClearOverrides": 0,
+    "RemoveOverride": 1,
+    "SetIntOverride": 2,
+    "SetFloatOverride": 3
+  }
+}

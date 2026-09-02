@@ -1,0 +1,27 @@
+{
+  "name": "Level Event Generic Packet Payload",
+  "hash": "1f511fbb9996ef2b7cab66977d2bb152a976d4c81f2c115b4bbb7d7e69b8ea31",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Event Id",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "i32",
+        "reinterpret": "i32",
+        "data_encoding": "zleb128"
+      }
+    },
+    {
+      "name": "Ctd",
+      "is_constant": false,
+      "type": {
+        "name": "nbt_compound",
+        "is_bind_type": false
+      }
+    }
+  ]
+}

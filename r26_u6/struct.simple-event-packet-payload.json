@@ -1,0 +1,26 @@
+{
+  "name": "Simple Event Packet Payload",
+  "hash": "157760d3f6b6fffbbe4280fb49634af7e7f6c7493425a326ba084f53ea6959ac",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Type",
+      "is_constant": false,
+      "type": {
+        "name": "Subtype",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "numeric",
+        "data_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u16",
+          "reinterpret": "u16",
+          "data_encoding": "little_endian"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "name": "Camera Aim Assist Packet Payload",
+  "hash": "373d2f930351021ec447281cc0de6e6bfca39a6704683f0d7164d5ea7ce745aa",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Preset Id",
+      "is_constant": false,
+      "type": {
+        "name": "string",
+        "is_bind_type": false,
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      }
+    },
+    {
+      "name": "View Angle",
+      "is_constant": false,
+      "type": {
+        "name": "Vec2",
+        "bind_type": "struct",
+        "is_bind_type": true,
+        "metadata": {
+          "constrain": "There are different constraints for different indexes, please refer to member help for more details"
+        }
+      }
+    },
+    {
+      "name": "Distance",
+      "is_constant": false,
+      "type": {
+        "name": "float",
+        "is_bind_type": false,
+        "interpretation": "f32",
+        "metadata": {
+          "min_value": 1,
+          "max_value": 16
+        },
+        "reinterpret": "f32",
+        "data_encoding": "little_endian"
+      }
+    },
+    {
+      "name": "Target Mode",
+      "is_constant": false,
+      "type": {
+        "name": "Camera Aim Assist Packet Payload Target Mode",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "numeric",
+        "data_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u8",
+          "reinterpret": "u8",
+          "data_encoding": "little_endian"
+        }
+      }
+    },
+    {
+      "name": "Action",
+      "is_constant": false,
+      "type": {
+        "name": "Camera Aim Assist Packet Payload Action",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "numeric",
+        "data_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u8",
+          "reinterpret": "u8",
+          "data_encoding": "little_endian"
+        }
+      }
+    },
+    {
+      "name": "Show Debug Render",
+      "is_constant": false,
+      "type": {
+        "name": "boolean",
+        "is_bind_type": false,
+        "data_encoding": "bool"
+      }
+    }
+  ]
+}

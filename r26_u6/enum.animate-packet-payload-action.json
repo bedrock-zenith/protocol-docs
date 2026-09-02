@@ -1,0 +1,15 @@
+{
+  "name": "Animate Packet Payload Action",
+  "hash": "e7fe11e11698ea531fa8e774548db9a23f18797358d4ea63a0fbaf8e278002a3",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "NoAction": 0,
+    "Swing": 1,
+    "WakeUp": 3,
+    "CriticalHit": 4,
+    "MagicCriticalHit": 5
+  }
+}

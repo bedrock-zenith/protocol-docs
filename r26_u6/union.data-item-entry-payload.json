@@ -1,0 +1,85 @@
+{
+  "name": "Data Item Entry Payload",
+  "hash": "e9ac94dbdd67d8c5c379fc802a7561e39b7e865bc707bcbef5a09ac93c171ff2",
+  "bind_type": "union",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "type": {
+        "name": "Data Item Byte Payload",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "byte"
+    },
+    {
+      "type": {
+        "name": "Data Item Short Payload",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "short"
+    },
+    {
+      "type": {
+        "name": "Data Item Int Payload",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "int"
+    },
+    {
+      "type": {
+        "name": "Data Item Float Payload",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "float"
+    },
+    {
+      "type": {
+        "name": "Data Item String Payload",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "string"
+    },
+    {
+      "type": {
+        "name": "Data Item Compound Tag Payload",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "compoundtag"
+    },
+    {
+      "type": {
+        "name": "Data Item Pos Payload",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "pos"
+    },
+    {
+      "type": {
+        "name": "Data Item Int64 Payload",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "int64"
+    },
+    {
+      "type": {
+        "name": "Data Item Vec3 Payload",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "vec3"
+    }
+  ],
+  "backing_enum": {
+    "name": "Data Item Type",
+    "bind_type": "enum",
+    "is_bind_type": true
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Min Engine Version",
+  "hash": "97fb3b2af87379bea9cc9ae8f7804f0c4577d6088e1241ed90b2fdeab9eda5a8",
+  "bind_type": "alias",
+  "is_bind_type": true,
+  "element_type": {
+    "name": "string",
+    "is_bind_type": false
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Boss Bar Overlay",
+  "hash": "1ac038b60b917b481b9fcd038057ba9c977ae04a599f1f1e44737f99887b743a",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "PROGRESS": 0,
+    "NOTCHED_6": 1,
+    "NOTCHED_10": 2,
+    "NOTCHED_12": 3,
+    "NOTCHED_20": 4
+  }
+}

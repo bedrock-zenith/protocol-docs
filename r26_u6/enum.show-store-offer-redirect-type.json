@@ -1,0 +1,13 @@
+{
+  "name": "Show Store Offer Redirect Type",
+  "hash": "f02273a54c2f2d4d55db3be451e96f89cbf5729da5fa326ac0336e7e857a9f4f",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "MarketplaceOffer": 0,
+    "DressingRoomOffer": 1,
+    "ThirdPartyServerPage": 2
+  }
+}

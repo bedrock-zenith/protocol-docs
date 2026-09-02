@@ -1,0 +1,52 @@
+{
+  "name": "Legacy Set Slot",
+  "hash": "47d1f9712df6d6c54a2a9c005d5515800911d164fa55b09b16c19ee54ab7346f",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Container Enum",
+      "is_constant": false,
+      "type": {
+        "name": "Container Enum Name",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "numeric",
+        "data_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u8",
+          "reinterpret": "u8",
+          "data_encoding": "leb128"
+        }
+      }
+    },
+    {
+      "name": "Slots",
+      "is_constant": false,
+      "type": {
+        "name": "array",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u8",
+          "metadata": {
+            "min_value": 0,
+            "max_value": 255
+          },
+          "reinterpret": "u8",
+          "data_encoding": "little_endian"
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    }
+  ]
+}

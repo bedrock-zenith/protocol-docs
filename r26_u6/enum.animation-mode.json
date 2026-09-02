@@ -1,0 +1,13 @@
+{
+  "name": "Animation Mode",
+  "hash": "60f460033e05ae5f7d16c22c39118514640d15acb6babf99f52836943a19b033",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "None": 0,
+    "Layers": 1,
+    "Blocks": 2
+  }
+}

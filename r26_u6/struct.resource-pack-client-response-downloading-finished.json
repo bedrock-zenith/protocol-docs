@@ -1,0 +1,33 @@
+{
+  "name": "Resource Pack Client Response Downloading Finished",
+  "hash": "bb02d4f99b5cae387b47d6c794dfb0dee4a88916d74f874327f39ef17ad124fd",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Response Type",
+      "is_constant": true,
+      "type": {
+        "name": "Resource Pack Response",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "literal",
+        "data_encoding": {
+          "name": "string",
+          "is_bind_type": false,
+          "length_encoding": {
+            "name": "integer",
+            "is_bind_type": false,
+            "interpretation": "i32",
+            "reinterpret": "i32",
+            "data_encoding": "zleb128"
+          }
+        }
+      },
+      "metadata": {
+        "constant_value": "downloadingfinished"
+      }
+    }
+  ]
+}

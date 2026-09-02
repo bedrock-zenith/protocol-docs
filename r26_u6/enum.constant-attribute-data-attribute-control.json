@@ -1,0 +1,12 @@
+{
+  "name": "Constant Attribute Data Attribute Control",
+  "hash": "73e4786e28b53973392e74ade742ce2883a617775ddd248f080c50077e0bb76c",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "literal",
+  "enum": {
+    "Bool Attribute Data0": 0,
+    "Float Attribute Data1": 1,
+    "Color Attribute Data2": 2
+  }
+}

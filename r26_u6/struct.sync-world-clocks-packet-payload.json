@@ -1,0 +1,31 @@
+{
+  "name": "Sync World Clocks Packet Payload",
+  "hash": "7fcf02c4c7c5f61be8297fe5c9df43485685aaf8ea19b210e1187dbe6ce59a2a",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Data",
+      "is_constant": false,
+      "type": {
+        "name": "Sync World Clocks Packet Payload Data",
+        "bind_type": "union",
+        "is_bind_type": true,
+        "enum_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        },
+        "control_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Item Reference",
+  "hash": "445cb46726d561a4f02b871cd709ea770ad26445a5f848ae8d7287a9dc12855e",
+  "bind_type": "alias",
+  "is_bind_type": true,
+  "element_type": {
+    "name": "string",
+    "is_bind_type": false
+  }
+}

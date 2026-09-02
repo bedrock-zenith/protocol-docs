@@ -1,0 +1,10 @@
+{
+  "name": "Player Block Actions",
+  "hash": "f4545f7128386127a40555713dd9053492ec023d1de96d32c143da2ee4a360d3",
+  "bind_type": "alias",
+  "is_bind_type": true,
+  "element_type": {
+    "name": "array",
+    "is_bind_type": false
+  }
+}

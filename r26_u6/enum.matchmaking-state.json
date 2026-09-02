@@ -1,0 +1,13 @@
+{
+  "name": "Matchmaking State",
+  "hash": "c8bc54e32862d7d99acc641cf588f0caf058c4a2627ba8d170a666e0e5a98e01",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "Idle": 0,
+    "Matchmaking": 1,
+    "MatchFound": 2
+  }
+}

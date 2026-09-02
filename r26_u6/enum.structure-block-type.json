@@ -1,0 +1,16 @@
+{
+  "name": "Structure Block Type",
+  "hash": "3161aeda84704370b37b3de6ed1813e47d14f5e81c045e2c7dc7ed27be930b01",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "i32",
+  "enum": {
+    "Data": 0,
+    "Save": 1,
+    "Load": 2,
+    "Corner": 3,
+    "Invalid": 4,
+    "Export": 5
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Update Sub Chunk Blocks Packet Payload",
+  "hash": "ea5badc7899688469ede53c494f72311175d91f75c79337a8ff690ccdd7743f4",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Sub Chunk Block Position",
+      "is_constant": false,
+      "type": {
+        "name": "Block Pos",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Blocks Changed",
+      "is_constant": false,
+      "type": {
+        "name": "Update Sub Chunk Blocks Changed Info",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}
