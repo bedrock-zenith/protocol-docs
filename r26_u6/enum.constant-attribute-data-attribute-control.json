@@ -1,9 +1,10 @@
 {
   "name": "Constant Attribute Data Attribute Control",
-  "hash": "7311fb960d1f97b03717a636fa23f693420be248ea52023a831e5c24e44e9985",
+  "hash": "650dfc0dce28e16e32c66e2e05469257210c7944be34899ae986c3964c386da8",
   "bind_type": "enum",
   "is_bind_type": true,
-  "enum_kind": "literal",
+  "enum_kind": "numeric",
+  "backing_integer": "u32",
   "enum": {
     "Bool Attribute Data": 0,
     "Float Attribute Data": 1,

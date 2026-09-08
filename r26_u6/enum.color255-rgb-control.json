@@ -1,9 +1,10 @@
 {
   "name": "Color255 Rgb Control",
-  "hash": "a70ebf756ed7791b6063c9b3f0ecbed93805954a366673792488964e038dd782",
+  "hash": "21048071591620324b3130597eca16fb322d7f5a52aff05de4a5acc5c5a784f1",
   "bind_type": "enum",
   "is_bind_type": true,
-  "enum_kind": "literal",
+  "enum_kind": "numeric",
+  "backing_integer": "u32",
   "enum": {
     "string": 0,
     "array": 1

@@ -1,9 +1,10 @@
 {
   "name": "Color Norm Rgb Control",
-  "hash": "83543d2998cdcf5d714503e962fbfdc14bb4891c33a6aee19e04afd0ec1df51e",
+  "hash": "2ac3ed266179babae39a824dbfe80d2d76a3537a885c1e378f2ac67763d66ab2",
   "bind_type": "enum",
   "is_bind_type": true,
-  "enum_kind": "literal",
+  "enum_kind": "numeric",
+  "backing_integer": "u32",
   "enum": {
     "string": 0,
     "array": 1

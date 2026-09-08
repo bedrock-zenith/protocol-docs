@@ -1,9 +1,10 @@
 {
   "name": "Player List Packet Payload Entries Item Control",
-  "hash": "dcdb2118708cbba86bfdd1dfb64f55f08744c20fb6486dc5fca7bdcabc2ae089",
+  "hash": "b7128ffe1d10cf94e659bbabbe9581df5401b2e6fb5f62139c48e704044b1d87",
   "bind_type": "enum",
   "is_bind_type": true,
-  "enum_kind": "literal",
+  "enum_kind": "numeric",
+  "backing_integer": "u32",
   "enum": {
     "Remove Entry": 0,
     "Add Entry": 1

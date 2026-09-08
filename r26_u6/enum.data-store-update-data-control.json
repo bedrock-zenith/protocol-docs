@@ -1,9 +1,10 @@
 {
   "name": "Data Store Update Data Control",
-  "hash": "8a93e34df62cd7632207d7e92fd984eb468ee9cbf7a5729674ebc19770ce8614",
+  "hash": "0dd2b1afba9a6e4e7aae54414e2fa1aa8d801bf0c918c396af2661b01ea337ca",
   "bind_type": "enum",
   "is_bind_type": true,
-  "enum_kind": "literal",
+  "enum_kind": "numeric",
+  "backing_integer": "u32",
   "enum": {
     "float": 0,
     "boolean": 1,

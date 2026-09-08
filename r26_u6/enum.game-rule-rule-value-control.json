@@ -1,9 +1,10 @@
 {
   "name": "Game Rule Rule Value Control",
-  "hash": "62ef1104b54f42c093d8f5906066efe95968e63cc9f8671d8ce68532026c6e5e",
+  "hash": "24ed384f0caee8aec5e230b200d18945c00931382365232d68bbc8eb950cfc79",
   "bind_type": "enum",
   "is_bind_type": true,
-  "enum_kind": "literal",
+  "enum_kind": "numeric",
+  "backing_integer": "u32",
   "enum": {
     "void": 0,
     "boolean": 1,

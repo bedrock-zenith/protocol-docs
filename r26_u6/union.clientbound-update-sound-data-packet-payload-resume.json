@@ -1,6 +1,6 @@
 {
   "name": "Clientbound Update Sound Data Packet Payload Resume",
-  "hash": "c38e96aa285a53a798d0d542b5a15558c4264c879a0fdac73b41e5b2f85cad08",
+  "hash": "16a52b45824c54b3bfcb6a7b8080668ffe917ce2461c243e839b417eb295454e",
   "bind_type": "union",
   "is_bind_type": true,
   "fields": [

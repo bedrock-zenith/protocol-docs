@@ -1,9 +1,10 @@
 {
   "name": "Command Block Update Packet Payload Target Control",
-  "hash": "45d459dbf742a388a370862ee380dd2094846983b15c1e859f8f5a9663c57353",
+  "hash": "b88f6e5c5d16fa2879e5f2e8e159e1ca1c7946e98f9e256ee263b1b77064d320",
   "bind_type": "enum",
   "is_bind_type": true,
-  "enum_kind": "literal",
+  "enum_kind": "numeric",
+  "backing_integer": "u32",
   "enum": {
     "Entity Command Target": 0,
     "Block Command Data": 1

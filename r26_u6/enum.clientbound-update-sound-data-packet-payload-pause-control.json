@@ -1,9 +1,10 @@
 {
   "name": "Clientbound Update Sound Data Packet Payload Pause Control",
-  "hash": "3579f775353c270e0097a9bdaff9db2eecb0fe82ac8373d3a8e056f4ec8fb9ed",
+  "hash": "64e7c8e98097ed6514485f1d1e90843e92cc72ff0f51f6af255ee2553aefb0ff",
   "bind_type": "enum",
   "is_bind_type": true,
-  "enum_kind": "literal",
+  "enum_kind": "numeric",
+  "backing_integer": "u32",
   "enum": {
     "Stop": 0,
     "Set Volume": 1,

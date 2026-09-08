@@ -1,6 +1,6 @@
 {
   "name": "Book Edit Packet Payload Operation",
-  "hash": "bc5a152ae0c0c3200e3beeb863b3e09d4ad29832525602e8940923affddab92c",
+  "hash": "30ebef47d740f0975c41fe9a15ed1f87681ad7c3b287086e65916749a2bca7bf",
   "bind_type": "union",
   "is_bind_type": true,
   "fields": [

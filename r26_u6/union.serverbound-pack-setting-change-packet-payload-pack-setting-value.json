@@ -1,6 +1,6 @@
 {
   "name": "Serverbound Pack Setting Change Packet Payload Pack Setting Value",
-  "hash": "15d20049b475809f979e6706a100d8534329fa965377a27911e9424626f7cb56",
+  "hash": "812e40dc7af01c361fe61e2b4b19a60ad68e6427165a206f3a2066081c6cf2c4",
   "bind_type": "union",
   "is_bind_type": true,
   "fields": [

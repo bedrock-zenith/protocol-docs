@@ -1,9 +1,10 @@
 {
   "name": "Clientbound Update Sound Data Packet Payload Fade Control",
-  "hash": "ec560e2cae37dec85adc345d519de8e137541dd10b882d21497033ec4575d19f",
+  "hash": "975461ee117f5e235723aef030e0fc4e64d32447eba6bbbbe05fb940c357af78",
   "bind_type": "enum",
   "is_bind_type": true,
-  "enum_kind": "literal",
+  "enum_kind": "numeric",
+  "backing_integer": "u32",
   "enum": {
     "Stop": 0,
     "Set Volume": 1,

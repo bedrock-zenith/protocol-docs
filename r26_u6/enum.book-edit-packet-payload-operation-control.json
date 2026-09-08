@@ -1,9 +1,10 @@
 {
   "name": "Book Edit Packet Payload Operation Control",
-  "hash": "c5116c5c3a7711cb8377172a9bd439d4bdf88e72ae8b91ec568adeb93c8e78b0",
+  "hash": "c44cbd57e171067af9dc4f24ca1b67479c84f92f0216b4ee1e002fe47bd07f38",
   "bind_type": "enum",
   "is_bind_type": true,
-  "enum_kind": "literal",
+  "enum_kind": "numeric",
+  "backing_integer": "u32",
   "enum": {
     "Replace Page": 0,
     "Add Page": 1,

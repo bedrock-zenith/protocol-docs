@@ -1,9 +1,10 @@
 {
   "name": "Primitive Shape Data Payload Extra Shape Data Control",
-  "hash": "0d784e2b1daad9cb40ec0008194b168ff5c8b097b260ad1c4dd54e62e2b7e7da",
+  "hash": "035574dd3387c56c2da6419f02562dd714a8281c2b67416584f7bca0bc2fa9a9",
   "bind_type": "enum",
   "is_bind_type": true,
-  "enum_kind": "literal",
+  "enum_kind": "numeric",
+  "backing_integer": "u32",
   "enum": {
     "void": 0,
     "Arrow Data Payload": 1,

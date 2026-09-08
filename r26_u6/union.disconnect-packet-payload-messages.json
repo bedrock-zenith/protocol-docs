@@ -1,6 +1,6 @@
 {
   "name": "Disconnect Packet Payload Messages",
-  "hash": "357d39e2b153833da52bdb75c9e1ce5f5d2ce6f602ff4c445fbb2ae36dd4cb66",
+  "hash": "c28baba936a0c2441d2b1ab524f464b136383f386385ee9639a679ebf8c4316b",
   "bind_type": "union",
   "is_bind_type": true,
   "fields": [

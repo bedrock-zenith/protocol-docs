@@ -1,9 +1,10 @@
 {
   "name": "Player Location Packet Payload Location Control",
-  "hash": "0243609d8fbdccc8b1694a52cb08ebbf8461dc2c9e4819731dd49dfd362d05ee",
+  "hash": "03a694cee6082015c0bc39e1734dcc12413df6eb9597164be8cbd1c8cad217a0",
   "bind_type": "enum",
   "is_bind_type": true,
-  "enum_kind": "literal",
+  "enum_kind": "numeric",
+  "backing_integer": "u32",
   "enum": {
     "Coordinates Location": 0,
     "Hidden Location": 1

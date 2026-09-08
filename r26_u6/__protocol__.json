@@ -652,10 +652,11 @@
     },
     {
       "name": "Color255 Rgba Control",
-      "hash": "3c07c13aacb4fc3adfcfd14e2c64e8d80a37153c2470e4acf75cd9148a41277d",
+      "hash": "e03612f8bc86e284c5b765ce52f17430ef24230d72698c0e24b19b51a79a5300",
       "bind_type": "enum",
       "is_bind_type": true,
-      "enum_kind": "literal",
+      "enum_kind": "numeric",
+      "backing_integer": "u32",
       "enum": {
         "string": 0,
         "array": 1
@@ -663,10 +664,11 @@
     },
     {
       "name": "Constant Attribute Data Attribute Control",
-      "hash": "7311fb960d1f97b03717a636fa23f693420be248ea52023a831e5c24e44e9985",
+      "hash": "650dfc0dce28e16e32c66e2e05469257210c7944be34899ae986c3964c386da8",
       "bind_type": "enum",
       "is_bind_type": true,
-      "enum_kind": "literal",
+      "enum_kind": "numeric",
+      "backing_integer": "u32",
       "enum": {
         "Bool Attribute Data": 0,
         "Float Attribute Data": 1,
@@ -675,10 +677,11 @@
     },
     {
       "name": "Transition Attribute Data From Attribute Control",
-      "hash": "44974cc8bb8166d07c417dba2bf84a2b1a55cc0cbcb827d77b9ca58b6c6d5d5a",
+      "hash": "882fb48aaa36b60426574a6ba235a86b3217b26685ff0b43b04343ff6d7f8d44",
       "bind_type": "enum",
       "is_bind_type": true,
-      "enum_kind": "literal",
+      "enum_kind": "numeric",
+      "backing_integer": "u32",
       "enum": {
         "Bool Attribute Data": 0,
         "Float Attribute Data": 1,
@@ -729,10 +732,11 @@
     },
     {
       "name": "Transition Attribute Data To Attribute Control",
-      "hash": "6c4b0c0d5966bd8cc57863304f45ecdb4157c683cb825bea2fe82e211e6aa776",
+      "hash": "e2ee2fd9b056bba9efb47ca788eaaf480ec7d14beea517da95a606f485f0c412",
       "bind_type": "enum",
       "is_bind_type": true,
-      "enum_kind": "literal",
+      "enum_kind": "numeric",
+      "backing_integer": "u32",
       "enum": {
         "Bool Attribute Data": 0,
         "Float Attribute Data": 1,
@@ -741,10 +745,11 @@
     },
     {
       "name": "Noise Transition Attribute Data From Attribute Control",
-      "hash": "a964789e36dcc72d73006ec02c07c540b67a3a46080c3ee5b665ee2b4f1425cf",
+      "hash": "91b166c83823a3b71265013be8d388d09b8c4b199849a83ce91b85038e558b05",
       "bind_type": "enum",
       "is_bind_type": true,
-      "enum_kind": "literal",
+      "enum_kind": "numeric",
+      "backing_integer": "u32",
       "enum": {
         "Bool Attribute Data": 0,
         "Float Attribute Data": 1,
@@ -764,10 +769,11 @@
     },
     {
       "name": "Noise Transition Attribute Data To Attribute Control",
-      "hash": "849edff4727f5882094635bc4fc879e142e3fae47211dd24926943c32c84b3e0",
+      "hash": "c70005bca62cde52a407ca9013d5fdf4eb22f1d0bf82877bc162ca82a1e0b849",
       "bind_type": "enum",
       "is_bind_type": true,
-      "enum_kind": "literal",
+      "enum_kind": "numeric",
+      "backing_integer": "u32",
       "enum": {
         "Bool Attribute Data": 0,
         "Float Attribute Data": 1,
@@ -776,10 +782,11 @@
     },
     {
       "name": "Environment Attribute Data Payload Control",
-      "hash": "c758e07141a9e6af17fa54764a57100a18a32573b329415276a8955e9c62cb2e",
+      "hash": "8db98ae88d67945b8b4e0674d7ce830cc12f1d39363c5c36bfc7644c4bd8b616",
       "bind_type": "enum",
       "is_bind_type": true,
-      "enum_kind": "literal",
+      "enum_kind": "numeric",
+      "backing_integer": "u32",
       "enum": {
         "Constant Attribute Data": 0,
         "Transition Attribute Data": 1,
@@ -898,10 +905,11 @@
     },
     {
       "name": "Book Edit Packet Payload Operation Control",
-      "hash": "c5116c5c3a7711cb8377172a9bd439d4bdf88e72ae8b91ec568adeb93c8e78b0",
+      "hash": "c44cbd57e171067af9dc4f24ca1b67479c84f92f0216b4ee1e002fe47bd07f38",
       "bind_type": "enum",
       "is_bind_type": true,
-      "enum_kind": "literal",
+      "enum_kind": "numeric",
+      "backing_integer": "u32",
       "enum": {
         "Replace Page": 0,
         "Add Page": 1,
@@ -1092,10 +1100,11 @@
     },
     {
       "name": "Clientbound Attribute Layer Sync Packet Payload Data Control",
-      "hash": "1401c08ad5d1fa7cb7f620ce758a9acaa5fa1e8e9dd0f0e914cbac4f9ab843ae",
+      "hash": "41c5bb0aba5bd9f167b214e3a925a338b5078b8157db362f4cc9aff4f35392e5",
       "bind_type": "enum",
       "is_bind_type": true,
-      "enum_kind": "literal",
+      "enum_kind": "numeric",
+      "backing_integer": "u32",
       "enum": {
         "Update Attribute Layers Data": 0,
         "Update Attribute Layer Settings Data": 1,
@@ -1187,10 +1196,11 @@
     },
     {
       "name": "Clientbound Update Sound Data Packet Payload Fade Control",
-      "hash": "ec560e2cae37dec85adc345d519de8e137541dd10b882d21497033ec4575d19f",
+      "hash": "975461ee117f5e235723aef030e0fc4e64d32447eba6bbbbe05fb940c357af78",
       "bind_type": "enum",
       "is_bind_type": true,
-      "enum_kind": "literal",
+      "enum_kind": "numeric",
+      "backing_integer": "u32",
       "enum": {
         "Stop": 0,
         "Set Volume": 1,
@@ -1203,10 +1213,11 @@
     },
     {
       "name": "Clientbound Update Sound Data Packet Payload Pause Control",
-      "hash": "3579f775353c270e0097a9bdaff9db2eecb0fe82ac8373d3a8e056f4ec8fb9ed",
+      "hash": "64e7c8e98097ed6514485f1d1e90843e92cc72ff0f51f6af255ee2553aefb0ff",
       "bind_type": "enum",
       "is_bind_type": true,
-      "enum_kind": "literal",
+      "enum_kind": "numeric",
+      "backing_integer": "u32",
       "enum": {
         "Stop": 0,
         "Set Volume": 1,
@@ -1219,10 +1230,11 @@
     },
     {
       "name": "Clientbound Update Sound Data Packet Payload Resume Control",
-      "hash": "2ebd0666c4109b644a1307118918a2a7c6cd2c116e1309d440d0a3caba92dc08",
+      "hash": "27c1b2d801f62156cbf90afb445aead51b0a82002e4f8f6222b99b5e74b287a2",
       "bind_type": "enum",
       "is_bind_type": true,
-      "enum_kind": "literal",
+      "enum_kind": "numeric",
+      "backing_integer": "u32",
       "enum": {
         "Stop": 0,
         "Set Volume": 1,
@@ -1235,10 +1247,11 @@
     },
     {
       "name": "Clientbound Update Sound Data Packet Payload Seek To Control",
-      "hash": "66af018879ed03939e86a94da267d2d289b98749f9968b49885e4fc65544e79d",
+      "hash": "d6d15dacda4eac5956a213c651ed95159b39848220fe83760a48a137db287ea3",
       "bind_type": "enum",
       "is_bind_type": true,
-      "enum_kind": "literal",
+      "enum_kind": "numeric",
+      "backing_integer": "u32",
       "enum": {
         "Stop": 0,
         "Set Volume": 1,
@@ -1251,10 +1264,11 @@
     },
     {
       "name": "Clientbound Update Sound Data Packet Payload Set Pitch Control",
-      "hash": "6f004282ead702d79ded1e412db32d1ae13dde59a745ba6c2854f0c9fd6b43b5",
+      "hash": "61999bfd2758d5f52130b6f9e2119093022d864c6c0aad0f2790d3042aef05e9",
       "bind_type": "enum",
       "is_bind_type": true,
-      "enum_kind": "literal",
+      "enum_kind": "numeric",
+      "backing_integer": "u32",
       "enum": {
         "Stop": 0,
         "Set Volume": 1,
@@ -1267,10 +1281,11 @@
     },
     {
       "name": "Clientbound Update Sound Data Packet Payload Set Volume Control",
-      "hash": "eab5580d9f32fc12b40d55afee7be9e90a2b8a9765b6ac6bf2e41b8a0d44e2a0",
+      "hash": "9043865dc01a4cbca5ab5d74871f1028ddf7dbab371c1841b23aee6294655fe9",
       "bind_type": "enum",
       "is_bind_type": true,
-      "enum_kind": "literal",
+      "enum_kind": "numeric",
+      "backing_integer": "u32",
       "enum": {
         "Stop": 0,
         "Set Volume": 1,
@@ -1283,10 +1298,11 @@
     },
     {
       "name": "Clientbound Update Sound Data Packet Payload Stop Control",
-      "hash": "aa6d1cb5f229c636db64ffde405f51378fc4777472a52e441300011b0f94f12c",
+      "hash": "c9954683d6581a3cb393504872c30d105d579fbaef8b92d1db3391d3b2f5ccac",
       "bind_type": "enum",
       "is_bind_type": true,
-      "enum_kind": "literal",
+      "enum_kind": "numeric",
+      "backing_integer": "u32",
       "enum": {
         "Stop": 0,
         "Set Volume": 1,
@@ -1299,10 +1315,11 @@
     },
     {
       "name": "Data Store Update Data Control",
-      "hash": "8a93e34df62cd7632207d7e92fd984eb468ee9cbf7a5729674ebc19770ce8614",
+      "hash": "0dd2b1afba9a6e4e7aae54414e2fa1aa8d801bf0c918c396af2661b01ea337ca",
       "bind_type": "enum",
       "is_bind_type": true,
-      "enum_kind": "literal",
+      "enum_kind": "numeric",
+      "backing_integer": "u32",
       "enum": {
         "float": 0,
         "boolean": 1,
@@ -1311,10 +1328,11 @@
     },
     {
       "name": "Clientbound Data Store Payload Updates Item Control",
-      "hash": "4e3bd3650fbea555ea4c7fc8d63dcae372a00593c4b0bae3f59d509964e4512b",
+      "hash": "62aaebe70df492782a59005540f3d90cc66a239f6122b0fc4ce8286250ccf85d",
       "bind_type": "enum",
       "is_bind_type": true,
-      "enum_kind": "literal",
+      "enum_kind": "numeric",
+      "backing_integer": "u32",
       "enum": {
         "Update": 0,
         "Change": 1,
@@ -1393,10 +1411,11 @@
     },
     {
       "name": "Color255 Rgb Control",
-      "hash": "a70ebf756ed7791b6063c9b3f0ecbed93805954a366673792488964e038dd782",
+      "hash": "21048071591620324b3130597eca16fb322d7f5a52aff05de4a5acc5c5a784f1",
       "bind_type": "enum",
       "is_bind_type": true,
-      "enum_kind": "literal",
+      "enum_kind": "numeric",
+      "backing_integer": "u32",
       "enum": {
         "string": 0,
         "array": 1
@@ -1404,10 +1423,11 @@
     },
     {
       "name": "Color Norm Rgb Control",
-      "hash": "83543d2998cdcf5d714503e962fbfdc14bb4891c33a6aee19e04afd0ec1df51e",
+      "hash": "2ac3ed266179babae39a824dbfe80d2d76a3537a885c1e378f2ac67763d66ab2",
       "bind_type": "enum",
       "is_bind_type": true,
-      "enum_kind": "literal",
+      "enum_kind": "numeric",
+      "backing_integer": "u32",
       "enum": {
         "string": 0,
         "array": 1
@@ -1428,10 +1448,11 @@
     },
     {
       "name": "Command Block Update Packet Payload Target Control",
-      "hash": "45d459dbf742a388a370862ee380dd2094846983b15c1e859f8f5a9663c57353",
+      "hash": "b88f6e5c5d16fa2879e5f2e8e159e1ca1c7946e98f9e256ee263b1b77064d320",
       "bind_type": "enum",
       "is_bind_type": true,
-      "enum_kind": "literal",
+      "enum_kind": "numeric",
+      "backing_integer": "u32",
       "enum": {
         "Entity Command Target": 0,
         "Block Command Data": 1
@@ -2051,10 +2072,11 @@
     },
     {
       "name": "Disconnect Packet Payload Messages Control",
-      "hash": "7eb1058782e205ac322bce2f00687b45951dd849e2480e03654f55a6997a0e36",
+      "hash": "39d44478738503a0c77a8306d1fb31a95149b7da5080ea355912d39c3d29378b",
       "bind_type": "enum",
       "is_bind_type": true,
-      "enum_kind": "literal",
+      "enum_kind": "numeric",
+      "backing_integer": "u32",
       "enum": {
         "Disconnect Packet Messages": 0,
         "void": 1
@@ -2307,10 +2329,11 @@
     },
     {
       "name": "Game Rule Rule Value Control",
-      "hash": "62ef1104b54f42c093d8f5906066efe95968e63cc9f8671d8ce68532026c6e5e",
+      "hash": "24ed384f0caee8aec5e230b200d18945c00931382365232d68bbc8eb950cfc79",
       "bind_type": "enum",
       "is_bind_type": true,
-      "enum_kind": "literal",
+      "enum_kind": "numeric",
+      "backing_integer": "u32",
       "enum": {
         "void": 0,
         "boolean": 1,
@@ -2670,10 +2693,11 @@
     },
     {
       "name": "Inventory Transaction Packet Payload Transaction Control",
-      "hash": "04fee21ab023aef677731d6dee78c723b38db1bda542dfc4f15bd3ee7b5e1ad2",
+      "hash": "59d3f49df1a8a465062ffeb9cf923a144fbceb05822aa41728b92cf8329d7440",
       "bind_type": "enum",
       "is_bind_type": true,
-      "enum_kind": "literal",
+      "enum_kind": "numeric",
+      "backing_integer": "u32",
       "enum": {
         "Normal Transaction Data": 0,
         "Inventory Mismatch Data": 1,
@@ -2944,10 +2968,11 @@
     },
     {
       "name": "Legacy Telemetry Event Packet Payload Event Data Control",
-      "hash": "be0c5a69de020738f135837775885a4a2a58b86a818ca4c09e570ef78d2fa04d",
+      "hash": "e310d5355c92614246d4519ce6995c81e0e067a3b47b12b8468cf34fbf6befdd",
       "bind_type": "enum",
       "is_bind_type": true,
-      "enum_kind": "literal",
+      "enum_kind": "numeric",
+      "backing_integer": "u32",
       "enum": {
         "Achievement": 0,
         "Interaction": 1,
@@ -4422,10 +4447,11 @@
     },
     {
       "name": "Player List Packet Payload Entries Item Control",
-      "hash": "dcdb2118708cbba86bfdd1dfb64f55f08744c20fb6486dc5fca7bdcabc2ae089",
+      "hash": "b7128ffe1d10cf94e659bbabbe9581df5401b2e6fb5f62139c48e704044b1d87",
       "bind_type": "enum",
       "is_bind_type": true,
-      "enum_kind": "literal",
+      "enum_kind": "numeric",
+      "backing_integer": "u32",
       "enum": {
         "Remove Entry": 0,
         "Add Entry": 1
@@ -4445,10 +4471,11 @@
     },
     {
       "name": "Player Location Packet Payload Location Control",
-      "hash": "0243609d8fbdccc8b1694a52cb08ebbf8461dc2c9e4819731dd49dfd362d05ee",
+      "hash": "03a694cee6082015c0bc39e1734dcc12413df6eb9597164be8cbd1c8cad217a0",
       "bind_type": "enum",
       "is_bind_type": true,
-      "enum_kind": "literal",
+      "enum_kind": "numeric",
+      "backing_integer": "u32",
       "enum": {
         "Coordinates Location": 0,
         "Hidden Location": 1
@@ -4481,10 +4508,11 @@
     },
     {
       "name": "Player Video Capture Packet Payload Start Video Capture Control",
-      "hash": "1cc1d0aa5cc2fa4b2654118d83572f459f62060394830e1f9439ebd388ff1891",
+      "hash": "b883c971bf030d459f2dbe17b3ffed2446448fe5620d35ccf62df7221ede9c42",
       "bind_type": "enum",
       "is_bind_type": true,
-      "enum_kind": "literal",
+      "enum_kind": "numeric",
+      "backing_integer": "u32",
       "enum": {
         "art Video Capture": 0,
         "op Video Capture": 1
@@ -4492,10 +4520,11 @@
     },
     {
       "name": "Player Video Capture Packet Payload Stop Video Capture Control",
-      "hash": "6c0259e97cbb163e4d282d051b59c18e17275d7ab7198b468030de63fc0900ae",
+      "hash": "cf902e54fb15589636cad59a0a33b2d99ed596360be24f50603baeaff20816fc",
       "bind_type": "enum",
       "is_bind_type": true,
-      "enum_kind": "literal",
+      "enum_kind": "numeric",
+      "backing_integer": "u32",
       "enum": {
         "art Video Capture": 0,
         "op Video Capture": 1
@@ -4547,10 +4576,11 @@
     },
     {
       "name": "Primitive Shape Data Payload Extra Shape Data Control",
-      "hash": "0d784e2b1daad9cb40ec0008194b168ff5c8b097b260ad1c4dd54e62e2b7e7da",
+      "hash": "035574dd3387c56c2da6419f02562dd714a8281c2b67416584f7bca0bc2fa9a9",
       "bind_type": "enum",
       "is_bind_type": true,
-      "enum_kind": "literal",
+      "enum_kind": "numeric",
+      "backing_integer": "u32",
       "enum": {
         "void": 0,
         "Arrow Data Payload": 1,
@@ -4650,10 +4680,11 @@
     },
     {
       "name": "Serverbound Pack Setting Change Packet Payload Pack Setting Value Control",
-      "hash": "9f6b46d2d933ce770a0a4241ff5ead44988693b883416062cd4e326b677a0329",
+      "hash": "497e1d75e54f6681135ef7d1b964c0da9023f57393b5ce3d32e29b0bbdf403ce",
       "bind_type": "enum",
       "is_bind_type": true,
-      "enum_kind": "literal",
+      "enum_kind": "numeric",
+      "backing_integer": "u32",
       "enum": {
         "float": 0,
         "boolean": 1,
@@ -4967,10 +4998,11 @@
     },
     {
       "name": "Sync World Clocks Packet Payload Data Control",
-      "hash": "6bde231bda360bbdef3db2453e9169c0a7a17d40cf45d7597472868affcaffcd",
+      "hash": "aeb4ee16b5dba95a332f4d7469e592b15f10f685c0613eca37c99efc614c43ce",
       "bind_type": "enum",
       "is_bind_type": true,
-      "enum_kind": "literal",
+      "enum_kind": "numeric",
+      "backing_integer": "u32",
       "enum": {
         "Sync State Data": 0,
         "Initialize Registry Data": 1,
@@ -4980,10 +5012,11 @@
     },
     {
       "name": "Text Packet Payload Body Control",
-      "hash": "b3a2e13ff67a73a52d967eee74a00f2607568ce4775db08e73467e119e44af11",
+      "hash": "31b2c6598ebf81b879fe78049879787f10a4814ae69baaa7662297d7386cd25f",
       "bind_type": "enum",
       "is_bind_type": true,
-      "enum_kind": "literal",
+      "enum_kind": "numeric",
+      "backing_integer": "u32",
       "enum": {
         "Message Only": 0,
         "Author And Message": 1,
@@ -37180,7 +37213,7 @@
     },
     {
       "name": "Color255 Rgba",
-      "hash": "f5c8c5003a2b0cec3d72ccf8c56b3dffdbce122a376115478f1f270865b6012e",
+      "hash": "cafed21a64880dde614a7ba593785854fa0d5d8cb8ac35fcf25a6650742b6c4f",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -37236,7 +37269,7 @@
     },
     {
       "name": "Constant Attribute Data Attribute",
-      "hash": "c8ba8de0ccf4daae0529867a507dc9b64401ac4ee35d95d8b0e71263a1624665",
+      "hash": "89144597a20e0e490eed5bee47d27b48ae48a9bbaa877e4ccf333586d2d29118",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -37273,7 +37306,7 @@
     },
     {
       "name": "Transition Attribute Data From Attribute",
-      "hash": "620685dd4772a9d7025f49cd4db64f1a6e0d3292ccbe8e22691535eebca2843f",
+      "hash": "7d8392987512f75a66284ee436ddbcc4d589e6ea71e9d70bd3ce378b9cc8880c",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -37310,7 +37343,7 @@
     },
     {
       "name": "Transition Attribute Data To Attribute",
-      "hash": "70538bf0a26509d8f696123d1575913b0dbbcf9241952d8f5d6bba738ab1892b",
+      "hash": "e2b8c4fc3fe55386160e29e20151c3dd7cb5270ea36860219d0073a841a52457",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -37347,7 +37380,7 @@
     },
     {
       "name": "Noise Transition Attribute Data From Attribute",
-      "hash": "1d6deca455eadf689bb845f1f2295e647c3c1e8af3e6d8ef3dc9712878fd61bb",
+      "hash": "f613aac2475712022dbac7d9015cad70be01a8c6a00f8a77c2e1b329dc2ca8b7",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -37384,7 +37417,7 @@
     },
     {
       "name": "Noise Transition Attribute Data To Attribute",
-      "hash": "53cf3f497a59c0ab0e628ace699d7c24e57ea5571c15920b2d63254bdb816a01",
+      "hash": "980375e6a3108165cdde15d9334aa4e67a707efd3751c08ebae22f156be0f952",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -37421,7 +37454,7 @@
     },
     {
       "name": "Environment Attribute Data Payload",
-      "hash": "56b9621ad6f44221b21b7341bc9d88e67d4a1dce30d84c1ca17ae9a48f24bfce",
+      "hash": "47941133fd245467eb0c354991ad449889e410d3d56d639582ba244d45939569",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -37458,7 +37491,7 @@
     },
     {
       "name": "Book Edit Packet Payload Operation",
-      "hash": "bc5a152ae0c0c3200e3beeb863b3e09d4ad29832525602e8940923affddab92c",
+      "hash": "30ebef47d740f0975c41fe9a15ed1f87681ad7c3b287086e65916749a2bca7bf",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -37511,7 +37544,7 @@
     },
     {
       "name": "Clientbound Attribute Layer Sync Packet Payload Data",
-      "hash": "4a470a1c86979d64d9b362eb08017bfd51a6980a2649172a8106cd05f54ba2ad",
+      "hash": "3c7cfe1e3b3bfe853d203b824c67a526abd3f8c6f9beae7e3e883363a8a8bdd2",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -37556,7 +37589,7 @@
     },
     {
       "name": "Clientbound Update Sound Data Packet Payload Fade",
-      "hash": "1cfa0ad295e4a9938da9cf7f87bf3b7b66ee0d17b622ff520539c1a5dbfd2d76",
+      "hash": "366244e4755bdb586a2561737687363386644408eddb9ce92eeeb8ddc71ff163",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -37625,7 +37658,7 @@
     },
     {
       "name": "Clientbound Update Sound Data Packet Payload Pause",
-      "hash": "122ab93f62a99bf6cccac330115a8e62d6ddd91d6510088601db8b0f34c85dd6",
+      "hash": "2b5de6817240c6bedb8da4dceda7efe7e7010afecbd60eb8395df7517c5173eb",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -37694,7 +37727,7 @@
     },
     {
       "name": "Clientbound Update Sound Data Packet Payload Resume",
-      "hash": "c38e96aa285a53a798d0d542b5a15558c4264c879a0fdac73b41e5b2f85cad08",
+      "hash": "16a52b45824c54b3bfcb6a7b8080668ffe917ce2461c243e839b417eb295454e",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -37763,7 +37796,7 @@
     },
     {
       "name": "Clientbound Update Sound Data Packet Payload Seek To",
-      "hash": "e286b5b9ade9c6b56b428057d10d83a82f35b2091f532b7513f85452f91c2229",
+      "hash": "d536bbce71bcfe0115bace1d37a62d842560115c048ec67a2eb0e79b14c797a3",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -37832,7 +37865,7 @@
     },
     {
       "name": "Clientbound Update Sound Data Packet Payload Set Pitch",
-      "hash": "7cd65b63486d6005e0d936fdbbbac37737ff5dc52acd6e576a548c3b60a9ff88",
+      "hash": "e78319f44f96c65e2764b45e174e3a46e069eff7e34a3a4db702e24cb993eabc",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -37901,7 +37934,7 @@
     },
     {
       "name": "Clientbound Update Sound Data Packet Payload Set Volume",
-      "hash": "bbacf487d1dde3932cff938e3bcfa18b23427c6dd2b4506c8103a3a82591fca5",
+      "hash": "b704bb350e3762a28180b4382b4f9aa075be8a3e3793e2adace71df92d2ff934",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -37970,7 +38003,7 @@
     },
     {
       "name": "Clientbound Update Sound Data Packet Payload Stop",
-      "hash": "11195c8899d6dd6bf78f11d9ad6dfb24fcf61ee4aa96c3a568b8c9e30f9ca53d",
+      "hash": "cdc5cc02da8c02d1cd2b0dfc704a81612d027fa7ae138cab662479fb21a1336f",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -38039,7 +38072,7 @@
     },
     {
       "name": "Data Store Update Data",
-      "hash": "2cf206611f1bc4a0f79af3deaebf28719e7dd8c8d7d198b9ee8b51d5a86e5688",
+      "hash": "07613d4661bb245f072b8f0a18f33c1479536d9ed3e5ad7d9eb2bc182ffd20ce",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -38087,7 +38120,7 @@
     },
     {
       "name": "Clientbound Data Store Payload Updates Item",
-      "hash": "6ff52f0d702911921c24de26c1b9d191c5b87b59d5937e1e4a2934771bb34afa",
+      "hash": "9eabdb2cc7a98f432514116243f4943765dcdbdef5c5e73548e2acbd8dcd1104",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -38124,7 +38157,7 @@
     },
     {
       "name": "Color255 Rgb",
-      "hash": "0b26858849a2de54febf181c5b93754c25860fa38f3e75106bb52a39fb1471f8",
+      "hash": "4a33afc5f15834029d3c44bec9218ef346e9088eca6078f2cfae19c67948c061",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -38180,7 +38213,7 @@
     },
     {
       "name": "Color Norm Rgb",
-      "hash": "b3c9b12a588b7f3c5a4d443652655922aae9c6d0bd1665c8c8abe4e96c19fcf5",
+      "hash": "4e1f447a9f474e65c74fb08cd51004df4b766c6313958fbf8e2a95acf2a92528",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -38236,7 +38269,7 @@
     },
     {
       "name": "Command Block Update Packet Payload Target",
-      "hash": "9bca7bdc01ad3b51f085ffaea24286785aa2759cda2934bd1278099953e97f54",
+      "hash": "179b1835bed05bb9006192fc32e8cefa5f08ae1f98549c0563da26018345d813",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -38310,7 +38343,7 @@
     },
     {
       "name": "Disconnect Packet Payload Messages",
-      "hash": "357d39e2b153833da52bdb75c9e1ce5f5d2ce6f602ff4c445fbb2ae36dd4cb66",
+      "hash": "c28baba936a0c2441d2b1ab524f464b136383f386385ee9639a679ebf8c4316b",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -38338,7 +38371,7 @@
     },
     {
       "name": "Game Rule Rule Value",
-      "hash": "c2ed749b367209969afb5fc11f1b8d7a23db8aee37f8927f604ef3ffdd9942db",
+      "hash": "e56e394269a7e3e11c437bd32b96d417b246d42af8d6dffa461267a008460123",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -38386,7 +38419,7 @@
     },
     {
       "name": "Inventory Transaction Packet Payload Transaction",
-      "hash": "1e7beab3e59d8d6f380aaaa240714f7b9412a4153a1ecc64a90bddff50cf3aa5",
+      "hash": "f0e1a6e46ad2bee6bebc75adcf3e861408916e2409eb53ce5942c68d3353743b",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -38641,7 +38674,7 @@
     },
     {
       "name": "Legacy Telemetry Event Packet Payload Event Data",
-      "hash": "dbf0d34efd5874266866f56e1854014ae90d1a9c960f9be685f65759d7f285c0",
+      "hash": "9dcc734f6ec34644ac7ed6f2265395293a1e045baffcde4b6bd268dc93c9f08b",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -38830,7 +38863,7 @@
     },
     {
       "name": "Player List Packet Payload Entries Item",
-      "hash": "7ba53caa51006a3bc1990a54dae536476f7a2a4f1ec6c682ec42f674d7810382",
+      "hash": "1ddd0b588038b82f76342cb05e5e270fc0313751e30525c57f4468d521a9a6c7",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -38859,7 +38892,7 @@
     },
     {
       "name": "Player Location Packet Payload Location",
-      "hash": "ec01d40467081f32d98ce9ee945f39a894f04e2cfc89505c2e9319f0bfa9856d",
+      "hash": "adfbe152984a001615897ef7230c711d5181f87217e7b320b0e713cbcdff5951",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -38933,7 +38966,7 @@
     },
     {
       "name": "Player Video Capture Packet Payload Start Video Capture",
-      "hash": "48b7bb90b29d1d8278ddc111e25c13f79a943a020decbd61f40a55fe48c6c695",
+      "hash": "0a9ae49b09d2eb3d032b02c20c6c6b7da3bc5b78709540fd3b0c9150cd66ad77",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -38962,7 +38995,7 @@
     },
     {
       "name": "Player Video Capture Packet Payload Stop Video Capture",
-      "hash": "34e014d55d64b9525dcd539e70201f1efb8634bef6743b5ca6d4bb403054b243",
+      "hash": "0aad14394116f2655271ab9aa89dee7c86db467014fa5da67741608f8b8daf1d",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -38991,7 +39024,7 @@
     },
     {
       "name": "Primitive Shape Data Payload Extra Shape Data",
-      "hash": "c005bb6aa860279afb90ff5c990c2c90359a625b237dc4fc01ab96aa74766704",
+      "hash": "24644c705d400c1b2dd1a333e3954581b122d6ac67ae2401ff0d50e34baae0f5",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -39128,7 +39161,7 @@
     },
     {
       "name": "Serverbound Pack Setting Change Packet Payload Pack Setting Value",
-      "hash": "15d20049b475809f979e6706a100d8534329fa965377a27911e9424626f7cb56",
+      "hash": "812e40dc7af01c361fe61e2b4b19a60ad68e6427165a206f3a2066081c6cf2c4",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -39243,7 +39276,7 @@
     },
     {
       "name": "Sync World Clocks Packet Payload Data",
-      "hash": "fc52d282240fbb952b948367aaab267bd2ce52747b3fd611e6d17ff1bb7dae1d",
+      "hash": "e53405d61a87ec8670bdc16c683980a6be4276427abbc448a6db1bca93617882",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -39288,7 +39321,7 @@
     },
     {
       "name": "Text Packet Payload Body",
-      "hash": "85f31cc6170c3a1f5250ab029d22c1c56dd976f389e8f5f1cedfc9d445a08c7f",
+      "hash": "0adc8842d33cead1e7dd51956b1149bda81da751375583b14a388545615cae64",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [

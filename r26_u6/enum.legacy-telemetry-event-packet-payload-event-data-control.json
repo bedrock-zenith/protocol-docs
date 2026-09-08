@@ -1,9 +1,10 @@
 {
   "name": "Legacy Telemetry Event Packet Payload Event Data Control",
-  "hash": "be0c5a69de020738f135837775885a4a2a58b86a818ca4c09e570ef78d2fa04d",
+  "hash": "e310d5355c92614246d4519ce6995c81e0e067a3b47b12b8468cf34fbf6befdd",
   "bind_type": "enum",
   "is_bind_type": true,
-  "enum_kind": "literal",
+  "enum_kind": "numeric",
+  "backing_integer": "u32",
   "enum": {
     "Achievement": 0,
     "Interaction": 1,

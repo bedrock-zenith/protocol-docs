@@ -1,9 +1,10 @@
 {
   "name": "Sync World Clocks Packet Payload Data Control",
-  "hash": "6bde231bda360bbdef3db2453e9169c0a7a17d40cf45d7597472868affcaffcd",
+  "hash": "aeb4ee16b5dba95a332f4d7469e592b15f10f685c0613eca37c99efc614c43ce",
   "bind_type": "enum",
   "is_bind_type": true,
-  "enum_kind": "literal",
+  "enum_kind": "numeric",
+  "backing_integer": "u32",
   "enum": {
     "Sync State Data": 0,
     "Initialize Registry Data": 1,

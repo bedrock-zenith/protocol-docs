@@ -1,6 +1,6 @@
 {
   "name": "Clientbound Update Sound Data Packet Payload Fade",
-  "hash": "1cfa0ad295e4a9938da9cf7f87bf3b7b66ee0d17b622ff520539c1a5dbfd2d76",
+  "hash": "366244e4755bdb586a2561737687363386644408eddb9ce92eeeb8ddc71ff163",
   "bind_type": "union",
   "is_bind_type": true,
   "fields": [

@@ -1,6 +1,6 @@
 {
   "name": "Player List Packet Payload Entries Item",
-  "hash": "7ba53caa51006a3bc1990a54dae536476f7a2a4f1ec6c682ec42f674d7810382",
+  "hash": "1ddd0b588038b82f76342cb05e5e270fc0313751e30525c57f4468d521a9a6c7",
   "bind_type": "union",
   "is_bind_type": true,
   "fields": [

@@ -1,9 +1,10 @@
 {
   "name": "Clientbound Update Sound Data Packet Payload Set Volume Control",
-  "hash": "eab5580d9f32fc12b40d55afee7be9e90a2b8a9765b6ac6bf2e41b8a0d44e2a0",
+  "hash": "9043865dc01a4cbca5ab5d74871f1028ddf7dbab371c1841b23aee6294655fe9",
   "bind_type": "enum",
   "is_bind_type": true,
-  "enum_kind": "literal",
+  "enum_kind": "numeric",
+  "backing_integer": "u32",
   "enum": {
     "Stop": 0,
     "Set Volume": 1,

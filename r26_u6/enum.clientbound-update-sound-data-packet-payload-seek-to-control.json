@@ -1,9 +1,10 @@
 {
   "name": "Clientbound Update Sound Data Packet Payload Seek To Control",
-  "hash": "66af018879ed03939e86a94da267d2d289b98749f9968b49885e4fc65544e79d",
+  "hash": "d6d15dacda4eac5956a213c651ed95159b39848220fe83760a48a137db287ea3",
   "bind_type": "enum",
   "is_bind_type": true,
-  "enum_kind": "literal",
+  "enum_kind": "numeric",
+  "backing_integer": "u32",
   "enum": {
     "Stop": 0,
     "Set Volume": 1,

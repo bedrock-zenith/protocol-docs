@@ -1,9 +1,10 @@
 {
   "name": "Transition Attribute Data To Attribute Control",
-  "hash": "6c4b0c0d5966bd8cc57863304f45ecdb4157c683cb825bea2fe82e211e6aa776",
+  "hash": "e2ee2fd9b056bba9efb47ca788eaaf480ec7d14beea517da95a606f485f0c412",
   "bind_type": "enum",
   "is_bind_type": true,
-  "enum_kind": "literal",
+  "enum_kind": "numeric",
+  "backing_integer": "u32",
   "enum": {
     "Bool Attribute Data": 0,
     "Float Attribute Data": 1,

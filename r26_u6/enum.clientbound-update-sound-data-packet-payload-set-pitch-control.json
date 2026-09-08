@@ -1,9 +1,10 @@
 {
   "name": "Clientbound Update Sound Data Packet Payload Set Pitch Control",
-  "hash": "6f004282ead702d79ded1e412db32d1ae13dde59a745ba6c2854f0c9fd6b43b5",
+  "hash": "61999bfd2758d5f52130b6f9e2119093022d864c6c0aad0f2790d3042aef05e9",
   "bind_type": "enum",
   "is_bind_type": true,
-  "enum_kind": "literal",
+  "enum_kind": "numeric",
+  "backing_integer": "u32",
   "enum": {
     "Stop": 0,
     "Set Volume": 1,

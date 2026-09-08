@@ -1,6 +1,6 @@
 {
   "name": "Clientbound Update Sound Data Packet Payload Stop",
-  "hash": "11195c8899d6dd6bf78f11d9ad6dfb24fcf61ee4aa96c3a568b8c9e30f9ca53d",
+  "hash": "cdc5cc02da8c02d1cd2b0dfc704a81612d027fa7ae138cab662479fb21a1336f",
   "bind_type": "union",
   "is_bind_type": true,
   "fields": [

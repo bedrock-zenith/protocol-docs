@@ -1,9 +1,10 @@
 {
   "name": "Clientbound Data Store Payload Updates Item Control",
-  "hash": "4e3bd3650fbea555ea4c7fc8d63dcae372a00593c4b0bae3f59d509964e4512b",
+  "hash": "62aaebe70df492782a59005540f3d90cc66a239f6122b0fc4ce8286250ccf85d",
   "bind_type": "enum",
   "is_bind_type": true,
-  "enum_kind": "literal",
+  "enum_kind": "numeric",
+  "backing_integer": "u32",
   "enum": {
     "Update": 0,
     "Change": 1,
