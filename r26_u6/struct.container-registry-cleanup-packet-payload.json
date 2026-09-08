@@ -1,6 +1,6 @@
 {
   "name": "Container Registry Cleanup Packet Payload",
-  "hash": "f87aa067459fd68a129e28689afed358e024ea2e3a4a243e503ac8867e51532e",
+  "hash": "1b7cdcaeac8c2183f9e4a1a4909012572863aa51b4606037d64ec1b7c9ce2b7c",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

@@ -1,6 +1,6 @@
 {
   "name": "Respawn Packet Payload",
-  "hash": "654e8c4b395d7d9904b3adc7d3aaf154bb0f158debab585ff0d4de74ad53f8ce",
+  "hash": "48a22d5012af86e1ba6f34dc8235814ce84216c71e7d768159de592c315746f2",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

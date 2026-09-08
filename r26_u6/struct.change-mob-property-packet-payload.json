@@ -1,6 +1,6 @@
 {
   "name": "Change Mob Property Packet Payload",
-  "hash": "20385f59ca20edd01e67cc6fdcf94bdb08ba7449b4f1bcc09f9095738adedd02",
+  "hash": "7a9933aa510544fa444f4437681242419b14248bfdeee05529adcdc3db5f96c9",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

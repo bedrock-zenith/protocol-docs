@@ -1,6 +1,6 @@
 {
   "name": "Command Request Packet Payload",
-  "hash": "e7060765dd33ffb91f304f7297f25dead9f5adb0e735cbbcb1fbbfed11bf881c",
+  "hash": "5f01ac39130219d997094771ac712e8dfc4302b9587190566a27541953611573",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

@@ -1,6 +1,6 @@
 {
   "name": "Item Stack Request Drop Action",
-  "hash": "63ec1d854ab30d531b6aebda835f9b169532bc227d7db68e51acb008f54928c7",
+  "hash": "6ee75331b2c52590655a70d30205559d7fc94b950f3345b5c14cbecf7fe21ffa",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

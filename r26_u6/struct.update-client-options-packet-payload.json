@@ -1,6 +1,6 @@
 {
   "name": "Update Client Options Packet Payload",
-  "hash": "785e8f6dac589d01dba8945912a9671d82c54b30beda614b184affcb60a3ddb8",
+  "hash": "4a32b16afc66385b4c6d1e9c2f462f3dbd65d018aedf1fa5095bbec375aa4295",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

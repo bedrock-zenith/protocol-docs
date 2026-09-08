@@ -1,6 +1,6 @@
 {
   "name": "Data Item Short Payload",
-  "hash": "2b784195f9e4de77ddca8166fdfe33a25a5fc436f866891c6031c6c67df06732",
+  "hash": "177868effca0f75c19f2ac934c7cabe6e5cac946aad2ccb24d59447eba709d2f",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

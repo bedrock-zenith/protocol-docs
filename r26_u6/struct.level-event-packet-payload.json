@@ -1,6 +1,6 @@
 {
   "name": "Level Event Packet Payload",
-  "hash": "1b36723f3d3019a9564d2e9090c8823074d21dec11266317076302c5ffe23662",
+  "hash": "db0f77342ff3adfbf06eef3121c30bc13be6da36e8f1883ce53160c20bb766e6",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

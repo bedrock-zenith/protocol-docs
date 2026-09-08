@@ -1,6 +1,6 @@
 {
   "name": "Camera Presets Packet Payload",
-  "hash": "1ff6e72329cc372e401b8d6b49d2a4e87e6f0bddc90291e8fa6d8a14ff9b035c",
+  "hash": "ee809ac9f69d501fa656c9c7f2c4b96acedbedbe68015e3930dcf287c92a46da",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

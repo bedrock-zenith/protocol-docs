@@ -1,6 +1,6 @@
 {
   "name": "Network Chunk Publisher Update Packet Payload",
-  "hash": "09a750ce3ae259f4923571d31187b4ac6a1c62160dcfb9dc33e59ae4d9ae2df0",
+  "hash": "c0ba1337c4c076511dc5349ac69f1d0ed402e02effcbeafe198e4e0662eac532",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

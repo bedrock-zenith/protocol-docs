@@ -1,6 +1,6 @@
 {
   "name": "Correct Player Move Prediction Packet Payload",
-  "hash": "20335db0937b6536215546e291ad79adc3117a8d64026ad13750761b14f367c0",
+  "hash": "6683ceaf740c4b8c04916aafe1d4753801c16a6a4abde144d1c2316abad970cf",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

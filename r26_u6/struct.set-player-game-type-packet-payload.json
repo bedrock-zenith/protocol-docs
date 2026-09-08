@@ -1,6 +1,6 @@
 {
   "name": "Set Player Game Type Packet Payload",
-  "hash": "117970ab3ae126d51da77b77eddc42e4f307ea573ec1c41634d24f15fed5aa06",
+  "hash": "73b228732d3060a0ed9ea5b730c8bebb854b108fa5d838afdde7bf681c2c7a11",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

@@ -1,6 +1,6 @@
 {
   "name": "Game Rules Changed Packet Payload",
-  "hash": "e9cc07e6cbb501c06aeb6b96d8513968dc7507fde6d0bc2d133b5efd58afee1c",
+  "hash": "40b692bc934442de1fed68c6f975591e82aa30058bcae1bce074800ee60b570a",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

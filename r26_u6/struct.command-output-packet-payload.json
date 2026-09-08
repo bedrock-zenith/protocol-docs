@@ -1,6 +1,6 @@
 {
   "name": "Command Output Packet Payload",
-  "hash": "e61ac13ac93d8ec41236a1256e0523933302d3a3688d90daa25798d04071056c",
+  "hash": "51818bba73691912b54c25d9524ed3c78e532d581d0f29b8ddcdb3ed380c4931",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

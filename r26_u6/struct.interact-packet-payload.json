@@ -1,6 +1,6 @@
 {
   "name": "Interact Packet Payload",
-  "hash": "037672502a321d3666f192ff764dd6ea50e8bab3332930678095b61a4978d7d0",
+  "hash": "112c212fc285ecfc575ce607eff5071d42d9051c2ab49cc7b8f349d1abb5dcf1",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

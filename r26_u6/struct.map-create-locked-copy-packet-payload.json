@@ -1,6 +1,6 @@
 {
   "name": "Map Create Locked Copy Packet Payload",
-  "hash": "4755d8316b95bbfe5278f616f3704b0dffed98074c83204f8cc3248f144e400d",
+  "hash": "3b2cbecdbc893d3420538295958d85c2035c85bbbe0db24fd7258e29f936baac",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

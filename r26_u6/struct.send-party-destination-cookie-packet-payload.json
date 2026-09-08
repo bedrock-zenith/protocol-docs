@@ -1,6 +1,6 @@
 {
   "name": "Send Party Destination Cookie Packet Payload",
-  "hash": "a460b92de66606ec45690ff474f34d2c945fff3798ab9d4695bb5b95a1aec4e7",
+  "hash": "672f3d891b750da8313e1b28df732258aefcf5fc6ea9426a844e5e037fdf32b0",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

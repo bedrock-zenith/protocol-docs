@@ -1,6 +1,6 @@
 {
   "name": "Container Open Packet Payload",
-  "hash": "377a2595569e065e0ba97253af2fb24fe204b5206b07993c50b77df33129f0f2",
+  "hash": "35fec4316dee98c2d60393cb18887d59a0b746777b77c2a75ff2fd7863e78fc6",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

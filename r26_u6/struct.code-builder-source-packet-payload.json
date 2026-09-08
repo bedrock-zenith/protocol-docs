@@ -1,6 +1,6 @@
 {
   "name": "Code Builder Source Packet Payload",
-  "hash": "40ad3d263581f983c3251189c8096414d0187ea747f37e3f40f92eb888491b62",
+  "hash": "6f6f1ddbc137c3f7f9094b623fd645cc7b10ad282eea5559a61fec858a11bcc8",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

@@ -1,6 +1,6 @@
 {
   "name": "Block Command Data",
-  "hash": "d6f2d27ce71c9b973a544eff6b605ab7b26b9c8b94276096b45bc99e6de7f537",
+  "hash": "ccb324aea11c8fdc46f1dbc48d16d1a2322a9dad18c93b7dcc98bba9b33ea77c",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

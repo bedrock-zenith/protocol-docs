@@ -1,6 +1,6 @@
 {
   "name": "Clientbound Update Sound Data Packet Payload Set Volume",
-  "hash": "bb10e3af1bc57bdf90d8bac78aff406e66bd3a580c656b225e85a96cbb92271b",
+  "hash": "bbacf487d1dde3932cff938e3bcfa18b23427c6dd2b4506c8103a3a82591fca5",
   "bind_type": "union",
   "is_bind_type": true,
   "fields": [

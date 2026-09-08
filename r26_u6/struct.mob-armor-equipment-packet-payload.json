@@ -1,6 +1,6 @@
 {
   "name": "Mob Armor Equipment Packet Payload",
-  "hash": "688bd85e0b23fddb984d52cf479c048e04ab756505c214c4cc2bb2ac1039931c",
+  "hash": "59abc342bad77574a7598ec7b2d64458eaa1da20153ddb89ba296ca6b05c8138",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

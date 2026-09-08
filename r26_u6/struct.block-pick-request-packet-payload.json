@@ -1,6 +1,6 @@
 {
   "name": "Block Pick Request Packet Payload",
-  "hash": "a3158b3324927a06f1f3d33fbb34da6342a37ee32e97215c07447b9fd50929cb",
+  "hash": "ebdd68dd6e3a0086d19981f103244330c5df05be2874d1cadd6b7643fbe839af",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

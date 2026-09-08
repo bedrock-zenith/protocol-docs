@@ -1,6 +1,6 @@
 {
   "name": "Memory Category Counter",
-  "hash": "e63ba5f4a021b6fb0f606b4b87b0f50c60703a10f27f94febbf85440ce829693",
+  "hash": "642f033ad16ad5e5ae2207f8a36ea0c7b109500891ac5d6c4248adef9f480a3f",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

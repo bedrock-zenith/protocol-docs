@@ -1,6 +1,6 @@
 {
   "name": "Clientbound Data Store Payload",
-  "hash": "de5d11c47b75fd0e1c713a0c70c2adcf68d4d35365f53118513cd4e8446a3ea9",
+  "hash": "77eb15a79ed2984a5808acbab974707a4fc282011bc2bf88affd310c9d7fcee4",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

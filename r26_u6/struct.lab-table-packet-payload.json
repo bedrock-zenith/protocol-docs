@@ -1,6 +1,6 @@
 {
   "name": "Lab Table Packet Payload",
-  "hash": "413b6a5d93444fcf1eac659a239cbec9fb81cc5ab18a59030cba17cf9e8e0433",
+  "hash": "d9ce04438e742d0a2ced46d9036450b9f889b29f7caf297830376d922f2c608a",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

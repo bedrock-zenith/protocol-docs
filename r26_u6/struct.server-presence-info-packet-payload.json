@@ -1,6 +1,6 @@
 {
   "name": "Server Presence Info Packet Payload",
-  "hash": "22b3a13c59773b9161bf45dd28af3da8a57b8bbe65e21e592a7eb12ce20a3e95",
+  "hash": "d2ffcc49a1902f6a31d8032b09e7532b665fa23896d7d710de0a19ec2001f927",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

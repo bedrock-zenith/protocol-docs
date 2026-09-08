@@ -1,6 +1,6 @@
 {
   "name": "Serialized Noise Block Specifier",
-  "hash": "4da0cc9492dad5c05defb31b4e053f9e02acc8c55ea9b9ce6890ecd320ebe80b",
+  "hash": "b4c934a053e0b8d98d76e5bbf962a27ff58f938240134edc8151d405d51237e0",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

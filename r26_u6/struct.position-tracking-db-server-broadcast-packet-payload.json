@@ -1,6 +1,6 @@
 {
   "name": "Position Tracking Db Server Broadcast Packet Payload",
-  "hash": "c57d65ffbd996515bbd321332c0ab27d12bb1ebb065100551c35511e29616cf6",
+  "hash": "e4785f969688f194da975af2066a67fdaac90aa29d39b74a42da33e2aa2d6ee9",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

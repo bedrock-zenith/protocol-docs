@@ -1,6 +1,6 @@
 {
   "name": "World Position",
-  "hash": "e798fa64eb8860554378b962c8fef6ee8b291aa29a94e647cd088a9294f084f9",
+  "hash": "d84e39cd58ba93252507f8ce6d9ae898a22f28497d97f9c5f5f1881395c05d59",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

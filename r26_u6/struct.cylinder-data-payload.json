@@ -1,6 +1,6 @@
 {
   "name": "Cylinder Data Payload",
-  "hash": "756e5db2f19ab6c3b98222dbba10f8c4e4f05be2ee0eb22c08151a4c467454c4",
+  "hash": "ca30b7a5d19670ca4fd56ea588272d682a1bf3ab6631d8d8e2e4f0ba5dcc780e",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

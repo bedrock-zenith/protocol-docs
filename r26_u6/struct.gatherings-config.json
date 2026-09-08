@@ -1,6 +1,6 @@
 {
   "name": "Gatherings Config",
-  "hash": "9a2f072649deac0cf86314538f5480aea487afa6e41ba78d6bd0cd87372ffa35",
+  "hash": "8e538833a92659f2608a172875308a65bed3e93109a315716a4496c62317ef1c",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

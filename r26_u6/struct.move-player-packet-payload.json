@@ -1,6 +1,6 @@
 {
   "name": "Move Player Packet Payload",
-  "hash": "96091a13196b4703fe8bad6af083ee6503be137b761fb50b98828ec9ba1acc84",
+  "hash": "3bb0542c986f8ceb62d7ae154c40be495a74175da00e634049cf2303a458e251",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

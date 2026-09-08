@@ -1,6 +1,6 @@
 {
   "name": "Debug Info Packet Payload",
-  "hash": "f048adf81bbe1c5a7f1f5fcda30c0ffd2b5e010219cde9f74cf74c597227c3fb",
+  "hash": "5451b3b9fdc1a9c113d804f16a2c9f9cbca8ab709de8246c9043000588525dc0",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

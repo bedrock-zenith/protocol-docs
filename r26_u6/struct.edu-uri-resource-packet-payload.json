@@ -1,6 +1,6 @@
 {
   "name": "Edu Uri Resource Packet Payload",
-  "hash": "b6fb02280dcd3d18ba076adcd2b2287e5502f5109df061b318c67ccb167fa28f",
+  "hash": "dec12baabdfc98f3e014003e8e7b4538193f2bbe81d21df88dc9d9f7c3ef721f",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

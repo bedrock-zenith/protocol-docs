@@ -1,6 +1,6 @@
 {
   "name": "Play Sound Packet Payload",
-  "hash": "32c337a4518450d23e1c4a62509bef0dd841573d892e5bea5f7b3c4654e1f5be",
+  "hash": "c62367076b504d2ee52982aa20fb50fc892e1873086e6e8001dfd085cfd75d02",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

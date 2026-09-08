@@ -1,6 +1,6 @@
 {
   "name": "Data Item Compound Tag Payload",
-  "hash": "3afda31625afd473a250101a20b5c04ac952091a287a139baa2eb19b8b0c0abf",
+  "hash": "c0d73a9805695158ac2798d065bbcad2adfd77daf6648bae029c71cd765bef84",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

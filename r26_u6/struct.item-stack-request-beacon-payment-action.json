@@ -1,6 +1,6 @@
 {
   "name": "Item Stack Request Beacon Payment Action",
-  "hash": "18a4448e80af1f14544712b638e9e2ac352cc48c2a3779b652b9f637b19a4895",
+  "hash": "84486cd2a8f6e0c478306585b576b74ffe312edf9aeaa773342a5a6921db414d",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

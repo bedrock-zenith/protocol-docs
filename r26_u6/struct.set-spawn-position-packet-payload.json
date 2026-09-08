@@ -1,6 +1,6 @@
 {
   "name": "Set Spawn Position Packet Payload",
-  "hash": "33204294a70f94df63de500c44d2735dcdbc857931bb29529f6f553a06152115",
+  "hash": "cedfc33219c23beb6de657f1c29ea150df348d63e6032040b194d9491f00ebfd",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

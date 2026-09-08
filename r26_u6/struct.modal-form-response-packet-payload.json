@@ -1,6 +1,6 @@
 {
   "name": "Modal Form Response Packet Payload",
-  "hash": "89fb1d8fa64f2e8c04d530261150d0b367d8778b2e19bfca606acc6bf3b3e85e",
+  "hash": "6bb5e2c0d34b8baa0b581069e7ff3a7dfc006a18a5c24d450d9146ef1a2df5fd",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

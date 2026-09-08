@@ -1,6 +1,6 @@
 {
   "name": "Show Store Offer Packet Payload",
-  "hash": "4e2947eb24053cfacda206bde11a5751bfcd0184394e548457964775c7116bae",
+  "hash": "16d12adc233406ed321e2bc77e32c6378e354b194e4f5c9e28cffccb8a55b7c8",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

@@ -1,6 +1,6 @@
 {
   "name": "Text Data Payload",
-  "hash": "44c80d585e7e8254b8b96c8c931b5f6a08e787bc090491938544f208e345df52",
+  "hash": "24665c8e748d67c5052286cbee1217cff7a509359bbd8ee597699170557c3b8c",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

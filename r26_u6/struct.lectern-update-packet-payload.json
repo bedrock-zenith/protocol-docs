@@ -1,6 +1,6 @@
 {
   "name": "Lectern Update Packet Payload",
-  "hash": "6951b632c6dceab917871e05918799876d32f773e85a47ea62a3f602de7c4d13",
+  "hash": "44df7b4477fe92df3ed0163297cd46e61ebf5eb8f67254b95dcdaaf8119bf3ba",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

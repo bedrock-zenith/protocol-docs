@@ -1,6 +1,6 @@
 {
   "name": "Smithing Transform Recipe Payload",
-  "hash": "3101370d254bdffe39cfeb06ec2e3ddf23e88bc0c58c5737e771310b766934fa",
+  "hash": "a984c8ac23b318e0ef6bc4659aaec97705f7b146f98b51557c12cd059e6f2425",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

@@ -1,6 +1,6 @@
 {
   "name": "Add Item Actor Packet Payload",
-  "hash": "5abad58a41f6dcd19d858095841e3d48100e71cf37a77cc07ee211b528c6bea4",
+  "hash": "14727a3004c443a978fb6a6e0186c264ad60c5d775b22217051e01c89784311b",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

@@ -1,6 +1,6 @@
 {
   "name": "Mob Effect Packet Payload",
-  "hash": "9c46e49a4ab8afebe7362d95e56b46d1002cac0eab5635cfe15b878c8e82fbea",
+  "hash": "1652f8908e1cafd4a3cf015fe054ca09b750c2451f9b2a02616f23aeea440790",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

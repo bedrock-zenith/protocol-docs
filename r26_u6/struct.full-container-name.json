@@ -1,6 +1,6 @@
 {
   "name": "Full Container Name",
-  "hash": "bc13745f7596c76490ce5d58aeeaf0808bf3ae4ac20f7068ac8aecf58800e4a1",
+  "hash": "dddde23f366c70b51fa6269999f5246082ecbd0813f58c648c6f70e45b625cd7",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

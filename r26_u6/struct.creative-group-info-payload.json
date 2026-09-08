@@ -1,6 +1,6 @@
 {
   "name": "Creative Group Info Payload",
-  "hash": "d7b61afcecda725b510479629432856a366c007fdcb9fb24ec747f1c3f67b8df",
+  "hash": "821f166db442b2dde9227a02d0ab23cd654bd34863e005f08250c4c920964ff1",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

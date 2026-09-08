@@ -1,6 +1,6 @@
 {
   "name": "Simple Event Packet Payload",
-  "hash": "157760d3f6b6fffbbe4280fb49634af7e7f6c7493425a326ba084f53ea6959ac",
+  "hash": "ef7cf3c71bbe0d2a99c6b95769b91eb83b9706bfd4a8215fff0efb0bf64bd216",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

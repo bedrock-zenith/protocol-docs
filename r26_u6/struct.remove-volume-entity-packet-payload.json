@@ -1,6 +1,6 @@
 {
   "name": "Remove Volume Entity Packet Payload",
-  "hash": "07090083a28527e2a371bac07233e4fb4550e9f09875662620cc4a462c7745b6",
+  "hash": "62beea51a11ae63402c0c9f852973fb638e597ad00406826736d459468e91d1b",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

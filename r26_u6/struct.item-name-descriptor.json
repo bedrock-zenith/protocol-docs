@@ -1,6 +1,6 @@
 {
   "name": "Item Name Descriptor",
-  "hash": "c820cc03e989b676ebb18bee4f9547b46691c5d60a06063683bd1534d934dd1f",
+  "hash": "e40c49151de76345432ac51eeb3edb2c890ef366c1d35bb38f824eb16c2336f6",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

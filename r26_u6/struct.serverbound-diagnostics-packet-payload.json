@@ -1,6 +1,6 @@
 {
   "name": "Serverbound Diagnostics Packet Payload",
-  "hash": "6f955bae2313a3c51130341f9d978b158a79cdd67cdd875539514e7e039eaedc",
+  "hash": "3bd93f3486938559baa49a25bf04ef3b4a7fb18ab6686178cf9f2c153985a9c0",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

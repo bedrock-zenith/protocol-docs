@@ -1,6 +1,6 @@
 {
   "name": "Item Stack Request Actions Item",
-  "hash": "d295d0a01ca21b62517eb79f5c425d40934cc59f7e7f2c233a0d284c2cc25948",
+  "hash": "a3b0b9fd8d152c3bb6e7044988a43e831dea0bcde6636895666cdfb5f146c6d1",
   "bind_type": "union",
   "is_bind_type": true,
   "fields": [

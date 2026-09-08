@@ -1,6 +1,6 @@
 {
   "name": "Primitive Shapes Packet Payload",
-  "hash": "ee029a045bec392b886f54669847796580c56c6f0a5a798ff529793fbf2e6896",
+  "hash": "c58707dd0ec8d11d4e15cd6b5573b431f6935f1ac716b5041fc4e7c570a2007a",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

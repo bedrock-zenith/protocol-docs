@@ -1,6 +1,6 @@
 {
   "name": "Play Status Packet Payload",
-  "hash": "825c1bab093992716a4a13851f3ad1cc0d7b6f6c01bd041c5a0f3258739e73c1",
+  "hash": "60c4c240005960e1ddee51fd7009a435e235ce2deec2facb74d12b59411de8a3",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

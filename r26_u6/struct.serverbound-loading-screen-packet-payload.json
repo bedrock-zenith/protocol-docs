@@ -1,6 +1,6 @@
 {
   "name": "Serverbound Loading Screen Packet Payload",
-  "hash": "766b639723eee6d244050eb2cbc4b1f07136189b472a7249d9a2d2669d376939",
+  "hash": "ee2c13c2980a9ed4e42dc850011834e29e387cc564d12cf0c37c65a1c740c019",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

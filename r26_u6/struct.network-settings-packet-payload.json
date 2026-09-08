@@ -1,6 +1,6 @@
 {
   "name": "Network Settings Packet Payload",
-  "hash": "b1b42b0ff54aa158e74bd6c0d9650795aec175204b51e720a79e68e6cf18266a",
+  "hash": "f7262fd4f2091b25e38911a1184207cf4a763ccb0976329e9cd2fa83c4628af0",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

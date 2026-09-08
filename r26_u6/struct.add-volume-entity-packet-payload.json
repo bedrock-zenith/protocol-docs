@@ -1,6 +1,6 @@
 {
   "name": "Add Volume Entity Packet Payload",
-  "hash": "9f32e659e1cc6c3b989c856807a0fa55e753819dd058d8998b8c264ca468d6f4",
+  "hash": "a7ae45443888733c7d7d17c1cc06ebc38bb439d0c61e769bf2b218a6115cdebd",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

@@ -1,6 +1,6 @@
 {
   "name": "Item Tag Descriptor",
-  "hash": "02a7b2ef137ea62044c3a873bf7009ea3fd63d1e54e75df88a1589c7bb7cfa72",
+  "hash": "4984fad10c2539ca3c3a59ace702597505900d92d510b16a9b1290efd6e776f2",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

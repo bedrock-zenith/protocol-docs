@@ -1,6 +1,6 @@
 {
   "name": "Command Origin Data",
-  "hash": "54ca42eeac4a9b5684865aa304af362873cc74ac3a60f0540b02c127bda9e0ca",
+  "hash": "0ee6ebfbadee0b2077643d4a081733d5a53e2d1c9b71a8ec01699140dd3d93c4",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

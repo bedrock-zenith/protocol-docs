@@ -1,6 +1,6 @@
 {
   "name": "Set Last Hurt By Packet Payload",
-  "hash": "1c4410c223e6bd33efdf461aa0e02999da3313de2144d972f7ecb89263ee6c89",
+  "hash": "072c073ebe045be0800bb3305673daaf46fe89fe2ce4b9a2bb6ded93235d5037",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

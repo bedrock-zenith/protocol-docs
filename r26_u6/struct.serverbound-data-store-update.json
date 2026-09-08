@@ -1,6 +1,6 @@
 {
   "name": "Serverbound Data Store Update",
-  "hash": "a7d2ab66aa7ff372b9b5e5894f9a560feb1d8bafef79889e823343bd08f98611",
+  "hash": "1b19b4b571a43137215892d335d23732843f8c7b48ee76524464724cc86f7d60",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

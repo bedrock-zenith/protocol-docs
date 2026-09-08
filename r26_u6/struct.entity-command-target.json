@@ -1,6 +1,6 @@
 {
   "name": "Entity Command Target",
-  "hash": "04051d78b4939155ef35087607c4e840afd653c4b729a8c93e42611e61649b49",
+  "hash": "64f2da81fa97c6aa15847765ef3dbdd68914f7f4bcd1a576bcc77d78bfe40e48",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

@@ -1,6 +1,6 @@
 {
   "name": "Graphics Parameter Override Packet Payload",
-  "hash": "c05d430b2d77426163592f0650097cc29a7bb6941174e18d50f0528bc97a1282",
+  "hash": "e49334fb3aab6cf94b915a74448d0cb0c6a42021c9fbaeb0a888606e34297b56",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

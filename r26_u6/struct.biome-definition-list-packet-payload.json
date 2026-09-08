@@ -1,6 +1,6 @@
 {
   "name": "Biome Definition List Packet Payload",
-  "hash": "cfae073a0f43fbaaf6e437fbde79734b40bcf4754e0ac3c25f7d0089e9bb607c",
+  "hash": "14023a8fa67f09e3742c6a775b6b2ba6930a0cdf9f23b772a83b50bbbee50246",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

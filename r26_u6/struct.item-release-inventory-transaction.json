@@ -1,6 +1,6 @@
 {
   "name": "Item Release Inventory Transaction",
-  "hash": "8761efb92d000e337772813c74ed3730a343109da07a65d16b2a7e31661a2722",
+  "hash": "9e281c2d0acf6dc8476a8a24da4eb130138a13250876f00cb6d4eaf1ba01a3fb",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

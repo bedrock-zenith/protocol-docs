@@ -1,6 +1,6 @@
 {
   "name": "Item Stack Response Slot Info",
-  "hash": "b6885dc2aef7abb7262300eaaeb28b8b80cefe642669c16678ca1e74a860031e",
+  "hash": "5039c257f1153f3063452989156496e7b34786998a1fe1b797412cde779b046f",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

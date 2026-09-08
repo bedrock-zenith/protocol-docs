@@ -1,6 +1,6 @@
 {
   "name": "Item Use On Actor Inventory Transaction",
-  "hash": "739b9a21c7de65e1fe1c29e83c182df01264d770124dbd7e0db329b72c87d95b",
+  "hash": "72c963b57f5ba817eac3d4c36fdfdd58f52c60fb742ea011c386394b43c5954a",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

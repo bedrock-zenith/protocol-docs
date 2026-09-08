@@ -1,6 +1,6 @@
 {
   "name": "Entity Diagnostic Timing Info",
-  "hash": "705064643692092874f52bfe6122ae1f8a3ff42c3d2acf3157ffeb4982bbc935",
+  "hash": "8833c18bc1a83ea17d219eff0f99ce408a656cc86df4862918a0173b4aa7e704",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

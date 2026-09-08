@@ -1,6 +1,6 @@
 {
   "name": "Update Block Synced Packet Payload",
-  "hash": "440978bdb28b4493babf1e305b03ad396a2c86db8a45a7b6d1ead89dc70d4df1",
+  "hash": "b622537bb3718d4f33e4aee696b6b5ce4d99232a0c1ff8f83a474db8c75a54cc",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

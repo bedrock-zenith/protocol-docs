@@ -1,6 +1,6 @@
 {
   "name": "Show Credits Packet Payload",
-  "hash": "a308b7acda82bc211be455a65bc46a9e24a0b0492f8f831fa8e0ab42aa9bd602",
+  "hash": "3532f1b0224808b336bca4e11e2989600834a3047594174b9229d31478d6983f",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

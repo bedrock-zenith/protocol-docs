@@ -1,6 +1,6 @@
 {
   "name": "Multiplayer Settings Packet Payload",
-  "hash": "2a8f84cdaeadebfe216e5b85de76c8bf3e9dacb81881ab302de78032a05d543d",
+  "hash": "41e1b290ff422613b04300ece6e1e2c5e8b9faa301d9a2ef8d8ff811795a5354",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

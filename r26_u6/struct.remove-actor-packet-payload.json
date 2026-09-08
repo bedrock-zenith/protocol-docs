@@ -1,6 +1,6 @@
 {
   "name": "Remove Actor Packet Payload",
-  "hash": "04d0130d57bb6ece83cff69c18a76f3d54e03e9ffe984f17c7bbe805c029c1f0",
+  "hash": "80421a021641348d6a34c3178d64427dd979582dc758aeee70046203f31bb8b1",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

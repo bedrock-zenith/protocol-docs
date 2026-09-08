@@ -1,6 +1,6 @@
 {
   "name": "Agent Action Event Packet Payload",
-  "hash": "a4586c293c18bd5d56d21e697c41563f97d53934a505ae73b94489e721161e92",
+  "hash": "5910991ac9218728bb13fa628241fcc295a5fa54970421b1d2e7af96fc4b0003",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

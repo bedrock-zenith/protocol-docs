@@ -1,6 +1,6 @@
 {
   "name": "Item Stack Request Craft Recipe Auto Action",
-  "hash": "2281fe160cd45e816c3e2cdada5e9327da9b69a3d8a97dc4168348be8a6f6641",
+  "hash": "bb69e567567c75355f75a8dddfc10f766284bd792190270af6ca510b47a258b5",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

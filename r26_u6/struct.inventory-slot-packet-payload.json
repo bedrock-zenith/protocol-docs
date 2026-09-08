@@ -1,6 +1,6 @@
 {
   "name": "Inventory Slot Packet Payload",
-  "hash": "65cea70d9c1262393424ede46ceab8191da8f654ad6471acda6d6cdb8e6066fa",
+  "hash": "afc4ee933bdd1230b4403f9f13d07d14379d730a51be8a85aedf7eda74353e53",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

@@ -1,6 +1,6 @@
 {
   "name": "Item Stack Request Consume Action",
-  "hash": "d6cc45abf83cb24b3a3ce947649ff6f523273a81e04b447ff73d9b1281fa33cf",
+  "hash": "c565515f2942fb9728b645c559266d027cd794e879dc89832c088e5f6fe12aad",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

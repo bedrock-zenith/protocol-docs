@@ -1,6 +1,6 @@
 {
   "name": "Boss Event Packet Payload",
-  "hash": "773982bc572d721be53a7241c0780b1c3aab7c636411a104b446e8b63f1a799d",
+  "hash": "5fca1a70bf45a6f343d6c6f60d3b6c76a35d8f998e2e44895f7c8355eb5d04db",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

@@ -1,6 +1,6 @@
 {
   "name": "Disconnect Packet Payload",
-  "hash": "bfce732eeab596e9a51dd992aceed55194c7f574827e3882fa420255c09bc441",
+  "hash": "d02bdbd9c5a2c1586cac970a06407d85436ea0fba579199fdd243af1ef527fbf",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

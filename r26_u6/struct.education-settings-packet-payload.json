@@ -1,6 +1,6 @@
 {
   "name": "Education Settings Packet Payload",
-  "hash": "5e4ad241bc8848727bf330daed595884037cf15b4adbe1fd3191c468ac03ecef",
+  "hash": "5f8d59ff21ab92abe4fe9a317b3759c658e31aa12fcd1499ed2abe6ea6dda573",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

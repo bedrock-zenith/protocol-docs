@@ -1,6 +1,6 @@
 {
   "name": "Add Player Packet Payload",
-  "hash": "e778cd3e0f53ce4a1c644d71d1e54150f4e34d4f64857d8c6c8034e419175452",
+  "hash": "ed6ef9d547a902d9cdfbee2c0056bb095750c4bc66ead2164d0fa5410241a542",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

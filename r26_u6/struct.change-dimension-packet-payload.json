@@ -1,6 +1,6 @@
 {
   "name": "Change Dimension Packet Payload",
-  "hash": "0b5f788a1bb3e743cfbebdf03e7e2219d9b72034673388b1245f44c10180f957",
+  "hash": "db156fd29f0cd2d8bed38314adc7c28f981fb45e3609e67895522bca8bf680fe",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

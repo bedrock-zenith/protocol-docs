@@ -1,6 +1,6 @@
 {
   "name": "Item Stack Response Packet Payload",
-  "hash": "53ed062d698678a1825d1865ac8a5ff1ad5e4ce9370fbfcc81b348504c7fe9e7",
+  "hash": "e20128cb4cab3526094c7b88ae255ad0a6a3dfa065095aa5c11e72d30c18c928",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

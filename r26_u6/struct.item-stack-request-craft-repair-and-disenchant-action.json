@@ -1,6 +1,6 @@
 {
   "name": "Item Stack Request Craft Repair And Disenchant Action",
-  "hash": "58a936a697c62e5e35212ebda889c641ed265be4ada7c2255b4a09e6f70fd5cd",
+  "hash": "8ad9d815d0eb14c1aec0deceeb938a7ff756611124b9e375946805f75753d93b",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

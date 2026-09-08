@@ -1,6 +1,6 @@
 {
   "name": "Message Only",
-  "hash": "17d409d5b4a631f03297c5f85505419e30fbb922165a343a6df604802a4c2d4f",
+  "hash": "32ee4dcc4639346a9e501950d4573849c4abfead6bd73cffbd9903e584e5a1b7",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

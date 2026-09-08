@@ -1,6 +1,6 @@
 {
   "name": "Unlocked Recipes Packet Payload",
-  "hash": "487b117c9cd74e55a03597698866b99d1f1ee3cf972d3682a729b7de532b5dc1",
+  "hash": "f3e25e2dd64a9e8ddf03b9210ebccd6024635333c33e321ad547159bb51bcdee",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

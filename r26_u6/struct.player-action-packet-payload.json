@@ -1,6 +1,6 @@
 {
   "name": "Player Action Packet Payload",
-  "hash": "a9428b54f38165ac27f6b0226c1927cb1a5a2ddd89c14065e0633a91f5b76a54",
+  "hash": "1a0ab22c72248dcb9f7f529635db38f00d730a5adaa350708ed9765d46bf8a4c",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

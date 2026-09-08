@@ -1,6 +1,6 @@
 {
   "name": "Spawn Experience Orb Packet Payload",
-  "hash": "5947163c96ad419a901627b185855030e37501aa995e1f0e4caf9fe16140fa8d",
+  "hash": "c589f61a582fed841adf9cf37a1c76a9ac87fbd6be752e9e5b6561edeb34ce4f",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

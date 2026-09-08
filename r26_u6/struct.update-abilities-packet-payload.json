@@ -1,6 +1,6 @@
 {
   "name": "Update Abilities Packet Payload",
-  "hash": "4dc5f22d025bde26073e262ce28f089659565c2eaddda03e27a96e6339dadefe",
+  "hash": "2d163f37f696c21442f7a04fc947892622f70e1c55fa09e4f07d748150c231e4",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

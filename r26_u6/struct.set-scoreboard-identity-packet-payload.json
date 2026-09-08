@@ -1,6 +1,6 @@
 {
   "name": "Set Scoreboard Identity Packet Payload",
-  "hash": "1cdfaf9d723fb98e884bf2efe82fbd292d3857f3a4f17abd6d1ded9f2d823300",
+  "hash": "524dea49deec07899b387924f93811c03acf94f0b03970415191195a18cfda68",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

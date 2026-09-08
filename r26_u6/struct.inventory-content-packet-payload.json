@@ -1,6 +1,6 @@
 {
   "name": "Inventory Content Packet Payload",
-  "hash": "1cee42746515d80dbc57525f9b9a76a6f934b98805180845db01ad256d7f030f",
+  "hash": "380556876384dbb349a9f2d8da932f4f967c9480fb423ab8d6d516082d86d2cc",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

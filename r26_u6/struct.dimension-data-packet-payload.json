@@ -1,6 +1,6 @@
 {
   "name": "Dimension Data Packet Payload",
-  "hash": "6d2842b9ab2152d61924d9672d9ca359e5b273e7d28fd4579e15fa509567fdcf",
+  "hash": "26dcbd71c463c7649bd3b79423d9cc6e200bf3bee81de1b2f4b341467313fff4",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

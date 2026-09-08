@@ -1,6 +1,6 @@
 {
   "name": "Available Commands Packet Command Data",
-  "hash": "c5ed442b61c630718b4bc2a548ed9d8918ca5b6749c571c1c539514f0a8872a5",
+  "hash": "d2aeae06d0f9080afa202e7e63f30c32b198331376634f35271c721991d2dc32",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

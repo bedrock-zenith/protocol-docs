@@ -1,6 +1,6 @@
 {
   "name": "Player Enchant Options Packet Payload",
-  "hash": "f78a1b73b4f26b16cfde80053a19ffe5f7d964ec89f8f720e8bea703cdd11886",
+  "hash": "eeeaefbff7c3c69ab00c8d30c7c49278f13876c815e8ac79a62e84845666ec7d",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

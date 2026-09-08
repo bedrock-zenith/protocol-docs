@@ -1,6 +1,6 @@
 {
   "name": "Item Stack Request Take Action",
-  "hash": "52ec2e253d4558723c3a52fe01798c01cf2fd87c437d03eae7a4665db4c2c0c4",
+  "hash": "5f30ec9dd0f68074cacc09ab368a7165172182af34c03b95b289b88161fcd094",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

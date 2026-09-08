@@ -1,6 +1,6 @@
 {
   "name": "Set Player Inventory Options Packet Payload",
-  "hash": "4d2b823ef6d4abeae9de9580ba636807cf4dcabb5fe1c8e2b762121271aada33",
+  "hash": "c98488cd8bda49f22845712ccbab237ea79bf7bef950082e416fb6187ff33168",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

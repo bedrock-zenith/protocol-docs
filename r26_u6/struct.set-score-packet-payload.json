@@ -1,6 +1,6 @@
 {
   "name": "Set Score Packet Payload",
-  "hash": "541c79b469c19670e89c78f803aa4a9104c7252039751763f94def374ee838ef",
+  "hash": "112cb5d3d2d9c6378eed7b7a229f0d589c00450d390c1d00ac5e1d1edb73a26b",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

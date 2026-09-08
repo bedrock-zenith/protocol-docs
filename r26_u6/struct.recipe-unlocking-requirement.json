@@ -1,6 +1,6 @@
 {
   "name": "Recipe Unlocking Requirement",
-  "hash": "a882262b6c7815f2c28e191b3f3f55e001b31e2630f747f857697cc3da29712f",
+  "hash": "0f840ae4d6fa70dbed52bf9a7572fd7605d6b0d295e80db0a36babd1b044a509",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

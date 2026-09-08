@@ -1,6 +1,6 @@
 {
   "name": "Movement Effect Packet Payload",
-  "hash": "2374733469536dfddf1a4410cd7f04555dd699a9a84f4bb14862c9654ce9c4a4",
+  "hash": "8a5cd48542ea6d943ca489100fb70520e27cb6c7bb49731b9c1b4eb989c935f1",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

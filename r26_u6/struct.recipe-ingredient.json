@@ -1,6 +1,6 @@
 {
   "name": "Recipe Ingredient",
-  "hash": "7b61b90881b9cbc31ac07361954ececf6223accdfc8ed592ea2308ab7cb2bea6",
+  "hash": "2c34f6af92ceec4214965ef9391b27632c5726633d192f260735a3ecb1eccb49",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

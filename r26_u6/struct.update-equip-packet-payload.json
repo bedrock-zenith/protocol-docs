@@ -1,6 +1,6 @@
 {
   "name": "Update Equip Packet Payload",
-  "hash": "0b30b62ebfcde9e999c2054398eca754ec432ad46d5339d88fc131c4d417ebba",
+  "hash": "de3c3e4f27154c22bb3039bf318d15de1c501ed24cefca01bd86d5d40b8ebb7a",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

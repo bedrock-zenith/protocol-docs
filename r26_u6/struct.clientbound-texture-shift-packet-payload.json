@@ -1,6 +1,6 @@
 {
   "name": "Clientbound Texture Shift Packet Payload",
-  "hash": "c33528a4bf833e04da82b272faf2ca050b67b63839cfc1867ad6045874dbb689",
+  "hash": "60177fef4e914ac6c04f6614408e648d49f9dbed14b74ef26ac04c8741b73e66",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

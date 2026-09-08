@@ -1,6 +1,6 @@
 {
   "name": "Camera Instruction Set Instruction",
-  "hash": "c559af2d448a0c395f2f8b5ffa2ed7009376b0144b589f223cf5484ed03a667d",
+  "hash": "ba5c9d7afacabe552d1bcd1e222afd213da2a10c41942d0b9b7377850929432b",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

@@ -1,6 +1,6 @@
 {
   "name": "Resource Pack Client Response Packet Payload",
-  "hash": "333e6907bdbc77604a058712fbca584a19a6e0e6ed210d6b0d643075e9fe56f1",
+  "hash": "45ec3ac8edbdc1e3e5f4464c6290876b6b72e7dc09a5fcd7a8d2ce0b9ef55bce",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

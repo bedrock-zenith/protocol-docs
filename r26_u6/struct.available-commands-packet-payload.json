@@ -1,6 +1,6 @@
 {
   "name": "Available Commands Packet Payload",
-  "hash": "27723c403942e2fe5562375ace8d552a535b03fc2a7621cd6a0fcaa44968a428",
+  "hash": "008d28e4be4d6c81422746452afdc18a829867b9d897bd559d711643b3e706c9",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

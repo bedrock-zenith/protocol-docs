@@ -1,6 +1,6 @@
 {
   "name": "Server Store Info Packet Payload",
-  "hash": "e9a9e8e6ae968af7dc3c4f5f5603dd8e2c10f7c3f1c89a8db3c52c180b407569",
+  "hash": "acb704e8d0e73da4ace22022b5c499e7c7b4c5f2bb097e28a927b9349302cb30",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

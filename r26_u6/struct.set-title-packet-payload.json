@@ -1,6 +1,6 @@
 {
   "name": "Set Title Packet Payload",
-  "hash": "587f394981f6cd090175e3b95c1ef1607e7f709e57f6f2c7ab450734d79c615f",
+  "hash": "2216349adbc924b787ff17ad558af812e4b8cc4015503d26de33686842666686",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

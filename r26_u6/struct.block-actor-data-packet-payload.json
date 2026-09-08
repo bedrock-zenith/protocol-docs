@@ -1,6 +1,6 @@
 {
   "name": "Block Actor Data Packet Payload",
-  "hash": "211a954abbac962c4f0beb3e19d498e3ebe2d51179f1e5e01f9995f415d09c6b",
+  "hash": "c01e0233e5b26d82be8028976a0c3750a294dae60fa7de48c1c668ce4f6f5c07",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

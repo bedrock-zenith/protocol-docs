@@ -1,6 +1,6 @@
 {
   "name": "Initialize Registry Data",
-  "hash": "773b37d03b7a5827e44c567908deec6359eafb8d456853aaa836b4330c6c2603",
+  "hash": "c0db659cf44a3b7b69dee8b831e041e08e7e51c15de9bd031f11521c23725f5e",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

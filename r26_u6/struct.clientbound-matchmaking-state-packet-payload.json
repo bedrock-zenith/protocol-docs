@@ -1,6 +1,6 @@
 {
   "name": "Clientbound Matchmaking State Packet Payload",
-  "hash": "7598144c9306d950ccf207742fe322582106e2fa1211dbece1af903f781cce25",
+  "hash": "c72c197e9b6704e722724e3945452191f80f97bde9d1562adc71e4b5faef8f84",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

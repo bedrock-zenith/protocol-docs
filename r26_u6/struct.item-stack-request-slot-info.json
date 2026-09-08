@@ -1,6 +1,6 @@
 {
   "name": "Item Stack Request Slot Info",
-  "hash": "2cbfd2909e4d0724c9cbb99991f51131ede7099c1bd25ded310bb20b54d7b98f",
+  "hash": "606269cad08e18adc44b787f4c326ae9a5c770db525a32f7a2399aa00632732c",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

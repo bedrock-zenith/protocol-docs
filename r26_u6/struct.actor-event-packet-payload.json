@@ -1,6 +1,6 @@
 {
   "name": "Actor Event Packet Payload",
-  "hash": "83e4fd6163fb45c71dcf4c40995788038c94fe3197f182094636e625fa49fbe4",
+  "hash": "807b393b6d0bcb91843fe4c7dcf8a4c67116a5e37266eabe63ba32b63637cdb1",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

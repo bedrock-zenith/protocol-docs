@@ -1,6 +1,6 @@
 {
   "name": "Photo Transfer Packet Payload",
-  "hash": "82e6ad6c96b9abf9798abe477958a84b8b5ba41a82815f47d9c7e06ba96a9f93",
+  "hash": "6c34170bd595c38c1e21969c151410ff9035f40e2b10022a63d2202db3a0e58b",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

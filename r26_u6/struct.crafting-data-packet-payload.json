@@ -1,6 +1,6 @@
 {
   "name": "Crafting Data Packet Payload",
-  "hash": "643d302e78f4f7ee0e88ab5ba495e4591f516f930fe127dc63ce314a718ff9de",
+  "hash": "c92a42ee8ee1d095c1feaac376ed981e92af5301684620360e722e3499fae0a8",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

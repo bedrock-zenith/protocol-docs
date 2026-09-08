@@ -1,6 +1,6 @@
 {
   "name": "Request Ability Packet Payload",
-  "hash": "2aecbe5a2e33105717c7c970a9c62e62f50b898032e3d32aed47244730084f14",
+  "hash": "2c4da25ba40e0fe8e423610f07923d2e5006de90cb2150a0bb545dd614f9858d",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

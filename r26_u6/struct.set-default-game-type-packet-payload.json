@@ -1,6 +1,6 @@
 {
   "name": "Set Default Game Type Packet Payload",
-  "hash": "60222ee87c7cfb45c770f3011f83af484bf153bb7fd225e1bc16c1ef0a2c6805",
+  "hash": "372b6d5afa6a6a67e75e433574c4cfeb1e5146a2b1846d80c094ee9434ac08a0",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

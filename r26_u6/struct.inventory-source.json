@@ -1,6 +1,6 @@
 {
   "name": "Inventory Source",
-  "hash": "fc321164a08ac1b88486a273abcc8d3bf1486522cbe1f94d353b849d7af6f8f1",
+  "hash": "3ce611da077bef38a095420f32945f2a40e0c598805464374ec8047b890c0086",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

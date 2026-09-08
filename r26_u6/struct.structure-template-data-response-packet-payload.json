@@ -1,6 +1,6 @@
 {
   "name": "Structure Template Data Response Packet Payload",
-  "hash": "48363e27b5cb0e50a81d3fc513f2eb7048081d8c404932fc5cafbddc28061e61",
+  "hash": "59a5e1862a9f45a2bc60ddc664b525fd8331e551db7ecbc8515454b10159353d",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

@@ -1,6 +1,6 @@
 {
   "name": "Camera Shake Packet Payload",
-  "hash": "d5fb8cf14fc577d4852a5fe922a4c7726e891b1709f4f8f817a98d8f173d7cb7",
+  "hash": "26234d6d68246859ff03d8904e68dadef43da00ed6d07680fc3116e9428828a7",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

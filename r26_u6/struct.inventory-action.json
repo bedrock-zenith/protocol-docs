@@ -1,6 +1,6 @@
 {
   "name": "Inventory Action",
-  "hash": "bb77f43390a1f0f70bb76530d6e941bac83eed58bf2608d88c2dc358419213b7",
+  "hash": "dc8fd024fd2b989cf79b9863f962188e40ac26e5ebfec966c6fb6cc5c172f476",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

@@ -1,6 +1,6 @@
 {
   "name": "Item Stack Response Container Info",
-  "hash": "f8f78ef428f39c16467bcfde0796710611dcda5fa254d51fe08a387657feb9f2",
+  "hash": "bad3303324f481f9617bc90a8ec77f40fd3ccd5a7ae991f22c601f95ac4ed894",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

@@ -1,6 +1,6 @@
 {
   "name": "Data Item Vec3 Payload",
-  "hash": "0d39a8c7a6265d075d180d5448147d1e0f4641187a5ff48fda6dcd95716d0eb9",
+  "hash": "7b3c5c439fe8e402bd72dc504ec3538b9616a0b7de601b385012f7a31a09866e",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

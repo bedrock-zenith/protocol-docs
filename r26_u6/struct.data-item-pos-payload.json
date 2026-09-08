@@ -1,6 +1,6 @@
 {
   "name": "Data Item Pos Payload",
-  "hash": "912dc52868568c794d3734c9e8fd48d04ca9b1d39b294e9afb265eaffb006893",
+  "hash": "46371112265ef7f224f22973f30ef21dcdcfbea42fd5190b456c2bb81eb08c84",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

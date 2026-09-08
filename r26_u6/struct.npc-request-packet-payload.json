@@ -1,6 +1,6 @@
 {
   "name": "Npc Request Packet Payload",
-  "hash": "871b1190239ef064d2848cff7e110d6839884299625c96b2fcabe27b062faffb",
+  "hash": "fe460e8e048be7f7c67eefce150fa65673cf6c516068c58bb446a59b3aa00b02",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

@@ -1,6 +1,6 @@
 {
   "name": "Data Item Int Payload",
-  "hash": "0d30d0e620e23b74a41e6216b92937e638ae28d9f764ff56f2bf204031c4d76e",
+  "hash": "b1380e9bd7f24005f245c3cff27077f4b0398b41001daf030cdf914807fb0818",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

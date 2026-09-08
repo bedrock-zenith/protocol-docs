@@ -1,6 +1,6 @@
 {
   "name": "Shaped Recipe Payload",
-  "hash": "0e924a06538e581c93d77a8dbbb8e6747493ea9330c60b051497517c972e79ac",
+  "hash": "9d6ee4461415993d9ed7347d55ef9087448aca0cc5688b8b382efcb1f5e22138",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

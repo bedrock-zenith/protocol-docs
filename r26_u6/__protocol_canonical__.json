@@ -133,7 +133,7 @@
     },
     {
       "name": "Achievement",
-      "hash": "2149bd8bf39268a155822390d8dc3aca5398e433c110ba4c501932a2ec1931dd",
+      "hash": "6e440d17e591652653188c36dba9718906b17a937b8f46d0a5174b40560d24c0",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -401,7 +401,7 @@
     },
     {
       "name": "Actor Event Packet Payload",
-      "hash": "83e4fd6163fb45c71dcf4c40995788038c94fe3197f182094636e625fa49fbe4",
+      "hash": "807b393b6d0bcb91843fe4c7dcf8a4c67116a5e37266eabe63ba32b63637cdb1",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -492,7 +492,7 @@
     },
     {
       "name": "Actor Link",
-      "hash": "a19b58d751dbaa97951fcd84dac4db27d9723b4212f2b977dd526324a71d6803",
+      "hash": "82236df1e5f38316e6cefbb03c2526b4880ca37e7705036097ec130a9bd4b430",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -815,7 +815,7 @@
     },
     {
       "name": "Data Item Byte Payload",
-      "hash": "f8a4ca9a89b126ab51069244a63c8ac630e79a18cd0914674812a284a72f224a",
+      "hash": "00fa7100428640309b78b55f13e1d40a4b6f9a002a634a3ac50c7334a3ac4a4e",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -859,7 +859,7 @@
     },
     {
       "name": "Data Item Short Payload",
-      "hash": "2b784195f9e4de77ddca8166fdfe33a25a5fc436f866891c6031c6c67df06732",
+      "hash": "177868effca0f75c19f2ac934c7cabe6e5cac946aad2ccb24d59447eba709d2f",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -899,7 +899,7 @@
     },
     {
       "name": "Data Item Int Payload",
-      "hash": "0d30d0e620e23b74a41e6216b92937e638ae28d9f764ff56f2bf204031c4d76e",
+      "hash": "b1380e9bd7f24005f245c3cff27077f4b0398b41001daf030cdf914807fb0818",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -939,7 +939,7 @@
     },
     {
       "name": "Data Item Float Payload",
-      "hash": "ae7a80cd910e034a1b7a546f8e1c7c66d2cdb41d8196348b4db5e4cea89e977c",
+      "hash": "1ec5da45852c7894c2c9cea9f97b8eb65bc382be218fd7894fa712d6ad4ec9f8",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -979,7 +979,7 @@
     },
     {
       "name": "Data Item String Payload",
-      "hash": "434fc6d9cc04557d7a7fd27aadd8f1620512ad7dd0a35bfaf9a4bcfbf58cf1f4",
+      "hash": "5b23f31e21f11ac99fc17d47090b040a174a253c6d4502e9b98ee967b8b57088",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -1023,7 +1023,7 @@
     },
     {
       "name": "Data Item Compound Tag Payload",
-      "hash": "3afda31625afd473a250101a20b5c04ac952091a287a139baa2eb19b8b0c0abf",
+      "hash": "c0d73a9805695158ac2798d065bbcad2adfd77daf6648bae029c71cd765bef84",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -1101,7 +1101,7 @@
     },
     {
       "name": "Data Item Pos Payload",
-      "hash": "912dc52868568c794d3734c9e8fd48d04ca9b1d39b294e9afb265eaffb006893",
+      "hash": "46371112265ef7f224f22973f30ef21dcdcfbea42fd5190b456c2bb81eb08c84",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -1139,7 +1139,7 @@
     },
     {
       "name": "Data Item Int64 Payload",
-      "hash": "ecfcbad704eff4c825bf0c1e11c85499b34037f8620c7717842e8e5842f7336c",
+      "hash": "efd1fde4f1756f9ef47be786b003fbf214c9e2b821ca29e52d846585b491298b",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -1179,7 +1179,7 @@
     },
     {
       "name": "Data Item Vec3 Payload",
-      "hash": "0d39a8c7a6265d075d180d5448147d1e0f4641187a5ff48fda6dcd95716d0eb9",
+      "hash": "7b3c5c439fe8e402bd72dc504ec3538b9616a0b7de601b385012f7a31a09866e",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -1217,7 +1217,7 @@
     },
     {
       "name": "Data Item Entry Payload",
-      "hash": "e9ac94dbdd67d8c5c379fc802a7561e39b7e865bc707bcbef5a09ac93c171ff2",
+      "hash": "32a05188d2c718c2c2b9c451e99a296f6a06036279338c761ad07a6ee049df59",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -1302,7 +1302,7 @@
     },
     {
       "name": "Data Item Entry",
-      "hash": "7fd74d4ceb68f2a87b57315cef87895dd3d85b9277e9874b818994fc7d48aa80",
+      "hash": "813b912e7d1c8e35ead30f0306344358733b10ab52dc87eb9156d2224b21f789",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -1347,7 +1347,7 @@
     },
     {
       "name": "Synched Actor Data List",
-      "hash": "c75f4e95d106951e072e2a0aa4af48c8920151e5107e25873b4212328ba71bbc",
+      "hash": "bd8137bc4e6f806ff5bdd9bb58f3376b7a0d6241d3346c49da2030e705d93235",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -1527,7 +1527,7 @@
     },
     {
       "name": "Property Sync Data",
-      "hash": "38c8fbdd01fb00a8d23442774691c5a4f1ab521e651c508f69b69758b04d68d9",
+      "hash": "1b3143c00c6b0d160d744d013552f862fa60d8279d8722f0ec93f68738ba6446",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -1575,7 +1575,7 @@
     },
     {
       "name": "Add Actor Packet Payload",
-      "hash": "f591a7154a02f7353a62e97a0fe33807d747d7fe160c5eeac6c107127f7ddcd6",
+      "hash": "2e3f75147659d96cea8bee3994bbd0e5ea57fc1f69836c097c1ca89cbf3dcb66",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -1860,7 +1860,7 @@
     },
     {
       "name": "Add Item Actor Packet Payload",
-      "hash": "5abad58a41f6dcd19d858095841e3d48100e71cf37a77cc07ee211b528c6bea4",
+      "hash": "14727a3004c443a978fb6a6e0186c264ad60c5d775b22217051e01c89784311b",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -1931,7 +1931,7 @@
     },
     {
       "name": "Add Painting Packet Payload",
-      "hash": "9d51e56b829a6fe691f6799bf985219efc67f75ade607fc1852a35361a69a242",
+      "hash": "9b47f8d6be8c1bdc4887fc614792c7d56121b0d32420b2176a19596860a18614",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -2105,7 +2105,7 @@
     },
     {
       "name": "Serialized Abilities Data",
-      "hash": "4c84b5e812856082cf7019fcb5e2a7dbe8305668312f5c41e5be32850278c840",
+      "hash": "873128f058ea9e456b3975883171ed69df7d4b1c7777272a249eeb236d14e30b",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -2254,7 +2254,7 @@
     },
     {
       "name": "Add Player Packet Payload",
-      "hash": "e778cd3e0f53ce4a1c644d71d1e54150f4e34d4f64857d8c6c8034e419175452",
+      "hash": "ed6ef9d547a902d9cdfbee2c0056bb095750c4bc66ead2164d0fa5410241a542",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -2521,7 +2521,7 @@
     },
     {
       "name": "Add Time Marker Data",
-      "hash": "c327c82516f30826ae9bdd480a482845a532996eefc9f3e88afbc1b71fdb6d3c",
+      "hash": "cd7ee0b07f43229e653c03f843dab7f8b4b2c6b1867463f4e9297eb8649d388b",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -2607,7 +2607,7 @@
     },
     {
       "name": "Add Volume Entity Packet Payload",
-      "hash": "9f32e659e1cc6c3b989c856807a0fa55e753819dd058d8998b8c264ca468d6f4",
+      "hash": "a7ae45443888733c7d7d17c1cc06ebc38bb439d0c61e769bf2b218a6115cdebd",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -2807,7 +2807,7 @@
     },
     {
       "name": "Agent Action Event Packet Payload",
-      "hash": "a4586c293c18bd5d56d21e697c41563f97d53934a505ae73b94489e721161e92",
+      "hash": "5910991ac9218728bb13fa628241fcc295a5fa54970421b1d2e7af96fc4b0003",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -2878,7 +2878,7 @@
     },
     {
       "name": "Agent Animation Packet Payload",
-      "hash": "adc89857556234b1da8ddcdfb7c4f9e943e51089279a8f69555493490b89a38e",
+      "hash": "d67639e89aad8ebc09d3e35db8ebb716c975ce403dd288f25bb1913dae61ab39",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -3091,7 +3091,7 @@
     },
     {
       "name": "Animated Image Data",
-      "hash": "d0533eef96c6d2687b7320067837cef4cbddfbbd41a90a43118908fdfcc0e7d9",
+      "hash": "24ec0dc439787673b8a3be54fce042ef1152cf2980480c9b1341a77962444abe",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -3155,7 +3155,7 @@
     },
     {
       "name": "Animate Entity Packet Payload",
-      "hash": "a9a4c3ea180680e50b83eee059dd3b8e916b00ca8ff838b1e7239fa95241ffe4",
+      "hash": "d0427c87aeef082d3bbb7ee525c2d0c89e550d095525cbd48856f592299c997a",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -3292,7 +3292,7 @@
     },
     {
       "name": "Animate Packet Payload",
-      "hash": "0133ed7bb4f4d1487bcc89562f84abe971a23e2cba22b52733f28fe28fb1b218",
+      "hash": "e2691fdeec8279b4e68a7160d35faefef3d880121a38aeb12458b7fbcbada2a4",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -3402,7 +3402,7 @@
     },
     {
       "name": "Anvil Damage Packet Payload",
-      "hash": "a43c995c5dcbf214ceb3b8c5bfb56a251cb765fb4426ecd40ac99ea51b51195c",
+      "hash": "cb81696bcd9fa9cbabbfc51d1ea60e9bb07b6fed5dc921ac44422c77a6b66095",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -3434,7 +3434,7 @@
     },
     {
       "name": "Armor Slot And Damage Pair",
-      "hash": "d39a632589f33ce935e3a278c28f2487cee6f4534950984e6aa8db6607d09809",
+      "hash": "9cb0b18b7d32e9a1c3a8c1920ce850228727448c083e42f062380cc177fd2505",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -3471,7 +3471,7 @@
     },
     {
       "name": "Arrow Data Payload",
-      "hash": "41bcbf09cd2a56f58e116a5a94daac545dfd8e4f861170f7ae5687ba573105c3",
+      "hash": "e408dfcbf84df761cab5a770f38ccada45bf55440cc34487792ec00e5210c6aa",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -3631,7 +3631,7 @@
     },
     {
       "name": "Attribute Data",
-      "hash": "06b5a24dfbb1759183b1cc68cf05555bacb191d3afb74abbef7dbeb7cf9e6d29",
+      "hash": "6a939f0a9bcf32b8d4f74d2eac6483af4d2e2bae21db1e7a6509fcf5142aa7a4",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -3758,7 +3758,7 @@
     },
     {
       "name": "Bool Attribute Data",
-      "hash": "def47ce36dfdd8f35ee8632c0f929cdf3e03221c712c63ea13c1d5b17818eba6",
+      "hash": "a7e7bfd0481e63fe3be15e1c5436cd2bb023960e65124cb86c46675a2ffff3ab",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -3821,7 +3821,7 @@
     },
     {
       "name": "Float Attribute Data",
-      "hash": "624f1662001cc4760944266544a668ecdccce333e995ee521bf52ed7216a4e34",
+      "hash": "af4af71bf8b5c115f5434dece2c2ecc9b84fa052c52fca8323ca03874d7938ad",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -3981,7 +3981,7 @@
     },
     {
       "name": "Color Attribute Data",
-      "hash": "2f432a5df3a67a52e1bd89b046d2ab5d1228e64430808006032705eb22a64ab2",
+      "hash": "48d2917a503494f0092c6cb8212308519cd897087d829267c81082a83803a17d",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -4053,7 +4053,7 @@
     },
     {
       "name": "Constant Attribute Data Attribute",
-      "hash": "a3c6f2dd34630ca5e2a937591188ff943d10144c640fec64cc03ad4ccab94a79",
+      "hash": "c8ba8de0ccf4daae0529867a507dc9b64401ac4ee35d95d8b0e71263a1624665",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -4090,7 +4090,7 @@
     },
     {
       "name": "Constant Attribute Data",
-      "hash": "adfe3193dd0282cb39832ea244f68dd231ffc695677d71d8a5b88d5608422100",
+      "hash": "2cb50bb8f6f386d880702aa814d9225774835b4a1c0d43b2a5e9b0f24376ce9b",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -4133,7 +4133,7 @@
     },
     {
       "name": "Transition Attribute Data From Attribute",
-      "hash": "1b616f18ce68cc4fc9472fe569ee62dbf87d69ff556a07064ffae9acf9709c23",
+      "hash": "620685dd4772a9d7025f49cd4db64f1a6e0d3292ccbe8e22691535eebca2843f",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -4212,7 +4212,7 @@
     },
     {
       "name": "Transition Settings Data",
-      "hash": "21b06ac45797aa59657859e2a91282ed6615ed9f5adc50d7411deacd547f3cf7",
+      "hash": "b22dd6bde2c76eb31f494d81f2c17a7bf26b55f548ec065608ba06ce5f33e8cc",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -4296,7 +4296,7 @@
     },
     {
       "name": "Transition Attribute Data To Attribute",
-      "hash": "3216fc73e5a8ce4279aff53b2c4dadf0d77a4171affe90ff728f0a7aa5c2f22e",
+      "hash": "70538bf0a26509d8f696123d1575913b0dbbcf9241952d8f5d6bba738ab1892b",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -4333,7 +4333,7 @@
     },
     {
       "name": "Transition Attribute Data",
-      "hash": "8b669dc7fa78d30fb22224f8f860a3c65092f736b5d13184c786ec27c9ca0dcd",
+      "hash": "8d4ad72a3b8f6319a8e1cae8c6d3c0252a94e9df67f8c3f5e979e5ed3700f382",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -4408,7 +4408,7 @@
     },
     {
       "name": "Noise Transition Attribute Data From Attribute",
-      "hash": "f443d38caf20f44cead0882f767b8be19c4fef0c905840f52787dd0ed0c192f9",
+      "hash": "1d6deca455eadf689bb845f1f2295e647c3c1e8af3e6d8ef3dc9712878fd61bb",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -4456,7 +4456,7 @@
     },
     {
       "name": "Noise Alignment",
-      "hash": "b86d635b179cd6ac7c968ce8ee108634883adda69e57abca058ee30a0c6a729a",
+      "hash": "248ed731a6d6905f6acd52a9529a39d0c855430e4d9bc422ba0979c778d167b9",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -4496,7 +4496,7 @@
     },
     {
       "name": "Noise Transition Settings Data",
-      "hash": "5a7e6b22df20798c5e28d8e76d3a19d31b746bdfe0e203a515cbb40859a3ad6b",
+      "hash": "709b34310374eac329e7c4083cdf7f86afa82fe72503fe9239d4e1a7c71783f5",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -4621,7 +4621,7 @@
     },
     {
       "name": "Noise Transition Attribute Data To Attribute",
-      "hash": "ec5b7048d2f55c1a22189a87ebea799fa4eebcd017242506db5f071052915496",
+      "hash": "53cf3f497a59c0ab0e628ace699d7c24e57ea5571c15920b2d63254bdb816a01",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -4658,7 +4658,7 @@
     },
     {
       "name": "Noise Transition Attribute Data",
-      "hash": "b553b2d010fa4d302ce9571b3aad687ecc2a00465fe6ff694d373e51d3576fb3",
+      "hash": "e64dbe5deff9bb071bc0716def3d2db7b189fd7bfd812a45038463957f6924d0",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -4733,7 +4733,7 @@
     },
     {
       "name": "Environment Attribute Data Payload",
-      "hash": "46999fb669cd9be6ab23e2e298eb5763ebbdb55021dab7c9b7d05c8d24d18b66",
+      "hash": "56b9621ad6f44221b21b7341bc9d88e67d4a1dce30d84c1ca17ae9a48f24bfce",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -4770,7 +4770,7 @@
     },
     {
       "name": "Environment Attribute Data",
-      "hash": "76b6910d4bd168786f1645b29cee5cf41dde8af6b8ed087934a6d7ddf83f4643",
+      "hash": "0f2ffe2a8be72d05fcd5f941db0ea2a3ec74ba29505094e0116c0617bfb2cabc",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -4867,7 +4867,7 @@
     },
     {
       "name": "Attribute Layer Data",
-      "hash": "16a4f3fdaa879214edb8df10868282a92baaa414e7214ec5448112f80568bb26",
+      "hash": "074bda6ecaaad524c25fe9f34a144b02cfc13dad24340d64e7b30fccc267967a",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -4981,7 +4981,7 @@
     },
     {
       "name": "Author And Message",
-      "hash": "bc4fc7e537777c6e3ec21a9f6ed969d2e4089efc3056644a59fd7aa182ed5b1c",
+      "hash": "8d4370f0f7317f424fbd976533af8f4112b332b7bf7c38b2ab303b6b0678e009",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -5081,7 +5081,7 @@
     },
     {
       "name": "Automation Client Connect Packet Payload",
-      "hash": "f853b530f6b73e85a5175997ad1e0d74f4629bb556eeb645f0be2c8123eadd70",
+      "hash": "81223aa62396bd629fcbd4a1da5f29b793604ca98be6893fc662c052d927f9b5",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -5153,7 +5153,7 @@
     },
     {
       "name": "Available Commands Packet Chained Subcommand Data",
-      "hash": "554b4cd615fdb2174564eaefaab12cb1763017f84b5d5d215c4899d58f6d782d",
+      "hash": "5b4155da0179dfb85c7b3cc514040005258639c8ead4c929fdb36e7b0ec6eefe",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -5270,7 +5270,7 @@
     },
     {
       "name": "Available Commands Packet Overload Data",
-      "hash": "40985802e9319a0f81e89055c80f0aba466b3823bb716aa2c4677c5a2a755c57",
+      "hash": "badfa94c3eeaa0f9d0fb5ddb52b40c33033f2e618191d85ac6f17a3d7ecaf2cd",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -5307,7 +5307,7 @@
     },
     {
       "name": "Available Commands Packet Command Data",
-      "hash": "c5ed442b61c630718b4bc2a548ed9d8918ca5b6749c571c1c539514f0a8872a5",
+      "hash": "d2aeae06d0f9080afa202e7e63f30c32b198331376634f35271c721991d2dc32",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -5614,7 +5614,7 @@
     },
     {
       "name": "Available Commands Packet Payload",
-      "hash": "27723c403942e2fe5562375ace8d552a535b03fc2a7621cd6a0fcaa44968a428",
+      "hash": "008d28e4be4d6c81422746452afdc18a829867b9d897bd559d711643b3e706c9",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -6083,7 +6083,7 @@
     },
     {
       "name": "Biome Conditional Transformation Data",
-      "hash": "101ef3b8130f9f4658d9189ef78f425eb7a9c783876fd773fb3e170342eba1f4",
+      "hash": "cb2e6cd26a6c7894003969878a3c9f53484930afc0f481e92636348f2c4a9db2",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -6156,7 +6156,7 @@
     },
     {
       "name": "Biome Coordinate Data",
-      "hash": "e55b0d984859233595fb8b05db41d30092907ed8157f9e68590f09f51af61b52",
+      "hash": "ccee7ed19961c3f81a0eb07c0150ea6787f37a79a494e318d60efe0ecf2b95d9",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -6276,7 +6276,7 @@
     },
     {
       "name": "Biome Scatter Param Data",
-      "hash": "ce98bff5697bec22ed1fe17f6915defcd1a810029c1ed99c2bf48a6809ad795e",
+      "hash": "28274238cb9cc2e3dd83e04c81df860bb4078601992a4b3b8ce4541d93b5b32b",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -6394,7 +6394,7 @@
     },
     {
       "name": "Biome Consolidated Feature Data",
-      "hash": "c87351361359d021fa358747980eecca0a5e172d7311f2f73dfe2320f9b9761c",
+      "hash": "c5ab601a931be9fe5b0c2afbf4733fa519645da90230bfbcf9c8532523e36a86",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -6462,7 +6462,7 @@
     },
     {
       "name": "Biome Consolidated Features Data",
-      "hash": "c7778d523dac2c1341208222a0a7a97fd5b0c59de7a86ce5fc008de38c0636d9",
+      "hash": "4e99e3b6ca467175ce5c3535d3bbe555f217a84a38cc0ab1e1debba65d127df1",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -6505,7 +6505,7 @@
     },
     {
       "name": "Biome Legacy World Gen Rules Data",
-      "hash": "9c6bd43ac351135b93e9065dd08da85001a8b728a17ab15f43d9d9d5a5355111",
+      "hash": "7ae29b04c69ef91f57290d97cb10f9f9ff3e6e05ea564924558943f650b0fe82",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -6696,7 +6696,7 @@
     },
     {
       "name": "Biome Overworld Gen Rules Data",
-      "hash": "f764a64c344335558e1c8967545b7933ecaabb1f7c615128cd2644f10dee3f95",
+      "hash": "48313d358783b71f584a531156dfe11c912257bdb92a027024fa616f4d09bf7c",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -6941,7 +6941,7 @@
     },
     {
       "name": "Biome Replacements Data",
-      "hash": "ebbe4630c8eb1075ac7097bec4b5355cf4fecd290ae193331ef2f84bd7157343",
+      "hash": "127ac8c55cb1e30bef94d993fbaffccdf9b8ef95385c21294ccda701d2b6702d",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -7067,7 +7067,7 @@
     },
     {
       "name": "Serialized Noise Block Specifier",
-      "hash": "4da0cc9492dad5c05defb31b4e053f9e02acc8c55ea9b9ce6890ecd320ebe80b",
+      "hash": "b4c934a053e0b8d98d76e5bbf962a27ff58f938240134edc8151d405d51237e0",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -7215,7 +7215,7 @@
     },
     {
       "name": "Biome Noise Gradient Surface Data",
-      "hash": "b330ff5f29a7e10ea4260c23a4f7a3d5a6d2a5c33959e42c011f2964390d9d54",
+      "hash": "c3aea9ef69470d28683e06ac2fff84383142c1067c879ccedab6cbab83ad1bd0",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -7366,7 +7366,7 @@
     },
     {
       "name": "Biome Surface Builder Data",
-      "hash": "79df6f79e137301aa9132c05e7b2c0163ead23f79c9ab13b9b941c7899083cd9",
+      "hash": "7621a4ce1685f094e09a8804b8f2ee40d880ba59257ec54dc21c34b4c0664bf9",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -7462,7 +7462,7 @@
     },
     {
       "name": "Biome Element Data",
-      "hash": "aa106bde4393ce5b5bb169108d14cfc6231f2c9c7b45d11170cb3fa9f21a1cac",
+      "hash": "30eb509af4462dec5c4db847aafc48a018796479f064af63ab43d694a826691b",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -7562,7 +7562,7 @@
     },
     {
       "name": "Biome Surface Material Adjustment Data",
-      "hash": "25a4ddda45233cf667e61ea811697e5c6e194e1d1c61f8404d65332e853ee9d0",
+      "hash": "ebe9d7e6fb7db447d2d5fc0a6a144b63cdb9f576c459d96c4603d41056fa709d",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -7590,7 +7590,7 @@
     },
     {
       "name": "Biome Definition Chunk Gen Data",
-      "hash": "a1861cc48ceb0015bc3cca2209f8c96e87678b205a0d59ca0cea39b3f633dffa",
+      "hash": "ce6ad2c5a872208036a10bd9e530519f7880983ddee8e2451d7d55cfcd56d84f",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -7783,7 +7783,7 @@
     },
     {
       "name": "Biome Definition Data",
-      "hash": "4eb59150b30dd07e6696a995f090658e5c95f3f068a12aecbba7f4ff4903769f",
+      "hash": "ddbef07573004ba058fe8305657db3e71a5606cd863f795b726cb2acbbcf31b4",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -7940,7 +7940,7 @@
     },
     {
       "name": "Biome Definition List Packet Payload",
-      "hash": "cfae073a0f43fbaaf6e437fbde79734b40bcf4754e0ac3c25f7d0089e9bb607c",
+      "hash": "14023a8fa67f09e3742c6a775b6b2ba6930a0cdf9f23b772a83b50bbbee50246",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -8002,7 +8002,7 @@
     },
     {
       "name": "Block Actor Data Packet Payload",
-      "hash": "211a954abbac962c4f0beb3e19d498e3ebe2d51179f1e5e01f9995f415d09c6b",
+      "hash": "c01e0233e5b26d82be8028976a0c3750a294dae60fa7de48c1c668ce4f6f5c07",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -8027,7 +8027,7 @@
     },
     {
       "name": "Block Command Data",
-      "hash": "d6f2d27ce71c9b973a544eff6b605ab7b26b9c8b94276096b45bc99e6de7f537",
+      "hash": "ccb324aea11c8fdc46f1dbc48d16d1a2322a9dad18c93b7dcc98bba9b33ea77c",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -8076,7 +8076,7 @@
     },
     {
       "name": "Block Event Packet Payload",
-      "hash": "ce756419863e04bbb8a4b382bbf476cced42a18d1fdd941ed88aaf70e8f5b347",
+      "hash": "b3dcd217716446d4d557e37fb7bf9ebaf0e36ea658addf64815f63474198902e",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -8115,7 +8115,7 @@
     },
     {
       "name": "Block Pick Request Packet Payload",
-      "hash": "a3158b3324927a06f1f3d33fbb34da6342a37ee32e97215c07447b9fd50929cb",
+      "hash": "ebdd68dd6e3a0086d19981f103244330c5df05be2874d1cadd6b7643fbe839af",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -8401,7 +8401,7 @@
     },
     {
       "name": "Book Edit Packet Payload Operation",
-      "hash": "d702b1cdcd5eee23eb6a95f2b59739920e418453e22b675c88beb6e93a5f0a55",
+      "hash": "bc5a152ae0c0c3200e3beeb863b3e09d4ad29832525602e8940923affddab92c",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -8454,7 +8454,7 @@
     },
     {
       "name": "Book Edit Packet Payload",
-      "hash": "7948e54633e2b51364e0d6efe0063b1ba902ddfd0b556665a22e835f6f11fc22",
+      "hash": "e7375ade4cc0df9e2004ddea5957252796b765372b2c210ef5064290924d0f65",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -8548,7 +8548,7 @@
     },
     {
       "name": "Boss Event Packet Payload",
-      "hash": "773982bc572d721be53a7241c0780b1c3aab7c636411a104b446e8b63f1a799d",
+      "hash": "5fca1a70bf45a6f343d6c6f60d3b6c76a35d8f998e2e44895f7c8355eb5d04db",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -8707,7 +8707,7 @@
     },
     {
       "name": "Box Data Payload",
-      "hash": "b492371387c6fb2bef6e53859b6fe693b33c73f81a26ad98d531c42d39908123",
+      "hash": "2c3c9132575970bdf49483a7da8c39d5423f1ff5a7cf6d002ac6c6584dec03a6",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -8747,7 +8747,7 @@
     },
     {
       "name": "Camera Aim Assist Actor Priority Packet Payload",
-      "hash": "4efc9533634430b33a0dd25e339521c9f1fa6fe67d038c710d703398aa4714a6",
+      "hash": "41f403605f33bfaf4766cfde61b664e5b57a4a12bfbaa19322bb291f4d289ca0",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -9017,7 +9017,7 @@
     },
     {
       "name": "Camera Aim Assist Category Definition",
-      "hash": "88edac754c9c28223da72f77793c7466609ee90cf5dbf0fcc99b05025000b8e8",
+      "hash": "6dec4c449a01fd0361c675e4768ae00438bc1eba9ca24a8051672dbe944a7e82",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -9083,7 +9083,7 @@
     },
     {
       "name": "Camera Aim Assist Packet Payload",
-      "hash": "373d2f930351021ec447281cc0de6e6bfca39a6704683f0d7164d5ea7ce745aa",
+      "hash": "18561683fb047b0a44c52f061767e9664d42b4b9fff0eeb2d6915785ba7f7963",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -9338,7 +9338,7 @@
     },
     {
       "name": "Camera Aim Assist Preset Definition",
-      "hash": "121c30d49692b10bcd031734dd2dfa5362e7f0609376cafe0a0ffd8ad5d00f31",
+      "hash": "45d8208102a0595941b3bb351db15c8da45268965bcb25f877d5c5322b2fbe56",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -9509,7 +9509,7 @@
     },
     {
       "name": "Camera Aim Assist Presets Packet Payload",
-      "hash": "38ed7037cd08f49d0694e1f22d78ce7f47a7c1e38213749d61bcb1dfd01b02f5",
+      "hash": "24b5a0f87ed4fa6891b4400b19239c7d0298dcf3461d5138cc9b7a362049dc14",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -9676,7 +9676,7 @@
     },
     {
       "name": "Camera Instruction Fade Instruction",
-      "hash": "d1ca807f43c53e127502172634516562ffeb14fc133d8ef104ff418eabbe9eaa",
+      "hash": "0dc952820b21ce6f209623b795746c2fbf178600bcc22c258e543d627076d884",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -9710,7 +9710,7 @@
     },
     {
       "name": "Camera Instruction Fov Instruction",
-      "hash": "984879a4f74ccb790d6ab9aa58f9999fda61ea6e8b4edf50423661f029abd48b",
+      "hash": "c8a543218a85acb8dc5cff84312ad2c90ddba83cc64ef71e5267efde11898ae8",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -9846,7 +9846,7 @@
     },
     {
       "name": "Camera Instruction Set Instruction Facing Option",
-      "hash": "a2c4d8ad9cb07a64c1d27a718bf20206e0adcff577d8c2a85d19b1a4b19a7a97",
+      "hash": "96322a544a3d415ec0252f90974710df98b0e18dbcc0e267ec265eb3773b0943",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -9863,7 +9863,7 @@
     },
     {
       "name": "Camera Instruction Set Instruction Pos Option",
-      "hash": "9ea482c7cbf3497b7e3c69950681ce38099e57b282e6b32de5e153e7abfd016c",
+      "hash": "aa7245c852672c67fa92b3b95527f78993be18067bd6705e654163c4581af4be",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -9940,7 +9940,7 @@
     },
     {
       "name": "Camera Instruction Set Instruction",
-      "hash": "c559af2d448a0c395f2f8b5ffa2ed7009376b0144b589f223cf5484ed03a667d",
+      "hash": "ba5c9d7afacabe552d1bcd1e222afd213da2a10c41942d0b9b7377850929432b",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -10062,7 +10062,7 @@
     },
     {
       "name": "Camera Instruction Spline Instruction Spline Progress Option",
-      "hash": "fb09562349ef83e82f38d00227ab4a3800e5743ae66a901b78a6849639612099",
+      "hash": "3813c539c757b8e253b9514c663332b6e43fc3d97759dcc65fbfafaabdd05f02",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -10114,7 +10114,7 @@
     },
     {
       "name": "Camera Instruction Spline Instruction Spline Rotation Option",
-      "hash": "4b1d1d732469ed0e837424c789df449c834374509b08ac897698a54713604820",
+      "hash": "24c3d2d49f7eedc3ec75248944602c27cf2ecc2c0baccfedfebea2a09895d258",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -10164,7 +10164,7 @@
     },
     {
       "name": "Camera Instruction Spline Instruction",
-      "hash": "59d4dde00c1b11191f4cfef4d4346eb2b7e30c11ab13941014d4a28857c352dc",
+      "hash": "a6d5867643080ab8bf6e8912f4b24937ee7a54d5f53319a9cb05ccf1521c4625",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -10299,7 +10299,7 @@
     },
     {
       "name": "Camera Instruction Target Instruction",
-      "hash": "5ce422758b10db4e72ddecf5352e222ee60526bf6d34bd1ccf568b08db6bdf07",
+      "hash": "756d59d01b7f77d351860e04b26339b524fd2e76e6d56a271f2999d9ed7a8f6d",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -10331,7 +10331,7 @@
     },
     {
       "name": "Camera Instruction",
-      "hash": "2f827a405d9a98002f70a5bc3712458ae1d1b6b343045cdc08ff5b8477d381ac",
+      "hash": "644af3f9e91cb903d6d8267e03b993c6e1c7b784c554762638db41dc3c321a97",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -10456,7 +10456,7 @@
     },
     {
       "name": "Camera Instruction Packet Payload",
-      "hash": "8314a0334ddb36e582dcf752f1ab153b9ad9189037df2fac0a4171e3f43f1adf",
+      "hash": "5d108e580a02d196798d0ea9fff3fbd70b7199624152975c8d4f2666874709cf",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -10473,7 +10473,7 @@
     },
     {
       "name": "Camera Packet Payload",
-      "hash": "ed3a21d7117e2ab7b515267cba15ba200db68b3845951b876f718cb3f2cfa643",
+      "hash": "5899f62940fd084abf67b11f60da12c61a259cac6300b70fdff171e8a62add0a",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -10509,7 +10509,7 @@
     },
     {
       "name": "Shared Types Comprehensive Camera Aim Assist Command Definition",
-      "hash": "ddc8342e4006087921e3135b1f7a070d5022bf5c8466e08be2272dc40140537f",
+      "hash": "01fe013a4518796dd3f2859bcbf5da54e03aaae1c98e190f02562e868f7888b2",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -10633,7 +10633,7 @@
     },
     {
       "name": "Camera Presets",
-      "hash": "0eff3668977c433fe7af096d31ff58f127371c7e1e822e3896f1359b5d3cdc6a",
+      "hash": "91eeba41abff31319335efca4d318e2543f96a0b25de45a51f9a1bc8b2c9a83f",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -10991,7 +10991,7 @@
     },
     {
       "name": "Camera Presets Packet Payload",
-      "hash": "1ff6e72329cc372e401b8d6b49d2a4e87e6f0bddc90291e8fa6d8a14ff9b035c",
+      "hash": "ee809ac9f69d501fa656c9c7f2c4b96acedbedbe68015e3930dcf287c92a46da",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -11032,7 +11032,7 @@
     },
     {
       "name": "Camera Shake Packet Payload",
-      "hash": "d5fb8cf14fc577d4852a5fe922a4c7726e891b1709f4f8f817a98d8f173d7cb7",
+      "hash": "26234d6d68246859ff03d8904e68dadef43da00ed6d07680fc3116e9428828a7",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -11098,7 +11098,7 @@
     },
     {
       "name": "Camera Spline Control Point",
-      "hash": "79dc1d6c5f8049cb8b57662edd8c095de7a200c006d7ac1d74cf9c9b8be1e1b4",
+      "hash": "3a546c0457457ffc31463936b85f97e8609c95bb510424ba46559cd4c64b88e8",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -11115,7 +11115,7 @@
     },
     {
       "name": "Camera Spline Progress Key Frame",
-      "hash": "686f4d263e8342e5b1c5cf6f151d47ee2b5bd9348ab4bf83647f1784272b092b",
+      "hash": "f085102e204f494f80db2d1478ba09f94cf412f4c24a8bead8d0798a8f61fcdf",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -11178,7 +11178,7 @@
     },
     {
       "name": "Camera Spline Rotation Key Frame",
-      "hash": "d54df084002b6991df6aed3ea5cdf9e023ce5da549392c650bea9511ff896466",
+      "hash": "0ea65a3023c753493c2a838813a2704817795186dbe7ec7699ecf61a0e51b55e",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -11235,7 +11235,7 @@
     },
     {
       "name": "Camera Spline Definition",
-      "hash": "000babae33c24bf497c046f40e4fd23f9b4f5866b9a8b98af89eb4043e3cbee2",
+      "hash": "3142b4829e34cd6970b60679220bd1ff012ca4c1ce6d01998451c29b42758c3b",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -11360,7 +11360,7 @@
     },
     {
       "name": "Camera Spline Packet Payload",
-      "hash": "90cfc57b6e43d0a9bd6690fa9f4d45e3d4ed9217c90c53f14bf834314990ff2c",
+      "hash": "a697028649d571cb86d9042a34410cf4c2f8f09c076e1dcbf3fdf2c52fa5c2ee",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -11432,7 +11432,7 @@
     },
     {
       "name": "Change Dimension Packet Payload",
-      "hash": "0b5f788a1bb3e743cfbebdf03e7e2219d9b72034673388b1245f44c10180f957",
+      "hash": "db156fd29f0cd2d8bed38314adc7c28f981fb45e3609e67895522bca8bf680fe",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -11518,7 +11518,7 @@
     },
     {
       "name": "Change Entity Score",
-      "hash": "388c35d93b70255f8f70bf567402be637ebc5ef6c0050b340f0ca55a2bc7fe19",
+      "hash": "58cedaaa0f9dda6fd4d7de4a445febb880dbce9641f183e12625dda51d2929a2",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -11595,7 +11595,7 @@
     },
     {
       "name": "Change Fake Player Score",
-      "hash": "48888fcffafb21fe92c47ed273d8b8da8f591c6999e9b5b6e4bd581cc1e53ea5",
+      "hash": "28814120caa6e3491b66b9dae63f691049ddbb19b8619b8d4a9737f081b2f283",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -11678,7 +11678,7 @@
     },
     {
       "name": "Change Mob Property Packet Payload",
-      "hash": "20385f59ca20edd01e67cc6fdcf94bdb08ba7449b4f1bcc09f9095738adedd02",
+      "hash": "7a9933aa510544fa444f4437681242419b14248bfdeee05529adcdc3db5f96c9",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -11775,7 +11775,7 @@
     },
     {
       "name": "Change Player Score",
-      "hash": "0db81e969952b893b5e718bcf31a581c7b3b21436c5f76fc9c09312ee375b037",
+      "hash": "7ca4fdb49f03fae069bdd5f8c5d45cbb60e168bf767d2c20d62becb2fa93706b",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -11928,7 +11928,7 @@
     },
     {
       "name": "Clear Override",
-      "hash": "48fb0742c4dba6151ae3c12e80317a2d3bdbc5bb31dc7de1947291f82b27c426",
+      "hash": "43432482893fd53f311386184c4495cb9068672219a1dcd726eb5858887d52dc",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -11961,7 +11961,7 @@
     },
     {
       "name": "Update Attribute Layers Data",
-      "hash": "5340aa370f1062a1852f028331d0dca615c8381ad6eb386284abbac6e7ebd071",
+      "hash": "a4847ba18a6dda9ea595fca300b2121c928e670a4dad1d7bb482caaa5c2aa393",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -11992,7 +11992,7 @@
     },
     {
       "name": "Update Attribute Layer Settings Data",
-      "hash": "bc25502a55b23286b799f09db424955e9409abd7bb0a68ee5793a116f7693f5d",
+      "hash": "6146caeb466b1f9883dc079f418a62729a3fbba08a2b987223a9f6e288ff70be",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -12036,7 +12036,7 @@
     },
     {
       "name": "Update Environment Attributes Data",
-      "hash": "cdb470acc498a5ea1b8a711c562d61b8600583efc0964ddded061596e8f9515a",
+      "hash": "ac091afc0be4c10ceb0907e5ab631355bfbb743aef825abaa9f0dd0eaf277695",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -12094,7 +12094,7 @@
     },
     {
       "name": "Remove Environment Attributes Data",
-      "hash": "1075abc2b2760ce8031a9aa173cd47e9bfb65de24d4c6c48e65c509a87aa14b9",
+      "hash": "ec64f6413359fdc90d6300b18911c5ff0c94fcb7a395477edddc97755ee57ddd",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -12174,7 +12174,7 @@
     },
     {
       "name": "Clientbound Attribute Layer Sync Packet Payload Data",
-      "hash": "c44ea300e81e2abf723ff59b61f3fd1d290c4c6c507b21c9be1ff8ce3298ff38",
+      "hash": "4a470a1c86979d64d9b362eb08017bfd51a6980a2649172a8106cd05f54ba2ad",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -12219,7 +12219,7 @@
     },
     {
       "name": "Clientbound Attribute Layer Sync Packet Payload",
-      "hash": "8adae4fde937df8991817222315d8f9bdea4ea484d1d551b93920a7e953ca8e7",
+      "hash": "44e63b017a80d4ba2791da040778ec171e07a01cd1c31909b8171be43d7ecee4",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -12257,7 +12257,7 @@
     },
     {
       "name": "Clientbound Control Scheme Set Packet Payload",
-      "hash": "9dc8e085f15c289c5008b20cbfc8be62c5466cf11f8027bfd82ce103d1e4c869",
+      "hash": "7dcdcb92a30ee263c038e07bbf57e530232a7e3fc64c71fb0ace0bde474812a6",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -12343,7 +12343,7 @@
     },
     {
       "name": "Map Decoration",
-      "hash": "d423dd9190360ee931369a5abf79b8381326c92ff77c8fe961cbbb5ac4536080",
+      "hash": "1973147358acac4fc29ff6623b6f407d04f58e0d635ce3219102e41d07016da0",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -12451,7 +12451,7 @@
     },
     {
       "name": "Map Item Tracked Actor Unique Id",
-      "hash": "8d9e02a12e10b5b0012f6b9803a8d707a16c9b49af6e69d7134710b9ec641b2a",
+      "hash": "037676a1b27296fb569fa2d0ee11bad72bcbcd6a90bfa1b83295fcacefe47ea9",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -12503,7 +12503,7 @@
     },
     {
       "name": "Clientbound Map Item Data Packet Payload",
-      "hash": "22af57e4a901052ab08066ade96d811e8e9565ddb58d5c0b02284e31ce88851f",
+      "hash": "37996aa1e752891e08a53b0d5430c26f03168688e9525f4a8a2d5df14e8386b7",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -12758,7 +12758,7 @@
     },
     {
       "name": "Clientbound Matchmaking State Packet Payload",
-      "hash": "7598144c9306d950ccf207742fe322582106e2fa1211dbece1af903f781cce25",
+      "hash": "c72c197e9b6704e722724e3945452191f80f97bde9d1562adc71e4b5faef8f84",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -12806,7 +12806,7 @@
     },
     {
       "name": "Clientbound Stonecutter Set Recipe Packet Payload",
-      "hash": "92cbe76eac63f9365db066714d394923e3d9d4797970a5e2176192d1f482ad13",
+      "hash": "1560dcf85b84e895c43b2d99340e9f86dcccad020e5ea9d8c96d90aad165239d",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -12864,7 +12864,7 @@
     },
     {
       "name": "Clientbound Texture Shift Packet Payload",
-      "hash": "c33528a4bf833e04da82b272faf2ca050b67b63839cfc1867ad6045874dbb689",
+      "hash": "60177fef4e914ac6c04f6614408e648d49f9dbed14b74ef26ac04c8741b73e66",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -13122,7 +13122,7 @@
     },
     {
       "name": "Clientbound Update Sound Data Packet Payload Fade",
-      "hash": "595a2cd5946adf9b24f9ce965fa7569dad98c4439a7014107db3a8223f4bc2ee",
+      "hash": "1cfa0ad295e4a9938da9cf7f87bf3b7b66ee0d17b622ff520539c1a5dbfd2d76",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -13207,7 +13207,7 @@
     },
     {
       "name": "Clientbound Update Sound Data Packet Payload Pause",
-      "hash": "9d0261e01bea151f29a1679bffa85d2363f153fa7955cfd8502e4bdd590619c4",
+      "hash": "122ab93f62a99bf6cccac330115a8e62d6ddd91d6510088601db8b0f34c85dd6",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -13292,7 +13292,7 @@
     },
     {
       "name": "Clientbound Update Sound Data Packet Payload Resume",
-      "hash": "6ea78d704434d891da945c64e26effbbb83b56583e9385efea81d58c328daf45",
+      "hash": "c38e96aa285a53a798d0d542b5a15558c4264c879a0fdac73b41e5b2f85cad08",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -13377,7 +13377,7 @@
     },
     {
       "name": "Clientbound Update Sound Data Packet Payload Seek To",
-      "hash": "8b048caf6c1372b13533771f2ef83175c7492b95f2f33bd691d88743b8b15dca",
+      "hash": "e286b5b9ade9c6b56b428057d10d83a82f35b2091f532b7513f85452f91c2229",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -13484,7 +13484,7 @@
     },
     {
       "name": "Clientbound Update Sound Data Packet Payload Set Pitch",
-      "hash": "fa752bb36a8fa2a198c4723b29e02b4dd9559e00944919c87789d950da2ef8d5",
+      "hash": "7cd65b63486d6005e0d936fdbbbac37737ff5dc52acd6e576a548c3b60a9ff88",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -13569,7 +13569,7 @@
     },
     {
       "name": "Clientbound Update Sound Data Packet Payload Set Volume",
-      "hash": "bb10e3af1bc57bdf90d8bac78aff406e66bd3a580c656b225e85a96cbb92271b",
+      "hash": "bbacf487d1dde3932cff938e3bcfa18b23427c6dd2b4506c8103a3a82591fca5",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -13654,7 +13654,7 @@
     },
     {
       "name": "Clientbound Update Sound Data Packet Payload Stop",
-      "hash": "ac51041c658797655150c9be3a326de0826375c1f3d0396c23a46c487bc63466",
+      "hash": "11195c8899d6dd6bf78f11d9ad6dfb24fcf61ee4aa96c3a568b8c9e30f9ca53d",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -13723,7 +13723,7 @@
     },
     {
       "name": "Clientbound Update Sound Data Packet Payload",
-      "hash": "841ad7ebdfada9e5880f2b53ff482bd8ba9e7776586657bbd079554fb861cdc3",
+      "hash": "cf18a011731c22ee0edd6032366f8de4573cce92f1f414f1e8195215e9f344dd",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -14101,7 +14101,7 @@
     },
     {
       "name": "Data Store Update",
-      "hash": "1912eb5ba3863790b687e7fd495bfe0d562f1d3c8b0ae709a60a54ce37223edb",
+      "hash": "5b151092d8d9be73981df168079215740ac0ced8dfaaeda719e38f67d6a0261c",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -14326,7 +14326,7 @@
     },
     {
       "name": "Clientbound Data Store Payload Updates Item",
-      "hash": "a93a4fde0bdcdffca88c9aa6439d0add7d78a69614d245d9310a19ebb0ab9ca6",
+      "hash": "6ff52f0d702911921c24de26c1b9d191c5b87b59d5937e1e4a2934771bb34afa",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -14363,7 +14363,7 @@
     },
     {
       "name": "Clientbound Data Store Payload",
-      "hash": "de5d11c47b75fd0e1c713a0c70c2adcf68d4d35365f53118513cd4e8446a3ea9",
+      "hash": "77eb15a79ed2984a5808acbab974707a4fc282011bc2bf88affd310c9d7fcee4",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -14509,7 +14509,7 @@
     },
     {
       "name": "Client Cache Miss Response Packet Payload",
-      "hash": "0550b3d3e70bff3f2be766b309c057b2d6da2a9a339ad26e5403bc3283c3ef92",
+      "hash": "8941ac094b61d8319884f4f2177ff4365e8601e11f0ffdbcccef54e547b2d325",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -14569,7 +14569,7 @@
     },
     {
       "name": "Client Camera Aim Assist Packet Payload",
-      "hash": "5bbc92f9bff7559ccfb54bdec5f127b1eba75420336a6a3a8d249148740fb2b2",
+      "hash": "0f5c056b9c80470cd94044a29e604ebce4b8f1f26a8af5c99a566198dec59050",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -14636,7 +14636,7 @@
     },
     {
       "name": "Client Movement Prediction Sync Packet Payload",
-      "hash": "b8695083b0747ed32a0bf04ad96d2db6c40c805c725506b99d90a4568ad685ac",
+      "hash": "634ff2ea10c0e990659576d4c8904ba1a0cf2f90c1fafec0d610f3edc0d003c8",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -14905,7 +14905,7 @@
     },
     {
       "name": "Code Builder Source Packet Payload",
-      "hash": "40ad3d263581f983c3251189c8096414d0187ea747f37e3f40f92eb888491b62",
+      "hash": "6f6f1ddbc137c3f7f9094b623fd645cc7b10ad282eea5559a61fec858a11bcc8",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -15114,7 +15114,7 @@
     },
     {
       "name": "Entity Command Target",
-      "hash": "04051d78b4939155ef35087607c4e840afd653c4b729a8c93e42611e61649b49",
+      "hash": "64f2da81fa97c6aa15847765ef3dbdd68914f7f4bcd1a576bcc77d78bfe40e48",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -15142,7 +15142,7 @@
     },
     {
       "name": "Command Block Update Packet Payload Target",
-      "hash": "8c6deec95d7ac16189483cacc5326e1a2eb9d69f66980f0fb91725cbfd419aed",
+      "hash": "9bca7bdc01ad3b51f085ffaea24286785aa2759cda2934bd1278099953e97f54",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -15171,7 +15171,7 @@
     },
     {
       "name": "Command Block Update Packet Payload",
-      "hash": "ab32c1e7c7e2f246c97dc86989037e3a85fdd1516a52dd2387f15e7d6297d082",
+      "hash": "96aeb373ff1835222f5753ac133329a93593735615036b51fe07029155e810db",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -15304,7 +15304,7 @@
     },
     {
       "name": "Command Origin Data",
-      "hash": "54ca42eeac4a9b5684865aa304af362873cc74ac3a60f0540b02c127bda9e0ca",
+      "hash": "0ee6ebfbadee0b2077643d4a081733d5a53e2d1c9b71a8ec01699140dd3d93c4",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -15492,7 +15492,7 @@
     },
     {
       "name": "Command Output",
-      "hash": "f64f713029cdb28ec6229e6cf2cf9c5c6f282df57ec18019e548962ae226d031",
+      "hash": "117f07ae2a91a416c6f1e033885bf5fa811ba6cb0a7f89b7986821492c129a28",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -15582,7 +15582,7 @@
     },
     {
       "name": "Command Output Packet Payload",
-      "hash": "e61ac13ac93d8ec41236a1256e0523933302d3a3688d90daa25798d04071056c",
+      "hash": "51818bba73691912b54c25d9524ed3c78e532d581d0f29b8ddcdb3ed380c4931",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -15667,7 +15667,7 @@
     },
     {
       "name": "Command Request Packet Payload",
-      "hash": "e7060765dd33ffb91f304f7297f25dead9f5adb0e735cbbcb1fbbfed11bf881c",
+      "hash": "5f01ac39130219d997094771ac712e8dfc4302b9587190566a27541953611573",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -15799,7 +15799,7 @@
     },
     {
       "name": "Composter Used",
-      "hash": "9674f5f78033450e3084cd44abf423fa0cf643ac5ceb358a4395fcfbf5d3b8d0",
+      "hash": "b786ee05135e74d03ef25a0909f4aec7da4b03e2a1c9483bdab082e4386f9865",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -15836,7 +15836,7 @@
     },
     {
       "name": "Cone Data Payload",
-      "hash": "ae16d32dd1f79cfcd7e13db0e29f32ed9a7ced1735fd3e2d23cae50f54f25f0f",
+      "hash": "17105878435723de4986cf4dd49dba2b64f81b6109b578b16b927899f331ffd2",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -16063,7 +16063,7 @@
     },
     {
       "name": "Container Open Packet Payload",
-      "hash": "377a2595569e065e0ba97253af2fb24fe204b5206b07993c50b77df33129f0f2",
+      "hash": "35fec4316dee98c2d60393cb18887d59a0b746777b77c2a75ff2fd7863e78fc6",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -16119,7 +16119,7 @@
     },
     {
       "name": "Full Container Name",
-      "hash": "bc13745f7596c76490ce5d58aeeaf0808bf3ae4ac20f7068ac8aecf58800e4a1",
+      "hash": "dddde23f366c70b51fa6269999f5246082ecbd0813f58c648c6f70e45b625cd7",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -16163,7 +16163,7 @@
     },
     {
       "name": "Container Registry Cleanup Packet Payload",
-      "hash": "f87aa067459fd68a129e28689afed358e024ea2e3a4a243e503ac8867e51532e",
+      "hash": "1b7cdcaeac8c2183f9e4a1a4909012572863aa51b4606037d64ec1b7c9ce2b7c",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -16319,7 +16319,7 @@
     },
     {
       "name": "Coordinates Location",
-      "hash": "ffdbc4e59e59869ca01d89ab9baba26d0cbb055e66a8230bd3d12d5d097184fa",
+      "hash": "3dd3c2f747a2fea8d2e41b540b58883f357c6fc6d97eaf2a78cfa73dc0860893",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -16388,7 +16388,7 @@
     },
     {
       "name": "Correct Player Move Prediction Packet Payload",
-      "hash": "20335db0937b6536215546e291ad79adc3117a8d64026ad13750761b14f367c0",
+      "hash": "6683ceaf740c4b8c04916aafe1d4753801c16a6a4abde144d1c2316abad970cf",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -16504,7 +16504,7 @@
     },
     {
       "name": "Material Reducer Data Entry",
-      "hash": "f01d9893488e729e93d27d8931e0fb9b6041a9aaddb6425eb0aa3be9999c1a55",
+      "hash": "61e32f5320519822dee580d63315ae008beffc8f21467fd8399ed7235614e805",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -16565,7 +16565,7 @@
     },
     {
       "name": "Multi Recipe Payload",
-      "hash": "f94e664540e37fc4db221dca514254d53584f07303b27992692c1a5713f22a81",
+      "hash": "f8d38f9a7deb17ed1dfd23b191e32ccea8e1c0a86de75f1c48d936e174a7f192",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -16679,7 +16679,7 @@
     },
     {
       "name": "Empty Item Descriptor",
-      "hash": "ab2822a6903dd3d4575c359fdc1798a08ae088293290d5af0ab49749a267a075",
+      "hash": "d16fee122ddb3d3884846129f6a230a3e23d98de0ab36a2ab58ebe93a95ddd9f",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -16708,7 +16708,7 @@
     },
     {
       "name": "Item Name Descriptor",
-      "hash": "c820cc03e989b676ebb18bee4f9547b46691c5d60a06063683bd1534d934dd1f",
+      "hash": "e40c49151de76345432ac51eeb3edb2c890ef366c1d35bb38f824eb16c2336f6",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -16797,7 +16797,7 @@
     },
     {
       "name": "Molang Item Descriptor",
-      "hash": "aa95e1e16b78dccb9562cfe5abe737a1ef9130f1fbdc5eb66c3108dea9215095",
+      "hash": "7a98007f9a5b879f9808e91b9b01719cafc48776ac7725889bc394940b1a6ed1",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -16862,7 +16862,7 @@
     },
     {
       "name": "Item Tag Descriptor",
-      "hash": "02a7b2ef137ea62044c3a873bf7009ea3fd63d1e54e75df88a1589c7bb7cfa72",
+      "hash": "4984fad10c2539ca3c3a59ace702597505900d92d510b16a9b1290efd6e776f2",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -16909,7 +16909,7 @@
     },
     {
       "name": "Recipe Ingredient Item Descriptor",
-      "hash": "efac166f46db0098ded6d0d8a93f7c5a9476db82db5c244f4af4bc2d4f8ebe83",
+      "hash": "8d0000fc08b4f85e9c91f9505beb6b3d500e54d885cec29b77df763033c50937",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -16954,7 +16954,7 @@
     },
     {
       "name": "Recipe Ingredient",
-      "hash": "7b61b90881b9cbc31ac07361954ececf6223accdfc8ed592ea2308ab7cb2bea6",
+      "hash": "2c34f6af92ceec4214965ef9391b27632c5726633d192f260735a3ecb1eccb49",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -17092,7 +17092,7 @@
     },
     {
       "name": "Recipe Unlocking Requirement",
-      "hash": "a882262b6c7815f2c28e191b3f3f55e001b31e2630f747f857697cc3da29712f",
+      "hash": "0f840ae4d6fa70dbed52bf9a7572fd7605d6b0d295e80db0a36babd1b044a509",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -17145,7 +17145,7 @@
     },
     {
       "name": "Shaped Recipe Payload",
-      "hash": "0e924a06538e581c93d77a8dbbb8e6747493ea9330c60b051497517c972e79ac",
+      "hash": "9d6ee4461415993d9ed7347d55ef9087448aca0cc5688b8b382efcb1f5e22138",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -17299,7 +17299,7 @@
     },
     {
       "name": "Shapeless Recipe Payload",
-      "hash": "22cc80fd5dbd08d0f494011abd17dda7a8742a75b43d268cbfea983a4a64f158",
+      "hash": "66768b1da12ee340ce91446de51ee6db25149bc31e18169312e8ffdca9cf56f6",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -17422,7 +17422,7 @@
     },
     {
       "name": "Smithing Transform Recipe Payload",
-      "hash": "3101370d254bdffe39cfeb06ec2e3ddf23e88bc0c58c5737e771310b766934fa",
+      "hash": "a984c8ac23b318e0ef6bc4659aaec97705f7b146f98b51557c12cd059e6f2425",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -17505,7 +17505,7 @@
     },
     {
       "name": "Smithing Trim Recipe Payload",
-      "hash": "19c6176893677d20be29c50a3bfc2df0d0357f8bf1e7aa83ee337b64138a9900",
+      "hash": "87331be00e45266b46957289dbd4f564c81f85e1f64ad46edbe3def43dc4e41b",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -17579,7 +17579,7 @@
     },
     {
       "name": "Crafting Data Packet Payload",
-      "hash": "643d302e78f4f7ee0e88ab5ba495e4591f516f930fe127dc63ce314a718ff9de",
+      "hash": "c92a42ee8ee1d095c1feaac376ed981e92af5301684620360e722e3499fae0a8",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -17901,7 +17901,7 @@
     },
     {
       "name": "Creative Item Entry Payload",
-      "hash": "c056d57af3bce52dd027b368b61942227675897c8e20e0026df94e959a41f731",
+      "hash": "6ef376d4484deaf159d9e9efde6ed38ea42200e65a0dfb645ce4213b69ebab92",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -17956,7 +17956,7 @@
     },
     {
       "name": "Creative Group Info Payload",
-      "hash": "d7b61afcecda725b510479629432856a366c007fdcb9fb24ec747f1c3f67b8df",
+      "hash": "821f166db442b2dde9227a02d0ab23cd654bd34863e005f08250c4c920964ff1",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -18006,7 +18006,7 @@
     },
     {
       "name": "Creative Content Packet Payload",
-      "hash": "f3f4e1cd3d78a94cf77298992eef0dbb868ee736b7b9b8d1b252135daeeedbab",
+      "hash": "8fee0c386f0c56d9a6f5a35488b7fd5e6d6c6c57cdca0dff3bb67c5df32707aa",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -18094,7 +18094,7 @@
     },
     {
       "name": "Cylinder Data Payload",
-      "hash": "756e5db2f19ab6c3b98222dbba10f8c4e4f05be2ee0eb22c08151a4c467454c4",
+      "hash": "ca30b7a5d19670ca4fd56ea588272d682a1bf3ab6631d8d8e2e4f0ba5dcc780e",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -18210,7 +18210,7 @@
     },
     {
       "name": "Death Info Packet Payload",
-      "hash": "0ba5fde42d4753b9ea75512b6ba1faf051529ab7fb9b9292f33e11c9f7bca82b",
+      "hash": "2d8395c2079684d10a1f2910c15afba7f939997e0aadf0bc653205484270babd",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -18227,7 +18227,7 @@
     },
     {
       "name": "Debug Info Packet Payload",
-      "hash": "f048adf81bbe1c5a7f1f5fcda30c0ffd2b5e010219cde9f74cf74c597227c3fb",
+      "hash": "5451b3b9fdc1a9c113d804f16a2c9f9cbca8ab709de8246c9043000588525dc0",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -18259,7 +18259,7 @@
     },
     {
       "name": "Debug Marker Data",
-      "hash": "0ba1ee6caa8b69400ff3f54ceabdf1a2a38aa649dfeb2004bd64190428cc9ff6",
+      "hash": "a19ac2c9db17b3058a3e5b54b0906d8157dedb4ef6cd58208af7c5a4f24b5535",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -18317,7 +18317,7 @@
     },
     {
       "name": "Debug Renderer Data",
-      "hash": "7dd0b755c1b2d97f36ea1404d7c8a0c1eb00af348f84ef4c6a33e9b2130f0550",
+      "hash": "4da24b6aae42c86f75b266561795f02aaa251172ea878102c5fcae4ebb3ae35b",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -18393,7 +18393,7 @@
     },
     {
       "name": "Dimension Definition",
-      "hash": "dcd93b32d85faca2eb1d63de35973ba2c36ae65652212a92f1af48776de40997",
+      "hash": "b067cb2725794093923ac8ae286838b4bef2f3890b518d5d79f06148b9d744c1",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -18497,7 +18497,7 @@
     },
     {
       "name": "Dimension Data Packet Payload",
-      "hash": "6d2842b9ab2152d61924d9672d9ca359e5b273e7d28fd4579e15fa509567fdcf",
+      "hash": "26dcbd71c463c7649bd3b79423d9cc6e200bf3bee81de1b2f4b341467313fff4",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -18748,7 +18748,7 @@
     },
     {
       "name": "Disconnect Packet Payload Messages",
-      "hash": "4f6894cadf8701f106ab979b12e6c9189183ad30ed258577c1b209c6ba4dc2b7",
+      "hash": "357d39e2b153833da52bdb75c9e1ce5f5d2ce6f602ff4c445fbb2ae36dd4cb66",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -18776,7 +18776,7 @@
     },
     {
       "name": "Disconnect Packet Payload",
-      "hash": "bfce732eeab596e9a51dd992aceed55194c7f574827e3882fa420255c09bc441",
+      "hash": "d02bdbd9c5a2c1586cac970a06407d85436ea0fba579199fdd243af1ef527fbf",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -18983,7 +18983,7 @@
     },
     {
       "name": "Education Level Settings",
-      "hash": "f7d292fd2a95b3c7fcf47b78c0ee73a7f16b8100f060e47036665d24a5251afa",
+      "hash": "8be8f8e2029d9aa463860725c0dec79c7d930e86cd50cc7b1723fc98a95ab0d2",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -19113,7 +19113,7 @@
     },
     {
       "name": "Education Settings Packet Payload",
-      "hash": "5e4ad241bc8848727bf330daed595884037cf15b4adbe1fd3191c468ac03ecef",
+      "hash": "5f8d59ff21ab92abe4fe9a317b3759c658e31aa12fcd1499ed2abe6ea6dda573",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -19168,7 +19168,7 @@
     },
     {
       "name": "Edu Uri Resource Packet Payload",
-      "hash": "b6fb02280dcd3d18ba076adcd2b2287e5502f5109df061b318c67ccb167fa28f",
+      "hash": "dec12baabdfc98f3e014003e8e7b4538193f2bbe81d21df88dc9d9f7c3ef721f",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -19185,7 +19185,7 @@
     },
     {
       "name": "Ellipsoid Data Payload",
-      "hash": "1237f56b49c1c020402b219942e829da52aa923f7478b7273fe63a0b47183b13",
+      "hash": "844a93faf9db93a78d094b6f2b128f00c57a1bede93b28285383c6fcff5b66d2",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -19217,7 +19217,7 @@
     },
     {
       "name": "Emote List Packet Payload",
-      "hash": "5429b1c2a3e25bdaf3fe47eb5f818b2f43b3b7265dfb6677261f5089a8ea5d75",
+      "hash": "dc933d2d4aff8b66e44fb3c08a8fbc988994a0a2f01f9d0b8dd1233b41b02829",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -19254,7 +19254,7 @@
     },
     {
       "name": "Emote Packet Payload",
-      "hash": "275dec856bdd35c590daf5d3ea7a359f20aa416e00b1a5df07cf44786e645ce0",
+      "hash": "2d117e7d064ecd9231e7d20ad00ba0b710d3dcd8e2afe8698a39df598986992b",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -19406,7 +19406,7 @@
     },
     {
       "name": "Enchantment Instance",
-      "hash": "791efda38b6796e4c401b1f77168998d74add3a99544fc286db1dd13c61d5264",
+      "hash": "ffa6cae6a275dc0b4b8ea168de63e5cddd137602e782cb15874fd357459c8917",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -19454,7 +19454,7 @@
     },
     {
       "name": "Entity Diagnostic Timing Info",
-      "hash": "705064643692092874f52bfe6122ae1f8a3ff42c3d2acf3157ffeb4982bbc935",
+      "hash": "8833c18bc1a83ea17d219eff0f99ce408a656cc86df4862918a0173b4aa7e704",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -19585,7 +19585,7 @@
     },
     {
       "name": "Experiments",
-      "hash": "82b6879d7b40bea280e05362c3a729c9322486011783993d7a16dc79982781aa",
+      "hash": "52656b4106f058c68e24da1e4f533c3b95f956ee303ce84f66b199b4cde81e2a",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -19780,7 +19780,7 @@
     },
     {
       "name": "Feature Registry Packet Payload",
-      "hash": "e25afb043fd12680d72492323dc3ec5ac68410cd33578b343b9f1e8f2465f7db",
+      "hash": "5e32157add35d2a1e841d1d22dbd0c95a8684f0d052539c19ea2333c7175da26",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -19808,7 +19808,7 @@
     },
     {
       "name": "Float Override",
-      "hash": "8443ad45f7d258d2f6c77af295ae043b6ddf83b21d13f65dc757dcd874d2b5c5",
+      "hash": "59e16a9d5fe7d3031be63244f576d9a1623cd598304dce99841f9aef199251d6",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -19903,7 +19903,7 @@
     },
     {
       "name": "Furnace Options",
-      "hash": "14d821c728f0cfda897c9cf2a26065c6f793d53f51170f28dadeac2257f4db8b",
+      "hash": "32858a8326927ba9a49c39f8dd4524507f476669f4f9a140fed9e5d9d4c6ba92",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -20032,7 +20032,7 @@
     },
     {
       "name": "Game Rule",
-      "hash": "8984b06f947fb2b98fa2ea5addadb7de1c401ab2d14f3f68f9754d8f1567a463",
+      "hash": "e2d882fa4759c597e6a97849258cca30568285990a5ce9b969e764721ab06e47",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -20087,7 +20087,7 @@
     },
     {
       "name": "Game Rules Changed Packet Data",
-      "hash": "9f029bbbb35a0b611525224505fdfe75911b5139e041b7f374b0312d7b0b7491",
+      "hash": "fea322b9038f5b140bae5e29feb239d26fb3072db347b0612cd56a8f86cc3ba1",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -20115,7 +20115,7 @@
     },
     {
       "name": "Game Rules Changed Packet Payload",
-      "hash": "e9cc07e6cbb501c06aeb6b96d8513968dc7507fde6d0bc2d133b5efd58afee1c",
+      "hash": "40b692bc934442de1fed68c6f975591e82aa30058bcae1bce074800ee60b570a",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -20149,7 +20149,7 @@
     },
     {
       "name": "Game Test Request Packet Payload",
-      "hash": "da20ecd8f0f725dd215abcafbd6f7697fe48e635ee29e251f20b43275d2aff41",
+      "hash": "24dbfcde3cce8b58858431c9cd8b673663af261625cb999655aa2e4a39bfcb0a",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -20288,7 +20288,7 @@
     },
     {
       "name": "Gatherings Config",
-      "hash": "9a2f072649deac0cf86314538f5480aea487afa6e41ba78d6bd0cd87372ffa35",
+      "hash": "8e538833a92659f2608a172875308a65bed3e93109a315716a4496c62317ef1c",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -20547,7 +20547,7 @@
     },
     {
       "name": "Graphics Parameter Override Packet Payload",
-      "hash": "c05d430b2d77426163592f0650097cc29a7bb6941174e18d50f0528bc97a1282",
+      "hash": "e49334fb3aab6cf94b915a74448d0cb0c6a42021c9fbaeb0a888606e34297b56",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -20729,7 +20729,7 @@
     },
     {
       "name": "Hidden Location",
-      "hash": "8fd9f5f9aeb8314969e841eecd395c1aed228871f416a3b27de8a9ae26878135",
+      "hash": "9e3bde205684d0539d2b8c9f67f373d9420d9211809a72323c6c67bb9310cab3",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -20834,7 +20834,7 @@
     },
     {
       "name": "World Clock Data",
-      "hash": "5552f47dc81276ad4395028d45ac8db57ff686cd6feb162b5b68c2353db8f08f",
+      "hash": "431111767ab548a47a26902585eb984c2c59f1f78a2591b9d2e26613929d8f81",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -20917,7 +20917,7 @@
     },
     {
       "name": "Initialize Registry Data",
-      "hash": "773b37d03b7a5827e44c567908deec6359eafb8d456853aaa836b4330c6c2603",
+      "hash": "c0db659cf44a3b7b69dee8b831e041e08e7e51c15de9bd031f11521c23725f5e",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -21009,7 +21009,7 @@
     },
     {
       "name": "Interaction",
-      "hash": "c9556d6a16342446b3de87de20875d27eb888ccaade1ba0c26eee24839577211",
+      "hash": "a6a619a8fc9f03030ad3a5455069f3bee35b49b79f7687c0b6702b8f975accb1",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -21098,7 +21098,7 @@
     },
     {
       "name": "Interact Packet Payload",
-      "hash": "037672502a321d3666f192ff764dd6ea50e8bab3332930678095b61a4978d7d0",
+      "hash": "112c212fc285ecfc575ce607eff5071d42d9051c2ab49cc7b8f349d1abb5dcf1",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -21146,7 +21146,7 @@
     },
     {
       "name": "Int Override",
-      "hash": "a7314a939745f2e1d598b2f297f0b64997a623d95597dd0cc080edc908cab116",
+      "hash": "36a3944ee36e16e73087760880f2e5efa1454230448cf46aa63bf427d40f25e9",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -21236,7 +21236,7 @@
     },
     {
       "name": "Inventory Source",
-      "hash": "fc321164a08ac1b88486a273abcc8d3bf1486522cbe1f94d353b849d7af6f8f1",
+      "hash": "3ce611da077bef38a095420f32945f2a40e0c598805464374ec8047b890c0086",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -21303,7 +21303,7 @@
     },
     {
       "name": "Inventory Action",
-      "hash": "bb77f43390a1f0f70bb76530d6e941bac83eed58bf2608d88c2dc358419213b7",
+      "hash": "dc8fd024fd2b989cf79b9863f962188e40ac26e5ebfec966c6fb6cc5c172f476",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -21352,7 +21352,7 @@
     },
     {
       "name": "Inventory Content Packet Payload",
-      "hash": "1cee42746515d80dbc57525f9b9a76a6f934b98805180845db01ad256d7f030f",
+      "hash": "380556876384dbb349a9f2d8da932f4f967c9480fb423ab8d6d516082d86d2cc",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -21460,7 +21460,7 @@
     },
     {
       "name": "Inventory Transaction",
-      "hash": "c183c064df1937ed891fa56705f657358efa6079ee5334520b617c662a5e76c4",
+      "hash": "0b65d1ca7e80a9d373729be747b487624e3e7ce960b14895404b718489c64091",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -21491,7 +21491,7 @@
     },
     {
       "name": "Inventory Mismatch Data",
-      "hash": "eaa748ab627cc33b228b057d83c9da5081f3fa2f54e5d389cf566bb7a129c4af",
+      "hash": "f14625845e9757bbbbb659ddedd10687abaa5ace221ec74dbcf45c82fcd5690d",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -21522,7 +21522,7 @@
     },
     {
       "name": "Inventory Options",
-      "hash": "8ea50d03eda1f41df33a874ca14bfc0d9cb78d8b01be1587dc76cbf88afba8da",
+      "hash": "ceeedb2cebdcaea3c0f3b5d8d2ef2777b7afa84a69da4b11aec1724ed0301c10",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -21611,7 +21611,7 @@
     },
     {
       "name": "Inventory Slot Packet Payload",
-      "hash": "65cea70d9c1262393424ede46ceab8191da8f654ad6471acda6d6cdb8e6066fa",
+      "hash": "afc4ee933bdd1230b4403f9f13d07d14379d730a51be8a85aedf7eda74353e53",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -21702,7 +21702,7 @@
     },
     {
       "name": "Legacy Set Slot",
-      "hash": "47d1f9712df6d6c54a2a9c005d5515800911d164fa55b09b16c19ee54ab7346f",
+      "hash": "3859dc2fabcbdb97d24034c7b2e987b3717d60c20f57209d5e3078c62f925a8d",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -21754,7 +21754,7 @@
     },
     {
       "name": "Normal Transaction Data",
-      "hash": "b75b124d5b51b9939435fb85652af00a5980416e8cb38ecb2050b1b8daebe335",
+      "hash": "609d4c46f7bca771ccc6f859dafadd5cccfb2fa47538c4166fb20a056f469ea8",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -21822,7 +21822,7 @@
     },
     {
       "name": "Item Use Inventory Transaction",
-      "hash": "fb55b887da393c201a3c4f0223d8f22d0ce79548b2d10afc57d16aa8bc0fbb75",
+      "hash": "325b6016cffc658c1b50bd16bc27cc2c9f5ae53c43a3ae66134524b02b887b7e",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -22018,7 +22018,7 @@
     },
     {
       "name": "Item Use On Actor Inventory Transaction",
-      "hash": "739b9a21c7de65e1fe1c29e83c182df01264d770124dbd7e0db329b72c87d95b",
+      "hash": "72c963b57f5ba817eac3d4c36fdfdd58f52c60fb742ea011c386394b43c5954a",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -22130,7 +22130,7 @@
     },
     {
       "name": "Item Release Inventory Transaction",
-      "hash": "8761efb92d000e337772813c74ed3730a343109da07a65d16b2a7e31661a2722",
+      "hash": "9e281c2d0acf6dc8476a8a24da4eb130138a13250876f00cb6d4eaf1ba01a3fb",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -22226,7 +22226,7 @@
     },
     {
       "name": "Inventory Transaction Packet Payload Transaction",
-      "hash": "21e727c07a4e90e8fe5b2df7b97f616756112b687b28687d24d0cfc7124138ab",
+      "hash": "1e7beab3e59d8d6f380aaaa240714f7b9412a4153a1ecc64a90bddff50cf3aa5",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -22279,7 +22279,7 @@
     },
     {
       "name": "Inventory Transaction Packet Payload",
-      "hash": "dd1f59dbcc283b6e9c6d395dc26a3f58255c4b358fd6df0c776e86afe658b3f4",
+      "hash": "60a02e3941001736b78c8e3b11eb76e164631d4967fbde4a0162f6e87d416c8c",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -22356,7 +22356,7 @@
     },
     {
       "name": "Item Data",
-      "hash": "15ea4dd6687b5aad5c411ddfa327b63e999fc67980ef704dc5d74c1b276cf278",
+      "hash": "5a6db03523ec7afc9fe49ff1f3fc080a5d60e3cd06e77291fddc7e81ea563c76",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -22425,7 +22425,7 @@
     },
     {
       "name": "Item Enchants",
-      "hash": "734319656b76a7d434d198684b869b84021c4c75b76a2fc089c7a5ef3c7a9904",
+      "hash": "b06b9dd51e4cc93cb110cce11a90e9fae6f759fbc513baf67594480b9c3d24ed",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -22479,7 +22479,7 @@
     },
     {
       "name": "Item Enchant Option",
-      "hash": "568f0bf6e3df5117a45daa660f87e0fbe1644783cd0dbe35ead95d06245f20d4",
+      "hash": "43066c260b4304147ae333260d7e93008fbd0560322f351afabe23430993cfde",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -22539,7 +22539,7 @@
     },
     {
       "name": "Item Registry Packet Payload",
-      "hash": "f69d9b3dfc769237c55fb8e10146a73eb6181f09ecea022b975e18651439054d",
+      "hash": "cc9fa39415523cbd646f54879b9712dd092793b0531cd910656964adef85a3b3",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -22695,7 +22695,7 @@
     },
     {
       "name": "Item Stack Request Slot Info",
-      "hash": "2cbfd2909e4d0724c9cbb99991f51131ede7099c1bd25ded310bb20b54d7b98f",
+      "hash": "606269cad08e18adc44b787f4c326ae9a5c770db525a32f7a2399aa00632732c",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -22738,7 +22738,7 @@
     },
     {
       "name": "Item Stack Request Take Action",
-      "hash": "52ec2e253d4558723c3a52fe01798c01cf2fd87c437d03eae7a4665db4c2c0c4",
+      "hash": "5f30ec9dd0f68074cacc09ab368a7165172182af34c03b95b289b88161fcd094",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -22800,7 +22800,7 @@
     },
     {
       "name": "Item Stack Request Place Action",
-      "hash": "36b545276373b6bb7086a97560954793fc0a9b2f86f444413e667eaea012bc3f",
+      "hash": "81c24601d6b26b97f182de5ace03a8c26894db56f45df5ca6cf154ee0eb32f20",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -22862,7 +22862,7 @@
     },
     {
       "name": "Item Stack Request Swap Action",
-      "hash": "7fda0c0388a95e7979891c79793ee4039640f304b0e151a4c8f50ee546893bf4",
+      "hash": "86e970bbbf0576206ced2ba0b4bd49461f39688500cd317e3b9d6cbba594f421",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -22909,7 +22909,7 @@
     },
     {
       "name": "Item Stack Request Drop Action",
-      "hash": "63ec1d854ab30d531b6aebda835f9b169532bc227d7db68e51acb008f54928c7",
+      "hash": "6ee75331b2c52590655a70d30205559d7fc94b950f3345b5c14cbecf7fe21ffa",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -22971,7 +22971,7 @@
     },
     {
       "name": "Item Stack Request Destroy Action",
-      "hash": "866250003868233e9c5e971879b9056c5fa46a1bb8590544dd0b4914e2c40300",
+      "hash": "7ef015f0db0aa52865a5199248b4dc96b7229d774e703491d1a9fe9b53f6ef13",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -23024,7 +23024,7 @@
     },
     {
       "name": "Item Stack Request Consume Action",
-      "hash": "d6cc45abf83cb24b3a3ce947649ff6f523273a81e04b447ff73d9b1281fa33cf",
+      "hash": "c565515f2942fb9728b645c559266d027cd794e879dc89832c088e5f6fe12aad",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -23077,7 +23077,7 @@
     },
     {
       "name": "Item Stack Request Create Action",
-      "hash": "76f6bf7325ba274ea7c2e61776210c76de45f6a1cf2fb3442d10cb09e857460d",
+      "hash": "3f4a16fdc65e73bda74f2ef946b8233be3a6f5a185e92d172f5dfdedda9d390c",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -23121,7 +23121,7 @@
     },
     {
       "name": "Item Stack Request Lab Table Combine Action",
-      "hash": "e80a20467d8f5e10720340713ee71aad83bbfa84cca5a3fbe477fc1bdd53e18d",
+      "hash": "6461ade1e2dff95d8d958dd2d7b1da52784b67f876fa602ea01491ecff703bdc",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -23150,7 +23150,7 @@
     },
     {
       "name": "Item Stack Request Beacon Payment Action",
-      "hash": "18a4448e80af1f14544712b638e9e2ac352cc48c2a3779b652b9f637b19a4895",
+      "hash": "84486cd2a8f6e0c478306585b576b74ffe312edf9aeaa773342a5a6921db414d",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -23209,7 +23209,7 @@
     },
     {
       "name": "Item Stack Request Mine Block Action",
-      "hash": "4e33b33b4bb6a489c4832f857c48a624976a572cf57147834c88c6af68d4a0f6",
+      "hash": "1cdc7cf92e18d5472329a79395fa749626d33e8f2de7430e53640a9c1236289b",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -23271,7 +23271,7 @@
     },
     {
       "name": "Item Stack Request Craft Recipe Action",
-      "hash": "acf30e3b90c17d5b7a7520c050d0a5bce2b6c0d614d27a3ec9feb7a8f9bed54c",
+      "hash": "880daddbf89885219bf92712588c14b708c0e29dedd46a155ae3efb8194a8cfd",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -23327,7 +23327,7 @@
     },
     {
       "name": "Item Stack Request Craft Recipe Auto Action",
-      "hash": "2281fe160cd45e816c3e2cdada5e9327da9b69a3d8a97dc4168348be8a6f6641",
+      "hash": "bb69e567567c75355f75a8dddfc10f766284bd792190270af6ca510b47a258b5",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -23403,7 +23403,7 @@
     },
     {
       "name": "Item Stack Request Craft Creative Action",
-      "hash": "dcdac55630241deff9735f2093218d025363274cec4dd4f41e8943230f85e8a3",
+      "hash": "b1efc14a92a584757de429ac30de8714983ffbbb041e28de9d916546a06e14d5",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -23461,7 +23461,7 @@
     },
     {
       "name": "Item Stack Request Craft Recipe Optional Action",
-      "hash": "d2025916eadbecc78da0bad0f28f974c3312484e45de75c3706c842278e7a5cf",
+      "hash": "e970fd9b107a6aabbb5271c8a3048c1521102e0ea540447efe93db53dab91172",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -23510,7 +23510,7 @@
     },
     {
       "name": "Item Stack Request Craft Repair And Disenchant Action",
-      "hash": "58a936a697c62e5e35212ebda889c641ed265be4ada7c2255b4a09e6f70fd5cd",
+      "hash": "8ad9d815d0eb14c1aec0deceeb938a7ff756611124b9e375946805f75753d93b",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -23579,7 +23579,7 @@
     },
     {
       "name": "Item Stack Request Craft Loom Action",
-      "hash": "6ab5429737f4024accab2ff807e898f93d48c5348d6da6a83178b0ad01891830",
+      "hash": "e2386a47c3e802f54a4e4aa1f9988439d36dd190b1b7cd3e33532a1331466d77",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -23638,7 +23638,7 @@
     },
     {
       "name": "Item Stack Request Craft Non Implemented Deprecated Action",
-      "hash": "ba1faf5dd88a101658fdefb3b365ca7ef3f7461ae9f851a21efd15ee8bbe8ea6",
+      "hash": "51dfeb637068f5a30d550b550a91c60a1159f5404c96472b71ed7507aaf72be5",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -23667,7 +23667,7 @@
     },
     {
       "name": "Item Stack Request Network Item Instance Descriptor Item Descriptor",
-      "hash": "a7b360c47c1571ce392b015efb8c79b648de12db59717490829fe2dcaea75672",
+      "hash": "a639a8944c4886c8b25ac65f190c051d3510f9db944dc96dfcd997ca4fba160c",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -23712,7 +23712,7 @@
     },
     {
       "name": "Item Stack Request Network Item Instance Descriptor",
-      "hash": "f0a0b12d2ee2a6703f26613bada4bdb628ae44673db33536dfe3daeb206b4c6d",
+      "hash": "498b6668fbf08408f892789d4c4d7b24dbf4fe200da724881ae9ecc9406b7c13",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -23787,7 +23787,7 @@
     },
     {
       "name": "Item Stack Request Craft Results Deprecated Action",
-      "hash": "4e7476645b7b97cbce76cb41d85af906600cd0716339e86499dcecada051ba87",
+      "hash": "ad9eefb723cc3735f768ecad7d6e91a34fa40bb2571c69a2b191e45b0c0c3240",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -23854,7 +23854,7 @@
     },
     {
       "name": "Item Stack Request Actions Item",
-      "hash": "d295d0a01ca21b62517eb79f5c425d40934cc59f7e7f2c233a0d284c2cc25948",
+      "hash": "a3b0b9fd8d152c3bb6e7044988a43e831dea0bcde6636895666cdfb5f146c6d1",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -24057,7 +24057,7 @@
     },
     {
       "name": "Item Stack Request",
-      "hash": "ba877a09d175cd90ee911f0accb320506c56bf6c5ae3bdbcdf383995db73dde0",
+      "hash": "b7c59e0cccf524bf6a190faad4f658a06f33308fd0ceb0bf6649859a96c61ce0",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -24162,7 +24162,7 @@
     },
     {
       "name": "Item Stack Request Packet Payload",
-      "hash": "80c16d19f6866ec3b7167f26a82cf3d3f6fc8d44c16e7f82201f079d9c4ed464",
+      "hash": "049336bd5c3e8e716975a1752f3b19b459075fa2555a35403dee98ae20b1b24a",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -24193,7 +24193,7 @@
     },
     {
       "name": "Item Stack Response Slot Info",
-      "hash": "b6885dc2aef7abb7262300eaaeb28b8b80cefe642669c16678ca1e74a860031e",
+      "hash": "5039c257f1153f3063452989156496e7b34786998a1fe1b797412cde779b046f",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -24283,7 +24283,7 @@
     },
     {
       "name": "Item Stack Response Container Info",
-      "hash": "f8f78ef428f39c16467bcfde0796710611dcda5fa254d51fe08a387657feb9f2",
+      "hash": "bad3303324f481f9617bc90a8ec77f40fd3ccd5a7ae991f22c601f95ac4ed894",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -24398,7 +24398,7 @@
     },
     {
       "name": "Item Stack Response Info",
-      "hash": "41840dde5317ad01a3129ec390de0f8ce3933af1dadea90b418ff048373916e8",
+      "hash": "0382f82d514d89623fd622658465e913924f39504573dac212a59b447ceeed66",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -24457,7 +24457,7 @@
     },
     {
       "name": "Item Stack Response Packet Payload",
-      "hash": "53ed062d698678a1825d1865ac8a5ff1ad5e4ce9370fbfcc81b348504c7fe9e7",
+      "hash": "e20128cb4cab3526094c7b88ae255ad0a6a3dfa065095aa5c11e72d30c18c928",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -24595,7 +24595,7 @@
     },
     {
       "name": "Lab Table Packet Payload",
-      "hash": "413b6a5d93444fcf1eac659a239cbec9fb81cc5ab18a59030cba17cf9e8e0433",
+      "hash": "d9ce04438e742d0a2ced46d9036450b9f889b29f7caf297830376d922f2c608a",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -24648,7 +24648,7 @@
     },
     {
       "name": "Lectern Update Packet Payload",
-      "hash": "6951b632c6dceab917871e05918799876d32f773e85a47ea62a3f602de7c4d13",
+      "hash": "44df7b4477fe92df3ed0163297cd46e61ebf5eb8f67254b95dcdaaf8119bf3ba",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -24744,7 +24744,7 @@
     },
     {
       "name": "Mob Killed",
-      "hash": "d328cecfe1f5739f233fe70c9b8c707eac0477433bf1401141a8a073917392d9",
+      "hash": "e5585317a4499dd5b84ef061fa6a201489244af00e4d25e030cdcaf6d39e49f9",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -24993,7 +24993,7 @@
     },
     {
       "name": "Poi Cauldron Used",
-      "hash": "4e7d988ba3122a4521a414211af7745c459b0abb72335c1f0e0ae4e0f4e9762d",
+      "hash": "fd080dc0e5e93005175797c402878261887d5e763b083a1f1b3708ea646d5f75",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -25166,7 +25166,7 @@
     },
     {
       "name": "Legacy Telemetry Event Packet Payload Event Data",
-      "hash": "8e0f9ef5b17da5cb9ed7f9fc1ffed7e0043a014536f2008301cf5af339c1bdf3",
+      "hash": "dbf0d34efd5874266866f56e1854014ae90d1a9c960f9be685f65759d7f285c0",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -25397,7 +25397,7 @@
     },
     {
       "name": "Legacy Telemetry Event Packet Payload",
-      "hash": "9adf05eeac3a3154a9f352bad149518ac9281bcf117249dcfca1cc3c1ed8786d",
+      "hash": "6c1636f12c11ee33a469267b24fa10760949c45ec592033e02f6b84884abcafe",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -25544,7 +25544,7 @@
     },
     {
       "name": "Level Chunk Packet Payload",
-      "hash": "e250a39694957f52efbd912d98b854499f892d73ea8cc4c13ff9dac169246c09",
+      "hash": "d5a1550f2f52b0eeccb59bde9f852c4ee0c62b04a7faa6150ddd08d055a95298",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -25687,7 +25687,7 @@
     },
     {
       "name": "Level Event Packet Payload",
-      "hash": "1b36723f3d3019a9564d2e9090c8823074d21dec11266317076302c5ffe23662",
+      "hash": "db0f77342ff3adfbf06eef3121c30bc13be6da36e8f1883ce53160c20bb766e6",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -25752,7 +25752,7 @@
     },
     {
       "name": "Spawn Settings",
-      "hash": "7ab464c94da2cabf6936da8f2f295d813bafc3d6ddec77c69fb13da03527c434",
+      "hash": "cd9a184acf4d9d22476364ef1c3bc5fea72323bb309c5707e12a4ab47d2df4e2",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -25804,7 +25804,7 @@
     },
     {
       "name": "Level Settings",
-      "hash": "6681e0445858d8537d986207eaa2cb80f746bde34aa9ad41c5af1deb63cf5ef2",
+      "hash": "d0debe5d6ac9c1cef9a1133582c91dd1a18be9d7b9978b88d225cb126defea39",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -26975,7 +26975,7 @@
     },
     {
       "name": "Level Sound Event Packet Payload",
-      "hash": "06c3b175217620d12089951dbe136f16fc22ad2f9b88b6b77928df94a521e48e",
+      "hash": "5bf429a8e6ffdaa355ca6ca29d4c2a88c99e8b9cf44fc2f24098b3ffc5531a01",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -27075,7 +27075,7 @@
     },
     {
       "name": "Line Data Payload",
-      "hash": "817437a19a01608a7f960c959c039dddb986663271f7bb63b98f7bfed834fb6b",
+      "hash": "adc221e60ff904ef3048a390cc68b91a0c34f37b98240e0667003f5d0190ae31",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -27106,7 +27106,7 @@
     },
     {
       "name": "Waypoint Group Waypoint Handle",
-      "hash": "1b927fa8705190e4e279bd1bc300887aa85df1f2d57c55fecac4202ac18eb27e",
+      "hash": "0cb233612fe9d48e28def5574f7e5be69c0efa4fd2caecfce9b6c05eff74584a",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -27123,7 +27123,7 @@
     },
     {
       "name": "World Position",
-      "hash": "e798fa64eb8860554378b962c8fef6ee8b291aa29a94e647cd088a9294f084f9",
+      "hash": "d84e39cd58ba93252507f8ce6d9ae898a22f28497d97f9c5f5f1881395c05d59",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -27149,7 +27149,7 @@
     },
     {
       "name": "Server Waypoint Payload",
-      "hash": "dd1b80599b91eefc350afa4cf6808800ddc22639b530169159ea8a1e34eef869",
+      "hash": "0415fd7b4693b4543a43522c5d927f7d7c8822aee9a46b05deccb04de5479d7a",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -27268,7 +27268,7 @@
     },
     {
       "name": "Locator Bar Waypoint Payload",
-      "hash": "15576e6bb5cb3e4d60f2285631d656e499ff1e52a13159e0dea43d4c1df706da",
+      "hash": "6c5c4be596d02ef9ffd8fad3ce38f63d7abff58217925d21447a794a97640831",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -27312,7 +27312,7 @@
     },
     {
       "name": "Locator Bar Packet Payload",
-      "hash": "aaaab24801b0bd1b55aa93bb8ae7a32092c0df6ae428df7e3a8fba8a7674eb1c",
+      "hash": "c42662bdb30f21d2d163a57cd4eb976cce0502e7fb0a9ff499215b888463653d",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -27380,7 +27380,7 @@
     },
     {
       "name": "Map Create Locked Copy Packet Payload",
-      "hash": "4755d8316b95bbfe5278f616f3704b0dffed98074c83204f8cc3248f144e400d",
+      "hash": "3b2cbecdbc893d3420538295958d85c2035c85bbbe0db24fd7258e29f936baac",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -27406,7 +27406,7 @@
     },
     {
       "name": "Map Info Request Packet Payload",
-      "hash": "03c6f55acfe520c277547b6fd79751ab1b2ef11e43621fc6c11812e704e92ac0",
+      "hash": "9d064a76d983ddaec587b31daba682e945daf143a38f37961ab8eed1569b34ff",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -27567,7 +27567,7 @@
     },
     {
       "name": "Memory Category Counter",
-      "hash": "e63ba5f4a021b6fb0f606b4b87b0f50c60703a10f27f94febbf85440ce829693",
+      "hash": "642f033ad16ad5e5ae2207f8a36ea0c7b109500891ac5d6c4248adef9f480a3f",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -27607,7 +27607,7 @@
     },
     {
       "name": "Message And Params",
-      "hash": "7412582f30ae38277a739b03d4c47033fd4797417428fe6a19119cd473d971f6",
+      "hash": "49485e2c1a703790aa158fa6597f1578cbbe60dfd753ddcc24fe7b65d76cde0b",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -27695,7 +27695,7 @@
     },
     {
       "name": "Message Only",
-      "hash": "17d409d5b4a631f03297c5f85505419e30fbb922165a343a6df604802a4c2d4f",
+      "hash": "32ee4dcc4639346a9e501950d4573849c4abfead6bd73cffbd9903e584e5a1b7",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -27998,7 +27998,7 @@
     },
     {
       "name": "Mob Armor Equipment Packet Payload",
-      "hash": "688bd85e0b23fddb984d52cf479c048e04ab756505c214c4cc2bb2ac1039931c",
+      "hash": "59abc342bad77574a7598ec7b2d64458eaa1da20153ddb89ba296ca6b05c8138",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -28074,7 +28074,7 @@
     },
     {
       "name": "Mob Effect Packet Payload",
-      "hash": "9c46e49a4ab8afebe7362d95e56b46d1002cac0eab5635cfe15b878c8e82fbea",
+      "hash": "1652f8908e1cafd4a3cf015fe054ca09b750c2451f9b2a02616f23aeea440790",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -28169,7 +28169,7 @@
     },
     {
       "name": "Mob Equipment Packet Payload",
-      "hash": "8f75a61b8fd6dc294cc41d980198405dab982c7f51955aeb0265c5d10f752367",
+      "hash": "48c71f8565c8d5218f7e74e07615f471cda69329cba2e768946b5c75f452d9d8",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -28289,7 +28289,7 @@
     },
     {
       "name": "Modal Form Response Packet Payload",
-      "hash": "89fb1d8fa64f2e8c04d530261150d0b367d8778b2e19bfca606acc6bf3b3e85e",
+      "hash": "6bb5e2c0d34b8baa0b581069e7ff3a7dfc006a18a5c24d450d9146ef1a2df5fd",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -28369,7 +28369,7 @@
     },
     {
       "name": "Motion Prediction Hints Packet Payload",
-      "hash": "fc65ee76b6437756876af33ae15c949caf4efcaa5500060a2f581a67ef8d8b78",
+      "hash": "2d73dd8a5e9c3efc151036cc9a8db81d2c66fefb20cb729d13583ce95e640352",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -28404,7 +28404,7 @@
     },
     {
       "name": "Move Actor Absolute Data",
-      "hash": "5fc9b70e1bd41779c90dbad596816353e19ba9062fbfd5d53b4b912dc5f5984a",
+      "hash": "d477a38b1b229668ef953b80f05bde2f4edc00345512f4fbc4b96b0b6ff81f72",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -28490,7 +28490,7 @@
     },
     {
       "name": "Move Actor Absolute Packet Payload",
-      "hash": "e7427907f9e83633d705a0c45677c10186d27e71fe00cc19cc87eb0bc7c78814",
+      "hash": "7cb69f14ded1a27196801e78a1da9698459f0e7732954f3ae958ada2314a4dcd",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -28507,7 +28507,7 @@
     },
     {
       "name": "Move Actor Delta Data",
-      "hash": "8e0e95b5dc14fdac9327ae3e0c3436234f0dee33224da0a0bac3856ea3d1a78e",
+      "hash": "edd619a959c07d437b28f1f0a16156791ffb332d452557d92ca5917778d66384",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -28676,7 +28676,7 @@
     },
     {
       "name": "Move Actor Delta Packet Payload",
-      "hash": "5498ee764c5f5d70571710981093c12b1369f006b858db588e6d5557f1502be9",
+      "hash": "111db3a88666e4487e61780f7e5322daaec584c7c3326ca9e321e6b3b630ef02",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -28706,7 +28706,7 @@
     },
     {
       "name": "Movement Effect Packet Payload",
-      "hash": "2374733469536dfddf1a4410cd7f04555dd699a9a84f4bb14862c9654ce9c4a4",
+      "hash": "8a5cd48542ea6d943ca489100fb70520e27cb6c7bb49731b9c1b4eb989c935f1",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -28805,7 +28805,7 @@
     },
     {
       "name": "Move Player Packet Payload",
-      "hash": "96091a13196b4703fe8bad6af083ee6503be137b761fb50b98828ec9ba1acc84",
+      "hash": "3bb0542c986f8ceb62d7ae154c40be495a74175da00e634049cf2303a458e251",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -28922,7 +28922,7 @@
     },
     {
       "name": "Multiplayer Settings Packet Payload",
-      "hash": "2a8f84cdaeadebfe216e5b85de76c8bf3e9dacb81881ab302de78032a05d543d",
+      "hash": "41e1b290ff422613b04300ece6e1e2c5e8b9faa301d9a2ef8d8ff811795a5354",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -28948,7 +28948,7 @@
     },
     {
       "name": "Network Chunk Publisher Update Packet Payload",
-      "hash": "09a750ce3ae259f4923571d31187b4ac6a1c62160dcfb9dc33e59ae4d9ae2df0",
+      "hash": "c0ba1337c4c076511dc5349ac69f1d0ed402e02effcbeafe198e4e0662eac532",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -29032,7 +29032,7 @@
     },
     {
       "name": "Network Settings Packet Payload",
-      "hash": "b1b42b0ff54aa158e74bd6c0d9650795aec175204b51e720a79e68e6cf18266a",
+      "hash": "f7262fd4f2091b25e38911a1184207cf4a763ccb0976329e9cd2fa83c4628af0",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -29164,7 +29164,7 @@
     },
     {
       "name": "Npc Dialogue Packet Payload",
-      "hash": "9ae36fd424e4abd636c42de7be7abcae64ac09e3414c856c7528670c52563607",
+      "hash": "026a88c57c7a29a95f53b07ed4ca7c758bfbdbe915acada4f86193831db70c54",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -29284,7 +29284,7 @@
     },
     {
       "name": "Npc Request Packet Payload",
-      "hash": "871b1190239ef064d2848cff7e110d6839884299625c96b2fcabe27b062faffb",
+      "hash": "fe460e8e048be7f7c67eefce150fa65673cf6c516068c58bb446a59b3aa00b02",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -29398,7 +29398,7 @@
     },
     {
       "name": "Open Sign Packet Payload",
-      "hash": "1f958cdb3d3d82ff784a6786701149d40de794cffc6a33a7a0a09b66e3995565",
+      "hash": "59e2f676988c3acca689f22c95e211e96fa667fcddfce3b3d3e2b66f172537a6",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -29424,7 +29424,7 @@
     },
     {
       "name": "Packed Item Use Legacy Inventory Transaction",
-      "hash": "043e7cc5bf5c58aa195b7c407bf7be9d0362a5cb8d3fb84a30ce95d83e86f1b5",
+      "hash": "c483c591f37c115487a7c132a9f8be7bf56cd5c44e8b8f48b9a7b76a7d064c3b",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -29500,7 +29500,7 @@
     },
     {
       "name": "Packet Violation Warning Packet Payload",
-      "hash": "c3144b95fbe42e8d4a0d333e07a4a73d45cacef5458d9cfbdceb99a7b057a82c",
+      "hash": "e9932c8840c9adbeaafde7a25a6b55f2bdd9d3e16d40589f81eb0cf902f8ad51",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -29593,7 +29593,7 @@
     },
     {
       "name": "Pack Id Version",
-      "hash": "85d8368b8b2881b8e56d2408545481cad20cacc6f5f8d48ed35aaf31c3aa22cf",
+      "hash": "ce578fdc958858687d4c4040eb3edaf44a98bef1cacb655592c606811e05daf8",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -29619,7 +29619,7 @@
     },
     {
       "name": "Pack Info Data",
-      "hash": "792ef0767d787525f65e201575d9e6d3c1820e8caa6436945aed453a46c13ea2",
+      "hash": "af194c1652c5008d04026220fb42c08ff3ebed54d41a8a502f5acb58148e52dd",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -29837,7 +29837,7 @@
     },
     {
       "name": "Party Changed Packet Payload",
-      "hash": "1a5798bec27b5574ab6394394333bf1525f474058def94c10ecc3c06ba2c94f4",
+      "hash": "c152b1ada997346f4874aa0e863cb4241edec631a43d3f6cc59fcb2b067518f5",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -29984,7 +29984,7 @@
     },
     {
       "name": "Photo Transfer Packet Payload",
-      "hash": "82e6ad6c96b9abf9798abe477958a84b8b5ba41a82815f47d9c7e06ba96a9f93",
+      "hash": "6c34170bd595c38c1e21969c151410ff9035f40e2b10022a63d2202db3a0e58b",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -30150,7 +30150,7 @@
     },
     {
       "name": "Player Action Packet Payload",
-      "hash": "a9428b54f38165ac27f6b0226c1927cb1a5a2ddd89c14065e0633a91f5b76a54",
+      "hash": "1a0ab22c72248dcb9f7f529635db38f00d730a5adaa350708ed9765d46bf8a4c",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -30214,7 +30214,7 @@
     },
     {
       "name": "Player Armor Damage Packet Payload",
-      "hash": "250129e2769786f48247a28ff61e16fd861941b356c6c3ad627c6184226aee83",
+      "hash": "6738f77acb3243d90630536737c4fb3c0e7dac2a022cc4dbc823acbd7fdea6e8",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -30318,7 +30318,7 @@
     },
     {
       "name": "Player Block Action Data",
-      "hash": "8c38013f7c2bfba7c96fab9021c910c3f4afacca2b97b406f0710d67f921b540",
+      "hash": "8eeede5cd7cffee681379f3e783d53bbbbb22e387087317142f6f016d916113b",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -30364,7 +30364,7 @@
     },
     {
       "name": "Player Auth Input Packet Payload",
-      "hash": "76573c073eac2beb4e585cc3155ae7f1b8e096b89ac5de5e69fb818dec945f46",
+      "hash": "3412579b398b85607cbc3b188335282d0479a1258ee5020f0a60384480cc03be",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -30633,7 +30633,7 @@
     },
     {
       "name": "Player Block Actions",
-      "hash": "f4545f7128386127a40555713dd9053492ec023d1de96d32c143da2ee4a360d3",
+      "hash": "f28823f97650f8720d919da6c370b842d3d27de3cbf9e43d4d2ef6d030c20736",
       "bind_type": "alias",
       "is_bind_type": true,
       "element_type": {
@@ -30643,7 +30643,7 @@
     },
     {
       "name": "Player Enchant Options Packet Payload",
-      "hash": "f78a1b73b4f26b16cfde80053a19ffe5f7d964ec89f8f720e8bea703cdd11886",
+      "hash": "eeeaefbff7c3c69ab00c8d30c7c49278f13876c815e8ac79a62e84845666ec7d",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -30765,7 +30765,7 @@
     },
     {
       "name": "Serialized Persona Piece Handle",
-      "hash": "040beabbced02cdfc68d69ae44070ad63ac485cdd7ff68eb6592b5183f0069f6",
+      "hash": "0e198de6171ff2019d150ef0df3a87b301d29eb0a4c4f94981a90a2d0cfd065c",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -30839,7 +30839,7 @@
     },
     {
       "name": "Tint Map Color",
-      "hash": "d0848a79bcfe59635ffd743fc9349622f7627eaf5a474b1ca4ab3ccb2e6022bb",
+      "hash": "913b76b71df8d62147dd8dcb03fe111d87a9cd54614fcde127f9ecd30e09c47e",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -30884,7 +30884,7 @@
     },
     {
       "name": "Serialized Skin",
-      "hash": "faea16ddb719260a4e5b74489b0ae4b0dc36722a7a7e8125b5bc48e72c3336d5",
+      "hash": "df03216044cc8b36b539f49bee505ac9cd52092e9dd06d76d4c7736c03d29ff7",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -31208,7 +31208,7 @@
     },
     {
       "name": "Player List Add Entry",
-      "hash": "cfacc399bb67c46375fe183b2245563908b2dba56f2d1205d240fdfd3987e82d",
+      "hash": "ea1bbb2b160768831467c1189c8a9ab1acbc2594ec5b7664d4c8db33048bdba3",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -31375,7 +31375,7 @@
     },
     {
       "name": "Player List Remove Entry",
-      "hash": "0304afd0f5cda4da8dc4998d18068d347dea4b7269d3f38d24d5491eb40a8674",
+      "hash": "4908fcb9a6bdd3cd555684713cbb87348175fad09605c2106536f44aabb1a4a6",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -31421,7 +31421,7 @@
     },
     {
       "name": "Player List Packet Payload Entries Item",
-      "hash": "bd709f051db94bf1e7e077cc650bdb5ef2241581ba241dbd82afb6533e722716",
+      "hash": "7ba53caa51006a3bc1990a54dae536476f7a2a4f1ec6c682ec42f674d7810382",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -31450,7 +31450,7 @@
     },
     {
       "name": "Player List Packet Payload",
-      "hash": "c1da4dff84b7996124526c3c18f20bc5cdd5c837b5071e809d6f87ebe78146b9",
+      "hash": "cc62628c08a558b39dacdaedef2616de5adc56b418b5a58df4609fe8d7bc826b",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -31525,7 +31525,7 @@
     },
     {
       "name": "Player Location Packet Payload Location",
-      "hash": "677d8e063362fca37978a718d99470bf8a0015e1d23f9c9c86cb78c460b90a05",
+      "hash": "ec01d40467081f32d98ce9ee945f39a894f04e2cfc89505c2e9319f0bfa9856d",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -31554,7 +31554,7 @@
     },
     {
       "name": "Player Location Packet Payload",
-      "hash": "cc9b35196cae7e1c28ac1aad60dadc26503d0fee5f898c5578e47dc73db23197",
+      "hash": "bd0880041ab26023644e4459ed8fbd496558bed719b7a004ae55ca1708dbab68",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -31619,7 +31619,7 @@
     },
     {
       "name": "Player Skin Packet Payload",
-      "hash": "c91de90435a793e98f7b1f1f1827f7de7c420dfbebfacfebfb608e55b6fa1979",
+      "hash": "6056d18742ced43aef08ac4b433622e64b9b93f9d5bef79314d18875cbf39794",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -31774,7 +31774,7 @@
     },
     {
       "name": "Remove Override",
-      "hash": "51e902a004b36df6cffdf4517386fc5e883a19ab8d2812dc33a3abc63d503d6a",
+      "hash": "6e1d52194c5e386c978bb8abf8d6ec22281dee213f6fee8573e5dd09b0a504d2",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -31807,7 +31807,7 @@
     },
     {
       "name": "Player Update Entity Overrides Packet Payload Update",
-      "hash": "eb6ec4871229ef8b9b5cd3bbdd93869ca06729ce2e8fccd0e8d85176ddd5e620",
+      "hash": "5632afe0357469e81f23be8e1da9774840fe5ac1c83f5705781ce4e16627bf48",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -31852,7 +31852,7 @@
     },
     {
       "name": "Player Update Entity Overrides Packet Payload",
-      "hash": "b809b5c123d4947f92accc0dceb3f3c08cd0ac0afca5e9f8c2be0569055b63a0",
+      "hash": "7badb9abab0024d7b6e6fdc2025163d532494a36f9f7a1f3c89fe0c93b8b9e9a",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -31961,7 +31961,7 @@
     },
     {
       "name": "Player Video Capture Packet Payload Start Video Capture",
-      "hash": "c952b4828e2195078f44a2c463ff8767392afb56b85a0fcdf9000b5fb3e57e12",
+      "hash": "48b7bb90b29d1d8278ddc111e25c13f79a943a020decbd61f40a55fe48c6c695",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -32001,7 +32001,7 @@
     },
     {
       "name": "Player Video Capture Packet Payload Stop Video Capture",
-      "hash": "a631121db0ddaf7fcec97bf07ad1bc0fe18e88783c12dd35d8457b3b16371f21",
+      "hash": "34e014d55d64b9525dcd539e70201f1efb8634bef6743b5ca6d4bb403054b243",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -32030,7 +32030,7 @@
     },
     {
       "name": "Player Video Capture Packet Payload",
-      "hash": "565d9642e4958c206208c1ee0e599432236732ff932134b93a2b8bd3a125609b",
+      "hash": "bd5e32647b3a1a9a3c06c6ae34cc7f30d3fa656247001abfc544e645bdb4b5f9",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -32104,7 +32104,7 @@
     },
     {
       "name": "Play Sound Packet Payload",
-      "hash": "32c337a4518450d23e1c4a62509bef0dd841573d892e5bea5f7b3c4654e1f5be",
+      "hash": "c62367076b504d2ee52982aa20fb50fc892e1873086e6e8001dfd085cfd75d02",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -32226,7 +32226,7 @@
     },
     {
       "name": "Play Status Packet Payload",
-      "hash": "825c1bab093992716a4a13851f3ad1cc0d7b6f6c01bd041c5a0f3258739e73c1",
+      "hash": "60c4c240005960e1ddee51fd7009a435e235ce2deec2facb74d12b59411de8a3",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -32282,7 +32282,7 @@
     },
     {
       "name": "Position Tracking Db Client Request Packet Payload",
-      "hash": "a50128eaa6084701d5e97bac6664df4372bcb6d88549cf9e45a4be076ab2908c",
+      "hash": "cfc2b35aa324776806b0f4b370f9a925972e843a4407425bf4441ffb35c9341c",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -32330,7 +32330,7 @@
     },
     {
       "name": "Position Tracking Db Server Broadcast Packet Payload",
-      "hash": "c57d65ffbd996515bbd321332c0ab27d12bb1ebb065100551c35511e29616cf6",
+      "hash": "e4785f969688f194da975af2066a67fdaac90aa29d39b74a42da33e2aa2d6ee9",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -32403,7 +32403,7 @@
     },
     {
       "name": "Text Data Payload",
-      "hash": "44c80d585e7e8254b8b96c8c931b5f6a08e787bc090491938544f208e345df52",
+      "hash": "24665c8e748d67c5052286cbee1217cff7a509359bbd8ee597699170557c3b8c",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -32608,7 +32608,7 @@
     },
     {
       "name": "Primitive Shape Data Payload Extra Shape Data",
-      "hash": "c238bee6f9eb4afb871626bdb637286530c31985e6c437fa49a261cab56b5057",
+      "hash": "c005bb6aa860279afb90ff5c990c2c90359a625b237dc4fc01ab96aa74766704",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -32720,7 +32720,7 @@
     },
     {
       "name": "Primitive Shape Data Payload",
-      "hash": "51f37b07f1e0975c174754d636ba908b042bcd9d4fd7f76e80b3bbb5b802ed99",
+      "hash": "d7b376a092c9aecae301c990c0751f599b994338c2c0f65f79e9238ae23024a6",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -32904,7 +32904,7 @@
     },
     {
       "name": "Primitive Shapes Packet Payload",
-      "hash": "ee029a045bec392b886f54669847796580c56c6f0a5a798ff529793fbf2e6896",
+      "hash": "c58707dd0ec8d11d4e15cd6b5573b431f6935f1ac716b5041fc4e7c570a2007a",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -32972,7 +32972,7 @@
     },
     {
       "name": "Record Started Packet Payload",
-      "hash": "5d5098a94407a5686987642b610dfe53237b98f04b8f583592a38d6f00207263",
+      "hash": "2e3b9998b017159f01bb7777fe3cb228fd06836e3a8cc9b8153f17d0bfa0d9d9",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -33005,7 +33005,7 @@
     },
     {
       "name": "Remove Actor Packet Payload",
-      "hash": "04d0130d57bb6ece83cff69c18a76f3d54e03e9ffe984f17c7bbe805c029c1f0",
+      "hash": "80421a021641348d6a34c3178d64427dd979582dc758aeee70046203f31bb8b1",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -33045,7 +33045,7 @@
     },
     {
       "name": "Remove Score",
-      "hash": "b661ec73218c03b53cfcfc03d517e3cafc457d5ebebd42209e6aa38fa6ed4306",
+      "hash": "002de80fe90dd76c40bc8bb9673f63ccbb81ee797a047524d4290758e4c94173",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -33156,7 +33156,7 @@
     },
     {
       "name": "Remove Volume Entity Packet Payload",
-      "hash": "07090083a28527e2a371bac07233e4fb4550e9f09875662620cc4a462c7745b6",
+      "hash": "62beea51a11ae63402c0c9f852973fb638e597ad00406826736d459468e91d1b",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -33195,7 +33195,7 @@
     },
     {
       "name": "Request Ability Packet Payload",
-      "hash": "2aecbe5a2e33105717c7c970a9c62e62f50b898032e3d32aed47244730084f14",
+      "hash": "2c4da25ba40e0fe8e423610f07923d2e5006de90cb2150a0bb545dd614f9858d",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -33477,7 +33477,7 @@
     },
     {
       "name": "Resource Pack Client Response Cancel",
-      "hash": "684aed60e33545af83993613f37175dff10b9dc8280c8b4498adb43c3fb2fc71",
+      "hash": "7d246c2b6232037d41d34526077bec1b91836117b551daece778d4f094d69b59",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -33510,7 +33510,7 @@
     },
     {
       "name": "Resource Pack Client Response Downloading",
-      "hash": "bff93168e15bdca91ff0c6bfdf52b8a04d368b92deed8a4520137daba3ac9893",
+      "hash": "e7321e681bf8758e4ccfc2d0380e45e18a5fb093d21262b43fa52048c071ecb7",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -33572,7 +33572,7 @@
     },
     {
       "name": "Resource Pack Client Response Downloading Finished",
-      "hash": "bb02d4f99b5cae387b47d6c794dfb0dee4a88916d74f874327f39ef17ad124fd",
+      "hash": "9674dae8a901d6af348726bf9ce712e92d7ff15afdcf111e5303488b41b8d46b",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -33605,7 +33605,7 @@
     },
     {
       "name": "Resource Pack Client Response Resource Pack Stack Finished",
-      "hash": "6c5070580b9f8f4dfc9e2b814b1ed693b31de013f2779aacb9035d4e15facd09",
+      "hash": "33be89c015534cb9e1296ad9de79336d3ac09c98d56f1384b554d8cb538bec0c",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -33638,7 +33638,7 @@
     },
     {
       "name": "Resource Pack Client Response Packet Payload Response",
-      "hash": "e2f52f005644ef2b18b249b257f5e2f72db3b5f82dd906ce8e654d6a02ae5c08",
+      "hash": "ad7f98c82b1d024cfb99a03ea667f372f37d82eb2da254a6ac6b6939fe46c83c",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -33683,7 +33683,7 @@
     },
     {
       "name": "Resource Pack Client Response Packet Payload",
-      "hash": "333e6907bdbc77604a058712fbca584a19a6e0e6ed210d6b0d643075e9fe56f1",
+      "hash": "45ec3ac8edbdc1e3e5f4464c6290876b6b72e7dc09a5fcd7a8d2ce0b9ef55bce",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -33818,7 +33818,7 @@
     },
     {
       "name": "Resource Packs Info Packet Payload",
-      "hash": "3145fa324c66cc2fd2b2e7729f17365732b4bb053b26a1e31a711d79e810ee9b",
+      "hash": "a49053e84faab12ea430fcebbfe92d4105e6a7b241b28b68323689aa57bf09e8",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -33901,7 +33901,7 @@
     },
     {
       "name": "Resource Pack Stack Packet Payload",
-      "hash": "442c6784d555bbd42df62590a93bb211cb24b776b655013fd690005b06ff0cc0",
+      "hash": "ff34e4e2345ca6650eded1bc80329f47664c908ac4821be7bfba17c2ee08c842",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -33974,7 +33974,7 @@
     },
     {
       "name": "Respawn Packet Payload",
-      "hash": "654e8c4b395d7d9904b3adc7d3aaf154bb0f158debab585ff0d4de74ad53f8ce",
+      "hash": "48a22d5012af86e1ba6f34dc8235814ce84216c71e7d768159de592c315746f2",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -34018,7 +34018,7 @@
     },
     {
       "name": "Scoreboard Identity Packet Info",
-      "hash": "50e5add5e349be002c35c292f78ebc3828cbe1af56ea807e5b3ffcd5d9562ba9",
+      "hash": "d2c9e61fe7f59087a8d9ead5c304ff63dfb2d0a44cd6e145f100407a5a87f63d",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -34100,7 +34100,7 @@
     },
     {
       "name": "Send Party Destination Cookie Packet Payload",
-      "hash": "a460b92de66606ec45690ff474f34d2c945fff3798ab9d4695bb5b95a1aec4e7",
+      "hash": "672f3d891b750da8313e1b28df732258aefcf5fc6ea9426a844e5e037fdf32b0",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -34197,7 +34197,7 @@
     },
     {
       "name": "Serverbound Data Driven Screen Closed Packet Payload",
-      "hash": "fc86efddaa6133a971066a6d0f6f579e4df88f0d53de91550b8e2a0cd8aab972",
+      "hash": "8521a825b9e4b798417ea939c526e2fb2eed18a68ef0becf8a3425cb736629b4",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -34431,7 +34431,7 @@
     },
     {
       "name": "Serverbound Diagnostics Packet Payload",
-      "hash": "6f955bae2313a3c51130341f9d978b158a79cdd67cdd875539514e7e039eaedc",
+      "hash": "3bd93f3486938559baa49a25bf04ef3b4a7fb18ab6686178cf9f2c153985a9c0",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -34654,7 +34654,7 @@
     },
     {
       "name": "Serverbound Loading Screen Packet Payload",
-      "hash": "766b639723eee6d244050eb2cbc4b1f07136189b472a7249d9a2d2669d376939",
+      "hash": "ee2c13c2980a9ed4e42dc850011834e29e387cc564d12cf0c37c65a1c740c019",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -34801,7 +34801,7 @@
     },
     {
       "name": "Serverbound Pack Setting Change Packet Payload",
-      "hash": "24c30fe889387d060c4ffa71831d6e702611f154893749944e5858242a14ab8f",
+      "hash": "cccdfdf255a09fdbe180277fd5b37c13bcf9bcb64692680c8effbdfdcd395210",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -34893,7 +34893,7 @@
     },
     {
       "name": "Serverbound Data Store Update",
-      "hash": "a7d2ab66aa7ff372b9b5e5894f9a560feb1d8bafef79889e823343bd08f98611",
+      "hash": "1b19b4b571a43137215892d335d23732843f8c7b48ee76524464724cc86f7d60",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -34910,7 +34910,7 @@
     },
     {
       "name": "Server Player Post Move Position Packet Payload",
-      "hash": "24f2922e1ed7b432a4d8270896ca812d47966e88c2fb4cfff6a8710b651bd444",
+      "hash": "d362e74a4f9ab9dd1d305371d8525afb9a1d1ebcf8e3eaa70c8013223ab4bbe9",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -34927,7 +34927,7 @@
     },
     {
       "name": "Server Presence Info Packet Payload",
-      "hash": "22b3a13c59773b9161bf45dd28af3da8a57b8bbe65e21e592a7eb12ce20a3e95",
+      "hash": "d2ffcc49a1902f6a31d8032b09e7532b665fa23896d7d710de0a19ec2001f927",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -35022,7 +35022,7 @@
     },
     {
       "name": "Server Store Info Packet Payload",
-      "hash": "e9a9e8e6ae968af7dc3c4f5f5603dd8e2c10f7c3f1c89a8db3c52c180b407569",
+      "hash": "acb704e8d0e73da4ace22022b5c499e7c7b4c5f2bb097e28a927b9349302cb30",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -35137,7 +35137,7 @@
     },
     {
       "name": "Server Config",
-      "hash": "d12a386a39d256949152689c791f2074bb77c0b39d101f5d21f7267643d18cde",
+      "hash": "2ffbfd8a4baca924b83efe76e84e52345b9999825f9eab452e92f08c48e2c778",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -35184,7 +35184,7 @@
     },
     {
       "name": "Set Actor Data Packet Payload",
-      "hash": "0fe0b0cfcd9547ca7cc0544e53c278743ee5b7c82908ec32548b15edd68aab5a",
+      "hash": "7ff820d803836114d3944639ac9b989a4143c69c3b7ad0e50dd4eb1dfb0ee967",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -35228,7 +35228,7 @@
     },
     {
       "name": "Set Actor Link Packet Payload",
-      "hash": "179133f1888bc0682382e94806606dd2c55635310b815bea93b8d144fe80715c",
+      "hash": "31078040077b3763c8c9c6ffe9ac4728997640f1593d745a7eaceeee0e0523cd",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -35245,7 +35245,7 @@
     },
     {
       "name": "Set Actor Motion Packet Payload",
-      "hash": "44dea4f1be345fae41bf2386899f34b19692675092a7b70a868bcb5fd3d87f26",
+      "hash": "1323f1cadb3aff1072265b8bad5d4624e4e3cfb9c18db4e646b247e99069984c",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -35313,7 +35313,7 @@
     },
     {
       "name": "Set Default Game Type Packet Payload",
-      "hash": "60222ee87c7cfb45c770f3011f83af484bf153bb7fd225e1bc16c1ef0a2c6805",
+      "hash": "372b6d5afa6a6a67e75e433574c4cfeb1e5146a2b1846d80c094ee9434ac08a0",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -35459,7 +35459,7 @@
     },
     {
       "name": "Set Hud Packet Payload",
-      "hash": "2e1e172abc6d2e9dd276da6fc92ccc48abc3a2063a787fc77eaa594bf232e890",
+      "hash": "244dcfa856eed28c6f694f40ffa8bc36b18532bba6d8ce1b5672663d5cfbded2",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -35518,7 +35518,7 @@
     },
     {
       "name": "Set Last Hurt By Packet Payload",
-      "hash": "1c4410c223e6bd33efdf461aa0e02999da3313de2144d972f7ecb89263ee6c89",
+      "hash": "072c073ebe045be0800bb3305673daaf46fe89fe2ce4b9a2bb6ded93235d5037",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -35544,7 +35544,7 @@
     },
     {
       "name": "Set Local Player As Initialized Packet Payload",
-      "hash": "c76ed7e4e6c1fbac3bc404ee3af8b8fd4d8b54aa28770b4e4852b81827843ca7",
+      "hash": "3528ab5cbb3099ca96f7cfe5fd4d0b096247758f3f9d10037ece49a59bed420f",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -35575,7 +35575,7 @@
     },
     {
       "name": "Set Player Furnace Options Packet Payload",
-      "hash": "e6c8b2e390619c89b09bece8abd643efbb41e8c870523245fe8651b29497515e",
+      "hash": "1584deb21e6ef6c8fafe563ffdd6b4250fc1b6fd8f74870796880ef25407c160",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -35610,7 +35610,7 @@
     },
     {
       "name": "Set Player Game Type Packet Payload",
-      "hash": "117970ab3ae126d51da77b77eddc42e4f307ea573ec1c41634d24f15fed5aa06",
+      "hash": "73b228732d3060a0ed9ea5b730c8bebb854b108fa5d838afdde7bf681c2c7a11",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -35636,7 +35636,7 @@
     },
     {
       "name": "Set Player Inventory Options Packet Payload",
-      "hash": "4d2b823ef6d4abeae9de9580ba636807cf4dcabb5fe1c8e2b762121271aada33",
+      "hash": "c98488cd8bda49f22845712ccbab237ea79bf7bef950082e416fb6187ff33168",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -35653,7 +35653,7 @@
     },
     {
       "name": "Set Scoreboard Identity Packet Payload",
-      "hash": "1cdfaf9d723fb98e884bf2efe82fbd292d3857f3a4f17abd6d1ded9f2d823300",
+      "hash": "524dea49deec07899b387924f93811c03acf94f0b03970415191195a18cfda68",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -35699,7 +35699,7 @@
     },
     {
       "name": "Set Score Packet Payload Score Info Item",
-      "hash": "91cdec5e5186d80acb3965418e2b7c438243a4dd7e008a32870d73cf97d6b140",
+      "hash": "158588a883b9447a78ccac26ed76340c6de5ae7e5de8a51a61b1e2dc8eabc84c",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -35744,7 +35744,7 @@
     },
     {
       "name": "Set Score Packet Payload",
-      "hash": "541c79b469c19670e89c78f803aa4a9104c7252039751763f94def374ee838ef",
+      "hash": "112cb5d3d2d9c6378eed7b7a229f0d589c00450d390c1d00ac5e1d1edb73a26b",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -35805,7 +35805,7 @@
     },
     {
       "name": "Set Spawn Position Packet Payload",
-      "hash": "33204294a70f94df63de500c44d2735dcdbc857931bb29529f6f553a06152115",
+      "hash": "cedfc33219c23beb6de657f1c29ea150df348d63e6032040b194d9491f00ebfd",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -35928,7 +35928,7 @@
     },
     {
       "name": "Set Title Packet Payload",
-      "hash": "587f394981f6cd090175e3b95c1ef1607e7f709e57f6f2c7ab450734d79c615f",
+      "hash": "2216349adbc924b787ff17ad558af812e4b8cc4015503d26de33686842666686",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -36111,7 +36111,7 @@
     },
     {
       "name": "Show Credits Packet Payload",
-      "hash": "a308b7acda82bc211be455a65bc46a9e24a0b0492f8f831fa8e0ab42aa9bd602",
+      "hash": "3532f1b0224808b336bca4e11e2989600834a3047594174b9229d31478d6983f",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -36187,7 +36187,7 @@
     },
     {
       "name": "Show Store Offer Packet Payload",
-      "hash": "4e2947eb24053cfacda206bde11a5751bfcd0184394e548457964775c7116bae",
+      "hash": "16d12adc233406ed321e2bc77e32c6378e354b194e4f5c9e28cffccb8a55b7c8",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -36236,7 +36236,7 @@
     },
     {
       "name": "Simple Event Packet Payload",
-      "hash": "157760d3f6b6fffbbe4280fb49634af7e7f6c7493425a326ba084f53ea6959ac",
+      "hash": "ef7cf3c71bbe0d2a99c6b95769b91eb83b9706bfd4a8215fff0efb0bf64bd216",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -36276,7 +36276,7 @@
     },
     {
       "name": "Simulation Type Packet Payload",
-      "hash": "6bcfcbd74fc994d2ef0e4f8ccd051e337c2270bf5fae83d9fdffecdab6406198",
+      "hash": "3eab6ab57052d2058ec93c17ab2977e457867babb126affc08f424e0afab30c8",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -36315,7 +36315,7 @@
     },
     {
       "name": "Spawn Experience Orb Packet Payload",
-      "hash": "5947163c96ad419a901627b185855030e37501aa995e1f0e4caf9fe16140fa8d",
+      "hash": "c589f61a582fed841adf9cf37a1c76a9ac87fbd6be752e9e5b6561edeb34ce4f",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -36343,7 +36343,7 @@
     },
     {
       "name": "Spawn Particle Effect Packet Payload",
-      "hash": "4d7fe2dd7ccf8b9416f82fe522165844b64a740dfdc56f8f8bc0fa0e22c93a74",
+      "hash": "f0c9168d5675fcd35a12ff1e41e24b617a3f1e513abafe56868a561a7ab1be21",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -36449,7 +36449,7 @@
     },
     {
       "name": "Start Game Packet Payload",
-      "hash": "28fe964fd82a69f58a7c8c4e2453aea1f0372cf680330bd80f57c0a324ae3af3",
+      "hash": "410393140b1ad0a3858edcd14a7b808bd39907bf49a0bdaaec412183230863da",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -36839,7 +36839,7 @@
     },
     {
       "name": "Structure Settings",
-      "hash": "48e4e6cee0da04264d9f27ab161289be0e928a8b38a079f4d7fbc46881c93cfc",
+      "hash": "66454f52c528b8d39ebaa00ae24f8dea722fab86667bce6f148ce4d1b5c0d4ab",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -37018,7 +37018,7 @@
     },
     {
       "name": "Structure Editor Data",
-      "hash": "093ad65e2d96d59c121f81025ab32043e0f6b6e9b2023bb0c073099be7279a3e",
+      "hash": "0afff35efa947e11a922bb4a7d3ad6a3d12c66912da8ca4a7b78c31b8030de1a",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -37113,7 +37113,7 @@
     },
     {
       "name": "Structure Block Update Packet Payload",
-      "hash": "963b4e88d7df5ce5ea202b3a6ffeca08251babca218d2332e9e0219e235b09a0",
+      "hash": "c8250eadcdb499cf7d4df7833b0efa3750284987d0edd8aa8272d466c42298cd",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -37171,7 +37171,7 @@
     },
     {
       "name": "Structure Template Data Request Packet Payload",
-      "hash": "b952e0639180d07d1263a64f7911d4b33e29b230cb9692e6e3ef3045fdd760d7",
+      "hash": "c00583f79fb00cff3ee7878c23f4aac289bd038bd252b4b8c9bd104b820008b2",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -37246,7 +37246,7 @@
     },
     {
       "name": "Structure Template Data Response Packet Payload",
-      "hash": "48363e27b5cb0e50a81d3fc513f2eb7048081d8c404932fc5cafbddc28061e61",
+      "hash": "59a5e1862a9f45a2bc60ddc664b525fd8331e551db7ecbc8515454b10159353d",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -37324,7 +37324,7 @@
     },
     {
       "name": "Sub Chunk Heightmap Data",
-      "hash": "01d08d4c1ec6ef7b118c9b3763266501ed1b2a34746c92339e5f54d45a56186f",
+      "hash": "df6db95fbbb0f7190cb7b1f9b8525437c32adfbcc212c11c6dec208f228d0391",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -37539,7 +37539,7 @@
     },
     {
       "name": "Sub Chunk Packet Data",
-      "hash": "c52ee2af4820b948620df3227112f2a9ee61d43524ba8bfc4be4b3de6b02ff24",
+      "hash": "e9afaa2801f13805c805c677bd6f5b13738398a8256522cb5287a7ac7919d6af",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -37661,7 +37661,7 @@
     },
     {
       "name": "Sub Chunk Packet Payload",
-      "hash": "c7441ea3f76e34c9d85105f62632882743e375d6ced459450f822fa789694f09",
+      "hash": "427001ff307cec99e6dc2b46d72196f4652a2f5f570e36ec137bafe733568dca",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -37751,7 +37751,7 @@
     },
     {
       "name": "Sub Chunk Request Packet Payload",
-      "hash": "3b1006ae98bd3718c42042689710c8fa81571db3944fb98216da2ee4cb555e56",
+      "hash": "28ec8b6af04f7df4eefce589399eb51781117581cd155377f8874c88322fb390",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -37881,7 +37881,7 @@
     },
     {
       "name": "Sync State Data",
-      "hash": "951e584ff287ac31738b84e0af98a9a206c6e0d3531ca433ff75bf0e0284bd7e",
+      "hash": "60eb901ac4b6966d93e6aef7844dad5c69e02b89d300ab7c3c26e635581fbd3a",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -37925,7 +37925,7 @@
     },
     {
       "name": "Sync World Clocks Packet Payload Data",
-      "hash": "44e7d9fced3dcc342a5ba5ff73484b07019164479d2af051ef806cac30d784ca",
+      "hash": "fc52d282240fbb952b948367aaab267bd2ce52747b3fd611e6d17ff1bb7dae1d",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -37970,7 +37970,7 @@
     },
     {
       "name": "Sync World Clocks Packet Payload",
-      "hash": "06ee414780d9c80e2373325941370cd46af53efac35cda6d89600fe41644cb55",
+      "hash": "7a36f7f8f3fae4a122d25cad18d361c70ca7eb0d478e4e3b4c7a450e11ba4a86",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -38001,7 +38001,7 @@
     },
     {
       "name": "Take Item Actor Packet Payload",
-      "hash": "2a9675a52ba746ca890e99f8db261985d7ef8712932c2b78bf6c93b26d920ab9",
+      "hash": "ae7709118d684947e8d0958de12891fc9e4dc6f5bbb78c5e0adf443ee922bf23",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -38039,7 +38039,7 @@
     },
     {
       "name": "Text Packet Payload Body",
-      "hash": "7f0403e02aa029cebcd4b5d5ce77b4617838ecff77df08af13de0f4ad001f89f",
+      "hash": "85f31cc6170c3a1f5250ab029d22c1c56dd976f389e8f5f1cedfc9d445a08c7f",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -38076,7 +38076,7 @@
     },
     {
       "name": "Text Packet Payload",
-      "hash": "b6e9c55c45e925ddccf9f84c9c70be87caba3a89a0a9adcf967c5b61b6db4e45",
+      "hash": "7c8114b2f7a5565cb0b013939fa7e87e756e79eed2d6fb3d9bb4fd4bb659eb8d",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -38265,7 +38265,7 @@
     },
     {
       "name": "Transfer Packet Payload",
-      "hash": "42a4c2e54605f6c5e92bc068c2808b8b9fbf0ef1cb58326cf07fcaee92d1a986",
+      "hash": "ee6049ac1aaacf2f71b02b3b0050b4358b15c4b8e5be744eda7a465418f81b66",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -38415,7 +38415,7 @@
     },
     {
       "name": "Trim Data Packet Payload",
-      "hash": "839ee88116aa9adb7b68d9ab4b1fbb38099ac8f34ebdbf13c5c3137bc7c9ac84",
+      "hash": "255d6f56ffa18a523f17ec22123f1cce99792e5111f4edb08e18a2283510edfa",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -38478,7 +38478,7 @@
     },
     {
       "name": "Unlocked Recipes Packet Payload",
-      "hash": "487b117c9cd74e55a03597698866b99d1f1ee3cf972d3682a729b7de532b5dc1",
+      "hash": "f3e25e2dd64a9e8ddf03b9210ebccd6024635333c33e321ad547159bb51bcdee",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -38530,7 +38530,7 @@
     },
     {
       "name": "Update Abilities Packet Payload",
-      "hash": "4dc5f22d025bde26073e262ce28f089659565c2eaddda03e27a96e6339dadefe",
+      "hash": "2d163f37f696c21442f7a04fc947892622f70e1c55fa09e4f07d748150c231e4",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -38547,7 +38547,7 @@
     },
     {
       "name": "Update Adventure Settings Packet Payload",
-      "hash": "af83d01304b705fafa93c1baf77874cbd98e1d5592a45af9ee39fc8f82493fa6",
+      "hash": "f54fecb7af01cd9c7379bb3c5930396320bd80cc85e61b7e3ab426cb5481225a",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -38564,7 +38564,7 @@
     },
     {
       "name": "Update Attributes Packet Payload",
-      "hash": "bd3e73ca0fc92ba933a1566ac0078688ea3b25e1c6c4f4c1f6f7adedbf24d8ff",
+      "hash": "94fed34e8e110d078128237cdd7795b2f53ee5bccee837424e34c675c096edcc",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -38610,7 +38610,7 @@
     },
     {
       "name": "Update Block Packet Payload",
-      "hash": "0df8447fc6cfa0c4e73e6926e3764ad2ce9a676ebc6b4aa85a3ae50250613bd3",
+      "hash": "0313688ddb75244a5c55a10aaabb4bf5515778f0178f7eb213a8b70c6cd4af52",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -38669,7 +38669,7 @@
     },
     {
       "name": "Update Block Synced Packet Payload",
-      "hash": "440978bdb28b4493babf1e305b03ad396a2c86db8a45a7b6d1ead89dc70d4df1",
+      "hash": "b622537bb3718d4f33e4aee696b6b5ce4d99232a0c1ff8f83a474db8c75a54cc",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -38778,7 +38778,7 @@
     },
     {
       "name": "Update Client Options Packet Payload",
-      "hash": "785e8f6dac589d01dba8945912a9671d82c54b30beda614b184affcb60a3ddb8",
+      "hash": "4a32b16afc66385b4c6d1e9c2f462f3dbd65d018aedf1fa5095bbec375aa4295",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -38821,7 +38821,7 @@
     },
     {
       "name": "Update Equip Packet Payload",
-      "hash": "0b30b62ebfcde9e999c2054398eca754ec432ad46d5339d88fc131c4d417ebba",
+      "hash": "de3c3e4f27154c22bb3039bf318d15de1c501ed24cefca01bd86d5d40b8ebb7a",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -38887,7 +38887,7 @@
     },
     {
       "name": "Update Player Game Type Packet Payload",
-      "hash": "1a6ed13c228f7b6c74d0958228f92e0ffd002feba2da0410c01da570280e500c",
+      "hash": "c042e93ea22eb61e592963089fe66fea11a569dbb5535caafafe5c35e6e387ea",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -38931,7 +38931,7 @@
     },
     {
       "name": "Update Soft Enum Packet Payload",
-      "hash": "bd1bb55ddd64b3ab3f59604477d0d6e379e0dd94b6063a3fe612cefea276cec8",
+      "hash": "dc8bc216527d95b09c9cc257e0cbfb8b3102bad4c25f7750fc67fad80fd22673",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -38998,7 +38998,7 @@
     },
     {
       "name": "Update Sub Chunk Network Block Info",
-      "hash": "44ed16143b38780dd333ff6003ffc5673dfdd5bb2b21e168782383b25388a5d5",
+      "hash": "58a4c72d747ca22f292d81f8fddb60cf9dd9c6a3132b27ff0b4e9b804ebfa3e4",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -39071,7 +39071,7 @@
     },
     {
       "name": "Update Sub Chunk Blocks Changed Info",
-      "hash": "f75e09782192111516eb312949a5524e01b491c180d3e4bb3644212a47b71649",
+      "hash": "e2b480ab767c5509e1fc58080c4eedfa1de99010942668013b8aa47c5fbd8639",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -39119,7 +39119,7 @@
     },
     {
       "name": "Update Sub Chunk Blocks Packet Payload",
-      "hash": "ea5badc7899688469ede53c494f72311175d91f75c79337a8ff690ccdd7743f4",
+      "hash": "261df2e1aab14db42f58409b8674e526cc28530b9ed3573d1359e6de5b7f47ca",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -39145,7 +39145,7 @@
     },
     {
       "name": "Update Trade Packet Payload",
-      "hash": "54cf52a9735877476514e4263e9aa59405a130b9dfaad3ae9dda4222bb1c564c",
+      "hash": "36337c21375e773b0d87e5ede6e870629aa1456e5df4d37c4e65e65485645629",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -39368,7 +39368,7 @@
     },
     {
       "name": "Voxel Shapes Serializable Voxel Shape",
-      "hash": "798da4cd84ebcb9b469c50a7c73dae873d1f7b82aa8bd1174d23d9bac07ee389",
+      "hash": "c4d642286e6b0ee76ed6eb8207df959de17dd7ea44909d582480fee6c7ddaf5e",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -39463,7 +39463,7 @@
     },
     {
       "name": "Voxel Shapes Packet Payload",
-      "hash": "37a694cf29f9c57752fdda942b6ea6f9d2deb08973c85d75ea282c429ba30a6e",
+      "hash": "6fb83e193c19d14c98f8a73029ffbc44b146cf8928490130881ba0c23d514fcf",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [

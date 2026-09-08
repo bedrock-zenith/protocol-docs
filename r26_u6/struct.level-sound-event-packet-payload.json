@@ -1,6 +1,6 @@
 {
   "name": "Level Sound Event Packet Payload",
-  "hash": "06c3b175217620d12089951dbe136f16fc22ad2f9b88b6b77928df94a521e48e",
+  "hash": "5bf429a8e6ffdaa355ca6ca29d4c2a88c99e8b9cf44fc2f24098b3ffc5531a01",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

@@ -1,6 +1,6 @@
 {
   "name": "Player Location Packet Payload",
-  "hash": "cc9b35196cae7e1c28ac1aad60dadc26503d0fee5f898c5578e47dc73db23197",
+  "hash": "bd0880041ab26023644e4459ed8fbd496558bed719b7a004ae55ca1708dbab68",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

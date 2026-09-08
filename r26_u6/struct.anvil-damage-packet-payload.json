@@ -1,6 +1,6 @@
 {
   "name": "Anvil Damage Packet Payload",
-  "hash": "a43c995c5dcbf214ceb3b8c5bfb56a251cb765fb4426ecd40ac99ea51b51195c",
+  "hash": "cb81696bcd9fa9cbabbfc51d1ea60e9bb07b6fed5dc921ac44422c77a6b66095",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

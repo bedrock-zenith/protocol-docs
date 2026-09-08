@@ -1,6 +1,6 @@
 {
   "name": "Resource Packs Info Packet Payload",
-  "hash": "3145fa324c66cc2fd2b2e7729f17365732b4bb053b26a1e31a711d79e810ee9b",
+  "hash": "a49053e84faab12ea430fcebbfe92d4105e6a7b241b28b68323689aa57bf09e8",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

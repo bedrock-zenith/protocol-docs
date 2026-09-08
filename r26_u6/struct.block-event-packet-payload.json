@@ -1,6 +1,6 @@
 {
   "name": "Block Event Packet Payload",
-  "hash": "ce756419863e04bbb8a4b382bbf476cced42a18d1fdd941ed88aaf70e8f5b347",
+  "hash": "b3dcd217716446d4d557e37fb7bf9ebaf0e36ea658addf64815f63474198902e",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

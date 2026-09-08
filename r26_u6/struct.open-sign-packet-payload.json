@@ -1,6 +1,6 @@
 {
   "name": "Open Sign Packet Payload",
-  "hash": "1f958cdb3d3d82ff784a6786701149d40de794cffc6a33a7a0a09b66e3995565",
+  "hash": "59e2f676988c3acca689f22c95e211e96fa667fcddfce3b3d3e2b66f172537a6",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

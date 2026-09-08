@@ -1,6 +1,6 @@
 {
   "name": "Creative Item Entry Payload",
-  "hash": "c056d57af3bce52dd027b368b61942227675897c8e20e0026df94e959a41f731",
+  "hash": "6ef376d4484deaf159d9e9efde6ed38ea42200e65a0dfb645ce4213b69ebab92",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

@@ -1,6 +1,6 @@
 {
   "name": "Item Stack Request",
-  "hash": "ba877a09d175cd90ee911f0accb320506c56bf6c5ae3bdbcdf383995db73dde0",
+  "hash": "b7c59e0cccf524bf6a190faad4f658a06f33308fd0ceb0bf6649859a96c61ce0",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

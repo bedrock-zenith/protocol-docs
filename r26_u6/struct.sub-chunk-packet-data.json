@@ -1,6 +1,6 @@
 {
   "name": "Sub Chunk Packet Data",
-  "hash": "c52ee2af4820b948620df3227112f2a9ee61d43524ba8bfc4be4b3de6b02ff24",
+  "hash": "e9afaa2801f13805c805c677bd6f5b13738398a8256522cb5287a7ac7919d6af",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

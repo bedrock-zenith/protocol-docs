@@ -1,6 +1,6 @@
 {
   "name": "Set Player Furnace Options Packet Payload",
-  "hash": "e6c8b2e390619c89b09bece8abd643efbb41e8c870523245fe8651b29497515e",
+  "hash": "1584deb21e6ef6c8fafe563ffdd6b4250fc1b6fd8f74870796880ef25407c160",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

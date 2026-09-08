@@ -1,6 +1,6 @@
 {
   "name": "Transfer Packet Payload",
-  "hash": "42a4c2e54605f6c5e92bc068c2808b8b9fbf0ef1cb58326cf07fcaee92d1a986",
+  "hash": "ee6049ac1aaacf2f71b02b3b0050b4358b15c4b8e5be744eda7a465418f81b66",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

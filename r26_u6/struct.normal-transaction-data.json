@@ -1,6 +1,6 @@
 {
   "name": "Normal Transaction Data",
-  "hash": "b75b124d5b51b9939435fb85652af00a5980416e8cb38ecb2050b1b8daebe335",
+  "hash": "609d4c46f7bca771ccc6f859dafadd5cccfb2fa47538c4166fb20a056f469ea8",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

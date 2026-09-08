@@ -1,6 +1,6 @@
 {
   "name": "Party Changed Packet Payload",
-  "hash": "1a5798bec27b5574ab6394394333bf1525f474058def94c10ecc3c06ba2c94f4",
+  "hash": "c152b1ada997346f4874aa0e863cb4241edec631a43d3f6cc59fcb2b067518f5",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

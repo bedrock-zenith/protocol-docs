@@ -1,6 +1,6 @@
 {
   "name": "Add Painting Packet Payload",
-  "hash": "9d51e56b829a6fe691f6799bf985219efc67f75ade607fc1852a35361a69a242",
+  "hash": "9b47f8d6be8c1bdc4887fc614792c7d56121b0d32420b2176a19596860a18614",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

@@ -1,6 +1,6 @@
 {
   "name": "Recipe Ingredient Item Descriptor",
-  "hash": "efac166f46db0098ded6d0d8a93f7c5a9476db82db5c244f4af4bc2d4f8ebe83",
+  "hash": "8d0000fc08b4f85e9c91f9505beb6b3d500e54d885cec29b77df763033c50937",
   "bind_type": "union",
   "is_bind_type": true,
   "fields": [

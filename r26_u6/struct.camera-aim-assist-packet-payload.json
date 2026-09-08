@@ -1,6 +1,6 @@
 {
   "name": "Camera Aim Assist Packet Payload",
-  "hash": "373d2f930351021ec447281cc0de6e6bfca39a6704683f0d7164d5ea7ce745aa",
+  "hash": "18561683fb047b0a44c52f061767e9664d42b4b9fff0eeb2d6915785ba7f7963",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

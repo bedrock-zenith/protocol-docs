@@ -1,6 +1,6 @@
 {
   "name": "Player Auth Input Packet Payload",
-  "hash": "76573c073eac2beb4e585cc3155ae7f1b8e096b89ac5de5e69fb818dec945f46",
+  "hash": "3412579b398b85607cbc3b188335282d0479a1258ee5020f0a60384480cc03be",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

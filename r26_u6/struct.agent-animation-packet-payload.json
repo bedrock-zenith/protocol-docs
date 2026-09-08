@@ -1,6 +1,6 @@
 {
   "name": "Agent Animation Packet Payload",
-  "hash": "adc89857556234b1da8ddcdfb7c4f9e943e51089279a8f69555493490b89a38e",
+  "hash": "d67639e89aad8ebc09d3e35db8ebb716c975ce403dd288f25bb1913dae61ab39",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

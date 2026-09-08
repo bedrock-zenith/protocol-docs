@@ -1,6 +1,6 @@
 {
   "name": "Clientbound Map Item Data Packet Payload",
-  "hash": "22af57e4a901052ab08066ade96d811e8e9565ddb58d5c0b02284e31ce88851f",
+  "hash": "37996aa1e752891e08a53b0d5430c26f03168688e9525f4a8a2d5df14e8386b7",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

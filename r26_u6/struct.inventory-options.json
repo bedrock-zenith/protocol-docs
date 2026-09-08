@@ -1,6 +1,6 @@
 {
   "name": "Inventory Options",
-  "hash": "8ea50d03eda1f41df33a874ca14bfc0d9cb78d8b01be1587dc76cbf88afba8da",
+  "hash": "ceeedb2cebdcaea3c0f3b5d8d2ef2777b7afa84a69da4b11aec1724ed0301c10",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

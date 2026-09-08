@@ -1,6 +1,6 @@
 {
   "name": "Clientbound Data Store Payload Updates Item",
-  "hash": "a93a4fde0bdcdffca88c9aa6439d0add7d78a69614d245d9310a19ebb0ab9ca6",
+  "hash": "6ff52f0d702911921c24de26c1b9d191c5b87b59d5937e1e4a2934771bb34afa",
   "bind_type": "union",
   "is_bind_type": true,
   "fields": [

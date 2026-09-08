@@ -1,6 +1,6 @@
 {
   "name": "Animate Packet Payload",
-  "hash": "0133ed7bb4f4d1487bcc89562f84abe971a23e2cba22b52733f28fe28fb1b218",
+  "hash": "e2691fdeec8279b4e68a7160d35faefef3d880121a38aeb12458b7fbcbada2a4",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

@@ -1,6 +1,6 @@
 {
   "name": "Line Data Payload",
-  "hash": "817437a19a01608a7f960c959c039dddb986663271f7bb63b98f7bfed834fb6b",
+  "hash": "adc221e60ff904ef3048a390cc68b91a0c34f37b98240e0667003f5d0190ae31",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

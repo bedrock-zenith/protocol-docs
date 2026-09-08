@@ -1,6 +1,6 @@
 {
   "name": "Clientbound Control Scheme Set Packet Payload",
-  "hash": "9dc8e085f15c289c5008b20cbfc8be62c5466cf11f8027bfd82ce103d1e4c869",
+  "hash": "7dcdcb92a30ee263c038e07bbf57e530232a7e3fc64c71fb0ace0bde474812a6",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

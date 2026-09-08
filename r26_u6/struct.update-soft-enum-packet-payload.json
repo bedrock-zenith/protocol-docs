@@ -1,6 +1,6 @@
 {
   "name": "Update Soft Enum Packet Payload",
-  "hash": "bd1bb55ddd64b3ab3f59604477d0d6e379e0dd94b6063a3fe612cefea276cec8",
+  "hash": "dc8bc216527d95b09c9cc257e0cbfb8b3102bad4c25f7750fc67fad80fd22673",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

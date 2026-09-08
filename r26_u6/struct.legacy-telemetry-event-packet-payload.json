@@ -1,6 +1,6 @@
 {
   "name": "Legacy Telemetry Event Packet Payload",
-  "hash": "9adf05eeac3a3154a9f352bad149518ac9281bcf117249dcfca1cc3c1ed8786d",
+  "hash": "6c1636f12c11ee33a469267b24fa10760949c45ec592033e02f6b84884abcafe",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

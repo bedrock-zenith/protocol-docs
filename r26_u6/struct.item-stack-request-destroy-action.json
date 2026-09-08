@@ -1,6 +1,6 @@
 {
   "name": "Item Stack Request Destroy Action",
-  "hash": "866250003868233e9c5e971879b9056c5fa46a1bb8590544dd0b4914e2c40300",
+  "hash": "7ef015f0db0aa52865a5199248b4dc96b7229d774e703491d1a9fe9b53f6ef13",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

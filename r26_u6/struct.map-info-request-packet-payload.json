@@ -1,6 +1,6 @@
 {
   "name": "Map Info Request Packet Payload",
-  "hash": "03c6f55acfe520c277547b6fd79751ab1b2ef11e43621fc6c11812e704e92ac0",
+  "hash": "9d064a76d983ddaec587b31daba682e945daf143a38f37961ab8eed1569b34ff",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

@@ -1,6 +1,6 @@
 {
   "name": "Server Config",
-  "hash": "d12a386a39d256949152689c791f2074bb77c0b39d101f5d21f7267643d18cde",
+  "hash": "2ffbfd8a4baca924b83efe76e84e52345b9999825f9eab452e92f08c48e2c778",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

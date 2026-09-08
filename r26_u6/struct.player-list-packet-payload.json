@@ -1,6 +1,6 @@
 {
   "name": "Player List Packet Payload",
-  "hash": "c1da4dff84b7996124526c3c18f20bc5cdd5c837b5071e809d6f87ebe78146b9",
+  "hash": "cc62628c08a558b39dacdaedef2616de5adc56b418b5a58df4609fe8d7bc826b",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

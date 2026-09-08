@@ -1,6 +1,6 @@
 {
   "name": "Packed Item Use Legacy Inventory Transaction",
-  "hash": "043e7cc5bf5c58aa195b7c407bf7be9d0362a5cb8d3fb84a30ce95d83e86f1b5",
+  "hash": "c483c591f37c115487a7c132a9f8be7bf56cd5c44e8b8f48b9a7b76a7d064c3b",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

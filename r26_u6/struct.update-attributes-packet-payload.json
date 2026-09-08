@@ -1,6 +1,6 @@
 {
   "name": "Update Attributes Packet Payload",
-  "hash": "bd3e73ca0fc92ba933a1566ac0078688ea3b25e1c6c4f4c1f6f7adedbf24d8ff",
+  "hash": "94fed34e8e110d078128237cdd7795b2f53ee5bccee837424e34c675c096edcc",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

@@ -1,6 +1,6 @@
 {
   "name": "Automation Client Connect Packet Payload",
-  "hash": "f853b530f6b73e85a5175997ad1e0d74f4629bb556eeb645f0be2c8123eadd70",
+  "hash": "81223aa62396bd629fcbd4a1da5f29b793604ca98be6893fc662c052d927f9b5",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

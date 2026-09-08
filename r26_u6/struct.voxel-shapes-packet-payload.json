@@ -1,6 +1,6 @@
 {
   "name": "Voxel Shapes Packet Payload",
-  "hash": "37a694cf29f9c57752fdda942b6ea6f9d2deb08973c85d75ea282c429ba30a6e",
+  "hash": "6fb83e193c19d14c98f8a73029ffbc44b146cf8928490130881ba0c23d514fcf",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

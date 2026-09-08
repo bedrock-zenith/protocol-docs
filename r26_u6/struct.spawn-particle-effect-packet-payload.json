@@ -1,6 +1,6 @@
 {
   "name": "Spawn Particle Effect Packet Payload",
-  "hash": "4d7fe2dd7ccf8b9416f82fe522165844b64a740dfdc56f8f8bc0fa0e22c93a74",
+  "hash": "f0c9168d5675fcd35a12ff1e41e24b617a3f1e513abafe56868a561a7ab1be21",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

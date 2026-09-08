@@ -1,6 +1,6 @@
 {
   "name": "Client Movement Prediction Sync Packet Payload",
-  "hash": "b8695083b0747ed32a0bf04ad96d2db6c40c805c725506b99d90a4568ad685ac",
+  "hash": "634ff2ea10c0e990659576d4c8904ba1a0cf2f90c1fafec0d610f3edc0d003c8",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

@@ -1,6 +1,6 @@
 {
   "name": "Cone Data Payload",
-  "hash": "ae16d32dd1f79cfcd7e13db0e29f32ed9a7ced1735fd3e2d23cae50f54f25f0f",
+  "hash": "17105878435723de4986cf4dd49dba2b64f81b6109b578b16b927899f331ffd2",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

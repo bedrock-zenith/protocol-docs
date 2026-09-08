@@ -1,6 +1,6 @@
 {
   "name": "Simulation Type Packet Payload",
-  "hash": "6bcfcbd74fc994d2ef0e4f8ccd051e337c2270bf5fae83d9fdffecdab6406198",
+  "hash": "3eab6ab57052d2058ec93c17ab2977e457867babb126affc08f424e0afab30c8",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

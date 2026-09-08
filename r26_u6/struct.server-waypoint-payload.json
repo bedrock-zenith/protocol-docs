@@ -1,6 +1,6 @@
 {
   "name": "Server Waypoint Payload",
-  "hash": "dd1b80599b91eefc350afa4cf6808800ddc22639b530169159ea8a1e34eef869",
+  "hash": "0415fd7b4693b4543a43522c5d927f7d7c8822aee9a46b05deccb04de5479d7a",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

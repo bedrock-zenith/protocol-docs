@@ -1,6 +1,6 @@
 {
   "name": "Record Started Packet Payload",
-  "hash": "5d5098a94407a5686987642b610dfe53237b98f04b8f583592a38d6f00207263",
+  "hash": "2e3b9998b017159f01bb7777fe3cb228fd06836e3a8cc9b8153f17d0bfa0d9d9",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

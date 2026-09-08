@@ -1,6 +1,6 @@
 {
   "name": "Set Hud Packet Payload",
-  "hash": "2e1e172abc6d2e9dd276da6fc92ccc48abc3a2063a787fc77eaa594bf232e890",
+  "hash": "244dcfa856eed28c6f694f40ffa8bc36b18532bba6d8ce1b5672663d5cfbded2",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

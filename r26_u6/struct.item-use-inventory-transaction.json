@@ -1,6 +1,6 @@
 {
   "name": "Item Use Inventory Transaction",
-  "hash": "fb55b887da393c201a3c4f0223d8f22d0ce79548b2d10afc57d16aa8bc0fbb75",
+  "hash": "325b6016cffc658c1b50bd16bc27cc2c9f5ae53c43a3ae66134524b02b887b7e",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

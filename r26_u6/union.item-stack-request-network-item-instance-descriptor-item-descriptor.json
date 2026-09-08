@@ -1,6 +1,6 @@
 {
   "name": "Item Stack Request Network Item Instance Descriptor Item Descriptor",
-  "hash": "a7b360c47c1571ce392b015efb8c79b648de12db59717490829fe2dcaea75672",
+  "hash": "a639a8944c4886c8b25ac65f190c051d3510f9db944dc96dfcd997ca4fba160c",
   "bind_type": "union",
   "is_bind_type": true,
   "fields": [

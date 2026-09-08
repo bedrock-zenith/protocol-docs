@@ -1,6 +1,6 @@
 {
   "name": "Update Player Game Type Packet Payload",
-  "hash": "1a6ed13c228f7b6c74d0958228f92e0ffd002feba2da0410c01da570280e500c",
+  "hash": "c042e93ea22eb61e592963089fe66fea11a569dbb5535caafafe5c35e6e387ea",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

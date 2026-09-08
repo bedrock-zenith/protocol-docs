@@ -1,6 +1,6 @@
 {
   "name": "Item Stack Request Create Action",
-  "hash": "76f6bf7325ba274ea7c2e61776210c76de45f6a1cf2fb3442d10cb09e857460d",
+  "hash": "3f4a16fdc65e73bda74f2ef946b8233be3a6f5a185e92d172f5dfdedda9d390c",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

@@ -1,6 +1,6 @@
 {
   "name": "Update Trade Packet Payload",
-  "hash": "54cf52a9735877476514e4263e9aa59405a130b9dfaad3ae9dda4222bb1c564c",
+  "hash": "36337c21375e773b0d87e5ede6e870629aa1456e5df4d37c4e65e65485645629",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

@@ -1,6 +1,6 @@
 {
   "name": "Emote Packet Payload",
-  "hash": "275dec856bdd35c590daf5d3ea7a359f20aa416e00b1a5df07cf44786e645ce0",
+  "hash": "2d117e7d064ecd9231e7d20ad00ba0b710d3dcd8e2afe8698a39df598986992b",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

@@ -1,6 +1,6 @@
 {
   "name": "Item Stack Request Mine Block Action",
-  "hash": "4e33b33b4bb6a489c4832f857c48a624976a572cf57147834c88c6af68d4a0f6",
+  "hash": "1cdc7cf92e18d5472329a79395fa749626d33e8f2de7430e53640a9c1236289b",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

@@ -1,6 +1,6 @@
 {
   "name": "Creative Content Packet Payload",
-  "hash": "f3f4e1cd3d78a94cf77298992eef0dbb868ee736b7b9b8d1b252135daeeedbab",
+  "hash": "8fee0c386f0c56d9a6f5a35488b7fd5e6d6c6c57cdca0dff3bb67c5df32707aa",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

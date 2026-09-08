@@ -1,6 +1,6 @@
 {
   "name": "Player Skin Packet Payload",
-  "hash": "c91de90435a793e98f7b1f1f1827f7de7c420dfbebfacfebfb608e55b6fa1979",
+  "hash": "6056d18742ced43aef08ac4b433622e64b9b93f9d5bef79314d18875cbf39794",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

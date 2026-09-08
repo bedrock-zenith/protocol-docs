@@ -1,6 +1,6 @@
 {
   "name": "Server Player Post Move Position Packet Payload",
-  "hash": "24f2922e1ed7b432a4d8270896ca812d47966e88c2fb4cfff6a8710b651bd444",
+  "hash": "d362e74a4f9ab9dd1d305371d8525afb9a1d1ebcf8e3eaa70c8013223ab4bbe9",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

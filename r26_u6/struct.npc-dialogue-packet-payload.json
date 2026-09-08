@@ -1,6 +1,6 @@
 {
   "name": "Npc Dialogue Packet Payload",
-  "hash": "9ae36fd424e4abd636c42de7be7abcae64ac09e3414c856c7528670c52563607",
+  "hash": "026a88c57c7a29a95f53b07ed4ca7c758bfbdbe915acada4f86193831db70c54",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

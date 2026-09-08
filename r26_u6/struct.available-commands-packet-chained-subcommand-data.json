@@ -1,6 +1,6 @@
 {
   "name": "Available Commands Packet Chained Subcommand Data",
-  "hash": "554b4cd615fdb2174564eaefaab12cb1763017f84b5d5d215c4899d58f6d782d",
+  "hash": "5b4155da0179dfb85c7b3cc514040005258639c8ead4c929fdb36e7b0ec6eefe",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

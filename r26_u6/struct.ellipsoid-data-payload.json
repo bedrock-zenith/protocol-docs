@@ -1,6 +1,6 @@
 {
   "name": "Ellipsoid Data Payload",
-  "hash": "1237f56b49c1c020402b219942e829da52aa923f7478b7273fe63a0b47183b13",
+  "hash": "844a93faf9db93a78d094b6f2b128f00c57a1bede93b28285383c6fcff5b66d2",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

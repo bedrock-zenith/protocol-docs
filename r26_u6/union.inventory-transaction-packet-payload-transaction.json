@@ -1,6 +1,6 @@
 {
   "name": "Inventory Transaction Packet Payload Transaction",
-  "hash": "21e727c07a4e90e8fe5b2df7b97f616756112b687b28687d24d0cfc7124138ab",
+  "hash": "1e7beab3e59d8d6f380aaaa240714f7b9412a4153a1ecc64a90bddff50cf3aa5",
   "bind_type": "union",
   "is_bind_type": true,
   "fields": [

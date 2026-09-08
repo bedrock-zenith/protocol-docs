@@ -1,6 +1,6 @@
 {
   "name": "Set Local Player As Initialized Packet Payload",
-  "hash": "c76ed7e4e6c1fbac3bc404ee3af8b8fd4d8b54aa28770b4e4852b81827843ca7",
+  "hash": "3528ab5cbb3099ca96f7cfe5fd4d0b096247758f3f9d10037ece49a59bed420f",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

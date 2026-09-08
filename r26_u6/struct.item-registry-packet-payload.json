@@ -1,6 +1,6 @@
 {
   "name": "Item Registry Packet Payload",
-  "hash": "f69d9b3dfc769237c55fb8e10146a73eb6181f09ecea022b975e18651439054d",
+  "hash": "cc9fa39415523cbd646f54879b9712dd092793b0531cd910656964adef85a3b3",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

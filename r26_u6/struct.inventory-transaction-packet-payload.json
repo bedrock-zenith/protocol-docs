@@ -1,6 +1,6 @@
 {
   "name": "Inventory Transaction Packet Payload",
-  "hash": "dd1f59dbcc283b6e9c6d395dc26a3f58255c4b358fd6df0c776e86afe658b3f4",
+  "hash": "60a02e3941001736b78c8e3b11eb76e164631d4967fbde4a0162f6e87d416c8c",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

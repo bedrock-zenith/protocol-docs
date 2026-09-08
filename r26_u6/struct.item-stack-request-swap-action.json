@@ -1,6 +1,6 @@
 {
   "name": "Item Stack Request Swap Action",
-  "hash": "7fda0c0388a95e7979891c79793ee4039640f304b0e151a4c8f50ee546893bf4",
+  "hash": "86e970bbbf0576206ced2ba0b4bd49461f39688500cd317e3b9d6cbba594f421",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

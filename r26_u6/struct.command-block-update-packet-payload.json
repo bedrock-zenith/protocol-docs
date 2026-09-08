@@ -1,6 +1,6 @@
 {
   "name": "Command Block Update Packet Payload",
-  "hash": "ab32c1e7c7e2f246c97dc86989037e3a85fdd1516a52dd2387f15e7d6297d082",
+  "hash": "96aeb373ff1835222f5753ac133329a93593735615036b51fe07029155e810db",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

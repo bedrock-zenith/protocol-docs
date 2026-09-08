@@ -1,6 +1,6 @@
 {
   "name": "Player Armor Damage Packet Payload",
-  "hash": "250129e2769786f48247a28ff61e16fd861941b356c6c3ad627c6184226aee83",
+  "hash": "6738f77acb3243d90630536737c4fb3c0e7dac2a022cc4dbc823acbd7fdea6e8",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

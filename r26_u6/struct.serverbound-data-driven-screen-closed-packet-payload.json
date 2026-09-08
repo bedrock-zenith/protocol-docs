@@ -1,6 +1,6 @@
 {
   "name": "Serverbound Data Driven Screen Closed Packet Payload",
-  "hash": "fc86efddaa6133a971066a6d0f6f579e4df88f0d53de91550b8e2a0cd8aab972",
+  "hash": "8521a825b9e4b798417ea939c526e2fb2eed18a68ef0becf8a3425cb736629b4",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

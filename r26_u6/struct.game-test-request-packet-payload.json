@@ -1,6 +1,6 @@
 {
   "name": "Game Test Request Packet Payload",
-  "hash": "da20ecd8f0f725dd215abcafbd6f7697fe48e635ee29e251f20b43275d2aff41",
+  "hash": "24dbfcde3cce8b58858431c9cd8b673663af261625cb999655aa2e4a39bfcb0a",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

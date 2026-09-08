@@ -1,6 +1,6 @@
 {
   "name": "Camera Instruction Packet Payload",
-  "hash": "8314a0334ddb36e582dcf752f1ab153b9ad9189037df2fac0a4171e3f43f1adf",
+  "hash": "5d108e580a02d196798d0ea9fff3fbd70b7199624152975c8d4f2666874709cf",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

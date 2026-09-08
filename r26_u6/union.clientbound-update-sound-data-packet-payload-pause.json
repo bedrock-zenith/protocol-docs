@@ -1,6 +1,6 @@
 {
   "name": "Clientbound Update Sound Data Packet Payload Pause",
-  "hash": "9d0261e01bea151f29a1679bffa85d2363f153fa7955cfd8502e4bdd590619c4",
+  "hash": "122ab93f62a99bf6cccac330115a8e62d6ddd91d6510088601db8b0f34c85dd6",
   "bind_type": "union",
   "is_bind_type": true,
   "fields": [

@@ -1,6 +1,6 @@
 {
   "name": "Available Commands Packet Overload Data",
-  "hash": "40985802e9319a0f81e89055c80f0aba466b3823bb716aa2c4677c5a2a755c57",
+  "hash": "badfa94c3eeaa0f9d0fb5ddb52b40c33033f2e618191d85ac6f17a3d7ecaf2cd",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

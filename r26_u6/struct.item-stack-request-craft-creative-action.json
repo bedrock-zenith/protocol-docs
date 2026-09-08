@@ -1,6 +1,6 @@
 {
   "name": "Item Stack Request Craft Creative Action",
-  "hash": "dcdac55630241deff9735f2093218d025363274cec4dd4f41e8943230f85e8a3",
+  "hash": "b1efc14a92a584757de429ac30de8714983ffbbb041e28de9d916546a06e14d5",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

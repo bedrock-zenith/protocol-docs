@@ -1,6 +1,6 @@
 {
   "name": "Update Sub Chunk Blocks Packet Payload",
-  "hash": "ea5badc7899688469ede53c494f72311175d91f75c79337a8ff690ccdd7743f4",
+  "hash": "261df2e1aab14db42f58409b8674e526cc28530b9ed3573d1359e6de5b7f47ca",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

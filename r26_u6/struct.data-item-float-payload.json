@@ -1,6 +1,6 @@
 {
   "name": "Data Item Float Payload",
-  "hash": "ae7a80cd910e034a1b7a546f8e1c7c66d2cdb41d8196348b4db5e4cea89e977c",
+  "hash": "1ec5da45852c7894c2c9cea9f97b8eb65bc382be218fd7894fa712d6ad4ec9f8",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

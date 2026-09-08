@@ -1,6 +1,6 @@
 {
   "name": "Death Info Packet Payload",
-  "hash": "0ba5fde42d4753b9ea75512b6ba1faf051529ab7fb9b9292f33e11c9f7bca82b",
+  "hash": "2d8395c2079684d10a1f2910c15afba7f939997e0aadf0bc653205484270babd",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

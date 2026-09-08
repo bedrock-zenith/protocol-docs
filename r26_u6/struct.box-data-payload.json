@@ -1,6 +1,6 @@
 {
   "name": "Box Data Payload",
-  "hash": "b492371387c6fb2bef6e53859b6fe693b33c73f81a26ad98d531c42d39908123",
+  "hash": "2c3c9132575970bdf49483a7da8c39d5423f1ff5a7cf6d002ac6c6584dec03a6",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [

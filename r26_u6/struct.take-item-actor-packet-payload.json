@@ -1,6 +1,6 @@
 {
   "name": "Take Item Actor Packet Payload",
-  "hash": "2a9675a52ba746ca890e99f8db261985d7ef8712932c2b78bf6c93b26d920ab9",
+  "hash": "ae7709118d684947e8d0958de12891fc9e4dc6f5bbb78c5e0adf443ee922bf23",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [
