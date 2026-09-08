@@ -1,6 +1,6 @@
 {
   "name": "Level Chunk Packet Payload",
-  "hash": "684a44df345618ad76e20d9064e1f1b0792ca45587b9fcd2887c2852b4c5e091",
+  "hash": "e250a39694957f52efbd912d98b854499f892d73ea8cc4c13ff9dac169246c09",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [
@@ -101,6 +101,15 @@
           "reinterpret": "i32",
           "data_encoding": "zleb128"
         }
+      }
+    },
+    {
+      "name": "Is Client Biome Update",
+      "is_constant": false,
+      "type": {
+        "name": "boolean",
+        "is_bind_type": false,
+        "data_encoding": "bool"
       }
     }
   ]

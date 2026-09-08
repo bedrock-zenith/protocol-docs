@@ -15608,7 +15608,7 @@
     },
     {
       "name": "Current Cmd Version",
-      "hash": "c67e31fd4a11eeb77bd06e8224544bc8861c4c12711275e510d1655d20112ac3",
+      "hash": "5eabe128707a22224a2b335d3dc31212559fb44eee8be9cc58741d9ed693fc94",
       "bind_type": "enum",
       "is_bind_type": true,
       "enum_kind": "numeric",
@@ -15661,13 +15661,13 @@
         "LocateStructureOutput": 42,
         "PostBlockFlattening": 43,
         "TestForBlockCommandDoesNotIgnoreBlockState": 44,
-        "Count": 54,
-        "Latest": 53
+        "Count": 55,
+        "Latest": 54
       }
     },
     {
       "name": "Command Request Packet Payload",
-      "hash": "bf8285deaad49816019b940fd8216a1d545db14090db64663ac9ae8b6a419c53",
+      "hash": "e7060765dd33ffb91f304f7297f25dead9f5adb0e735cbbcb1fbbfed11bf881c",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -25544,7 +25544,7 @@
     },
     {
       "name": "Level Chunk Packet Payload",
-      "hash": "684a44df345618ad76e20d9064e1f1b0792ca45587b9fcd2887c2852b4c5e091",
+      "hash": "e250a39694957f52efbd912d98b854499f892d73ea8cc4c13ff9dac169246c09",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -25645,6 +25645,15 @@
               "reinterpret": "i32",
               "data_encoding": "zleb128"
             }
+          }
+        },
+        {
+          "name": "Is Client Biome Update",
+          "is_constant": false,
+          "type": {
+            "name": "boolean",
+            "is_bind_type": false,
+            "data_encoding": "bool"
           }
         }
       ]
@@ -33293,8 +33302,8 @@
             "is_bind_type": false,
             "interpretation": "i32",
             "metadata": {
-              "min_value": 2207,
-              "max_value": 2207
+              "min_value": 2208,
+              "max_value": 2208
             },
             "reinterpret": "i32",
             "data_encoding": "big_endian"
