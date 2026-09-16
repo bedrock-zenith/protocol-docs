@@ -3292,7 +3292,7 @@
     },
     {
       "name": "Animate Packet Payload",
-      "hash": "e2691fdeec8279b4e68a7160d35faefef3d880121a38aeb12458b7fbcbada2a4",
+      "hash": "bff34753668905975734c143977c0f31d9b2245dc2c03485a54d0b117e98c9a2",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -3364,21 +3364,17 @@
           "name": "Hand",
           "is_constant": false,
           "type": {
-            "name": "optional",
-            "is_bind_type": false,
-            "element_type": {
-              "name": "Hand Slot",
-              "bind_type": "enum",
-              "is_bind_type": true,
-              "exhaustive": "exhaustive",
-              "enum_encoding": "numeric",
-              "data_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "u8",
-                "reinterpret": "u8",
-                "data_encoding": "leb128"
-              }
+            "name": "Hand Slot",
+            "bind_type": "enum",
+            "is_bind_type": true,
+            "exhaustive": "exhaustive",
+            "enum_encoding": "numeric",
+            "data_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "u8",
+              "reinterpret": "u8",
+              "data_encoding": "leb128"
             }
           },
           "metadata": {
@@ -3758,7 +3754,7 @@
     },
     {
       "name": "Bool Attribute Data",
-      "hash": "a7e7bfd0481e63fe3be15e1c5436cd2bb023960e65124cb86c46675a2ffff3ab",
+      "hash": "b43c92e8b20150d494579b57a55697011663a9c2a1e5351eeb00092fb06b4459",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -3775,24 +3771,20 @@
           "name": "Operation",
           "is_constant": false,
           "type": {
-            "name": "optional",
-            "is_bind_type": false,
-            "element_type": {
-              "name": "Bool Attribute Operation",
-              "bind_type": "enum",
-              "is_bind_type": true,
-              "exhaustive": "exhaustive",
-              "enum_encoding": "literal",
-              "data_encoding": {
-                "name": "string",
+            "name": "Bool Attribute Operation",
+            "bind_type": "enum",
+            "is_bind_type": true,
+            "exhaustive": "exhaustive",
+            "enum_encoding": "literal",
+            "data_encoding": {
+              "name": "string",
+              "is_bind_type": false,
+              "length_encoding": {
+                "name": "integer",
                 "is_bind_type": false,
-                "length_encoding": {
-                  "name": "integer",
-                  "is_bind_type": false,
-                  "interpretation": "i32",
-                  "reinterpret": "i32",
-                  "data_encoding": "zleb128"
-                }
+                "interpretation": "i32",
+                "reinterpret": "i32",
+                "data_encoding": "zleb128"
               }
             }
           },
@@ -3821,7 +3813,7 @@
     },
     {
       "name": "Float Attribute Data",
-      "hash": "af4af71bf8b5c115f5434dece2c2ecc9b84fa052c52fca8323ca03874d7938ad",
+      "hash": "596135b515118d49025e400c48995f9b18f51426570e92a1a202ab652e9d7b9d",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -3840,24 +3832,20 @@
           "name": "Operation",
           "is_constant": false,
           "type": {
-            "name": "optional",
-            "is_bind_type": false,
-            "element_type": {
-              "name": "Float Attribute Operation",
-              "bind_type": "enum",
-              "is_bind_type": true,
-              "exhaustive": "exhaustive",
-              "enum_encoding": "literal",
-              "data_encoding": {
-                "name": "string",
+            "name": "Float Attribute Operation",
+            "bind_type": "enum",
+            "is_bind_type": true,
+            "exhaustive": "exhaustive",
+            "enum_encoding": "literal",
+            "data_encoding": {
+              "name": "string",
+              "is_bind_type": false,
+              "length_encoding": {
+                "name": "integer",
                 "is_bind_type": false,
-                "length_encoding": {
-                  "name": "integer",
-                  "is_bind_type": false,
-                  "interpretation": "i32",
-                  "reinterpret": "i32",
-                  "data_encoding": "zleb128"
-                }
+                "interpretation": "i32",
+                "reinterpret": "i32",
+                "data_encoding": "zleb128"
               }
             }
           },
@@ -3982,7 +3970,7 @@
     },
     {
       "name": "Color Attribute Data",
-      "hash": "48d2917a503494f0092c6cb8212308519cd897087d829267c81082a83803a17d",
+      "hash": "367bc08895594096ade0a72b09c03803e13d7592b78341c41685e55ef28def9d",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -4013,24 +4001,20 @@
           "name": "Operation",
           "is_constant": false,
           "type": {
-            "name": "optional",
-            "is_bind_type": false,
-            "element_type": {
-              "name": "Color Attribute Operation",
-              "bind_type": "enum",
-              "is_bind_type": true,
-              "exhaustive": "exhaustive",
-              "enum_encoding": "literal",
-              "data_encoding": {
-                "name": "string",
+            "name": "Color Attribute Operation",
+            "bind_type": "enum",
+            "is_bind_type": true,
+            "exhaustive": "exhaustive",
+            "enum_encoding": "literal",
+            "data_encoding": {
+              "name": "string",
+              "is_bind_type": false,
+              "length_encoding": {
+                "name": "integer",
                 "is_bind_type": false,
-                "length_encoding": {
-                  "name": "integer",
-                  "is_bind_type": false,
-                  "interpretation": "i32",
-                  "reinterpret": "i32",
-                  "data_encoding": "zleb128"
-                }
+                "interpretation": "i32",
+                "reinterpret": "i32",
+                "data_encoding": "zleb128"
               }
             }
           },
@@ -4988,7 +4972,7 @@
     },
     {
       "name": "Author And Message",
-      "hash": "8d4370f0f7317f424fbd976533af8f4112b332b7bf7c38b2ab303b6b0678e009",
+      "hash": "a6353fee0cf9a92b9548779c624f6542ef914f57878873688b9a0ba14084bf3d",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -5014,21 +4998,17 @@
           "name": "Player Name",
           "is_constant": false,
           "type": {
-            "name": "optional",
+            "name": "string",
             "is_bind_type": false,
-            "element_type": {
-              "name": "string",
+            "metadata": {
+              "max_length": 256
+            },
+            "length_encoding": {
+              "name": "integer",
               "is_bind_type": false,
-              "metadata": {
-                "max_length": 256
-              },
-              "length_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "i32",
-                "reinterpret": "i32",
-                "data_encoding": "zleb128"
-              }
+              "interpretation": "i32",
+              "reinterpret": "i32",
+              "data_encoding": "zleb128"
             }
           },
           "metadata": {
@@ -5039,22 +5019,18 @@
           "name": "Message",
           "is_constant": false,
           "type": {
-            "name": "optional",
+            "name": "string",
             "is_bind_type": false,
-            "element_type": {
-              "name": "string",
+            "metadata": {
+              "min_length": 1,
+              "max_length": 65536
+            },
+            "length_encoding": {
+              "name": "integer",
               "is_bind_type": false,
-              "metadata": {
-                "min_length": 1,
-                "max_length": 65536
-              },
-              "length_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "i32",
-                "reinterpret": "i32",
-                "data_encoding": "zleb128"
-              }
+              "interpretation": "i32",
+              "reinterpret": "i32",
+              "data_encoding": "zleb128"
             }
           },
           "metadata": {
@@ -5160,7 +5136,7 @@
     },
     {
       "name": "Available Commands Packet Chained Subcommand Data",
-      "hash": "5b4155da0179dfb85c7b3cc514040005258639c8ead4c929fdb36e7b0ec6eefe",
+      "hash": "e4fe8eb8fcd29defd29fdeef2f3156c95f9f8f84a1bdf65babcde877b1c0ed71",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -5186,26 +5162,22 @@
           "name": "Sub Command Values",
           "is_constant": false,
           "type": {
-            "name": "optional",
+            "name": "array",
             "is_bind_type": false,
+            "metadata": {
+              "max_length": 32
+            },
             "element_type": {
-              "name": "array",
+              "name": "Available Commands Packet Chained Subcommand Relationship",
+              "bind_type": "struct",
+              "is_bind_type": true
+            },
+            "length_encoding": {
+              "name": "integer",
               "is_bind_type": false,
-              "metadata": {
-                "max_length": 32
-              },
-              "element_type": {
-                "name": "Available Commands Packet Chained Subcommand Relationship",
-                "bind_type": "struct",
-                "is_bind_type": true
-              },
-              "length_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "u32",
-                "reinterpret": "u32",
-                "data_encoding": "leb128"
-              }
+              "interpretation": "u32",
+              "reinterpret": "u32",
+              "data_encoding": "leb128"
             }
           },
           "metadata": {
@@ -7030,7 +7002,7 @@
     },
     {
       "name": "Float Range",
-      "hash": "3c3c4d60868ea6c0cfeabfbbcf2adb413f25a4384aac9caf7aaad3c3a731178f",
+      "hash": "10c775a85f378ad40de630b134a1242d03948809cfc0a0b6d5e6d654cc09a869",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -7038,15 +7010,11 @@
           "name": "Min",
           "is_constant": false,
           "type": {
-            "name": "optional",
+            "name": "float",
             "is_bind_type": false,
-            "element_type": {
-              "name": "float",
-              "is_bind_type": false,
-              "interpretation": "f32",
-              "reinterpret": "f32",
-              "data_encoding": "little_endian"
-            }
+            "interpretation": "f32",
+            "reinterpret": "f32",
+            "data_encoding": "little_endian"
           },
           "metadata": {
             "default_value": 0
@@ -7056,15 +7024,11 @@
           "name": "Max",
           "is_constant": false,
           "type": {
-            "name": "optional",
+            "name": "float",
             "is_bind_type": false,
-            "element_type": {
-              "name": "float",
-              "is_bind_type": false,
-              "interpretation": "f32",
-              "reinterpret": "f32",
-              "data_encoding": "little_endian"
-            }
+            "interpretation": "f32",
+            "reinterpret": "f32",
+            "data_encoding": "little_endian"
           },
           "metadata": {
             "default_value": 0
@@ -7074,7 +7038,7 @@
     },
     {
       "name": "Serialized Noise Block Specifier",
-      "hash": "b4c934a053e0b8d98d76e5bbf962a27ff58f938240134edc8151d405d51237e0",
+      "hash": "af96fbd5e7571313b7adae0ccf072c791474bd621c82ebd901a9f9676c890c40",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -7082,18 +7046,14 @@
           "name": "Noise",
           "is_constant": false,
           "type": {
-            "name": "optional",
+            "name": "string",
             "is_bind_type": false,
-            "element_type": {
-              "name": "string",
+            "length_encoding": {
+              "name": "integer",
               "is_bind_type": false,
-              "length_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "i32",
-                "reinterpret": "i32",
-                "data_encoding": "zleb128"
-              }
+              "interpretation": "i32",
+              "reinterpret": "i32",
+              "data_encoding": "zleb128"
             }
           },
           "metadata": {
@@ -7104,15 +7064,11 @@
           "name": "Threshold",
           "is_constant": false,
           "type": {
-            "name": "optional",
+            "name": "float",
             "is_bind_type": false,
-            "element_type": {
-              "name": "float",
-              "is_bind_type": false,
-              "interpretation": "f32",
-              "reinterpret": "f32",
-              "data_encoding": "little_endian"
-            }
+            "interpretation": "f32",
+            "reinterpret": "f32",
+            "data_encoding": "little_endian"
           },
           "metadata": {
             "default_value": 1.1754943508222875e-38
@@ -7122,13 +7078,9 @@
           "name": "Range",
           "is_constant": false,
           "type": {
-            "name": "optional",
-            "is_bind_type": false,
-            "element_type": {
-              "name": "Float Range",
-              "bind_type": "struct",
-              "is_bind_type": true
-            }
+            "name": "Float Range",
+            "bind_type": "struct",
+            "is_bind_type": true
           },
           "metadata": {
             "default_value": {
@@ -7141,18 +7093,14 @@
           "name": "Block",
           "is_constant": false,
           "type": {
-            "name": "optional",
+            "name": "integer",
             "is_bind_type": false,
-            "element_type": {
-              "name": "integer",
-              "is_bind_type": false,
-              "interpretation": "u32",
-              "metadata": {
-                "min_value": 0
-              },
-              "reinterpret": "u32",
-              "data_encoding": "little_endian"
-            }
+            "interpretation": "u32",
+            "metadata": {
+              "min_value": 0
+            },
+            "reinterpret": "u32",
+            "data_encoding": "little_endian"
           },
           "metadata": {
             "default_value": 0
@@ -8803,7 +8751,7 @@
     },
     {
       "name": "Camera Aim Assist Category Priorities",
-      "hash": "4f5acdb46530fbc83ac417b4824a7ea4aa037ed6c004b8841191ef3a5112a797",
+      "hash": "404dab6b106e28f52b97bb678b0f0bb5b0c6b8c23eb8df0c2edeac4d156a31f6",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -8811,40 +8759,36 @@
           "name": "Entities",
           "is_constant": false,
           "type": {
-            "name": "optional",
+            "name": "map",
             "is_bind_type": false,
-            "element_type": {
-              "name": "map",
+            "key_type": {
+              "name": "string",
               "is_bind_type": false,
-              "key_type": {
-                "name": "string",
-                "is_bind_type": false,
-                "length_encoding": {
-                  "name": "integer",
-                  "is_bind_type": false,
-                  "interpretation": "i32",
-                  "reinterpret": "i32",
-                  "data_encoding": "zleb128"
-                }
-              },
-              "value_type": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "i32",
-                "metadata": {
-                  "min_value": 0,
-                  "max_value": 100
-                },
-                "reinterpret": "i32",
-                "data_encoding": "little_endian"
-              },
               "length_encoding": {
                 "name": "integer",
                 "is_bind_type": false,
-                "interpretation": "u32",
-                "reinterpret": "u32",
-                "data_encoding": "leb128"
+                "interpretation": "i32",
+                "reinterpret": "i32",
+                "data_encoding": "zleb128"
               }
+            },
+            "value_type": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "i32",
+              "metadata": {
+                "min_value": 0,
+                "max_value": 100
+              },
+              "reinterpret": "i32",
+              "data_encoding": "little_endian"
+            },
+            "length_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "u32",
+              "reinterpret": "u32",
+              "data_encoding": "leb128"
             }
           },
           "metadata": {
@@ -8855,40 +8799,36 @@
           "name": "Blocks",
           "is_constant": false,
           "type": {
-            "name": "optional",
+            "name": "map",
             "is_bind_type": false,
-            "element_type": {
-              "name": "map",
+            "key_type": {
+              "name": "string",
               "is_bind_type": false,
-              "key_type": {
-                "name": "string",
-                "is_bind_type": false,
-                "length_encoding": {
-                  "name": "integer",
-                  "is_bind_type": false,
-                  "interpretation": "i32",
-                  "reinterpret": "i32",
-                  "data_encoding": "zleb128"
-                }
-              },
-              "value_type": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "i32",
-                "metadata": {
-                  "min_value": 0,
-                  "max_value": 100
-                },
-                "reinterpret": "i32",
-                "data_encoding": "little_endian"
-              },
               "length_encoding": {
                 "name": "integer",
                 "is_bind_type": false,
-                "interpretation": "u32",
-                "reinterpret": "u32",
-                "data_encoding": "leb128"
+                "interpretation": "i32",
+                "reinterpret": "i32",
+                "data_encoding": "zleb128"
               }
+            },
+            "value_type": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "i32",
+              "metadata": {
+                "min_value": 0,
+                "max_value": 100
+              },
+              "reinterpret": "i32",
+              "data_encoding": "little_endian"
+            },
+            "length_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "u32",
+              "reinterpret": "u32",
+              "data_encoding": "leb128"
             }
           },
           "metadata": {
@@ -8899,40 +8839,36 @@
           "name": "Block Tags",
           "is_constant": false,
           "type": {
-            "name": "optional",
+            "name": "map",
             "is_bind_type": false,
-            "element_type": {
-              "name": "map",
+            "key_type": {
+              "name": "string",
               "is_bind_type": false,
-              "key_type": {
-                "name": "string",
-                "is_bind_type": false,
-                "length_encoding": {
-                  "name": "integer",
-                  "is_bind_type": false,
-                  "interpretation": "i32",
-                  "reinterpret": "i32",
-                  "data_encoding": "zleb128"
-                }
-              },
-              "value_type": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "i32",
-                "metadata": {
-                  "min_value": 0,
-                  "max_value": 100
-                },
-                "reinterpret": "i32",
-                "data_encoding": "little_endian"
-              },
               "length_encoding": {
                 "name": "integer",
                 "is_bind_type": false,
-                "interpretation": "u32",
-                "reinterpret": "u32",
-                "data_encoding": "leb128"
+                "interpretation": "i32",
+                "reinterpret": "i32",
+                "data_encoding": "zleb128"
               }
+            },
+            "value_type": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "i32",
+              "metadata": {
+                "min_value": 0,
+                "max_value": 100
+              },
+              "reinterpret": "i32",
+              "data_encoding": "little_endian"
+            },
+            "length_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "u32",
+              "reinterpret": "u32",
+              "data_encoding": "leb128"
             }
           },
           "metadata": {
@@ -8943,40 +8879,36 @@
           "name": "Entity Type Families",
           "is_constant": false,
           "type": {
-            "name": "optional",
+            "name": "map",
             "is_bind_type": false,
-            "element_type": {
-              "name": "map",
+            "key_type": {
+              "name": "string",
               "is_bind_type": false,
-              "key_type": {
-                "name": "string",
-                "is_bind_type": false,
-                "length_encoding": {
-                  "name": "integer",
-                  "is_bind_type": false,
-                  "interpretation": "i32",
-                  "reinterpret": "i32",
-                  "data_encoding": "zleb128"
-                }
-              },
-              "value_type": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "i32",
-                "metadata": {
-                  "min_value": 0,
-                  "max_value": 100
-                },
-                "reinterpret": "i32",
-                "data_encoding": "little_endian"
-              },
               "length_encoding": {
                 "name": "integer",
                 "is_bind_type": false,
-                "interpretation": "u32",
-                "reinterpret": "u32",
-                "data_encoding": "leb128"
+                "interpretation": "i32",
+                "reinterpret": "i32",
+                "data_encoding": "zleb128"
               }
+            },
+            "value_type": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "i32",
+              "metadata": {
+                "min_value": 0,
+                "max_value": 100
+              },
+              "reinterpret": "i32",
+              "data_encoding": "little_endian"
+            },
+            "length_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "u32",
+              "reinterpret": "u32",
+              "data_encoding": "leb128"
             }
           },
           "metadata": {
@@ -9186,7 +9118,7 @@
     },
     {
       "name": "Camera Aim Assist Preset Exclusion Definition",
-      "hash": "fe73864f62dd610a4532b4128047636487031a20d7b986ad6999fb6cfae88725",
+      "hash": "a1f874edfb6cbfdc0c0145da8a4e3a89e0eec3de0bc62a88b93278b3608b3c96",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -9194,29 +9126,25 @@
           "name": "Blocks",
           "is_constant": false,
           "type": {
-            "name": "optional",
+            "name": "array",
             "is_bind_type": false,
             "element_type": {
-              "name": "array",
+              "name": "string",
               "is_bind_type": false,
-              "element_type": {
-                "name": "string",
-                "is_bind_type": false,
-                "length_encoding": {
-                  "name": "integer",
-                  "is_bind_type": false,
-                  "interpretation": "i32",
-                  "reinterpret": "i32",
-                  "data_encoding": "zleb128"
-                }
-              },
               "length_encoding": {
                 "name": "integer",
                 "is_bind_type": false,
-                "interpretation": "u32",
-                "reinterpret": "u32",
-                "data_encoding": "leb128"
+                "interpretation": "i32",
+                "reinterpret": "i32",
+                "data_encoding": "zleb128"
               }
+            },
+            "length_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "u32",
+              "reinterpret": "u32",
+              "data_encoding": "leb128"
             }
           },
           "metadata": {
@@ -9227,29 +9155,25 @@
           "name": "Entities",
           "is_constant": false,
           "type": {
-            "name": "optional",
+            "name": "array",
             "is_bind_type": false,
             "element_type": {
-              "name": "array",
+              "name": "string",
               "is_bind_type": false,
-              "element_type": {
-                "name": "string",
-                "is_bind_type": false,
-                "length_encoding": {
-                  "name": "integer",
-                  "is_bind_type": false,
-                  "interpretation": "i32",
-                  "reinterpret": "i32",
-                  "data_encoding": "zleb128"
-                }
-              },
               "length_encoding": {
                 "name": "integer",
                 "is_bind_type": false,
-                "interpretation": "u32",
-                "reinterpret": "u32",
-                "data_encoding": "leb128"
+                "interpretation": "i32",
+                "reinterpret": "i32",
+                "data_encoding": "zleb128"
               }
+            },
+            "length_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "u32",
+              "reinterpret": "u32",
+              "data_encoding": "leb128"
             }
           },
           "metadata": {
@@ -9260,29 +9184,25 @@
           "name": "Block Tags",
           "is_constant": false,
           "type": {
-            "name": "optional",
+            "name": "array",
             "is_bind_type": false,
             "element_type": {
-              "name": "array",
+              "name": "string",
               "is_bind_type": false,
-              "element_type": {
-                "name": "string",
-                "is_bind_type": false,
-                "length_encoding": {
-                  "name": "integer",
-                  "is_bind_type": false,
-                  "interpretation": "i32",
-                  "reinterpret": "i32",
-                  "data_encoding": "zleb128"
-                }
-              },
               "length_encoding": {
                 "name": "integer",
                 "is_bind_type": false,
-                "interpretation": "u32",
-                "reinterpret": "u32",
-                "data_encoding": "leb128"
+                "interpretation": "i32",
+                "reinterpret": "i32",
+                "data_encoding": "zleb128"
               }
+            },
+            "length_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "u32",
+              "reinterpret": "u32",
+              "data_encoding": "leb128"
             }
           },
           "metadata": {
@@ -9293,29 +9213,25 @@
           "name": "Entity Type Families",
           "is_constant": false,
           "type": {
-            "name": "optional",
+            "name": "array",
             "is_bind_type": false,
             "element_type": {
-              "name": "array",
+              "name": "string",
               "is_bind_type": false,
-              "element_type": {
-                "name": "string",
-                "is_bind_type": false,
-                "length_encoding": {
-                  "name": "integer",
-                  "is_bind_type": false,
-                  "interpretation": "i32",
-                  "reinterpret": "i32",
-                  "data_encoding": "zleb128"
-                }
-              },
               "length_encoding": {
                 "name": "integer",
                 "is_bind_type": false,
-                "interpretation": "u32",
-                "reinterpret": "u32",
-                "data_encoding": "leb128"
+                "interpretation": "i32",
+                "reinterpret": "i32",
+                "data_encoding": "zleb128"
               }
+            },
+            "length_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "u32",
+              "reinterpret": "u32",
+              "data_encoding": "leb128"
             }
           },
           "metadata": {
@@ -9346,7 +9262,7 @@
     },
     {
       "name": "Camera Aim Assist Preset Definition",
-      "hash": "45d8208102a0595941b3bb351db15c8da45268965bcb25f877d5c5322b2fbe56",
+      "hash": "e65aa9ea8b9f09a5696429e3e47b62827b5170f4a2d67aeb13dcf62d35ec0dd8",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -9369,13 +9285,9 @@
           "name": "Exclusion Settings",
           "is_constant": false,
           "type": {
-            "name": "optional",
-            "is_bind_type": false,
-            "element_type": {
-              "name": "Camera Aim Assist Preset Exclusion Definition",
-              "bind_type": "struct",
-              "is_bind_type": true
-            }
+            "name": "Camera Aim Assist Preset Exclusion Definition",
+            "bind_type": "struct",
+            "is_bind_type": true
           },
           "metadata": {
             "default_value": {
@@ -9390,29 +9302,25 @@
           "name": "Liquid Targeting List",
           "is_constant": false,
           "type": {
-            "name": "optional",
+            "name": "array",
             "is_bind_type": false,
             "element_type": {
-              "name": "array",
+              "name": "string",
               "is_bind_type": false,
-              "element_type": {
-                "name": "string",
-                "is_bind_type": false,
-                "length_encoding": {
-                  "name": "integer",
-                  "is_bind_type": false,
-                  "interpretation": "i32",
-                  "reinterpret": "i32",
-                  "data_encoding": "zleb128"
-                }
-              },
               "length_encoding": {
                 "name": "integer",
                 "is_bind_type": false,
-                "interpretation": "u32",
-                "reinterpret": "u32",
-                "data_encoding": "leb128"
+                "interpretation": "i32",
+                "reinterpret": "i32",
+                "data_encoding": "zleb128"
               }
+            },
+            "length_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "u32",
+              "reinterpret": "u32",
+              "data_encoding": "leb128"
             }
           },
           "metadata": {
@@ -9423,40 +9331,36 @@
           "name": "Item Settings",
           "is_constant": false,
           "type": {
-            "name": "optional",
+            "name": "map",
             "is_bind_type": false,
-            "element_type": {
-              "name": "map",
+            "key_type": {
+              "name": "string",
               "is_bind_type": false,
-              "key_type": {
-                "name": "string",
-                "is_bind_type": false,
-                "length_encoding": {
-                  "name": "integer",
-                  "is_bind_type": false,
-                  "interpretation": "i32",
-                  "reinterpret": "i32",
-                  "data_encoding": "zleb128"
-                }
-              },
-              "value_type": {
-                "name": "string",
-                "is_bind_type": false,
-                "length_encoding": {
-                  "name": "integer",
-                  "is_bind_type": false,
-                  "interpretation": "i32",
-                  "reinterpret": "i32",
-                  "data_encoding": "zleb128"
-                }
-              },
               "length_encoding": {
                 "name": "integer",
                 "is_bind_type": false,
-                "interpretation": "u32",
-                "reinterpret": "u32",
-                "data_encoding": "leb128"
+                "interpretation": "i32",
+                "reinterpret": "i32",
+                "data_encoding": "zleb128"
               }
+            },
+            "value_type": {
+              "name": "string",
+              "is_bind_type": false,
+              "length_encoding": {
+                "name": "integer",
+                "is_bind_type": false,
+                "interpretation": "i32",
+                "reinterpret": "i32",
+                "data_encoding": "zleb128"
+              }
+            },
+            "length_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "u32",
+              "reinterpret": "u32",
+              "data_encoding": "leb128"
             }
           },
           "metadata": {
@@ -10172,7 +10076,7 @@
     },
     {
       "name": "Camera Instruction Spline Instruction",
-      "hash": "a6d5867643080ab8bf6e8912f4b24937ee7a54d5f53319a9cb05ccf1521c4625",
+      "hash": "5f1e13947ffac4f1c99acd229c1c7b212b25d16fd6be78fada6adce428d69514",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -10266,21 +10170,17 @@
           "name": "Spline Identifier",
           "is_constant": false,
           "type": {
-            "name": "optional",
+            "name": "string",
             "is_bind_type": false,
-            "element_type": {
-              "name": "string",
+            "metadata": {
+              "max_length": 1024
+            },
+            "length_encoding": {
+              "name": "integer",
               "is_bind_type": false,
-              "metadata": {
-                "max_length": 1024
-              },
-              "length_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "i32",
-                "reinterpret": "i32",
-                "data_encoding": "zleb128"
-              }
+              "interpretation": "i32",
+              "reinterpret": "i32",
+              "data_encoding": "zleb128"
             }
           },
           "metadata": {
@@ -10291,13 +10191,9 @@
           "name": "Load From Json",
           "is_constant": false,
           "type": {
-            "name": "optional",
+            "name": "boolean",
             "is_bind_type": false,
-            "element_type": {
-              "name": "boolean",
-              "is_bind_type": false,
-              "data_encoding": "bool"
-            }
+            "data_encoding": "bool"
           },
           "metadata": {
             "default_value": false
@@ -11243,7 +11139,7 @@
     },
     {
       "name": "Camera Spline Definition",
-      "hash": "3142b4829e34cd6970b60679220bd1ff012ca4c1ce6d01998451c29b42758c3b",
+      "hash": "3e9ca223f7005cfca461d5b1813b93b43d779a10a96bb8cb7856ed2b941342b0",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -11283,21 +11179,17 @@
           "name": "Spline Type",
           "is_constant": false,
           "type": {
-            "name": "optional",
+            "name": "string",
             "is_bind_type": false,
-            "element_type": {
-              "name": "string",
+            "metadata": {
+              "pattern": "^(?:catmullrom|linear)$"
+            },
+            "length_encoding": {
+              "name": "integer",
               "is_bind_type": false,
-              "metadata": {
-                "pattern": "^(?:catmullrom|linear)$"
-              },
-              "length_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "i32",
-                "reinterpret": "i32",
-                "data_encoding": "zleb128"
-              }
+              "interpretation": "i32",
+              "reinterpret": "i32",
+              "data_encoding": "zleb128"
             }
           },
           "metadata": {
@@ -14034,7 +13926,7 @@
     },
     {
       "name": "Client Camera Aim Assist Packet Payload",
-      "hash": "0f5c056b9c80470cd94044a29e604ebce4b8f1f26a8af5c99a566198dec59050",
+      "hash": "40c8723b74c475d0c1626e6e6cc4c7323bda42fe5b169501471870c39e470db2",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -14075,13 +13967,9 @@
           "name": "Allow Aim Assist",
           "is_constant": false,
           "type": {
-            "name": "optional",
+            "name": "boolean",
             "is_bind_type": false,
-            "element_type": {
-              "name": "boolean",
-              "is_bind_type": false,
-              "data_encoding": "bool"
-            }
+            "data_encoding": "bool"
           },
           "metadata": {
             "default_value": false
@@ -14772,7 +14660,7 @@
     },
     {
       "name": "Command Origin Data",
-      "hash": "0ee6ebfbadee0b2077643d4a081733d5a53e2d1c9b71a8ec01699140dd3d93c4",
+      "hash": "1d4160ab83f7ce9daaa0bc5d2c1db195932afa3a90faf3074ad77990c59fc94a",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -14811,21 +14699,17 @@
           "name": "Request Id",
           "is_constant": false,
           "type": {
-            "name": "optional",
+            "name": "string",
             "is_bind_type": false,
-            "element_type": {
-              "name": "string",
+            "metadata": {
+              "max_length": 39
+            },
+            "length_encoding": {
+              "name": "integer",
               "is_bind_type": false,
-              "metadata": {
-                "max_length": 39
-              },
-              "length_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "i32",
-                "reinterpret": "i32",
-                "data_encoding": "zleb128"
-              }
+              "interpretation": "i32",
+              "reinterpret": "i32",
+              "data_encoding": "zleb128"
             }
           },
           "metadata": {
@@ -14836,15 +14720,11 @@
           "name": "Player Id",
           "is_constant": false,
           "type": {
-            "name": "optional",
+            "name": "integer",
             "is_bind_type": false,
-            "element_type": {
-              "name": "integer",
-              "is_bind_type": false,
-              "interpretation": "i64",
-              "reinterpret": "i64",
-              "data_encoding": "little_endian"
-            }
+            "interpretation": "i64",
+            "reinterpret": "i64",
+            "data_encoding": "little_endian"
           },
           "metadata": {
             "default_value": 0
@@ -14880,7 +14760,7 @@
     },
     {
       "name": "Command Output Message",
-      "hash": "ae90886b0804cf75410136ff7f1cf87608f050e5ee31de98861ac959994d9257",
+      "hash": "f9c4dd4314031fd216aba9f5d5e4038f881b5e4dc872ebea7183e7ee7e0ef2d5",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -14912,29 +14792,25 @@
           "name": "Parameters",
           "is_constant": false,
           "type": {
-            "name": "optional",
+            "name": "array",
             "is_bind_type": false,
             "element_type": {
-              "name": "array",
+              "name": "string",
               "is_bind_type": false,
-              "element_type": {
-                "name": "string",
-                "is_bind_type": false,
-                "length_encoding": {
-                  "name": "integer",
-                  "is_bind_type": false,
-                  "interpretation": "i32",
-                  "reinterpret": "i32",
-                  "data_encoding": "zleb128"
-                }
-              },
               "length_encoding": {
                 "name": "integer",
                 "is_bind_type": false,
-                "interpretation": "u32",
-                "reinterpret": "u32",
-                "data_encoding": "leb128"
+                "interpretation": "i32",
+                "reinterpret": "i32",
+                "data_encoding": "zleb128"
               }
+            },
+            "length_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "u32",
+              "reinterpret": "u32",
+              "data_encoding": "leb128"
             }
           },
           "metadata": {
@@ -14960,7 +14836,7 @@
     },
     {
       "name": "Command Output",
-      "hash": "117f07ae2a91a416c6f1e033885bf5fa811ba6cb0a7f89b7986821492c129a28",
+      "hash": "f2923aee6f447d899606faa1448459793b504294722fe04dd4df41735e581ab6",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -15004,23 +14880,19 @@
           "name": "Output Messages",
           "is_constant": false,
           "type": {
-            "name": "optional",
+            "name": "array",
             "is_bind_type": false,
             "element_type": {
-              "name": "array",
+              "name": "Command Output Message",
+              "bind_type": "struct",
+              "is_bind_type": true
+            },
+            "length_encoding": {
+              "name": "integer",
               "is_bind_type": false,
-              "element_type": {
-                "name": "Command Output Message",
-                "bind_type": "struct",
-                "is_bind_type": true
-              },
-              "length_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "u32",
-                "reinterpret": "u32",
-                "data_encoding": "leb128"
-              }
+              "interpretation": "u32",
+              "reinterpret": "u32",
+              "data_encoding": "leb128"
             }
           },
           "metadata": {
@@ -19758,7 +19630,7 @@
     },
     {
       "name": "Gatherings Config",
-      "hash": "8e538833a92659f2608a172875308a65bed3e93109a315716a4496c62317ef1c",
+      "hash": "616df1d5723704a023a5e20521cea29ec34174891ab8e5f28f3adeada1adb443",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -19766,15 +19638,11 @@
           "name": "Experience Id",
           "is_constant": false,
           "type": {
-            "name": "optional",
-            "is_bind_type": false,
-            "element_type": {
-              "name": "Mce Uuid",
-              "bind_type": "struct",
-              "is_bind_type": true,
-              "metadata": {
-                "pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
-              }
+            "name": "Mce Uuid",
+            "bind_type": "struct",
+            "is_bind_type": true,
+            "metadata": {
+              "pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
             }
           },
           "metadata": {
@@ -19788,22 +19656,18 @@
           "name": "Experience Name",
           "is_constant": false,
           "type": {
-            "name": "optional",
+            "name": "string",
             "is_bind_type": false,
-            "element_type": {
-              "name": "string",
+            "metadata": {
+              "min_length": 1,
+              "max_length": 29
+            },
+            "length_encoding": {
+              "name": "integer",
               "is_bind_type": false,
-              "metadata": {
-                "min_length": 1,
-                "max_length": 29
-              },
-              "length_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "i32",
-                "reinterpret": "i32",
-                "data_encoding": "zleb128"
-              }
+              "interpretation": "i32",
+              "reinterpret": "i32",
+              "data_encoding": "zleb128"
             }
           },
           "metadata": {
@@ -19853,22 +19717,18 @@
           "name": "Creator Id",
           "is_constant": false,
           "type": {
-            "name": "optional",
+            "name": "string",
             "is_bind_type": false,
-            "element_type": {
-              "name": "string",
+            "metadata": {
+              "min_length": 1,
+              "max_length": 60
+            },
+            "length_encoding": {
+              "name": "integer",
               "is_bind_type": false,
-              "metadata": {
-                "min_length": 1,
-                "max_length": 60
-              },
-              "length_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "i32",
-                "reinterpret": "i32",
-                "data_encoding": "zleb128"
-              }
+              "interpretation": "i32",
+              "reinterpret": "i32",
+              "data_encoding": "zleb128"
             }
           },
           "metadata": {
@@ -27079,7 +26939,7 @@
     },
     {
       "name": "Message And Params",
-      "hash": "49485e2c1a703790aa158fa6597f1578cbbe60dfd753ddcc24fe7b65d76cde0b",
+      "hash": "d9761709139176c1e987e42e3a814ca5427f33b9151b02a91efd9eb67a923827",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -27105,22 +26965,18 @@
           "name": "Message",
           "is_constant": false,
           "type": {
-            "name": "optional",
+            "name": "string",
             "is_bind_type": false,
-            "element_type": {
-              "name": "string",
+            "metadata": {
+              "min_length": 1,
+              "max_length": 65536
+            },
+            "length_encoding": {
+              "name": "integer",
               "is_bind_type": false,
-              "metadata": {
-                "min_length": 1,
-                "max_length": 65536
-              },
-              "length_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "i32",
-                "reinterpret": "i32",
-                "data_encoding": "zleb128"
-              }
+              "interpretation": "i32",
+              "reinterpret": "i32",
+              "data_encoding": "zleb128"
             }
           },
           "metadata": {
@@ -27131,32 +26987,28 @@
           "name": "Parameter List",
           "is_constant": false,
           "type": {
-            "name": "optional",
+            "name": "array",
             "is_bind_type": false,
+            "metadata": {
+              "max_length": 4
+            },
             "element_type": {
-              "name": "array",
+              "name": "string",
               "is_bind_type": false,
-              "metadata": {
-                "max_length": 4
-              },
-              "element_type": {
-                "name": "string",
-                "is_bind_type": false,
-                "length_encoding": {
-                  "name": "integer",
-                  "is_bind_type": false,
-                  "interpretation": "i32",
-                  "reinterpret": "i32",
-                  "data_encoding": "zleb128"
-                }
-              },
               "length_encoding": {
                 "name": "integer",
                 "is_bind_type": false,
-                "interpretation": "u32",
-                "reinterpret": "u32",
-                "data_encoding": "leb128"
+                "interpretation": "i32",
+                "reinterpret": "i32",
+                "data_encoding": "zleb128"
               }
+            },
+            "length_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "u32",
+              "reinterpret": "u32",
+              "data_encoding": "leb128"
             }
           },
           "metadata": {
@@ -27167,7 +27019,7 @@
     },
     {
       "name": "Message Only",
-      "hash": "32ee4dcc4639346a9e501950d4573849c4abfead6bd73cffbd9903e584e5a1b7",
+      "hash": "e5bee76cdb6efba6f3f3d57e194ebb576506d2740a3eabb0f1327ea0ce8327f5",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -27193,22 +27045,18 @@
           "name": "Message",
           "is_constant": false,
           "type": {
-            "name": "optional",
+            "name": "string",
             "is_bind_type": false,
-            "element_type": {
-              "name": "string",
+            "metadata": {
+              "min_length": 1,
+              "max_length": 65536
+            },
+            "length_encoding": {
+              "name": "integer",
               "is_bind_type": false,
-              "metadata": {
-                "min_length": 1,
-                "max_length": 65536
-              },
-              "length_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "i32",
-                "reinterpret": "i32",
-                "data_encoding": "zleb128"
-              }
+              "interpretation": "i32",
+              "reinterpret": "i32",
+              "data_encoding": "zleb128"
             }
           },
           "metadata": {
@@ -30923,7 +30771,7 @@
     },
     {
       "name": "Player List Packet Payload",
-      "hash": "cc62628c08a558b39dacdaedef2616de5adc56b418b5a58df4609fe8d7bc826b",
+      "hash": "1a4afa89740ef542a5fa28f71a1a567bcd72face48286259dda8eccf34ecb19d",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -30931,40 +30779,36 @@
           "name": "Entries",
           "is_constant": false,
           "type": {
-            "name": "optional",
+            "name": "array",
             "is_bind_type": false,
+            "metadata": {
+              "max_length": 1000
+            },
             "element_type": {
-              "name": "array",
-              "is_bind_type": false,
-              "metadata": {
-                "max_length": 1000
+              "name": "Player List Packet Payload Entries Item",
+              "bind_type": "union",
+              "is_bind_type": true,
+              "enum_encoding": {
+                "name": "integer",
+                "is_bind_type": false,
+                "interpretation": "u32",
+                "reinterpret": "u32",
+                "data_encoding": "leb128"
               },
-              "element_type": {
-                "name": "Player List Packet Payload Entries Item",
-                "bind_type": "union",
-                "is_bind_type": true,
-                "enum_encoding": {
-                  "name": "integer",
-                  "is_bind_type": false,
-                  "interpretation": "u32",
-                  "reinterpret": "u32",
-                  "data_encoding": "leb128"
-                },
-                "control_encoding": {
-                  "name": "integer",
-                  "is_bind_type": false,
-                  "interpretation": "u32",
-                  "reinterpret": "u32",
-                  "data_encoding": "leb128"
-                }
-              },
-              "length_encoding": {
+              "control_encoding": {
                 "name": "integer",
                 "is_bind_type": false,
                 "interpretation": "u32",
                 "reinterpret": "u32",
                 "data_encoding": "leb128"
               }
+            },
+            "length_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "u32",
+              "reinterpret": "u32",
+              "data_encoding": "leb128"
             }
           },
           "metadata": {
@@ -31506,7 +31350,7 @@
     },
     {
       "name": "Player Video Capture Packet Payload",
-      "hash": "bd5e32647b3a1a9a3c06c6ae34cc7f30d3fa656247001abfc544e645bdb4b5f9",
+      "hash": "be3fcf85cf0a2fa88cc77ca99cf2da2077955821520609ea033af4cc0dfca05c",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -31514,26 +31358,22 @@
           "name": "Start Video Capture",
           "is_constant": false,
           "type": {
-            "name": "optional",
-            "is_bind_type": false,
-            "element_type": {
-              "name": "Player Video Capture Packet Payload Start Video Capture",
-              "bind_type": "union",
-              "is_bind_type": true,
-              "enum_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "u32",
-                "reinterpret": "u32",
-                "data_encoding": "leb128"
-              },
-              "control_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "u32",
-                "reinterpret": "u32",
-                "data_encoding": "leb128"
-              }
+            "name": "Player Video Capture Packet Payload Start Video Capture",
+            "bind_type": "union",
+            "is_bind_type": true,
+            "enum_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "u32",
+              "reinterpret": "u32",
+              "data_encoding": "leb128"
+            },
+            "control_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "u32",
+              "reinterpret": "u32",
+              "data_encoding": "leb128"
             }
           },
           "metadata": {
@@ -31547,26 +31387,22 @@
           "name": "Stop Video Capture",
           "is_constant": false,
           "type": {
-            "name": "optional",
-            "is_bind_type": false,
-            "element_type": {
-              "name": "Player Video Capture Packet Payload Stop Video Capture",
-              "bind_type": "union",
-              "is_bind_type": true,
-              "enum_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "u32",
-                "reinterpret": "u32",
-                "data_encoding": "leb128"
-              },
-              "control_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "u32",
-                "reinterpret": "u32",
-                "data_encoding": "leb128"
-              }
+            "name": "Player Video Capture Packet Payload Stop Video Capture",
+            "bind_type": "union",
+            "is_bind_type": true,
+            "enum_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "u32",
+              "reinterpret": "u32",
+              "data_encoding": "leb128"
+            },
+            "control_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "u32",
+              "reinterpret": "u32",
+              "data_encoding": "leb128"
             }
           },
           "metadata": {
@@ -31879,7 +31715,7 @@
     },
     {
       "name": "Text Data Payload",
-      "hash": "24665c8e748d67c5052286cbee1217cff7a509359bbd8ee597699170557c3b8c",
+      "hash": "7187b21da8e38c9467f7dfc98dbe72934246dfd6e4f38bfd1b665b8cd000bd4b",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -31902,13 +31738,9 @@
           "name": "Use Rotation",
           "is_constant": false,
           "type": {
-            "name": "optional",
+            "name": "boolean",
             "is_bind_type": false,
-            "element_type": {
-              "name": "boolean",
-              "is_bind_type": false,
-              "data_encoding": "bool"
-            }
+            "data_encoding": "bool"
           },
           "metadata": {
             "default_value": false
@@ -31931,15 +31763,11 @@
           "name": "Line Gap Height",
           "is_constant": false,
           "type": {
-            "name": "optional",
+            "name": "float",
             "is_bind_type": false,
-            "element_type": {
-              "name": "float",
-              "is_bind_type": false,
-              "interpretation": "f32",
-              "reinterpret": "f32",
-              "data_encoding": "little_endian"
-            }
+            "interpretation": "f32",
+            "reinterpret": "f32",
+            "data_encoding": "little_endian"
           },
           "metadata": {
             "default_value": 0
@@ -31949,13 +31777,9 @@
           "name": "Depth Test",
           "is_constant": false,
           "type": {
-            "name": "optional",
+            "name": "boolean",
             "is_bind_type": false,
-            "element_type": {
-              "name": "boolean",
-              "is_bind_type": false,
-              "data_encoding": "bool"
-            }
+            "data_encoding": "bool"
           },
           "metadata": {
             "default_value": false
@@ -31965,13 +31789,9 @@
           "name": "Show Backface",
           "is_constant": false,
           "type": {
-            "name": "optional",
+            "name": "boolean",
             "is_bind_type": false,
-            "element_type": {
-              "name": "boolean",
-              "is_bind_type": false,
-              "data_encoding": "bool"
-            }
+            "data_encoding": "bool"
           },
           "metadata": {
             "default_value": false
@@ -31981,13 +31801,9 @@
           "name": "Show Text Backface",
           "is_constant": false,
           "type": {
-            "name": "optional",
+            "name": "boolean",
             "is_bind_type": false,
-            "element_type": {
-              "name": "boolean",
-              "is_bind_type": false,
-              "data_encoding": "bool"
-            }
+            "data_encoding": "bool"
           },
           "metadata": {
             "default_value": false
@@ -32197,7 +32013,7 @@
     },
     {
       "name": "Primitive Shape Data Payload",
-      "hash": "d7b376a092c9aecae301c990c0751f599b994338c2c0f65f79e9238ae23024a6",
+      "hash": "aba3da136261a2dfb3a24360c02bc0424de56dcebc372e8ce8145730a8179300",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -32351,26 +32167,22 @@
           "name": "Extra Shape Data",
           "is_constant": false,
           "type": {
-            "name": "optional",
-            "is_bind_type": false,
-            "element_type": {
-              "name": "Primitive Shape Data Payload Extra Shape Data",
-              "bind_type": "union",
-              "is_bind_type": true,
-              "enum_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "u32",
-                "reinterpret": "u32",
-                "data_encoding": "leb128"
-              },
-              "control_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "u32",
-                "reinterpret": "u32",
-                "data_encoding": "leb128"
-              }
+            "name": "Primitive Shape Data Payload Extra Shape Data",
+            "bind_type": "union",
+            "is_bind_type": true,
+            "enum_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "u32",
+              "reinterpret": "u32",
+              "data_encoding": "leb128"
+            },
+            "control_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "u32",
+              "reinterpret": "u32",
+              "data_encoding": "leb128"
             }
           },
           "metadata": {
@@ -33674,7 +33486,7 @@
     },
     {
       "name": "Serverbound Data Driven Screen Closed Packet Payload",
-      "hash": "8521a825b9e4b798417ea939c526e2fb2eed18a68ef0becf8a3425cb736629b4",
+      "hash": "518dc16d9b5677a1fc8788287b879869568afe2192a1a40466f28cbe9795b0cd",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -33682,18 +33494,14 @@
           "name": "Form Id",
           "is_constant": false,
           "type": {
-            "name": "optional",
+            "name": "integer",
             "is_bind_type": false,
-            "element_type": {
-              "name": "integer",
-              "is_bind_type": false,
-              "interpretation": "u32",
-              "metadata": {
-                "min_value": 0
-              },
-              "reinterpret": "u32",
-              "data_encoding": "little_endian"
-            }
+            "interpretation": "u32",
+            "metadata": {
+              "min_value": 0
+            },
+            "reinterpret": "u32",
+            "data_encoding": "little_endian"
           },
           "metadata": {
             "default_value": 0
@@ -35222,7 +35030,7 @@
     },
     {
       "name": "Set Score Packet Payload",
-      "hash": "112cb5d3d2d9c6378eed7b7a229f0d589c00450d390c1d00ac5e1d1edb73a26b",
+      "hash": "b16b5022c8c5bc6432ce863b23e503e75889054905934a7e5c2d887a1ccc8ef6",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -35230,37 +35038,33 @@
           "name": "Score Info",
           "is_constant": false,
           "type": {
-            "name": "optional",
+            "name": "array",
             "is_bind_type": false,
             "element_type": {
-              "name": "array",
-              "is_bind_type": false,
-              "element_type": {
-                "name": "Set Score Packet Payload Score Info Item",
-                "bind_type": "union",
-                "is_bind_type": true,
-                "enum_encoding": {
-                  "name": "integer",
-                  "is_bind_type": false,
-                  "interpretation": "u32",
-                  "reinterpret": "u32",
-                  "data_encoding": "leb128"
-                },
-                "control_encoding": {
-                  "name": "integer",
-                  "is_bind_type": false,
-                  "interpretation": "u32",
-                  "reinterpret": "u32",
-                  "data_encoding": "leb128"
-                }
+              "name": "Set Score Packet Payload Score Info Item",
+              "bind_type": "union",
+              "is_bind_type": true,
+              "enum_encoding": {
+                "name": "integer",
+                "is_bind_type": false,
+                "interpretation": "u32",
+                "reinterpret": "u32",
+                "data_encoding": "leb128"
               },
-              "length_encoding": {
+              "control_encoding": {
                 "name": "integer",
                 "is_bind_type": false,
                 "interpretation": "u32",
                 "reinterpret": "u32",
                 "data_encoding": "leb128"
               }
+            },
+            "length_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "u32",
+              "reinterpret": "u32",
+              "data_encoding": "leb128"
             }
           },
           "metadata": {
@@ -37556,7 +37360,7 @@
     },
     {
       "name": "Text Packet Payload",
-      "hash": "7c8114b2f7a5565cb0b013939fa7e87e756e79eed2d6fb3d9bb4fd4bb659eb8d",
+      "hash": "f30fc3901438b70b1cb4369d07c03fc4b85ef89f199b80130fa751e53188967a",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -37596,21 +37400,17 @@
           "name": "Sender S Xuid",
           "is_constant": false,
           "type": {
-            "name": "optional",
+            "name": "string",
             "is_bind_type": false,
-            "element_type": {
-              "name": "string",
+            "metadata": {
+              "max_length": 64
+            },
+            "length_encoding": {
+              "name": "integer",
               "is_bind_type": false,
-              "metadata": {
-                "max_length": 64
-              },
-              "length_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "i32",
-                "reinterpret": "i32",
-                "data_encoding": "zleb128"
-              }
+              "interpretation": "i32",
+              "reinterpret": "i32",
+              "data_encoding": "zleb128"
             }
           },
           "metadata": {
@@ -37621,21 +37421,17 @@
           "name": "Platform Id",
           "is_constant": false,
           "type": {
-            "name": "optional",
+            "name": "string",
             "is_bind_type": false,
-            "element_type": {
-              "name": "string",
+            "metadata": {
+              "max_length": 256
+            },
+            "length_encoding": {
+              "name": "integer",
               "is_bind_type": false,
-              "metadata": {
-                "max_length": 256
-              },
-              "length_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "i32",
-                "reinterpret": "i32",
-                "data_encoding": "zleb128"
-              }
+              "interpretation": "i32",
+              "reinterpret": "i32",
+              "data_encoding": "zleb128"
             }
           },
           "metadata": {

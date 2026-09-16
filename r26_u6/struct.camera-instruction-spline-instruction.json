@@ -1,6 +1,6 @@
 {
   "name": "Camera Instruction Spline Instruction",
-  "hash": "a6d5867643080ab8bf6e8912f4b24937ee7a54d5f53319a9cb05ccf1521c4625",
+  "hash": "5f1e13947ffac4f1c99acd229c1c7b212b25d16fd6be78fada6adce428d69514",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [
@@ -94,21 +94,17 @@
       "name": "Spline Identifier",
       "is_constant": false,
       "type": {
-        "name": "optional",
+        "name": "string",
         "is_bind_type": false,
-        "element_type": {
-          "name": "string",
+        "metadata": {
+          "max_length": 1024
+        },
+        "length_encoding": {
+          "name": "integer",
           "is_bind_type": false,
-          "metadata": {
-            "max_length": 1024
-          },
-          "length_encoding": {
-            "name": "integer",
-            "is_bind_type": false,
-            "interpretation": "i32",
-            "reinterpret": "i32",
-            "data_encoding": "zleb128"
-          }
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
         }
       },
       "metadata": {
@@ -119,13 +115,9 @@
       "name": "Load From Json",
       "is_constant": false,
       "type": {
-        "name": "optional",
+        "name": "boolean",
         "is_bind_type": false,
-        "element_type": {
-          "name": "boolean",
-          "is_bind_type": false,
-          "data_encoding": "bool"
-        }
+        "data_encoding": "bool"
       },
       "metadata": {
         "default_value": false

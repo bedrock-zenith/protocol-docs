@@ -1,6 +1,6 @@
 {
   "name": "Gatherings Config",
-  "hash": "8e538833a92659f2608a172875308a65bed3e93109a315716a4496c62317ef1c",
+  "hash": "616df1d5723704a023a5e20521cea29ec34174891ab8e5f28f3adeada1adb443",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [
@@ -8,15 +8,11 @@
       "name": "Experience Id",
       "is_constant": false,
       "type": {
-        "name": "optional",
-        "is_bind_type": false,
-        "element_type": {
-          "name": "Mce Uuid",
-          "bind_type": "struct",
-          "is_bind_type": true,
-          "metadata": {
-            "pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
-          }
+        "name": "Mce Uuid",
+        "bind_type": "struct",
+        "is_bind_type": true,
+        "metadata": {
+          "pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
         }
       },
       "metadata": {
@@ -30,22 +26,18 @@
       "name": "Experience Name",
       "is_constant": false,
       "type": {
-        "name": "optional",
+        "name": "string",
         "is_bind_type": false,
-        "element_type": {
-          "name": "string",
+        "metadata": {
+          "min_length": 1,
+          "max_length": 29
+        },
+        "length_encoding": {
+          "name": "integer",
           "is_bind_type": false,
-          "metadata": {
-            "min_length": 1,
-            "max_length": 29
-          },
-          "length_encoding": {
-            "name": "integer",
-            "is_bind_type": false,
-            "interpretation": "i32",
-            "reinterpret": "i32",
-            "data_encoding": "zleb128"
-          }
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
         }
       },
       "metadata": {
@@ -95,22 +87,18 @@
       "name": "Creator Id",
       "is_constant": false,
       "type": {
-        "name": "optional",
+        "name": "string",
         "is_bind_type": false,
-        "element_type": {
-          "name": "string",
+        "metadata": {
+          "min_length": 1,
+          "max_length": 60
+        },
+        "length_encoding": {
+          "name": "integer",
           "is_bind_type": false,
-          "metadata": {
-            "min_length": 1,
-            "max_length": 60
-          },
-          "length_encoding": {
-            "name": "integer",
-            "is_bind_type": false,
-            "interpretation": "i32",
-            "reinterpret": "i32",
-            "data_encoding": "zleb128"
-          }
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
         }
       },
       "metadata": {

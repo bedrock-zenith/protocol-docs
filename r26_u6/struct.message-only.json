@@ -1,6 +1,6 @@
 {
   "name": "Message Only",
-  "hash": "32ee4dcc4639346a9e501950d4573849c4abfead6bd73cffbd9903e584e5a1b7",
+  "hash": "e5bee76cdb6efba6f3f3d57e194ebb576506d2740a3eabb0f1327ea0ce8327f5",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [
@@ -26,22 +26,18 @@
       "name": "Message",
       "is_constant": false,
       "type": {
-        "name": "optional",
+        "name": "string",
         "is_bind_type": false,
-        "element_type": {
-          "name": "string",
+        "metadata": {
+          "min_length": 1,
+          "max_length": 65536
+        },
+        "length_encoding": {
+          "name": "integer",
           "is_bind_type": false,
-          "metadata": {
-            "min_length": 1,
-            "max_length": 65536
-          },
-          "length_encoding": {
-            "name": "integer",
-            "is_bind_type": false,
-            "interpretation": "i32",
-            "reinterpret": "i32",
-            "data_encoding": "zleb128"
-          }
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
         }
       },
       "metadata": {

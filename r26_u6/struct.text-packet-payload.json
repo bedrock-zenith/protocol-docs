@@ -1,6 +1,6 @@
 {
   "name": "Text Packet Payload",
-  "hash": "7c8114b2f7a5565cb0b013939fa7e87e756e79eed2d6fb3d9bb4fd4bb659eb8d",
+  "hash": "f30fc3901438b70b1cb4369d07c03fc4b85ef89f199b80130fa751e53188967a",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [
@@ -40,21 +40,17 @@
       "name": "Sender S Xuid",
       "is_constant": false,
       "type": {
-        "name": "optional",
+        "name": "string",
         "is_bind_type": false,
-        "element_type": {
-          "name": "string",
+        "metadata": {
+          "max_length": 64
+        },
+        "length_encoding": {
+          "name": "integer",
           "is_bind_type": false,
-          "metadata": {
-            "max_length": 64
-          },
-          "length_encoding": {
-            "name": "integer",
-            "is_bind_type": false,
-            "interpretation": "i32",
-            "reinterpret": "i32",
-            "data_encoding": "zleb128"
-          }
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
         }
       },
       "metadata": {
@@ -65,21 +61,17 @@
       "name": "Platform Id",
       "is_constant": false,
       "type": {
-        "name": "optional",
+        "name": "string",
         "is_bind_type": false,
-        "element_type": {
-          "name": "string",
+        "metadata": {
+          "max_length": 256
+        },
+        "length_encoding": {
+          "name": "integer",
           "is_bind_type": false,
-          "metadata": {
-            "max_length": 256
-          },
-          "length_encoding": {
-            "name": "integer",
-            "is_bind_type": false,
-            "interpretation": "i32",
-            "reinterpret": "i32",
-            "data_encoding": "zleb128"
-          }
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
         }
       },
       "metadata": {

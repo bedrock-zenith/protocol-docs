@@ -1,6 +1,6 @@
 {
   "name": "Available Commands Packet Chained Subcommand Data",
-  "hash": "5b4155da0179dfb85c7b3cc514040005258639c8ead4c929fdb36e7b0ec6eefe",
+  "hash": "e4fe8eb8fcd29defd29fdeef2f3156c95f9f8f84a1bdf65babcde877b1c0ed71",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [
@@ -26,26 +26,22 @@
       "name": "Sub Command Values",
       "is_constant": false,
       "type": {
-        "name": "optional",
+        "name": "array",
         "is_bind_type": false,
+        "metadata": {
+          "max_length": 32
+        },
         "element_type": {
-          "name": "array",
+          "name": "Available Commands Packet Chained Subcommand Relationship",
+          "bind_type": "struct",
+          "is_bind_type": true
+        },
+        "length_encoding": {
+          "name": "integer",
           "is_bind_type": false,
-          "metadata": {
-            "max_length": 32
-          },
-          "element_type": {
-            "name": "Available Commands Packet Chained Subcommand Relationship",
-            "bind_type": "struct",
-            "is_bind_type": true
-          },
-          "length_encoding": {
-            "name": "integer",
-            "is_bind_type": false,
-            "interpretation": "u32",
-            "reinterpret": "u32",
-            "data_encoding": "leb128"
-          }
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
         }
       },
       "metadata": {

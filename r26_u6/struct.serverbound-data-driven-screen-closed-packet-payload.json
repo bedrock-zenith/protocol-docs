@@ -1,6 +1,6 @@
 {
   "name": "Serverbound Data Driven Screen Closed Packet Payload",
-  "hash": "8521a825b9e4b798417ea939c526e2fb2eed18a68ef0becf8a3425cb736629b4",
+  "hash": "518dc16d9b5677a1fc8788287b879869568afe2192a1a40466f28cbe9795b0cd",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [
@@ -8,18 +8,14 @@
       "name": "Form Id",
       "is_constant": false,
       "type": {
-        "name": "optional",
+        "name": "integer",
         "is_bind_type": false,
-        "element_type": {
-          "name": "integer",
-          "is_bind_type": false,
-          "interpretation": "u32",
-          "metadata": {
-            "min_value": 0
-          },
-          "reinterpret": "u32",
-          "data_encoding": "little_endian"
-        }
+        "interpretation": "u32",
+        "metadata": {
+          "min_value": 0
+        },
+        "reinterpret": "u32",
+        "data_encoding": "little_endian"
       },
       "metadata": {
         "default_value": 0

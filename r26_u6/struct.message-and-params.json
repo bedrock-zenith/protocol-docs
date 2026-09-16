@@ -1,6 +1,6 @@
 {
   "name": "Message And Params",
-  "hash": "49485e2c1a703790aa158fa6597f1578cbbe60dfd753ddcc24fe7b65d76cde0b",
+  "hash": "d9761709139176c1e987e42e3a814ca5427f33b9151b02a91efd9eb67a923827",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [
@@ -26,22 +26,18 @@
       "name": "Message",
       "is_constant": false,
       "type": {
-        "name": "optional",
+        "name": "string",
         "is_bind_type": false,
-        "element_type": {
-          "name": "string",
+        "metadata": {
+          "min_length": 1,
+          "max_length": 65536
+        },
+        "length_encoding": {
+          "name": "integer",
           "is_bind_type": false,
-          "metadata": {
-            "min_length": 1,
-            "max_length": 65536
-          },
-          "length_encoding": {
-            "name": "integer",
-            "is_bind_type": false,
-            "interpretation": "i32",
-            "reinterpret": "i32",
-            "data_encoding": "zleb128"
-          }
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
         }
       },
       "metadata": {
@@ -52,32 +48,28 @@
       "name": "Parameter List",
       "is_constant": false,
       "type": {
-        "name": "optional",
+        "name": "array",
         "is_bind_type": false,
+        "metadata": {
+          "max_length": 4
+        },
         "element_type": {
-          "name": "array",
+          "name": "string",
           "is_bind_type": false,
-          "metadata": {
-            "max_length": 4
-          },
-          "element_type": {
-            "name": "string",
-            "is_bind_type": false,
-            "length_encoding": {
-              "name": "integer",
-              "is_bind_type": false,
-              "interpretation": "i32",
-              "reinterpret": "i32",
-              "data_encoding": "zleb128"
-            }
-          },
           "length_encoding": {
             "name": "integer",
             "is_bind_type": false,
-            "interpretation": "u32",
-            "reinterpret": "u32",
-            "data_encoding": "leb128"
+            "interpretation": "i32",
+            "reinterpret": "i32",
+            "data_encoding": "zleb128"
           }
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
         }
       },
       "metadata": {

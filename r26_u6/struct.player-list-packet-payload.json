@@ -1,6 +1,6 @@
 {
   "name": "Player List Packet Payload",
-  "hash": "cc62628c08a558b39dacdaedef2616de5adc56b418b5a58df4609fe8d7bc826b",
+  "hash": "1a4afa89740ef542a5fa28f71a1a567bcd72face48286259dda8eccf34ecb19d",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [
@@ -8,40 +8,36 @@
       "name": "Entries",
       "is_constant": false,
       "type": {
-        "name": "optional",
+        "name": "array",
         "is_bind_type": false,
+        "metadata": {
+          "max_length": 1000
+        },
         "element_type": {
-          "name": "array",
-          "is_bind_type": false,
-          "metadata": {
-            "max_length": 1000
+          "name": "Player List Packet Payload Entries Item",
+          "bind_type": "union",
+          "is_bind_type": true,
+          "enum_encoding": {
+            "name": "integer",
+            "is_bind_type": false,
+            "interpretation": "u32",
+            "reinterpret": "u32",
+            "data_encoding": "leb128"
           },
-          "element_type": {
-            "name": "Player List Packet Payload Entries Item",
-            "bind_type": "union",
-            "is_bind_type": true,
-            "enum_encoding": {
-              "name": "integer",
-              "is_bind_type": false,
-              "interpretation": "u32",
-              "reinterpret": "u32",
-              "data_encoding": "leb128"
-            },
-            "control_encoding": {
-              "name": "integer",
-              "is_bind_type": false,
-              "interpretation": "u32",
-              "reinterpret": "u32",
-              "data_encoding": "leb128"
-            }
-          },
-          "length_encoding": {
+          "control_encoding": {
             "name": "integer",
             "is_bind_type": false,
             "interpretation": "u32",
             "reinterpret": "u32",
             "data_encoding": "leb128"
           }
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
         }
       },
       "metadata": {

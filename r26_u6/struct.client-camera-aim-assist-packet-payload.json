@@ -1,6 +1,6 @@
 {
   "name": "Client Camera Aim Assist Packet Payload",
-  "hash": "0f5c056b9c80470cd94044a29e604ebce4b8f1f26a8af5c99a566198dec59050",
+  "hash": "40c8723b74c475d0c1626e6e6cc4c7323bda42fe5b169501471870c39e470db2",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [
@@ -41,13 +41,9 @@
       "name": "Allow Aim Assist",
       "is_constant": false,
       "type": {
-        "name": "optional",
+        "name": "boolean",
         "is_bind_type": false,
-        "element_type": {
-          "name": "boolean",
-          "is_bind_type": false,
-          "data_encoding": "bool"
-        }
+        "data_encoding": "bool"
       },
       "metadata": {
         "default_value": false

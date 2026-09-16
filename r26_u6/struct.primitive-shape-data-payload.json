@@ -1,6 +1,6 @@
 {
   "name": "Primitive Shape Data Payload",
-  "hash": "d7b376a092c9aecae301c990c0751f599b994338c2c0f65f79e9238ae23024a6",
+  "hash": "aba3da136261a2dfb3a24360c02bc0424de56dcebc372e8ce8145730a8179300",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [
@@ -154,26 +154,22 @@
       "name": "Extra Shape Data",
       "is_constant": false,
       "type": {
-        "name": "optional",
-        "is_bind_type": false,
-        "element_type": {
-          "name": "Primitive Shape Data Payload Extra Shape Data",
-          "bind_type": "union",
-          "is_bind_type": true,
-          "enum_encoding": {
-            "name": "integer",
-            "is_bind_type": false,
-            "interpretation": "u32",
-            "reinterpret": "u32",
-            "data_encoding": "leb128"
-          },
-          "control_encoding": {
-            "name": "integer",
-            "is_bind_type": false,
-            "interpretation": "u32",
-            "reinterpret": "u32",
-            "data_encoding": "leb128"
-          }
+        "name": "Primitive Shape Data Payload Extra Shape Data",
+        "bind_type": "union",
+        "is_bind_type": true,
+        "enum_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        },
+        "control_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
         }
       },
       "metadata": {

@@ -1,6 +1,6 @@
 {
   "name": "Float Attribute Data",
-  "hash": "af4af71bf8b5c115f5434dece2c2ecc9b84fa052c52fca8323ca03874d7938ad",
+  "hash": "596135b515118d49025e400c48995f9b18f51426570e92a1a202ab652e9d7b9d",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [
@@ -19,24 +19,20 @@
       "name": "Operation",
       "is_constant": false,
       "type": {
-        "name": "optional",
-        "is_bind_type": false,
-        "element_type": {
-          "name": "Float Attribute Operation",
-          "bind_type": "enum",
-          "is_bind_type": true,
-          "exhaustive": "exhaustive",
-          "enum_encoding": "literal",
-          "data_encoding": {
-            "name": "string",
+        "name": "Float Attribute Operation",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "literal",
+        "data_encoding": {
+          "name": "string",
+          "is_bind_type": false,
+          "length_encoding": {
+            "name": "integer",
             "is_bind_type": false,
-            "length_encoding": {
-              "name": "integer",
-              "is_bind_type": false,
-              "interpretation": "i32",
-              "reinterpret": "i32",
-              "data_encoding": "zleb128"
-            }
+            "interpretation": "i32",
+            "reinterpret": "i32",
+            "data_encoding": "zleb128"
           }
         }
       },

@@ -1,6 +1,6 @@
 {
   "name": "Camera Spline Definition",
-  "hash": "3142b4829e34cd6970b60679220bd1ff012ca4c1ce6d01998451c29b42758c3b",
+  "hash": "3e9ca223f7005cfca461d5b1813b93b43d779a10a96bb8cb7856ed2b941342b0",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [
@@ -40,21 +40,17 @@
       "name": "Spline Type",
       "is_constant": false,
       "type": {
-        "name": "optional",
+        "name": "string",
         "is_bind_type": false,
-        "element_type": {
-          "name": "string",
+        "metadata": {
+          "pattern": "^(?:catmullrom|linear)$"
+        },
+        "length_encoding": {
+          "name": "integer",
           "is_bind_type": false,
-          "metadata": {
-            "pattern": "^(?:catmullrom|linear)$"
-          },
-          "length_encoding": {
-            "name": "integer",
-            "is_bind_type": false,
-            "interpretation": "i32",
-            "reinterpret": "i32",
-            "data_encoding": "zleb128"
-          }
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
         }
       },
       "metadata": {

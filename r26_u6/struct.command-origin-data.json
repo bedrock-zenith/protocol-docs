@@ -1,6 +1,6 @@
 {
   "name": "Command Origin Data",
-  "hash": "0ee6ebfbadee0b2077643d4a081733d5a53e2d1c9b71a8ec01699140dd3d93c4",
+  "hash": "1d4160ab83f7ce9daaa0bc5d2c1db195932afa3a90faf3074ad77990c59fc94a",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [
@@ -39,21 +39,17 @@
       "name": "Request Id",
       "is_constant": false,
       "type": {
-        "name": "optional",
+        "name": "string",
         "is_bind_type": false,
-        "element_type": {
-          "name": "string",
+        "metadata": {
+          "max_length": 39
+        },
+        "length_encoding": {
+          "name": "integer",
           "is_bind_type": false,
-          "metadata": {
-            "max_length": 39
-          },
-          "length_encoding": {
-            "name": "integer",
-            "is_bind_type": false,
-            "interpretation": "i32",
-            "reinterpret": "i32",
-            "data_encoding": "zleb128"
-          }
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
         }
       },
       "metadata": {
@@ -64,15 +60,11 @@
       "name": "Player Id",
       "is_constant": false,
       "type": {
-        "name": "optional",
+        "name": "integer",
         "is_bind_type": false,
-        "element_type": {
-          "name": "integer",
-          "is_bind_type": false,
-          "interpretation": "i64",
-          "reinterpret": "i64",
-          "data_encoding": "little_endian"
-        }
+        "interpretation": "i64",
+        "reinterpret": "i64",
+        "data_encoding": "little_endian"
       },
       "metadata": {
         "default_value": 0

@@ -1,6 +1,6 @@
 {
   "name": "Text Data Payload",
-  "hash": "24665c8e748d67c5052286cbee1217cff7a509359bbd8ee597699170557c3b8c",
+  "hash": "7187b21da8e38c9467f7dfc98dbe72934246dfd6e4f38bfd1b665b8cd000bd4b",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [
@@ -23,13 +23,9 @@
       "name": "Use Rotation",
       "is_constant": false,
       "type": {
-        "name": "optional",
+        "name": "boolean",
         "is_bind_type": false,
-        "element_type": {
-          "name": "boolean",
-          "is_bind_type": false,
-          "data_encoding": "bool"
-        }
+        "data_encoding": "bool"
       },
       "metadata": {
         "default_value": false
@@ -52,15 +48,11 @@
       "name": "Line Gap Height",
       "is_constant": false,
       "type": {
-        "name": "optional",
+        "name": "float",
         "is_bind_type": false,
-        "element_type": {
-          "name": "float",
-          "is_bind_type": false,
-          "interpretation": "f32",
-          "reinterpret": "f32",
-          "data_encoding": "little_endian"
-        }
+        "interpretation": "f32",
+        "reinterpret": "f32",
+        "data_encoding": "little_endian"
       },
       "metadata": {
         "default_value": 0
@@ -70,13 +62,9 @@
       "name": "Depth Test",
       "is_constant": false,
       "type": {
-        "name": "optional",
+        "name": "boolean",
         "is_bind_type": false,
-        "element_type": {
-          "name": "boolean",
-          "is_bind_type": false,
-          "data_encoding": "bool"
-        }
+        "data_encoding": "bool"
       },
       "metadata": {
         "default_value": false
@@ -86,13 +74,9 @@
       "name": "Show Backface",
       "is_constant": false,
       "type": {
-        "name": "optional",
+        "name": "boolean",
         "is_bind_type": false,
-        "element_type": {
-          "name": "boolean",
-          "is_bind_type": false,
-          "data_encoding": "bool"
-        }
+        "data_encoding": "bool"
       },
       "metadata": {
         "default_value": false
@@ -102,13 +86,9 @@
       "name": "Show Text Backface",
       "is_constant": false,
       "type": {
-        "name": "optional",
+        "name": "boolean",
         "is_bind_type": false,
-        "element_type": {
-          "name": "boolean",
-          "is_bind_type": false,
-          "data_encoding": "bool"
-        }
+        "data_encoding": "bool"
       },
       "metadata": {
         "default_value": false

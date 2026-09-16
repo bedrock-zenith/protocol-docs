@@ -1,6 +1,6 @@
 {
   "name": "Author And Message",
-  "hash": "8d4370f0f7317f424fbd976533af8f4112b332b7bf7c38b2ab303b6b0678e009",
+  "hash": "a6353fee0cf9a92b9548779c624f6542ef914f57878873688b9a0ba14084bf3d",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [
@@ -26,21 +26,17 @@
       "name": "Player Name",
       "is_constant": false,
       "type": {
-        "name": "optional",
+        "name": "string",
         "is_bind_type": false,
-        "element_type": {
-          "name": "string",
+        "metadata": {
+          "max_length": 256
+        },
+        "length_encoding": {
+          "name": "integer",
           "is_bind_type": false,
-          "metadata": {
-            "max_length": 256
-          },
-          "length_encoding": {
-            "name": "integer",
-            "is_bind_type": false,
-            "interpretation": "i32",
-            "reinterpret": "i32",
-            "data_encoding": "zleb128"
-          }
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
         }
       },
       "metadata": {
@@ -51,22 +47,18 @@
       "name": "Message",
       "is_constant": false,
       "type": {
-        "name": "optional",
+        "name": "string",
         "is_bind_type": false,
-        "element_type": {
-          "name": "string",
+        "metadata": {
+          "min_length": 1,
+          "max_length": 65536
+        },
+        "length_encoding": {
+          "name": "integer",
           "is_bind_type": false,
-          "metadata": {
-            "min_length": 1,
-            "max_length": 65536
-          },
-          "length_encoding": {
-            "name": "integer",
-            "is_bind_type": false,
-            "interpretation": "i32",
-            "reinterpret": "i32",
-            "data_encoding": "zleb128"
-          }
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
         }
       },
       "metadata": {

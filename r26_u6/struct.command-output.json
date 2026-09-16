@@ -1,6 +1,6 @@
 {
   "name": "Command Output",
-  "hash": "117f07ae2a91a416c6f1e033885bf5fa811ba6cb0a7f89b7986821492c129a28",
+  "hash": "f2923aee6f447d899606faa1448459793b504294722fe04dd4df41735e581ab6",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [
@@ -44,23 +44,19 @@
       "name": "Output Messages",
       "is_constant": false,
       "type": {
-        "name": "optional",
+        "name": "array",
         "is_bind_type": false,
         "element_type": {
-          "name": "array",
+          "name": "Command Output Message",
+          "bind_type": "struct",
+          "is_bind_type": true
+        },
+        "length_encoding": {
+          "name": "integer",
           "is_bind_type": false,
-          "element_type": {
-            "name": "Command Output Message",
-            "bind_type": "struct",
-            "is_bind_type": true
-          },
-          "length_encoding": {
-            "name": "integer",
-            "is_bind_type": false,
-            "interpretation": "u32",
-            "reinterpret": "u32",
-            "data_encoding": "leb128"
-          }
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
         }
       },
       "metadata": {
