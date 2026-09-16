@@ -1,7 +1,29 @@
 {
   "name": "Stop",
-  "hash": "ed4630abbbd07b41cd06f885730fd5e3f28cbce8a16959001a0e95fbaa17ec1d",
+  "hash": "6ef3905ffd467de70cb4c6f78a03dae449e6abaa4b2e9a3e29dfefae67e51058",
   "bind_type": "struct",
   "is_bind_type": true,
-  "fields": []
+  "fields": [
+    {
+      "name": "Type",
+      "is_constant": true,
+      "type": {
+        "name": "Sound Data Event Type",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "numeric",
+        "data_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u8",
+          "reinterpret": "u8",
+          "data_encoding": "little_endian"
+        }
+      },
+      "metadata": {
+        "constant_value": "stop"
+      }
+    }
+  ]
 }

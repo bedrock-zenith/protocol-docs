@@ -13006,18 +13006,78 @@
       ]
     },
     {
-      "name": "Stop",
-      "hash": "ed4630abbbd07b41cd06f885730fd5e3f28cbce8a16959001a0e95fbaa17ec1d",
-      "bind_type": "struct",
+      "name": "Sound Data Event Type",
+      "hash": "23e48e37f107d60f74bc31e0db851ba6c1d74d470f5fc061353ec66613400946",
+      "bind_type": "enum",
       "is_bind_type": true,
-      "fields": []
+      "enum_kind": "numeric",
+      "backing_integer": "u8",
+      "enum": {
+        "Stop": 0,
+        "SetVolume": 1,
+        "SetPitch": 2,
+        "Fade": 3,
+        "SeekTo": 4,
+        "Pause": 5,
+        "Resume": 6
+      }
     },
     {
-      "name": "Set Volume",
-      "hash": "b8f5ab8c1ba00e9e81e21da6da583f8610a9b78e4d6a099bf12ce1c3f97589a0",
+      "name": "Stop",
+      "hash": "6ef3905ffd467de70cb4c6f78a03dae449e6abaa4b2e9a3e29dfefae67e51058",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
+        {
+          "name": "Type",
+          "is_constant": true,
+          "type": {
+            "name": "Sound Data Event Type",
+            "bind_type": "enum",
+            "is_bind_type": true,
+            "exhaustive": "exhaustive",
+            "enum_encoding": "numeric",
+            "data_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "u8",
+              "reinterpret": "u8",
+              "data_encoding": "little_endian"
+            }
+          },
+          "metadata": {
+            "constant_value": "stop"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Set Volume",
+      "hash": "a0b797f5bc349b8cbc1e067d43df4c42eb83cb87bcdcc760a31066f46b6c9d85",
+      "bind_type": "struct",
+      "is_bind_type": true,
+      "fields": [
+        {
+          "name": "Type",
+          "is_constant": true,
+          "type": {
+            "name": "Sound Data Event Type",
+            "bind_type": "enum",
+            "is_bind_type": true,
+            "exhaustive": "exhaustive",
+            "enum_encoding": "numeric",
+            "data_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "u8",
+              "reinterpret": "u8",
+              "data_encoding": "little_endian"
+            }
+          },
+          "metadata": {
+            "constant_value": "setvolume"
+          }
+        },
         {
           "name": "Volume",
           "is_constant": false,
@@ -13033,10 +13093,31 @@
     },
     {
       "name": "Set Pitch",
-      "hash": "c61c1905ec6433ec173a8ab222cffdc8b8e35e0a322a2ff0b89a3b778a534875",
+      "hash": "b9f8b1a3c4b227e834aea1f6b12ebd0f1e7bb6478d9d199c81647cd3a6077a06",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
+        {
+          "name": "Type",
+          "is_constant": true,
+          "type": {
+            "name": "Sound Data Event Type",
+            "bind_type": "enum",
+            "is_bind_type": true,
+            "exhaustive": "exhaustive",
+            "enum_encoding": "numeric",
+            "data_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "u8",
+              "reinterpret": "u8",
+              "data_encoding": "little_endian"
+            }
+          },
+          "metadata": {
+            "constant_value": "setpitch"
+          }
+        },
         {
           "name": "Pitch",
           "is_constant": false,
@@ -13052,10 +13133,31 @@
     },
     {
       "name": "Fade",
-      "hash": "c2b09713941b788237bfb295cde7bdd673cc9bd13a11068cd81b51853c7f77e8",
+      "hash": "9ef904051f6258157e854f7ea7a0fbc2a3c71c0d847ee25bce3e62ae58165960",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
+        {
+          "name": "Type",
+          "is_constant": true,
+          "type": {
+            "name": "Sound Data Event Type",
+            "bind_type": "enum",
+            "is_bind_type": true,
+            "exhaustive": "exhaustive",
+            "enum_encoding": "numeric",
+            "data_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "u8",
+              "reinterpret": "u8",
+              "data_encoding": "little_endian"
+            }
+          },
+          "metadata": {
+            "constant_value": "fade"
+          }
+        },
         {
           "name": "Duration",
           "is_constant": false,
@@ -13082,10 +13184,31 @@
     },
     {
       "name": "Seek To",
-      "hash": "19e6ffaff856bcfa3c9b19736366375c26a30752532386bb178c8c044c98757d",
+      "hash": "ee5ce06847e1e879543f5baa1a4e0bdb832ba80e28e6ab3ea480c728a2fcb72a",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
+        {
+          "name": "Type",
+          "is_constant": true,
+          "type": {
+            "name": "Sound Data Event Type",
+            "bind_type": "enum",
+            "is_bind_type": true,
+            "exhaustive": "exhaustive",
+            "enum_encoding": "numeric",
+            "data_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "u8",
+              "reinterpret": "u8",
+              "data_encoding": "little_endian"
+            }
+          },
+          "metadata": {
+            "constant_value": "seekto"
+          }
+        },
         {
           "name": "Seconds",
           "is_constant": false,
@@ -13101,38 +13224,65 @@
     },
     {
       "name": "Pause",
-      "hash": "01f861c382611a6881c85c3fb0ca392054e866ce66bf40cebaf8f10b7359d615",
+      "hash": "b0bc3d303b5d4030dee9cdda45fd335a02b9ec3bbc08a03029d494ca1749313d",
       "bind_type": "struct",
       "is_bind_type": true,
-      "fields": []
+      "fields": [
+        {
+          "name": "Type",
+          "is_constant": true,
+          "type": {
+            "name": "Sound Data Event Type",
+            "bind_type": "enum",
+            "is_bind_type": true,
+            "exhaustive": "exhaustive",
+            "enum_encoding": "numeric",
+            "data_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "u8",
+              "reinterpret": "u8",
+              "data_encoding": "little_endian"
+            }
+          },
+          "metadata": {
+            "constant_value": "pause"
+          }
+        }
+      ]
     },
     {
       "name": "Resume",
-      "hash": "34c6138fe8d8c2893d2dca59c2002674a1dfe368988a7da4a070899b642b389d",
+      "hash": "d8b02d9ea70380e7ee861a38fbba68a3d2f9cfe13b862953caecca903792e56b",
       "bind_type": "struct",
       "is_bind_type": true,
-      "fields": []
+      "fields": [
+        {
+          "name": "Type",
+          "is_constant": true,
+          "type": {
+            "name": "Sound Data Event Type",
+            "bind_type": "enum",
+            "is_bind_type": true,
+            "exhaustive": "exhaustive",
+            "enum_encoding": "numeric",
+            "data_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "u8",
+              "reinterpret": "u8",
+              "data_encoding": "little_endian"
+            }
+          },
+          "metadata": {
+            "constant_value": "resume"
+          }
+        }
+      ]
     },
     {
-      "name": "Clientbound Update Sound Data Packet Payload Fade Control",
-      "hash": "975461ee117f5e235723aef030e0fc4e64d32447eba6bbbbe05fb940c357af78",
-      "bind_type": "enum",
-      "is_bind_type": true,
-      "enum_kind": "numeric",
-      "backing_integer": "u32",
-      "enum": {
-        "Stop": 0,
-        "Set Volume": 1,
-        "Set Pitch": 2,
-        "Fade": 3,
-        "Seek To": 4,
-        "Pause": 5,
-        "Resume": 6
-      }
-    },
-    {
-      "name": "Clientbound Update Sound Data Packet Payload Fade",
-      "hash": "366244e4755bdb586a2561737687363386644408eddb9ce92eeeb8ddc71ff163",
+      "name": "Clientbound Update Sound Data Packet Payload Event",
+      "hash": "22ef277dabab841b140601b7b5bd4219bf12a9d86bf4a623b3b2236edf2a4ab1",
       "bind_type": "union",
       "is_bind_type": true,
       "fields": [
@@ -13142,7 +13292,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Stop"
+          "enum_literal": "stop"
         },
         {
           "type": {
@@ -13150,7 +13300,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Set Volume"
+          "enum_literal": "setvolume"
         },
         {
           "type": {
@@ -13158,7 +13308,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Set Pitch"
+          "enum_literal": "setpitch"
         },
         {
           "type": {
@@ -13166,7 +13316,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Fade"
+          "enum_literal": "fade"
         },
         {
           "type": {
@@ -13174,7 +13324,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Seek To"
+          "enum_literal": "seekto"
         },
         {
           "type": {
@@ -13182,7 +13332,7 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Pause"
+          "enum_literal": "pause"
         },
         {
           "type": {
@@ -13190,269 +13340,11 @@
             "bind_type": "struct",
             "is_bind_type": true
           },
-          "enum_literal": "Resume"
+          "enum_literal": "resume"
         }
       ],
       "backing_enum": {
-        "name": "Clientbound Update Sound Data Packet Payload Fade Control",
-        "bind_type": "enum",
-        "is_bind_type": true
-      }
-    },
-    {
-      "name": "Clientbound Update Sound Data Packet Payload Pause Control",
-      "hash": "64e7c8e98097ed6514485f1d1e90843e92cc72ff0f51f6af255ee2553aefb0ff",
-      "bind_type": "enum",
-      "is_bind_type": true,
-      "enum_kind": "numeric",
-      "backing_integer": "u32",
-      "enum": {
-        "Stop": 0,
-        "Set Volume": 1,
-        "Set Pitch": 2,
-        "Fade": 3,
-        "Seek To": 4,
-        "Pause": 5,
-        "Resume": 6
-      }
-    },
-    {
-      "name": "Clientbound Update Sound Data Packet Payload Pause",
-      "hash": "2b5de6817240c6bedb8da4dceda7efe7e7010afecbd60eb8395df7517c5173eb",
-      "bind_type": "union",
-      "is_bind_type": true,
-      "fields": [
-        {
-          "type": {
-            "name": "Stop",
-            "bind_type": "struct",
-            "is_bind_type": true
-          },
-          "enum_literal": "Stop"
-        },
-        {
-          "type": {
-            "name": "Set Volume",
-            "bind_type": "struct",
-            "is_bind_type": true
-          },
-          "enum_literal": "Set Volume"
-        },
-        {
-          "type": {
-            "name": "Set Pitch",
-            "bind_type": "struct",
-            "is_bind_type": true
-          },
-          "enum_literal": "Set Pitch"
-        },
-        {
-          "type": {
-            "name": "Fade",
-            "bind_type": "struct",
-            "is_bind_type": true
-          },
-          "enum_literal": "Fade"
-        },
-        {
-          "type": {
-            "name": "Seek To",
-            "bind_type": "struct",
-            "is_bind_type": true
-          },
-          "enum_literal": "Seek To"
-        },
-        {
-          "type": {
-            "name": "Pause",
-            "bind_type": "struct",
-            "is_bind_type": true
-          },
-          "enum_literal": "Pause"
-        },
-        {
-          "type": {
-            "name": "Resume",
-            "bind_type": "struct",
-            "is_bind_type": true
-          },
-          "enum_literal": "Resume"
-        }
-      ],
-      "backing_enum": {
-        "name": "Clientbound Update Sound Data Packet Payload Pause Control",
-        "bind_type": "enum",
-        "is_bind_type": true
-      }
-    },
-    {
-      "name": "Clientbound Update Sound Data Packet Payload Resume Control",
-      "hash": "27c1b2d801f62156cbf90afb445aead51b0a82002e4f8f6222b99b5e74b287a2",
-      "bind_type": "enum",
-      "is_bind_type": true,
-      "enum_kind": "numeric",
-      "backing_integer": "u32",
-      "enum": {
-        "Stop": 0,
-        "Set Volume": 1,
-        "Set Pitch": 2,
-        "Fade": 3,
-        "Seek To": 4,
-        "Pause": 5,
-        "Resume": 6
-      }
-    },
-    {
-      "name": "Clientbound Update Sound Data Packet Payload Resume",
-      "hash": "16a52b45824c54b3bfcb6a7b8080668ffe917ce2461c243e839b417eb295454e",
-      "bind_type": "union",
-      "is_bind_type": true,
-      "fields": [
-        {
-          "type": {
-            "name": "Stop",
-            "bind_type": "struct",
-            "is_bind_type": true
-          },
-          "enum_literal": "Stop"
-        },
-        {
-          "type": {
-            "name": "Set Volume",
-            "bind_type": "struct",
-            "is_bind_type": true
-          },
-          "enum_literal": "Set Volume"
-        },
-        {
-          "type": {
-            "name": "Set Pitch",
-            "bind_type": "struct",
-            "is_bind_type": true
-          },
-          "enum_literal": "Set Pitch"
-        },
-        {
-          "type": {
-            "name": "Fade",
-            "bind_type": "struct",
-            "is_bind_type": true
-          },
-          "enum_literal": "Fade"
-        },
-        {
-          "type": {
-            "name": "Seek To",
-            "bind_type": "struct",
-            "is_bind_type": true
-          },
-          "enum_literal": "Seek To"
-        },
-        {
-          "type": {
-            "name": "Pause",
-            "bind_type": "struct",
-            "is_bind_type": true
-          },
-          "enum_literal": "Pause"
-        },
-        {
-          "type": {
-            "name": "Resume",
-            "bind_type": "struct",
-            "is_bind_type": true
-          },
-          "enum_literal": "Resume"
-        }
-      ],
-      "backing_enum": {
-        "name": "Clientbound Update Sound Data Packet Payload Resume Control",
-        "bind_type": "enum",
-        "is_bind_type": true
-      }
-    },
-    {
-      "name": "Clientbound Update Sound Data Packet Payload Seek To Control",
-      "hash": "d6d15dacda4eac5956a213c651ed95159b39848220fe83760a48a137db287ea3",
-      "bind_type": "enum",
-      "is_bind_type": true,
-      "enum_kind": "numeric",
-      "backing_integer": "u32",
-      "enum": {
-        "Stop": 0,
-        "Set Volume": 1,
-        "Set Pitch": 2,
-        "Fade": 3,
-        "Seek To": 4,
-        "Pause": 5,
-        "Resume": 6
-      }
-    },
-    {
-      "name": "Clientbound Update Sound Data Packet Payload Seek To",
-      "hash": "d536bbce71bcfe0115bace1d37a62d842560115c048ec67a2eb0e79b14c797a3",
-      "bind_type": "union",
-      "is_bind_type": true,
-      "fields": [
-        {
-          "type": {
-            "name": "Stop",
-            "bind_type": "struct",
-            "is_bind_type": true
-          },
-          "enum_literal": "Stop"
-        },
-        {
-          "type": {
-            "name": "Set Volume",
-            "bind_type": "struct",
-            "is_bind_type": true
-          },
-          "enum_literal": "Set Volume"
-        },
-        {
-          "type": {
-            "name": "Set Pitch",
-            "bind_type": "struct",
-            "is_bind_type": true
-          },
-          "enum_literal": "Set Pitch"
-        },
-        {
-          "type": {
-            "name": "Fade",
-            "bind_type": "struct",
-            "is_bind_type": true
-          },
-          "enum_literal": "Fade"
-        },
-        {
-          "type": {
-            "name": "Seek To",
-            "bind_type": "struct",
-            "is_bind_type": true
-          },
-          "enum_literal": "Seek To"
-        },
-        {
-          "type": {
-            "name": "Pause",
-            "bind_type": "struct",
-            "is_bind_type": true
-          },
-          "enum_literal": "Pause"
-        },
-        {
-          "type": {
-            "name": "Resume",
-            "bind_type": "struct",
-            "is_bind_type": true
-          },
-          "enum_literal": "Resume"
-        }
-      ],
-      "backing_enum": {
-        "name": "Clientbound Update Sound Data Packet Payload Seek To Control",
+        "name": "Sound Data Event Type",
         "bind_type": "enum",
         "is_bind_type": true
       }
@@ -13480,266 +13372,8 @@
       ]
     },
     {
-      "name": "Clientbound Update Sound Data Packet Payload Set Pitch Control",
-      "hash": "61999bfd2758d5f52130b6f9e2119093022d864c6c0aad0f2790d3042aef05e9",
-      "bind_type": "enum",
-      "is_bind_type": true,
-      "enum_kind": "numeric",
-      "backing_integer": "u32",
-      "enum": {
-        "Stop": 0,
-        "Set Volume": 1,
-        "Set Pitch": 2,
-        "Fade": 3,
-        "Seek To": 4,
-        "Pause": 5,
-        "Resume": 6
-      }
-    },
-    {
-      "name": "Clientbound Update Sound Data Packet Payload Set Pitch",
-      "hash": "e78319f44f96c65e2764b45e174e3a46e069eff7e34a3a4db702e24cb993eabc",
-      "bind_type": "union",
-      "is_bind_type": true,
-      "fields": [
-        {
-          "type": {
-            "name": "Stop",
-            "bind_type": "struct",
-            "is_bind_type": true
-          },
-          "enum_literal": "Stop"
-        },
-        {
-          "type": {
-            "name": "Set Volume",
-            "bind_type": "struct",
-            "is_bind_type": true
-          },
-          "enum_literal": "Set Volume"
-        },
-        {
-          "type": {
-            "name": "Set Pitch",
-            "bind_type": "struct",
-            "is_bind_type": true
-          },
-          "enum_literal": "Set Pitch"
-        },
-        {
-          "type": {
-            "name": "Fade",
-            "bind_type": "struct",
-            "is_bind_type": true
-          },
-          "enum_literal": "Fade"
-        },
-        {
-          "type": {
-            "name": "Seek To",
-            "bind_type": "struct",
-            "is_bind_type": true
-          },
-          "enum_literal": "Seek To"
-        },
-        {
-          "type": {
-            "name": "Pause",
-            "bind_type": "struct",
-            "is_bind_type": true
-          },
-          "enum_literal": "Pause"
-        },
-        {
-          "type": {
-            "name": "Resume",
-            "bind_type": "struct",
-            "is_bind_type": true
-          },
-          "enum_literal": "Resume"
-        }
-      ],
-      "backing_enum": {
-        "name": "Clientbound Update Sound Data Packet Payload Set Pitch Control",
-        "bind_type": "enum",
-        "is_bind_type": true
-      }
-    },
-    {
-      "name": "Clientbound Update Sound Data Packet Payload Set Volume Control",
-      "hash": "9043865dc01a4cbca5ab5d74871f1028ddf7dbab371c1841b23aee6294655fe9",
-      "bind_type": "enum",
-      "is_bind_type": true,
-      "enum_kind": "numeric",
-      "backing_integer": "u32",
-      "enum": {
-        "Stop": 0,
-        "Set Volume": 1,
-        "Set Pitch": 2,
-        "Fade": 3,
-        "Seek To": 4,
-        "Pause": 5,
-        "Resume": 6
-      }
-    },
-    {
-      "name": "Clientbound Update Sound Data Packet Payload Set Volume",
-      "hash": "b704bb350e3762a28180b4382b4f9aa075be8a3e3793e2adace71df92d2ff934",
-      "bind_type": "union",
-      "is_bind_type": true,
-      "fields": [
-        {
-          "type": {
-            "name": "Stop",
-            "bind_type": "struct",
-            "is_bind_type": true
-          },
-          "enum_literal": "Stop"
-        },
-        {
-          "type": {
-            "name": "Set Volume",
-            "bind_type": "struct",
-            "is_bind_type": true
-          },
-          "enum_literal": "Set Volume"
-        },
-        {
-          "type": {
-            "name": "Set Pitch",
-            "bind_type": "struct",
-            "is_bind_type": true
-          },
-          "enum_literal": "Set Pitch"
-        },
-        {
-          "type": {
-            "name": "Fade",
-            "bind_type": "struct",
-            "is_bind_type": true
-          },
-          "enum_literal": "Fade"
-        },
-        {
-          "type": {
-            "name": "Seek To",
-            "bind_type": "struct",
-            "is_bind_type": true
-          },
-          "enum_literal": "Seek To"
-        },
-        {
-          "type": {
-            "name": "Pause",
-            "bind_type": "struct",
-            "is_bind_type": true
-          },
-          "enum_literal": "Pause"
-        },
-        {
-          "type": {
-            "name": "Resume",
-            "bind_type": "struct",
-            "is_bind_type": true
-          },
-          "enum_literal": "Resume"
-        }
-      ],
-      "backing_enum": {
-        "name": "Clientbound Update Sound Data Packet Payload Set Volume Control",
-        "bind_type": "enum",
-        "is_bind_type": true
-      }
-    },
-    {
-      "name": "Clientbound Update Sound Data Packet Payload Stop Control",
-      "hash": "c9954683d6581a3cb393504872c30d105d579fbaef8b92d1db3391d3b2f5ccac",
-      "bind_type": "enum",
-      "is_bind_type": true,
-      "enum_kind": "numeric",
-      "backing_integer": "u32",
-      "enum": {
-        "Stop": 0,
-        "Set Volume": 1,
-        "Set Pitch": 2,
-        "Fade": 3,
-        "Seek To": 4,
-        "Pause": 5,
-        "Resume": 6
-      }
-    },
-    {
-      "name": "Clientbound Update Sound Data Packet Payload Stop",
-      "hash": "cdc5cc02da8c02d1cd2b0dfc704a81612d027fa7ae138cab662479fb21a1336f",
-      "bind_type": "union",
-      "is_bind_type": true,
-      "fields": [
-        {
-          "type": {
-            "name": "Stop",
-            "bind_type": "struct",
-            "is_bind_type": true
-          },
-          "enum_literal": "Stop"
-        },
-        {
-          "type": {
-            "name": "Set Volume",
-            "bind_type": "struct",
-            "is_bind_type": true
-          },
-          "enum_literal": "Set Volume"
-        },
-        {
-          "type": {
-            "name": "Set Pitch",
-            "bind_type": "struct",
-            "is_bind_type": true
-          },
-          "enum_literal": "Set Pitch"
-        },
-        {
-          "type": {
-            "name": "Fade",
-            "bind_type": "struct",
-            "is_bind_type": true
-          },
-          "enum_literal": "Fade"
-        },
-        {
-          "type": {
-            "name": "Seek To",
-            "bind_type": "struct",
-            "is_bind_type": true
-          },
-          "enum_literal": "Seek To"
-        },
-        {
-          "type": {
-            "name": "Pause",
-            "bind_type": "struct",
-            "is_bind_type": true
-          },
-          "enum_literal": "Pause"
-        },
-        {
-          "type": {
-            "name": "Resume",
-            "bind_type": "struct",
-            "is_bind_type": true
-          },
-          "enum_literal": "Resume"
-        }
-      ],
-      "backing_enum": {
-        "name": "Clientbound Update Sound Data Packet Payload Stop Control",
-        "bind_type": "enum",
-        "is_bind_type": true
-      }
-    },
-    {
       "name": "Clientbound Update Sound Data Packet Payload",
-      "hash": "cf18a011731c22ee0edd6032366f8de4573cce92f1f414f1e8195215e9f344dd",
+      "hash": "034721d2896d9a0f1f5c9ae14d3c1e7be9efd8b5981368c18ffc5f7478f2fab5",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -13753,213 +13387,26 @@
           }
         },
         {
-          "name": "Stop",
+          "name": "Event",
           "is_constant": false,
           "type": {
-            "name": "optional",
-            "is_bind_type": false,
-            "element_type": {
-              "name": "Clientbound Update Sound Data Packet Payload Stop",
-              "bind_type": "union",
-              "is_bind_type": true,
-              "enum_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "u32",
-                "reinterpret": "u32",
-                "data_encoding": "leb128"
-              },
-              "control_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "u32",
-                "reinterpret": "u32",
-                "data_encoding": "leb128"
-              }
+            "name": "Clientbound Update Sound Data Packet Payload Event",
+            "bind_type": "union",
+            "is_bind_type": true,
+            "enum_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "u32",
+              "reinterpret": "u32",
+              "data_encoding": "leb128"
+            },
+            "control_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "u32",
+              "reinterpret": "u32",
+              "data_encoding": "leb128"
             }
-          },
-          "metadata": {
-            "default_value": {}
-          }
-        },
-        {
-          "name": "Set Volume",
-          "is_constant": false,
-          "type": {
-            "name": "optional",
-            "is_bind_type": false,
-            "element_type": {
-              "name": "Clientbound Update Sound Data Packet Payload Set Volume",
-              "bind_type": "union",
-              "is_bind_type": true,
-              "enum_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "u32",
-                "reinterpret": "u32",
-                "data_encoding": "leb128"
-              },
-              "control_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "u32",
-                "reinterpret": "u32",
-                "data_encoding": "leb128"
-              }
-            }
-          },
-          "metadata": {
-            "default_value": {}
-          }
-        },
-        {
-          "name": "Set Pitch",
-          "is_constant": false,
-          "type": {
-            "name": "optional",
-            "is_bind_type": false,
-            "element_type": {
-              "name": "Clientbound Update Sound Data Packet Payload Set Pitch",
-              "bind_type": "union",
-              "is_bind_type": true,
-              "enum_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "u32",
-                "reinterpret": "u32",
-                "data_encoding": "leb128"
-              },
-              "control_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "u32",
-                "reinterpret": "u32",
-                "data_encoding": "leb128"
-              }
-            }
-          },
-          "metadata": {
-            "default_value": {}
-          }
-        },
-        {
-          "name": "Fade",
-          "is_constant": false,
-          "type": {
-            "name": "optional",
-            "is_bind_type": false,
-            "element_type": {
-              "name": "Clientbound Update Sound Data Packet Payload Fade",
-              "bind_type": "union",
-              "is_bind_type": true,
-              "enum_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "u32",
-                "reinterpret": "u32",
-                "data_encoding": "leb128"
-              },
-              "control_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "u32",
-                "reinterpret": "u32",
-                "data_encoding": "leb128"
-              }
-            }
-          },
-          "metadata": {
-            "default_value": {}
-          }
-        },
-        {
-          "name": "Seek To",
-          "is_constant": false,
-          "type": {
-            "name": "optional",
-            "is_bind_type": false,
-            "element_type": {
-              "name": "Clientbound Update Sound Data Packet Payload Seek To",
-              "bind_type": "union",
-              "is_bind_type": true,
-              "enum_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "u32",
-                "reinterpret": "u32",
-                "data_encoding": "leb128"
-              },
-              "control_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "u32",
-                "reinterpret": "u32",
-                "data_encoding": "leb128"
-              }
-            }
-          },
-          "metadata": {
-            "default_value": {}
-          }
-        },
-        {
-          "name": "Pause",
-          "is_constant": false,
-          "type": {
-            "name": "optional",
-            "is_bind_type": false,
-            "element_type": {
-              "name": "Clientbound Update Sound Data Packet Payload Pause",
-              "bind_type": "union",
-              "is_bind_type": true,
-              "enum_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "u32",
-                "reinterpret": "u32",
-                "data_encoding": "leb128"
-              },
-              "control_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "u32",
-                "reinterpret": "u32",
-                "data_encoding": "leb128"
-              }
-            }
-          },
-          "metadata": {
-            "default_value": {}
-          }
-        },
-        {
-          "name": "Resume",
-          "is_constant": false,
-          "type": {
-            "name": "optional",
-            "is_bind_type": false,
-            "element_type": {
-              "name": "Clientbound Update Sound Data Packet Payload Resume",
-              "bind_type": "union",
-              "is_bind_type": true,
-              "enum_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "u32",
-                "reinterpret": "u32",
-                "data_encoding": "leb128"
-              },
-              "control_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "u32",
-                "reinterpret": "u32",
-                "data_encoding": "leb128"
-              }
-            }
-          },
-          "metadata": {
-            "default_value": {}
           }
         }
       ]
@@ -33332,8 +32779,8 @@
             "is_bind_type": false,
             "interpretation": "i32",
             "metadata": {
-              "min_value": 2208,
-              "max_value": 2208
+              "min_value": 2211,
+              "max_value": 2211
             },
             "reinterpret": "i32",
             "data_encoding": "big_endian"

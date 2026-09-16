@@ -1,9 +1,30 @@
 {
   "name": "Set Pitch",
-  "hash": "c61c1905ec6433ec173a8ab222cffdc8b8e35e0a322a2ff0b89a3b778a534875",
+  "hash": "b9f8b1a3c4b227e834aea1f6b12ebd0f1e7bb6478d9d199c81647cd3a6077a06",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [
+    {
+      "name": "Type",
+      "is_constant": true,
+      "type": {
+        "name": "Sound Data Event Type",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "numeric",
+        "data_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u8",
+          "reinterpret": "u8",
+          "data_encoding": "little_endian"
+        }
+      },
+      "metadata": {
+        "constant_value": "setpitch"
+      }
+    },
     {
       "name": "Pitch",
       "is_constant": false,

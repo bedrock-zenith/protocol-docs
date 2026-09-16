@@ -1,7 +1,29 @@
 {
   "name": "Resume",
-  "hash": "34c6138fe8d8c2893d2dca59c2002674a1dfe368988a7da4a070899b642b389d",
+  "hash": "d8b02d9ea70380e7ee861a38fbba68a3d2f9cfe13b862953caecca903792e56b",
   "bind_type": "struct",
   "is_bind_type": true,
-  "fields": []
+  "fields": [
+    {
+      "name": "Type",
+      "is_constant": true,
+      "type": {
+        "name": "Sound Data Event Type",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "numeric",
+        "data_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u8",
+          "reinterpret": "u8",
+          "data_encoding": "little_endian"
+        }
+      },
+      "metadata": {
+        "constant_value": "resume"
+      }
+    }
+  ]
 }

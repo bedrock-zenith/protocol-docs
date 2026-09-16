@@ -1,9 +1,30 @@
 {
   "name": "Fade",
-  "hash": "c2b09713941b788237bfb295cde7bdd673cc9bd13a11068cd81b51853c7f77e8",
+  "hash": "9ef904051f6258157e854f7ea7a0fbc2a3c71c0d847ee25bce3e62ae58165960",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [
+    {
+      "name": "Type",
+      "is_constant": true,
+      "type": {
+        "name": "Sound Data Event Type",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "numeric",
+        "data_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u8",
+          "reinterpret": "u8",
+          "data_encoding": "little_endian"
+        }
+      },
+      "metadata": {
+        "constant_value": "fade"
+      }
+    },
     {
       "name": "Duration",
       "is_constant": false,

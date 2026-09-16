@@ -1,7 +1,29 @@
 {
   "name": "Pause",
-  "hash": "01f861c382611a6881c85c3fb0ca392054e866ce66bf40cebaf8f10b7359d615",
+  "hash": "b0bc3d303b5d4030dee9cdda45fd335a02b9ec3bbc08a03029d494ca1749313d",
   "bind_type": "struct",
   "is_bind_type": true,
-  "fields": []
+  "fields": [
+    {
+      "name": "Type",
+      "is_constant": true,
+      "type": {
+        "name": "Sound Data Event Type",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "numeric",
+        "data_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u8",
+          "reinterpret": "u8",
+          "data_encoding": "little_endian"
+        }
+      },
+      "metadata": {
+        "constant_value": "pause"
+      }
+    }
+  ]
 }

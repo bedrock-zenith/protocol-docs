@@ -1,9 +1,30 @@
 {
   "name": "Set Volume",
-  "hash": "b8f5ab8c1ba00e9e81e21da6da583f8610a9b78e4d6a099bf12ce1c3f97589a0",
+  "hash": "a0b797f5bc349b8cbc1e067d43df4c42eb83cb87bcdcc760a31066f46b6c9d85",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [
+    {
+      "name": "Type",
+      "is_constant": true,
+      "type": {
+        "name": "Sound Data Event Type",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "numeric",
+        "data_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u8",
+          "reinterpret": "u8",
+          "data_encoding": "little_endian"
+        }
+      },
+      "metadata": {
+        "constant_value": "setvolume"
+      }
+    },
     {
       "name": "Volume",
       "is_constant": false,
