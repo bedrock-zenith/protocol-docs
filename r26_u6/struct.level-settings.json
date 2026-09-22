@@ -1,6 +1,6 @@
 {
   "name": "Level Settings",
-  "hash": "d0debe5d6ac9c1cef9a1133582c91dd1a18be9d7b9978b88d225cb126defea39",
+  "hash": "be5cc0faa9ea56a2050fd29cc0c4addccc1cbdced0c899186128a08a67b6d70c",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [
@@ -142,6 +142,24 @@
         "name": "boolean",
         "is_bind_type": false,
         "data_encoding": "bool"
+      }
+    },
+    {
+      "name": "Editor Level Migration Version",
+      "is_constant": false,
+      "type": {
+        "name": "Editor Level Migration Version",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "numeric",
+        "data_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i8",
+          "reinterpret": "i8",
+          "data_encoding": "zleb128"
+        }
       }
     },
     {

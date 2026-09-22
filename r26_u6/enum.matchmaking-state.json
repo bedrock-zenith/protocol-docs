@@ -1,6 +1,6 @@
 {
   "name": "Matchmaking State",
-  "hash": "c8bc54e32862d7d99acc641cf588f0caf058c4a2627ba8d170a666e0e5a98e01",
+  "hash": "312c86e06f27f352e10b31af463104763910748a044c5a74ed7856ffeeea369f",
   "bind_type": "enum",
   "is_bind_type": true,
   "enum_kind": "numeric",
@@ -8,6 +8,12 @@
   "enum": {
     "Idle": 0,
     "Matchmaking": 1,
-    "MatchFound": 2
+    "MatchFound": 2,
+    "Canceled": 3,
+    "PlayerLeftParty": 4,
+    "PlayerLeftServer": 5,
+    "ServerShutdown": 6,
+    "TimedOut": 7,
+    "RequeueAsParty": 8
   }
 }

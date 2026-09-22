@@ -1168,7 +1168,7 @@
     },
     {
       "name": "Matchmaking State",
-      "hash": "c8bc54e32862d7d99acc641cf588f0caf058c4a2627ba8d170a666e0e5a98e01",
+      "hash": "312c86e06f27f352e10b31af463104763910748a044c5a74ed7856ffeeea369f",
       "bind_type": "enum",
       "is_bind_type": true,
       "enum_kind": "numeric",
@@ -1176,7 +1176,13 @@
       "enum": {
         "Idle": 0,
         "Matchmaking": 1,
-        "MatchFound": 2
+        "MatchFound": 2,
+        "Canceled": 3,
+        "PlayerLeftParty": 4,
+        "PlayerLeftServer": 5,
+        "ServerShutdown": 6,
+        "TimedOut": 7,
+        "RequeueAsParty": 8
       }
     },
     {
@@ -1412,7 +1418,7 @@
     },
     {
       "name": "Current Cmd Version",
-      "hash": "5eabe128707a22224a2b335d3dc31212559fb44eee8be9cc58741d9ed693fc94",
+      "hash": "4cd06fcc209bfd01711253d82ca24608b6ecbeda4d35c49b9850da9487450af6",
       "bind_type": "enum",
       "is_bind_type": true,
       "enum_kind": "numeric",
@@ -1465,8 +1471,9 @@
         "LocateStructureOutput": 42,
         "PostBlockFlattening": 43,
         "TestForBlockCommandDoesNotIgnoreBlockState": 44,
-        "Count": 55,
-        "Latest": 54
+        "SameActorBlockReplacementRetainsItemsFix": 55,
+        "Count": 56,
+        "Latest": 55
       }
     },
     {
@@ -1810,7 +1817,7 @@
     },
     {
       "name": "Disconnect Fail Reason",
-      "hash": "492d605705ea8d9c3828e91ad7b8d7d7b7eb077a9afa350ec7dce58aa40c7cad",
+      "hash": "3f1dbf7ba89f58b69352d991f33e9c2dceed19d53ce807ef15f5e6ec2cdaaeea",
       "bind_type": "enum",
       "is_bind_type": true,
       "enum_kind": "numeric",
@@ -1965,7 +1972,8 @@
         "NotAuthenticatedFastFail": 146,
         "EditorNotAllowed": 147,
         "MissingStructureData": 148,
-        "UnsupportedTransport": 149
+        "UnsupportedTransport": 149,
+        "SubClientLoginNotBound": 150
       }
     },
     {
@@ -1978,6 +1986,18 @@
       "enum": {
         "Disconnect Packet Messages": 0,
         "void": 1
+      }
+    },
+    {
+      "name": "Editor Level Migration Version",
+      "hash": "ad90f32ddebfbb3159653bf82aed8a4352ac5698e5ca00d6a986c0afbd48d42e",
+      "bind_type": "enum",
+      "is_bind_type": true,
+      "enum_kind": "numeric",
+      "backing_integer": "i8",
+      "enum": {
+        "Legacy": 0,
+        "EditorAchievements": 1
       }
     },
     {
@@ -4122,6 +4142,19 @@
         "Notify": 0,
         "OptIn": 1,
         "OptOut": 2
+      }
+    },
+    {
+      "name": "Passenger Of Block Arguments Emote Type",
+      "hash": "483e2c4b8cf0510bc974af685898e429ae4b1408541a1e325537699837fdadfa",
+      "bind_type": "enum",
+      "is_bind_type": true,
+      "enum_kind": "numeric",
+      "backing_integer": "u8",
+      "enum": {
+        "Standing": 0,
+        "Riding": 1,
+        "Laying": 2
       }
     },
     {
@@ -15843,8 +15876,51 @@
       ]
     },
     {
+      "name": "Matchmaking State Options",
+      "hash": "17366ebc39eb593cc79e83443c12287fd089679e3140bbc2ac459edb065eb0df",
+      "bind_type": "struct",
+      "is_bind_type": true,
+      "fields": [
+        {
+          "name": "Triggering Player Name",
+          "is_constant": false,
+          "type": {
+            "name": "optional",
+            "is_bind_type": false,
+            "element_type": {
+              "name": "string",
+              "is_bind_type": false,
+              "metadata": {
+                "max_length": 40
+              },
+              "length_encoding": {
+                "name": "integer",
+                "is_bind_type": false,
+                "interpretation": "i32",
+                "reinterpret": "i32",
+                "data_encoding": "zleb128"
+              }
+            }
+          }
+        },
+        {
+          "name": "Triggered By Local Player",
+          "is_constant": false,
+          "type": {
+            "name": "optional",
+            "is_bind_type": false,
+            "element_type": {
+              "name": "boolean",
+              "is_bind_type": false,
+              "data_encoding": "bool"
+            }
+          }
+        }
+      ]
+    },
+    {
       "name": "Clientbound Matchmaking State Packet Payload",
-      "hash": "c72c197e9b6704e722724e3945452191f80f97bde9d1562adc71e4b5faef8f84",
+      "hash": "a2b7385ce6dd9c61c1a7b414693949c0b38beb0defff5c1c5e110c4aaa1c07a8",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -15856,17 +15932,13 @@
             "bind_type": "enum",
             "is_bind_type": true,
             "exhaustive": "exhaustive",
-            "enum_encoding": "literal",
+            "enum_encoding": "numeric",
             "data_encoding": {
-              "name": "string",
+              "name": "integer",
               "is_bind_type": false,
-              "length_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "i32",
-                "reinterpret": "i32",
-                "data_encoding": "zleb128"
-              }
+              "interpretation": "u8",
+              "reinterpret": "u8",
+              "data_encoding": "little_endian"
             }
           }
         },
@@ -15885,6 +15957,19 @@
               "interpretation": "i32",
               "reinterpret": "i32",
               "data_encoding": "zleb128"
+            }
+          }
+        },
+        {
+          "name": "Options",
+          "is_constant": false,
+          "type": {
+            "name": "optional",
+            "is_bind_type": false,
+            "element_type": {
+              "name": "Matchmaking State Options",
+              "bind_type": "struct",
+              "is_bind_type": true
             }
           }
         }
@@ -25636,7 +25721,7 @@
     },
     {
       "name": "Level Settings",
-      "hash": "d0debe5d6ac9c1cef9a1133582c91dd1a18be9d7b9978b88d225cb126defea39",
+      "hash": "be5cc0faa9ea56a2050fd29cc0c4addccc1cbdced0c899186128a08a67b6d70c",
       "bind_type": "struct",
       "is_bind_type": true,
       "fields": [
@@ -25778,6 +25863,24 @@
             "name": "boolean",
             "is_bind_type": false,
             "data_encoding": "bool"
+          }
+        },
+        {
+          "name": "Editor Level Migration Version",
+          "is_constant": false,
+          "type": {
+            "name": "Editor Level Migration Version",
+            "bind_type": "enum",
+            "is_bind_type": true,
+            "exhaustive": "exhaustive",
+            "enum_encoding": "numeric",
+            "data_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "i8",
+              "reinterpret": "i8",
+              "data_encoding": "zleb128"
+            }
           }
         },
         {
@@ -28544,6 +28647,84 @@
       ]
     },
     {
+      "name": "Passenger Of Block Arguments",
+      "hash": "edf52c3d78451c0a917be81d9adb7b184a4ff8f41fd301b8dcd34a2903143069",
+      "bind_type": "struct",
+      "is_bind_type": true,
+      "fields": [
+        {
+          "name": "Block Pos",
+          "is_constant": false,
+          "type": {
+            "name": "Block Pos",
+            "bind_type": "struct",
+            "is_bind_type": true
+          }
+        },
+        {
+          "name": "Offset",
+          "is_constant": false,
+          "type": {
+            "name": "Vec3",
+            "bind_type": "struct",
+            "is_bind_type": true,
+            "metadata": {
+              "minimum": -5,
+              "maximum": 5
+            }
+          }
+        },
+        {
+          "name": "Rotation",
+          "is_constant": false,
+          "type": {
+            "name": "float",
+            "is_bind_type": false,
+            "interpretation": "f32",
+            "metadata": {
+              "min_value": 0,
+              "max_value": 360
+            },
+            "reinterpret": "f32",
+            "data_encoding": "little_endian"
+          }
+        },
+        {
+          "name": "Rotation Limit",
+          "is_constant": false,
+          "type": {
+            "name": "float",
+            "is_bind_type": false,
+            "interpretation": "f32",
+            "metadata": {
+              "min_value": 0,
+              "max_value": 360
+            },
+            "reinterpret": "f32",
+            "data_encoding": "little_endian"
+          }
+        },
+        {
+          "name": "Emote Type",
+          "is_constant": false,
+          "type": {
+            "name": "Passenger Of Block Arguments Emote Type",
+            "bind_type": "enum",
+            "is_bind_type": true,
+            "exhaustive": "exhaustive",
+            "enum_encoding": "numeric",
+            "data_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "u8",
+              "reinterpret": "u8",
+              "data_encoding": "little_endian"
+            }
+          }
+        }
+      ]
+    },
+    {
       "name": "Photo Transfer Packet Payload",
       "hash": "6c34170bd595c38c1e21969c151410ff9035f40e2b10022a63d2202db3a0e58b",
       "bind_type": "struct",
@@ -31246,8 +31427,8 @@
             "is_bind_type": false,
             "interpretation": "i32",
             "metadata": {
-              "min_value": 2211,
-              "max_value": 2211
+              "min_value": 2216,
+              "max_value": 2216
             },
             "reinterpret": "i32",
             "data_encoding": "big_endian"
@@ -33291,6 +33472,36 @@
             "name": "Actor Runtime Id",
             "bind_type": "struct",
             "is_bind_type": true
+          }
+        }
+      ]
+    },
+    {
+      "name": "Set Passenger Of Block Packet Payload",
+      "hash": "7108eeaa63bfb8391350807d11e9a906fa606777fa63d9851b853902b5f48a0f",
+      "bind_type": "struct",
+      "is_bind_type": true,
+      "fields": [
+        {
+          "name": "Passenger",
+          "is_constant": false,
+          "type": {
+            "name": "Actor Unique Id",
+            "bind_type": "struct",
+            "is_bind_type": true
+          }
+        },
+        {
+          "name": "Passenger Of Block Data",
+          "is_constant": false,
+          "type": {
+            "name": "optional",
+            "is_bind_type": false,
+            "element_type": {
+              "name": "Passenger Of Block Arguments",
+              "bind_type": "struct",
+              "is_bind_type": true
+            }
           }
         }
       ]
