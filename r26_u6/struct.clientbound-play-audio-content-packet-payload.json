@@ -1,0 +1,57 @@
+{
+  "name": "Clientbound Play Audio Content Packet Payload",
+  "hash": "e9342124b4394792ff841afbad73a1cb5ebd35409677abe0aec0e93ed4fcc5aa",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Shared Metadata",
+      "is_constant": false,
+      "type": {
+        "name": "Signed Audio Content",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Playback Content",
+      "is_constant": false,
+      "type": {
+        "name": "Signed Audio Content",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Playback Type",
+      "is_constant": false,
+      "type": {
+        "name": "Audio Content Playback Type",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "literal",
+        "data_encoding": {
+          "name": "string",
+          "is_bind_type": false,
+          "length_encoding": {
+            "name": "integer",
+            "is_bind_type": false,
+            "interpretation": "i32",
+            "reinterpret": "i32",
+            "data_encoding": "zleb128"
+          }
+        }
+      }
+    },
+    {
+      "name": "Play Sound",
+      "is_constant": false,
+      "type": {
+        "name": "Play Sound Packet Payload",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

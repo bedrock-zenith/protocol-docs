@@ -1,0 +1,12 @@
+{
+  "name": "Audio Content Playback Type",
+  "hash": "b69cc50a6b9ff74b2d1d1a9e3da473cdfee21ccde2089fd627df43f5ebd9c772",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "Music": 0,
+    "Sound": 1
+  }
+}
