@@ -1,0 +1,17 @@
+{
+  "name": "Sound Data Event Type",
+  "hash": "23e48e37f107d60f74bc31e0db851ba6c1d74d470f5fc061353ec66613400946",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "Stop": 0,
+    "SetVolume": 1,
+    "SetPitch": 2,
+    "Fade": 3,
+    "SeekTo": 4,
+    "Pause": 5,
+    "Resume": 6
+  }
+}

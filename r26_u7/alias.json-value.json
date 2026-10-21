@@ -1,0 +1,13 @@
+{
+  "name": "Json Value",
+  "hash": "adadc2adb9d55a1fe014709ddda4420922d4dd33be6a73ab14f3f509691919b6",
+  "bind_type": "alias",
+  "is_bind_type": true,
+  "metadata": {
+    "constrain": "Verify that the string can be parsed as valid JSON"
+  },
+  "element_type": {
+    "name": "string",
+    "is_bind_type": false
+  }
+}

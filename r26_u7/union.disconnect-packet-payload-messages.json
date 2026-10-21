@@ -1,0 +1,28 @@
+{
+  "name": "Disconnect Packet Payload Messages",
+  "hash": "c28baba936a0c2441d2b1ab524f464b136383f386385ee9639a679ebf8c4316b",
+  "bind_type": "union",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "type": {
+        "name": "Disconnect Packet Messages",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Disconnect Packet Messages"
+    },
+    {
+      "type": {
+        "name": "void",
+        "is_bind_type": false
+      },
+      "enum_literal": "void"
+    }
+  ],
+  "backing_enum": {
+    "name": "Disconnect Packet Payload Messages Control",
+    "bind_type": "enum",
+    "is_bind_type": true
+  }
+}

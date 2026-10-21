@@ -1,0 +1,13 @@
+{
+  "name": "Passenger Of Block Arguments Emote Type",
+  "hash": "483e2c4b8cf0510bc974af685898e429ae4b1408541a1e325537699837fdadfa",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "Standing": 0,
+    "Riding": 1,
+    "Laying": 2
+  }
+}

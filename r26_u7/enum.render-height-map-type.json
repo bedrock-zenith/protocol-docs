@@ -1,0 +1,15 @@
+{
+  "name": "Render Height Map Type",
+  "hash": "10de6dcd8167e0ac3f82556f618cd5d4d1f8a18db13601cfa05c973f65e02927",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "NoData": 0,
+    "HasData": 1,
+    "AllTooHigh": 2,
+    "AllTooLow": 3,
+    "AllCopied": 4
+  }
+}

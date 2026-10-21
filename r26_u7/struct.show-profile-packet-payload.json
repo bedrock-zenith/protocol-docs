@@ -1,0 +1,23 @@
+{
+  "name": "Show Profile Packet Payload",
+  "hash": "63346e538b9adf3efa61d190b5a1c57e6e55586ef97bd3d2da71f3553cbd278d",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Player Xuid",
+      "is_constant": false,
+      "type": {
+        "name": "string",
+        "is_bind_type": false,
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Shared Types Reference Shared Types Asset Type Camera Preset",
+  "hash": "988c66cdb3e5c33f1aab1824e627ea5be00eaf75bf0d0b67f62ea917323ef60c",
+  "bind_type": "alias",
+  "is_bind_type": true,
+  "element_type": {
+    "name": "string",
+    "is_bind_type": false
+  }
+}

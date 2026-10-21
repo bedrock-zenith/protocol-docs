@@ -1,0 +1,19 @@
+{
+  "name": "Target Block Hit",
+  "hash": "3280baed620ef5351e739eab448c0f16a2a6a7f1ef3f6cb08834ee7779a7d298",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Redstone Level",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "i32",
+        "reinterpret": "i32",
+        "data_encoding": "zleb128"
+      }
+    }
+  ]
+}

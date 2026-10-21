@@ -1,0 +1,31 @@
+{
+  "name": "Serverbound Register Audio Content Packet Payload",
+  "hash": "e6c8c921ce08687e534df49d4a139b2fda7424366de0ea655101195938e571ba",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Registrations",
+      "is_constant": false,
+      "type": {
+        "name": "array",
+        "is_bind_type": false,
+        "metadata": {
+          "max_length": 64
+        },
+        "element_type": {
+          "name": "Audio Content Registration Entry",
+          "bind_type": "struct",
+          "is_bind_type": true
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    }
+  ]
+}

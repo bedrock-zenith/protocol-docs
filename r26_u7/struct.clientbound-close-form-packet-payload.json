@@ -1,0 +1,7 @@
+{
+  "name": "Clientbound Close Form Packet Payload",
+  "hash": "75d33a2581dd04825449fcc0a36250d1e609d2340f4ddfe7dea8dd65ff04a309",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": []
+}

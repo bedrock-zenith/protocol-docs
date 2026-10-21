@@ -1,0 +1,28 @@
+{
+  "name": "Container Registry Cleanup Packet Payload",
+  "hash": "1b7cdcaeac8c2183f9e4a1a4909012572863aa51b4606037d64ec1b7c9ce2b7c",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Removed Containers",
+      "is_constant": false,
+      "type": {
+        "name": "array",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Full Container Name",
+          "bind_type": "struct",
+          "is_bind_type": true
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    }
+  ]
+}

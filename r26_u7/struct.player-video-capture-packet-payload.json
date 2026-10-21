@@ -1,0 +1,66 @@
+{
+  "name": "Player Video Capture Packet Payload",
+  "hash": "be3fcf85cf0a2fa88cc77ca99cf2da2077955821520609ea033af4cc0dfca05c",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Start Video Capture",
+      "is_constant": false,
+      "type": {
+        "name": "Player Video Capture Packet Payload Start Video Capture",
+        "bind_type": "union",
+        "is_bind_type": true,
+        "enum_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        },
+        "control_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      },
+      "metadata": {
+        "default_value": {
+          "FrameRate": 30,
+          "FilePrefix": "Frame_"
+        }
+      }
+    },
+    {
+      "name": "Stop Video Capture",
+      "is_constant": false,
+      "type": {
+        "name": "Player Video Capture Packet Payload Stop Video Capture",
+        "bind_type": "union",
+        "is_bind_type": true,
+        "enum_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        },
+        "control_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      },
+      "metadata": {
+        "default_value": {
+          "FrameRate": 30,
+          "FilePrefix": "Frame_"
+        }
+      }
+    }
+  ]
+}

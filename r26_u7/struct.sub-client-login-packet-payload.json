@@ -1,0 +1,23 @@
+{
+  "name": "Sub Client Login Packet Payload",
+  "hash": "0f25817db2fbeefb92d0bcb88850e757823e66ac4ae7852160c46db45d447aff",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Sub Client Connection Request",
+      "is_constant": false,
+      "type": {
+        "name": "string",
+        "is_bind_type": false,
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      }
+    }
+  ]
+}

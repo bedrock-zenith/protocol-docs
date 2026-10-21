@@ -1,0 +1,15 @@
+{
+  "name": "Color Attribute Operation",
+  "hash": "3e26dd1f34fc6eae64f5ad1cc4013de80f65339d673fc9fdd75fd20026db3e67",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "i32",
+  "enum": {
+    "OVERRIDE": 0,
+    "ALPHA_BLEND": 1,
+    "ADD": 2,
+    "SUBTRACT": 3,
+    "MULTIPLY": 4
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Stop Video Capture",
+  "hash": "72110ffff2c4599154dbcb42bdc81f20180e6315e3a1dbacc07935d8601e0154",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": []
+}

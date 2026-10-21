@@ -1,0 +1,19 @@
+{
+  "name": "Player Scoreboard Id",
+  "hash": "b7867630d15a04b65abd0cb68b6c0c6e30afbe74004eccd773dea24cefbfc84c",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Player Unique Id",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "i64",
+        "reinterpret": "i64",
+        "data_encoding": "zleb128"
+      }
+    }
+  ]
+}

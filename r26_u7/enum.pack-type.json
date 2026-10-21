@@ -1,0 +1,18 @@
+{
+  "name": "Pack Type",
+  "hash": "a09ae3fe802a7e35f23331d0d842ab27ac70b195935b5603db6ca9183c1dd9a9",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "literal",
+  "enum": {
+    "Invalid": 0,
+    "Addon": 1,
+    "Cached": 2,
+    "CopyProtected": 3,
+    "Behavior": 4,
+    "PersonaPiece": 5,
+    "Resources": 6,
+    "Skins": 7,
+    "WorldTemplate": 8
+  }
+}

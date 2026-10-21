@@ -1,0 +1,45 @@
+{
+  "name": "Clientbound Attribute Layer Sync Packet Payload Data",
+  "hash": "3c7cfe1e3b3bfe853d203b824c67a526abd3f8c6f9beae7e3e883363a8a8bdd2",
+  "bind_type": "union",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "type": {
+        "name": "Update Attribute Layers Data",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Update Attribute Layers Data"
+    },
+    {
+      "type": {
+        "name": "Update Attribute Layer Settings Data",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Update Attribute Layer Settings Data"
+    },
+    {
+      "type": {
+        "name": "Update Environment Attributes Data",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Update Environment Attributes Data"
+    },
+    {
+      "type": {
+        "name": "Remove Environment Attributes Data",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Remove Environment Attributes Data"
+    }
+  ],
+  "backing_enum": {
+    "name": "Clientbound Attribute Layer Sync Packet Payload Data Control",
+    "bind_type": "enum",
+    "is_bind_type": true
+  }
+}

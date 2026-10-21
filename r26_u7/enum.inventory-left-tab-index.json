@@ -1,0 +1,17 @@
+{
+  "name": "Inventory Left Tab Index",
+  "hash": "e8d206698667094b643d2b8a441b183c7eae216bf8bc92ed2d663ee3cae7126c",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "i32",
+  "enum": {
+    "None": 0,
+    "RecipeConstruction": 1,
+    "RecipeEquipment": 2,
+    "RecipeItems": 3,
+    "RecipeNature": 4,
+    "RecipeSearch": 5,
+    "Survival": 6
+  }
+}

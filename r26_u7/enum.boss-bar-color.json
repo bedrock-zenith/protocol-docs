@@ -1,0 +1,18 @@
+{
+  "name": "Boss Bar Color",
+  "hash": "1cd0ac23da885798480b260d8a5b4e1f65086881578fe168ca0fbd6b2aa2e3ec",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "PINK": 0,
+    "BLUE": 1,
+    "RED": 2,
+    "GREEN": 3,
+    "YELLOW": 4,
+    "PURPLE": 5,
+    "REBECCA_PURPLE": 6,
+    "WHITE": 7
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Position Tracking Db Client Request Packet Payload Action",
+  "hash": "d1a43a96931588f0b306603cc5f01e72a68e5ee6114dfe67a58edb923c953d6e",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "Query": 0
+  }
+}

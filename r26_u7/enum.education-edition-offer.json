@@ -1,0 +1,13 @@
+{
+  "name": "Education Edition Offer",
+  "hash": "688758cae7b9dcbccf5d28cb24be7504f67e0dcf93ffe72e01c636fadc6a75c4",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u32",
+  "enum": {
+    "None": 0,
+    "RestOfWorld": 1,
+    "China_Deprecated": 2
+  }
+}

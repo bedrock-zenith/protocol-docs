@@ -1,0 +1,13 @@
+{
+  "name": "Lesson Action",
+  "hash": "84a08b809e3d86923667d8ce2b9ef8ad0a4afe1fd806e032e9f20bfe68402963",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "i8",
+  "enum": {
+    "Start": 0,
+    "Complete": 1,
+    "Restart": 2
+  }
+}

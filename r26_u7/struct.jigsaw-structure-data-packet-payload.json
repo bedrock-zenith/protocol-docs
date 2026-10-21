@@ -1,0 +1,16 @@
+{
+  "name": "Jigsaw Structure Data Packet Payload",
+  "hash": "f543491ec90e039b05364a3a3ab89dcab4d066f114997d7d15bd5b1c3c2cabbc",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Jigsaw Structure Data Tag",
+      "is_constant": false,
+      "type": {
+        "name": "nbt_compound",
+        "is_bind_type": false
+      }
+    }
+  ]
+}

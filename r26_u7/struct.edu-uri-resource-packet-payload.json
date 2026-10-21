@@ -1,0 +1,17 @@
+{
+  "name": "Edu Uri Resource Packet Payload",
+  "hash": "dec12baabdfc98f3e014003e8e7b4538193f2bbe81d21df88dc9d9f7c3ef721f",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Edu Shared Uri Resource",
+      "is_constant": false,
+      "type": {
+        "name": "Edu Shared Uri Resource",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

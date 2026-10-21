@@ -1,0 +1,19 @@
+{
+  "name": "Boss Event Update Type",
+  "hash": "a48ad24e88825eacea1cfcfb46ecbcad29597bd7f6cfe242602bd54503785c9c",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "Add": 0,
+    "PlayerAdded": 1,
+    "Remove": 2,
+    "PlayerRemoved": 3,
+    "Update_Percent": 4,
+    "Update_Name": 5,
+    "Update_Properties": 6,
+    "Update_Style": 7,
+    "Query": 8
+  }
+}

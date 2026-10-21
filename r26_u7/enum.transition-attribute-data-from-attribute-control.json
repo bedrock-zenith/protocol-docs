@@ -1,0 +1,14 @@
+{
+  "name": "Transition Attribute Data From Attribute Control",
+  "hash": "dc502761ba19ab7ef09dc0087a53ed3e4458e6b84ad7a558f5bcca36d41d48c7",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u32",
+  "enum": {
+    "Bool Attribute Data": 0,
+    "Float Attribute Data": 1,
+    "Color Attribute Data": 2,
+    "String Attribute Data": 3
+  }
+}

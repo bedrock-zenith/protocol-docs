@@ -1,0 +1,19 @@
+{
+  "name": "Double Tag",
+  "hash": "bccbd27da902867bf1f837de1a7bf73c75b3b931769a48e4557f6bbe6f37f373",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Data",
+      "is_constant": false,
+      "type": {
+        "name": "float",
+        "is_bind_type": false,
+        "interpretation": "f64",
+        "reinterpret": "f64",
+        "data_encoding": "little_endian"
+      }
+    }
+  ]
+}

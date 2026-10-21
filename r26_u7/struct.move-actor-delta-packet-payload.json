@@ -1,0 +1,17 @@
+{
+  "name": "Move Actor Delta Packet Payload",
+  "hash": "111db3a88666e4487e61780f7e5322daaec584c7c3326ca9e321e6b3b630ef02",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Move Data",
+      "is_constant": false,
+      "type": {
+        "name": "Move Actor Delta Data",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

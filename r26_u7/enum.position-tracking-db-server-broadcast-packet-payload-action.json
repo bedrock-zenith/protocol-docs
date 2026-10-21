@@ -1,0 +1,13 @@
+{
+  "name": "Position Tracking Db Server Broadcast Packet Payload Action",
+  "hash": "7e5c773d395d1a0bf58af41b05f9157a49387e6e5113ed7398a7529cd6114325",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "Update": 0,
+    "Destroy": 1,
+    "NotFound": 2
+  }
+}

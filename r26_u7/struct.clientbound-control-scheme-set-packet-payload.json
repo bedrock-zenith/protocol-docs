@@ -1,0 +1,26 @@
+{
+  "name": "Clientbound Control Scheme Set Packet Payload",
+  "hash": "7dcdcb92a30ee263c038e07bbf57e530232a7e3fc64c71fb0ace0bde474812a6",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Control Scheme",
+      "is_constant": false,
+      "type": {
+        "name": "Control Scheme",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "numeric",
+        "data_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u8",
+          "reinterpret": "u8",
+          "data_encoding": "little_endian"
+        }
+      }
+    }
+  ]
+}

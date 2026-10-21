@@ -1,0 +1,21 @@
+{
+  "name": "Party Changed Packet Payload",
+  "hash": "c152b1ada997346f4874aa0e863cb4241edec631a43d3f6cc59fcb2b067518f5",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Party Info",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Player Party Info",
+          "bind_type": "struct",
+          "is_bind_type": true
+        }
+      }
+    }
+  ]
+}

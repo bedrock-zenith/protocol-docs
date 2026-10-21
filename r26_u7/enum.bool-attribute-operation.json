@@ -1,0 +1,18 @@
+{
+  "name": "Bool Attribute Operation",
+  "hash": "61a3ec39210f0a31294055d3bdf91afb6572da7544d25a1a58410c793b1a3cbd",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "i32",
+  "enum": {
+    "OVERRIDE": 0,
+    "ALPHA_BLEND": 1,
+    "AND": 2,
+    "NAND": 3,
+    "OR": 4,
+    "NOR": 5,
+    "XOR": 6,
+    "XNOR": 7
+  }
+}

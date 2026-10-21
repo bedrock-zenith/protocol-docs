@@ -1,0 +1,13 @@
+{
+  "name": "Furnace Layout",
+  "hash": "f4f3bfa2b63bd2f355d7d60879fabd3f96ac7e8505e4a0d9234b3f7482100ad9",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "i32",
+  "enum": {
+    "None": 0,
+    "InventoryOnly": 1,
+    "Default": 2
+  }
+}

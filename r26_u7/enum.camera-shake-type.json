@@ -1,0 +1,12 @@
+{
+  "name": "Camera Shake Type",
+  "hash": "dc2b0fda3c9d594de2dbd1c1a82e66454d1df93b3e9a80c9dfb685e01f5b6a42",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "Positional": 0,
+    "Rotational": 1
+  }
+}

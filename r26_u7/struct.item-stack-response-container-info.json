@@ -1,0 +1,37 @@
+{
+  "name": "Item Stack Response Container Info",
+  "hash": "bad3303324f481f9617bc90a8ec77f40fd3ccd5a7ae991f22c601f95ac4ed894",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Full Container Name",
+      "is_constant": false,
+      "type": {
+        "name": "Full Container Name",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Slots",
+      "is_constant": false,
+      "type": {
+        "name": "array",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Item Stack Response Slot Info",
+          "bind_type": "struct",
+          "is_bind_type": true
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    }
+  ]
+}

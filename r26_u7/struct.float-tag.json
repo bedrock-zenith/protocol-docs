@@ -1,0 +1,19 @@
+{
+  "name": "Float Tag",
+  "hash": "fbe06df9fd5ac5f83cc3fcc1c96d5716b21f0917e64d805c637ab315f77b5742",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Data",
+      "is_constant": false,
+      "type": {
+        "name": "float",
+        "is_bind_type": false,
+        "interpretation": "f32",
+        "reinterpret": "f32",
+        "data_encoding": "little_endian"
+      }
+    }
+  ]
+}

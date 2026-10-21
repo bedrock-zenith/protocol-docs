@@ -1,0 +1,29 @@
+{
+  "name": "Command Block Update Packet Payload Target",
+  "hash": "179b1835bed05bb9006192fc32e8cefa5f08ae1f98549c0563da26018345d813",
+  "bind_type": "union",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "type": {
+        "name": "Entity Command Target",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Entity Command Target"
+    },
+    {
+      "type": {
+        "name": "Block Command Data",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Block Command Data"
+    }
+  ],
+  "backing_enum": {
+    "name": "Command Block Update Packet Payload Target Control",
+    "bind_type": "enum",
+    "is_bind_type": true
+  }
+}

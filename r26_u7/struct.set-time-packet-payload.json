@@ -1,0 +1,19 @@
+{
+  "name": "Set Time Packet Payload",
+  "hash": "a81979569788c7791d6b78c22565227bf7182e816d38a29d1d1a22dcc9d84614",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Time",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "i32",
+        "reinterpret": "i32",
+        "data_encoding": "zleb128"
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Item Use On Actor Action Type",
+  "hash": "fb3e427c8c3e3fe3ee45e758c70f6a38d269fae4d2b349098fc3423d97ef7dd4",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "i32",
+  "enum": {
+    "Interact": 0,
+    "Attack": 1,
+    "Item Interact": 2
+  }
+}

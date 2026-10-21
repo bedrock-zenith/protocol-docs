@@ -1,0 +1,29 @@
+{
+  "name": "Empty Item Descriptor",
+  "hash": "d16fee122ddb3d3884846129f6a230a3e23d98de0ab36a2ab58ebe93a95ddd9f",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Descriptor Type",
+      "is_constant": true,
+      "type": {
+        "name": "Item Descriptor Type",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "numeric",
+        "data_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u8",
+          "reinterpret": "u8",
+          "data_encoding": "little_endian"
+        }
+      },
+      "metadata": {
+        "constant_value": "empty"
+      }
+    }
+  ]
+}

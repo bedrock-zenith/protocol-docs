@@ -1,0 +1,17 @@
+{
+  "name": "Update Adventure Settings Packet Payload",
+  "hash": "f54fecb7af01cd9c7379bb3c5930396320bd80cc85e61b7e3ab426cb5481225a",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Adventure Settings",
+      "is_constant": false,
+      "type": {
+        "name": "Adventure Settings",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

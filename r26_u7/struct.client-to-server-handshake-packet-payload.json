@@ -1,0 +1,7 @@
+{
+  "name": "Client To Server Handshake Packet Payload",
+  "hash": "bace96630fd6f54f15a89ed654f8cd92f5341421d81fbd91764d02e821f14ffc",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": []
+}

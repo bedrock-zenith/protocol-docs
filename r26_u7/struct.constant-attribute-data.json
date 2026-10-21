@@ -1,0 +1,31 @@
+{
+  "name": "Constant Attribute Data",
+  "hash": "2cb50bb8f6f386d880702aa814d9225774835b4a1c0d43b2a5e9b0f24376ce9b",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Attribute",
+      "is_constant": false,
+      "type": {
+        "name": "Constant Attribute Data Attribute",
+        "bind_type": "union",
+        "is_bind_type": true,
+        "enum_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        },
+        "control_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    }
+  ]
+}

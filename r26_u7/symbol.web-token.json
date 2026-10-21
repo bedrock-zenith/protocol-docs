@@ -1,0 +1,9 @@
+{
+  "name": "Web Token",
+  "hash": "8f709e1315d9e4467ae18d5b6212a8671a2b358511d3bb07825012b0205958ca",
+  "bind_type": "symbol",
+  "is_bind_type": true,
+  "metadata": {
+    "constrain": "Verify the input is a valid JWT."
+  }
+}

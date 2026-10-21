@@ -1,0 +1,14 @@
+{
+  "name": "Set Player Furnace Options Packet Payload Furnace Type",
+  "hash": "86886d6e1a21d09cd4ce1672fccaa5ee45eadb1dff0d6f5b59f39b75aafe754f",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "None": 0,
+    "Furnace": 1,
+    "BlastFurnace": 2,
+    "Smoker": 3
+  }
+}

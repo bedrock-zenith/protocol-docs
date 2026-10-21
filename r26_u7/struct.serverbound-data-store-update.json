@@ -1,0 +1,17 @@
+{
+  "name": "Serverbound Data Store Update",
+  "hash": "1b19b4b571a43137215892d335d23732843f8c7b48ee76524464724cc86f7d60",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Update",
+      "is_constant": false,
+      "type": {
+        "name": "Data Store Update",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

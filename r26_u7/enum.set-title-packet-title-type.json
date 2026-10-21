@@ -1,0 +1,19 @@
+{
+  "name": "Set Title Packet Title Type",
+  "hash": "8d7974bba8968021b946cf8e342bdd325d2aafd40e45eb65b0be096c1e8d6657",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "i32",
+  "enum": {
+    "Clear": 0,
+    "Reset": 1,
+    "Title": 2,
+    "Subtitle": 3,
+    "Actionbar": 4,
+    "Times": 5,
+    "TitleTextObject": 6,
+    "SubtitleTextObject": 7,
+    "ActionbarTextObject": 8
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Structure Redstone Save Mode",
+  "hash": "c3b2e3604634946349830f9158d73a959026a460410e65e10bc82b337c7b7314",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "SavesToMemory": 0,
+    "SavesToDisk": 1
+  }
+}

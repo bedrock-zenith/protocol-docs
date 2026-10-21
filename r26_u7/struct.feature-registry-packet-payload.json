@@ -1,0 +1,28 @@
+{
+  "name": "Feature Registry Packet Payload",
+  "hash": "5e32157add35d2a1e841d1d22dbd0c95a8684f0d052539c19ea2333c7175da26",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Features Data List",
+      "is_constant": false,
+      "type": {
+        "name": "array",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Feature Registry Feature Binary Json Format",
+          "bind_type": "struct",
+          "is_bind_type": true
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    }
+  ]
+}

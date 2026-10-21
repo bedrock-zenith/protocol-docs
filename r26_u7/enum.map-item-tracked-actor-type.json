@@ -1,0 +1,13 @@
+{
+  "name": "Map Item Tracked Actor Type",
+  "hash": "6a4923ca55225dc90655269d0183af3bc89f0db6f35fd846b54b37a70ca655e2",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "i32",
+  "enum": {
+    "Entity": 0,
+    "BlockEntity": 1,
+    "Other": 2
+  }
+}

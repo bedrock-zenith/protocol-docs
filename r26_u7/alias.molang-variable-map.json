@@ -1,0 +1,14 @@
+{
+  "name": "Molang Variable Map",
+  "hash": "035e482127bcaf203ea29e4474c8c9b3a8ff1d20549c166ee8b4ec9d1b95d03f",
+  "bind_type": "alias",
+  "is_bind_type": true,
+  "metadata": {
+    "constrain": "Ensures valid JSON that can be deserialized as MolangVariableMap"
+  },
+  "element_type": {
+    "name": "Json Value",
+    "bind_type": "alias",
+    "is_bind_type": true
+  }
+}

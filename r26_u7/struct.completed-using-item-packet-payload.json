@@ -1,0 +1,30 @@
+{
+  "name": "Completed Using Item Packet Payload",
+  "hash": "d4eb80bd78bc287182b74645029c96d63a7aaf103e91fef3e4f66d735780f5f0",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Item Id",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "i16",
+        "reinterpret": "i16",
+        "data_encoding": "little_endian"
+      }
+    },
+    {
+      "name": "Item Use Method",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "i32",
+        "reinterpret": "i32",
+        "data_encoding": "little_endian"
+      }
+    }
+  ]
+}

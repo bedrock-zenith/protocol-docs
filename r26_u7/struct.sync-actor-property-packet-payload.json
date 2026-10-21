@@ -1,0 +1,16 @@
+{
+  "name": "Sync Actor Property Packet Payload",
+  "hash": "11e13db5b8ed6893a2a5795b87cac04305bfc2e81b300b29d57fe50c842fe617",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Property Data",
+      "is_constant": false,
+      "type": {
+        "name": "nbt_compound",
+        "is_bind_type": false
+      }
+    }
+  ]
+}

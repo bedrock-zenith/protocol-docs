@@ -1,0 +1,37 @@
+{
+  "name": "Text Packet Payload Body",
+  "hash": "0adc8842d33cead1e7dd51956b1149bda81da751375583b14a388545615cae64",
+  "bind_type": "union",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "type": {
+        "name": "Message Only",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Message Only"
+    },
+    {
+      "type": {
+        "name": "Author And Message",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Author And Message"
+    },
+    {
+      "type": {
+        "name": "Message And Params",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Message And Params"
+    }
+  ],
+  "backing_enum": {
+    "name": "Text Packet Payload Body Control",
+    "bind_type": "enum",
+    "is_bind_type": true
+  }
+}

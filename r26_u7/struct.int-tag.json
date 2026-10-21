@@ -1,0 +1,19 @@
+{
+  "name": "Int Tag",
+  "hash": "664a5e8ddca89cb41f58a77ebd88508a2fcc2a0b3092347da4019c9a683aa63b",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Data",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "i32",
+        "reinterpret": "i32",
+        "data_encoding": "zleb128"
+      }
+    }
+  ]
+}

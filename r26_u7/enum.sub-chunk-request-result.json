@@ -1,0 +1,16 @@
+{
+  "name": "Sub Chunk Request Result",
+  "hash": "df0ff160bb2f89a463922c1fc177e452f2dc7ca7c6777a405a0d8bed9aaadbfd",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "Success": 1,
+    "LevelChunkDoesntExist": 2,
+    "WrongDimension": 3,
+    "PlayerDoesntExist": 4,
+    "IndexOutOfBounds": 5,
+    "SuccessAllAir": 6
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Map Create Locked Copy Packet Payload",
+  "hash": "3b2cbecdbc893d3420538295958d85c2035c85bbbe0db24fd7258e29f936baac",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Original Map Id",
+      "is_constant": false,
+      "type": {
+        "name": "Actor Unique Id",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "New Map Id",
+      "is_constant": false,
+      "type": {
+        "name": "Actor Unique Id",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

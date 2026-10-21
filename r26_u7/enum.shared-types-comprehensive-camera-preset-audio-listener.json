@@ -1,0 +1,12 @@
+{
+  "name": "Shared Types Comprehensive Camera Preset Audio Listener",
+  "hash": "21f11c9058d5ca76073fdd88860f400f10c6dd92b1bcec8793c3002277529562",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "Camera": 0,
+    "Player": 1
+  }
+}

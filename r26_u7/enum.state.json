@@ -1,0 +1,12 @@
+{
+  "name": "State",
+  "hash": "a20ba9d17823a8db8fdeb562424eda9bc42612c6def32a3cb05d124658435159",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "Start": 0,
+    "Stop": 1
+  }
+}

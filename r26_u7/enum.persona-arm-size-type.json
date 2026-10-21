@@ -1,0 +1,12 @@
+{
+  "name": "Persona Arm Size Type",
+  "hash": "2d7561ba9da51a5f6ef4a34f531ee0cc0a3396fb6acf66ea8b33e23d221db89c",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "Slim": 0,
+    "Wide": 1
+  }
+}

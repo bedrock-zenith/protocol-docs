@@ -1,0 +1,7 @@
+{
+  "name": "Refresh Entitlements Packet Payload",
+  "hash": "6881d945e0b340d95fda0b7de014a06f8dd035f5bb38d11cb2edaa6f8284e29f",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": []
+}

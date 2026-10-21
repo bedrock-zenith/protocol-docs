@@ -1,0 +1,15 @@
+{
+  "name": "Attribute Operands",
+  "hash": "5925e2bfe7553174e5917ba39efadb52aa18a8cc017c8ee8d31d800d15b9a9e0",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "i32",
+  "enum": {
+    "OPERAND_MIN": 0,
+    "OPERAND_MAX": 1,
+    "OPERAND_CURRENT": 2,
+    "TOTAL_OPERANDS": 3,
+    "OPERAND_INVALID": 3
+  }
+}

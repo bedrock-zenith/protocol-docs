@@ -1,0 +1,13 @@
+{
+  "name": "Payload Type",
+  "hash": "817b6688a9b54ef09688930f8ed1d437baa2422749dc11ecf14dfdcc30fa5776",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "Invalid": 0,
+    "ClearDebugMarkers": 1,
+    "AddDebugMarkerCube": 2
+  }
+}

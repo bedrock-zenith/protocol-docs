@@ -1,0 +1,10 @@
+{
+  "name": "Shared Types Reference Shared Types Asset Type Camera Aim Assist",
+  "hash": "5d7b79576ef7fd30aed587dd34ab7d47494125e715dad1f7af8926095531801c",
+  "bind_type": "alias",
+  "is_bind_type": true,
+  "element_type": {
+    "name": "string",
+    "is_bind_type": false
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Network Permissions",
+  "hash": "e1c57b53dc41a3a4f64c29c530003b5a9f4a35eaf413c7d28698a18a9bcddc2b",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Server Auth Sound Enabled",
+      "is_constant": false,
+      "type": {
+        "name": "boolean",
+        "is_bind_type": false,
+        "data_encoding": "bool"
+      }
+    }
+  ]
+}

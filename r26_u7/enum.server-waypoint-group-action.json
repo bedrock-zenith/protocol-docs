@@ -1,0 +1,14 @@
+{
+  "name": "Server Waypoint Group Action",
+  "hash": "332bdc5fa96a4465583ad0ecac1037abac1d0b9ee1359088fdebfbdbe958b503",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "None": 0,
+    "Add": 1,
+    "Remove": 2,
+    "Update": 3
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Chat Packet Payload",
+  "hash": "78c64a6dafd9dbefed0fe8b94f649062d9b0ba2213d1d84cd3d095ca5f1e359c",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Signed Chat",
+      "is_constant": false,
+      "type": {
+        "name": "Signed Chat",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Formatting",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Chat Formatting",
+          "bind_type": "struct",
+          "is_bind_type": true
+        }
+      }
+    }
+  ]
+}

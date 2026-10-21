@@ -1,0 +1,19 @@
+{
+  "name": "Actor Unique Id",
+  "hash": "52cd39b15bc3cc178949721864571f64cded53b4e3d4fb5104d5728e6402ab3b",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Actor Unique Id",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "i64",
+        "reinterpret": "i64",
+        "data_encoding": "zleb128"
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Line Data Payload",
+  "hash": "adc221e60ff904ef3048a390cc68b91a0c34f37b98240e0667003f5d0190ae31",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Line End Location",
+      "is_constant": false,
+      "type": {
+        "name": "Vec3",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

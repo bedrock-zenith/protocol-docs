@@ -1,0 +1,14 @@
+{
+  "name": "Position Mode",
+  "hash": "76fc9ec336a6f4ee7420069aec6bae6fa149962788a84af692b9953f5ae95db0",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "Normal": 0,
+    "Respawn": 1,
+    "Teleport": 2,
+    "OnlyHeadRot": 3
+  }
+}

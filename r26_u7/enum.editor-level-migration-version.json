@@ -1,0 +1,12 @@
+{
+  "name": "Editor Level Migration Version",
+  "hash": "ad90f32ddebfbb3159653bf82aed8a4352ac5698e5ca00d6a986c0afbd48d42e",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "i8",
+  "enum": {
+    "Legacy": 0,
+    "EditorAchievements": 1
+  }
+}

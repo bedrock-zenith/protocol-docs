@@ -1,0 +1,26 @@
+{
+  "name": "Open Sign Packet Payload",
+  "hash": "59e2f676988c3acca689f22c95e211e96fa667fcddfce3b3d3e2b66f172537a6",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Pos",
+      "is_constant": false,
+      "type": {
+        "name": "Block Pos",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Is Front Side",
+      "is_constant": false,
+      "type": {
+        "name": "boolean",
+        "is_bind_type": false,
+        "data_encoding": "bool"
+      }
+    }
+  ]
+}

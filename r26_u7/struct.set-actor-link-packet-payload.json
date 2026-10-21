@@ -1,0 +1,17 @@
+{
+  "name": "Set Actor Link Packet Payload",
+  "hash": "31078040077b3763c8c9c6ffe9ac4728997640f1593d745a7eaceeee0e0523cd",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Link",
+      "is_constant": false,
+      "type": {
+        "name": "Actor Link",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

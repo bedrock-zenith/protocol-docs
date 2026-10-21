@@ -1,0 +1,13 @@
+{
+  "name": "Type",
+  "hash": "bf3b6875abc7e55ecefe80153121c940e895bd3bfdfe858014b5a3f1d13ac6f7",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "Invalid": 0,
+    "ClearDebugMarkers": 1,
+    "AddDebugMarkerCube": 2
+  }
+}

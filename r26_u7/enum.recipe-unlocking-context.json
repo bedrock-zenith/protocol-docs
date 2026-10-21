@@ -1,0 +1,14 @@
+{
+  "name": "Recipe Unlocking Context",
+  "hash": "45eb0568bb3bdd6f56b5b5a7d498ba01f5b650a6c4aac344112d6bd4f537b0f4",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "i32",
+  "enum": {
+    "None": 0,
+    "AlwaysUnlocked": 1,
+    "PlayerInWater": 2,
+    "PlayerHasManyItems": 3
+  }
+}

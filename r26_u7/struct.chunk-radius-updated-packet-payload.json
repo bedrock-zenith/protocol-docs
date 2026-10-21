@@ -1,0 +1,19 @@
+{
+  "name": "Chunk Radius Updated Packet Payload",
+  "hash": "6afb4cfaf1707cd8362c5d2735b72dd3318afa58d145cd98c31ccb522c986dcf",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Chunk Radius",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "i32",
+        "reinterpret": "i32",
+        "data_encoding": "zleb128"
+      }
+    }
+  ]
+}

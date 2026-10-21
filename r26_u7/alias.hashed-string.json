@@ -1,0 +1,10 @@
+{
+  "name": "Hashed String",
+  "hash": "b5200900efe99dbed793896b3090c758a6f5f5ad794a76e0ffeb432e3c8271d3",
+  "bind_type": "alias",
+  "is_bind_type": true,
+  "element_type": {
+    "name": "string",
+    "is_bind_type": false
+  }
+}

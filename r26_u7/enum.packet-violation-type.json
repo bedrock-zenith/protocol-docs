@@ -1,0 +1,12 @@
+{
+  "name": "Packet Violation Type",
+  "hash": "8da22ae7c8236d5b1d8420e830630383683135e691b0cb5a68872415c6d454f9",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "i32",
+  "enum": {
+    "Unknown": -1,
+    "PacketMalformed": 0
+  }
+}

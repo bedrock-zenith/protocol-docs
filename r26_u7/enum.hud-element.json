@@ -1,0 +1,23 @@
+{
+  "name": "Hud Element",
+  "hash": "843cf6678220fbf717fa7c0d673e1ae564ef6054e5d3a671b9e6878df58c1ee0",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "i32",
+  "enum": {
+    "PaperDoll": 0,
+    "Armor": 1,
+    "ToolTips": 2,
+    "TouchControls": 3,
+    "Crosshair": 4,
+    "HotBar": 5,
+    "Health": 6,
+    "ProgressBar": 7,
+    "Hunger": 8,
+    "AirBubbles": 9,
+    "HorseHealth": 10,
+    "StatusEffects": 11,
+    "ItemText": 12
+  }
+}

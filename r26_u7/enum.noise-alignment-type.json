@@ -1,0 +1,11 @@
+{
+  "name": "Noise Alignment Type",
+  "hash": "30d917f27ec2e43e8effebf1f43c05414d62b7d8ddebe91740da7d8333875ffb",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "MinLocalTransitionEnd": 0
+  }
+}

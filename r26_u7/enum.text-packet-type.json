@@ -1,0 +1,22 @@
+{
+  "name": "Text Packet Type",
+  "hash": "5ca10bd8efefc732e7d9a7d2db10dd5f25f9dec6f5eab7d9c5044c78476853b3",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "raw": 0,
+    "chat": 1,
+    "translate": 2,
+    "popup": 3,
+    "jukeboxPopup": 4,
+    "tip": 5,
+    "systemMessage": 6,
+    "whisper": 7,
+    "announcement": 8,
+    "textObjectWhisper": 9,
+    "textObject": 10,
+    "textObjectAnnouncement": 11
+  }
+}

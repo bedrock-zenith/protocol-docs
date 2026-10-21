@@ -1,0 +1,40 @@
+{
+  "name": "Resource Pack Chunk Request Packet Payload",
+  "hash": "e1a575a2941186dc39a3b19f3cd26137d4ea8dcb2d990295bdd80b27435637c9",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Resource Name",
+      "is_constant": false,
+      "type": {
+        "name": "string",
+        "is_bind_type": false,
+        "metadata": {
+          "pattern": "A string in the format of <uuid>_<semver>, where <uuid> is a valid UUID and <semver> is a valid semantic version"
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      }
+    },
+    {
+      "name": "Chunk",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "i32",
+        "metadata": {
+          "min_value": 0
+        },
+        "reinterpret": "i32",
+        "data_encoding": "little_endian"
+      }
+    }
+  ]
+}

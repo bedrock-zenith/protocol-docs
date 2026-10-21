@@ -1,0 +1,17 @@
+{
+  "name": "Float Attribute Operation",
+  "hash": "13df58b0891f729542f0ffc507a727de9900b1bfc3c58c3e7791cf10d9592012",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "i32",
+  "enum": {
+    "OVERRIDE": 0,
+    "ALPHA_BLEND": 1,
+    "ADD": 2,
+    "SUBTRACT": 3,
+    "MULTIPLY": 4,
+    "MINIMUM": 5,
+    "MAXIMUM": 6
+  }
+}

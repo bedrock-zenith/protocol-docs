@@ -1,0 +1,17 @@
+{
+  "name": "Game Rules Changed Packet Payload",
+  "hash": "40b692bc934442de1fed68c6f975591e82aa30058bcae1bce074800ee60b570a",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Rule Data",
+      "is_constant": false,
+      "type": {
+        "name": "Game Rules Changed Packet Data",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

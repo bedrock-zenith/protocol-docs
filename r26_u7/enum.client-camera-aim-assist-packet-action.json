@@ -1,0 +1,12 @@
+{
+  "name": "Client Camera Aim Assist Packet Action",
+  "hash": "aaaa021656f41a986eed4b031e6fdf6f115f079cbf3faee00afe720ac1a69112",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "SetFromCameraPreset": 0,
+    "Clear": 1
+  }
+}

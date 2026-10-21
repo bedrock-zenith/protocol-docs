@@ -1,0 +1,14 @@
+{
+  "name": "Structure Template Request Operation",
+  "hash": "1f6bea2865075342cc86b03617fd89ee1432c5f6f1f37dd234259e3033963b71",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "None": 0,
+    "ExportFromSaveMode": 1,
+    "ExportFromLoadMode": 2,
+    "QuerySavedStructure": 3
+  }
+}

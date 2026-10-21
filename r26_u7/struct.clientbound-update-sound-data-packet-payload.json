@@ -1,0 +1,40 @@
+{
+  "name": "Clientbound Update Sound Data Packet Payload",
+  "hash": "034721d2896d9a0f1f5c9ae14d3c1e7be9efd8b5981368c18ffc5f7478f2fab5",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Server Sound Handle",
+      "is_constant": false,
+      "type": {
+        "name": "Server Sound Handle",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Event",
+      "is_constant": false,
+      "type": {
+        "name": "Clientbound Update Sound Data Packet Payload Event",
+        "bind_type": "union",
+        "is_bind_type": true,
+        "enum_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        },
+        "control_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    }
+  ]
+}

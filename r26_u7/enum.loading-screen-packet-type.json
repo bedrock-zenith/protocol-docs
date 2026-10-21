@@ -1,0 +1,12 @@
+{
+  "name": "Loading Screen Packet Type",
+  "hash": "c7b5625e5904d9cba87a27f6e056b6e800e8089a844ab55b36012800918333d3",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "i32",
+  "enum": {
+    "StartLoadingScreen": 1,
+    "EndLoadingScreen": 2
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Camera Aim Assist Actor Priority Packet Payload",
+  "hash": "41f403605f33bfaf4766cfde61b664e5b57a4a12bfbaa19322bb291f4d289ca0",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Camera Aim Assist Actor Priority List",
+      "is_constant": false,
+      "type": {
+        "name": "array",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Aim Assist Actor Priority Data",
+          "bind_type": "struct",
+          "is_bind_type": true
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    }
+  ]
+}

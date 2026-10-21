@@ -1,0 +1,14 @@
+{
+  "name": "Packet Violation Severity",
+  "hash": "66f3f21800cf9ec95b585b642a3376f6ef60cd8c63a7d9cd7af7ebec2b417827",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "i32",
+  "enum": {
+    "Unknown": -1,
+    "Warning": 0,
+    "FinalWarning": 1,
+    "TerminatingConnection": 2
+  }
+}

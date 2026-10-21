@@ -1,0 +1,17 @@
+{
+  "name": "Camera Instruction Set Instruction Facing Option",
+  "hash": "96322a544a3d415ec0252f90974710df98b0e18dbcc0e267ec265eb3773b0943",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Pos",
+      "is_constant": false,
+      "type": {
+        "name": "Vec3",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Inventory Mismatch Data",
+  "hash": "f14625845e9757bbbbb659ddedd10687abaa5ace221ec74dbcf45c82fcd5690d",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Actions",
+      "is_constant": false,
+      "type": {
+        "name": "Inventory Transaction",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

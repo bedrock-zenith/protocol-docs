@@ -1,0 +1,11 @@
+{
+  "name": "Network Item Instance Descriptor",
+  "hash": "138069b7e14cec3998ce1d5ffe7a7632ae13bbc4d0cee7da7363e8f93877885d",
+  "bind_type": "alias",
+  "is_bind_type": true,
+  "element_type": {
+    "name": "Network Item Instance Descriptor Data",
+    "bind_type": "struct",
+    "is_bind_type": true
+  }
+}

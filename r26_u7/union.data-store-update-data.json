@@ -1,0 +1,48 @@
+{
+  "name": "Data Store Update Data",
+  "hash": "07613d4661bb245f072b8f0a18f33c1479536d9ed3e5ad7d9eb2bc182ffd20ce",
+  "bind_type": "union",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "type": {
+        "name": "float",
+        "is_bind_type": false,
+        "interpretation": "f64",
+        "reinterpret": "f64",
+        "data_encoding": "little_endian"
+      },
+      "enum_literal": "float"
+    },
+    {
+      "type": {
+        "name": "boolean",
+        "is_bind_type": false,
+        "data_encoding": "bool"
+      },
+      "enum_literal": "boolean"
+    },
+    {
+      "type": {
+        "name": "string",
+        "is_bind_type": false,
+        "metadata": {
+          "max_length": 5000
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      },
+      "enum_literal": "string"
+    }
+  ],
+  "backing_enum": {
+    "name": "Data Store Update Data Control",
+    "bind_type": "enum",
+    "is_bind_type": true
+  }
+}

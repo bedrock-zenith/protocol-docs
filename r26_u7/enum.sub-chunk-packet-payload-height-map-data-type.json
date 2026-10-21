@@ -1,0 +1,15 @@
+{
+  "name": "Sub Chunk Packet Payload Height Map Data Type",
+  "hash": "864d2a6665a0dad3df01ef06ace6ea1fa6b26f25e7292554bb589fac48bad303",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "NoData": 0,
+    "HasData": 1,
+    "AllTooHigh": 2,
+    "AllTooLow": 3,
+    "AllCopied": 4
+  }
+}

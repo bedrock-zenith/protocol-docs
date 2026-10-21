@@ -1,0 +1,75 @@
+{
+  "name": "Serialized Abilities Data",
+  "hash": "873128f058ea9e456b3975883171ed69df7d4b1c7777272a249eeb236d14e30b",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Target Player Raw Id",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "i64",
+        "reinterpret": "i64",
+        "data_encoding": "little_endian"
+      }
+    },
+    {
+      "name": "Player Permissions",
+      "is_constant": false,
+      "type": {
+        "name": "Player Permission Level",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "numeric",
+        "data_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i8",
+          "reinterpret": "i8",
+          "data_encoding": "little_endian"
+        }
+      }
+    },
+    {
+      "name": "Command Permissions",
+      "is_constant": false,
+      "type": {
+        "name": "Command Permission Level",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "numeric",
+        "data_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u8",
+          "reinterpret": "u8",
+          "data_encoding": "little_endian"
+        }
+      }
+    },
+    {
+      "name": "Layers",
+      "is_constant": false,
+      "type": {
+        "name": "array",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Serialized Abilities Data Serialized Layer",
+          "bind_type": "struct",
+          "is_bind_type": true
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    }
+  ]
+}

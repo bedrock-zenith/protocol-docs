@@ -1,0 +1,63 @@
+{
+  "name": "Noise Transition Attribute Data",
+  "hash": "e64dbe5deff9bb071bc0716def3d2db7b189fd7bfd812a45038463957f6924d0",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "From Attribute",
+      "is_constant": false,
+      "type": {
+        "name": "Noise Transition Attribute Data From Attribute",
+        "bind_type": "union",
+        "is_bind_type": true,
+        "enum_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        },
+        "control_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    },
+    {
+      "name": "To Attribute",
+      "is_constant": false,
+      "type": {
+        "name": "Noise Transition Attribute Data To Attribute",
+        "bind_type": "union",
+        "is_bind_type": true,
+        "enum_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        },
+        "control_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    },
+    {
+      "name": "Settings",
+      "is_constant": false,
+      "type": {
+        "name": "Noise Transition Settings Data",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

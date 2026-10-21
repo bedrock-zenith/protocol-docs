@@ -1,0 +1,26 @@
+{
+  "name": "Clientbound Data Driven Ui Close Screen Payload",
+  "hash": "cebedbd4af10272365680d23a0ff85678f320c77c7b5ff35d2992ef4fbcf7a8d",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Form Id",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "metadata": {
+            "min_value": 0
+          },
+          "reinterpret": "u32",
+          "data_encoding": "little_endian"
+        }
+      }
+    }
+  ]
+}

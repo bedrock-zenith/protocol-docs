@@ -1,0 +1,37 @@
+{
+  "name": "Login Packet Payload",
+  "hash": "511049105bca440d2f4eade8e13a77eb790c36f028f04c7b6b6fb5cc19576195",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Client Network Version",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "i32",
+        "reinterpret": "i32",
+        "data_encoding": "big_endian"
+      }
+    },
+    {
+      "name": "Connection Request",
+      "is_constant": false,
+      "type": {
+        "name": "string",
+        "is_bind_type": false,
+        "metadata": {
+          "constrain": "Connection request validity check"
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      }
+    }
+  ]
+}

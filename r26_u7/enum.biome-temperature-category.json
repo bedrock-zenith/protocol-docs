@@ -1,0 +1,15 @@
+{
+  "name": "Biome Temperature Category",
+  "hash": "376180310403e2f7bc0db39193b14a57a1ec5964137bcc39c2a2963ba78edd45",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "Medium": 0,
+    "Warm": 1,
+    "Lukewarm": 2,
+    "Cold": 3,
+    "Frozen": 4
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Item Release Action Type",
+  "hash": "51101330bde885285090441512058cb5c9ed9c49c9787863c73ec86607fb5615",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "i32",
+  "enum": {
+    "Release": 0,
+    "Use": 1
+  }
+}

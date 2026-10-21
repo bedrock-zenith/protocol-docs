@@ -1,0 +1,15 @@
+{
+  "name": "Village Type",
+  "hash": "600293cefe597f42eb291f98bc70db0a80ff635773aaeb73e1e229f7fc99cb75",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "Desert": 0,
+    "Ice": 1,
+    "Savanna": 2,
+    "Taiga": 3,
+    "Default": 4
+  }
+}

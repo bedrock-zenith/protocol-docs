@@ -1,0 +1,17 @@
+{
+  "name": "Inventory Left Tab Pocket Index",
+  "hash": "147adffc02b4aa7c6f1c859d130fe4c48d1cfa8e1680048aed41accca313675f",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "i32",
+  "enum": {
+    "None": 0,
+    "Survival": 1,
+    "RecipeNature": 2,
+    "RecipeItems": 3,
+    "RecipeEquipment": 4,
+    "RecipeConstruction": 5,
+    "RecipeSearch": 6
+  }
+}

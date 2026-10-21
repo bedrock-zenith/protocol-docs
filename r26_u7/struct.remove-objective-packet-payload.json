@@ -1,0 +1,23 @@
+{
+  "name": "Remove Objective Packet Payload",
+  "hash": "af3d29b994b68da44d1eabac1b5148a5c47c980074d826c9f5f29ac00344b23a",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Objective Name",
+      "is_constant": false,
+      "type": {
+        "name": "string",
+        "is_bind_type": false,
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      }
+    }
+  ]
+}

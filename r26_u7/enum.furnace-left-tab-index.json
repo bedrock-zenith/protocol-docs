@@ -1,0 +1,16 @@
+{
+  "name": "Furnace Left Tab Index",
+  "hash": "af25f4b7dc247b2c41d493ea19a3b02516809d70c2c9be3336541dba092c8991",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "i32",
+  "enum": {
+    "None": 0,
+    "RecipeFood": 1,
+    "RecipeItems": 2,
+    "RecipeBlocks": 3,
+    "RecipeSearch": 4,
+    "Inventory": 5
+  }
+}

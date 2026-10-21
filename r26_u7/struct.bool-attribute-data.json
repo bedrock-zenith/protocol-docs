@@ -1,0 +1,42 @@
+{
+  "name": "Bool Attribute Data",
+  "hash": "b43c92e8b20150d494579b57a55697011663a9c2a1e5351eeb00092fb06b4459",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Value",
+      "is_constant": false,
+      "type": {
+        "name": "boolean",
+        "is_bind_type": false,
+        "data_encoding": "bool"
+      }
+    },
+    {
+      "name": "Operation",
+      "is_constant": false,
+      "type": {
+        "name": "Bool Attribute Operation",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "literal",
+        "data_encoding": {
+          "name": "string",
+          "is_bind_type": false,
+          "length_encoding": {
+            "name": "integer",
+            "is_bind_type": false,
+            "interpretation": "i32",
+            "reinterpret": "i32",
+            "data_encoding": "zleb128"
+          }
+        }
+      },
+      "metadata": {
+        "default_value": "override"
+      }
+    }
+  ]
+}

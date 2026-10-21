@@ -1,0 +1,12 @@
+{
+  "name": "Rewind Type",
+  "hash": "be1c7eb51d969fedf76723413b00835c32725c2ddac3394a1efd1b0981d94b4a",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "Player": 0,
+    "Vehicle": 1
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Signed Audio Content",
+  "hash": "f663da05e68f782de6d5f374dac343311d55f62bdaeb18a413e0cc26bb4c45fd",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Compact Jwt",
+      "is_constant": false,
+      "type": {
+        "name": "string",
+        "is_bind_type": false,
+        "metadata": {
+          "max_length": 32768
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Transition Attribute Data To Attribute",
+  "hash": "7b55789661885f85e5e47d9402a54824f0108dfb1ac387f4d8ad86c46df9a5ac",
+  "bind_type": "union",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "type": {
+        "name": "Bool Attribute Data",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Bool Attribute Data"
+    },
+    {
+      "type": {
+        "name": "Float Attribute Data",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Float Attribute Data"
+    },
+    {
+      "type": {
+        "name": "Color Attribute Data",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Color Attribute Data"
+    },
+    {
+      "type": {
+        "name": "String Attribute Data",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "String Attribute Data"
+    }
+  ],
+  "backing_enum": {
+    "name": "Transition Attribute Data To Attribute Control",
+    "bind_type": "enum",
+    "is_bind_type": true
+  }
+}

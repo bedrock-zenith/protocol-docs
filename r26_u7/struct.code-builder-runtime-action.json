@@ -1,0 +1,26 @@
+{
+  "name": "Code Builder Runtime Action",
+  "hash": "5179acdec0917967f06155657d8dda5d21b896c46272ccfa353e50d5a06be379",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Code Builder Runtime Action",
+      "is_constant": false,
+      "type": {
+        "name": "string",
+        "is_bind_type": false,
+        "metadata": {
+          "max_length": 16
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      }
+    }
+  ]
+}

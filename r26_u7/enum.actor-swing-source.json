@@ -1,0 +1,19 @@
+{
+  "name": "Actor Swing Source",
+  "hash": "bae9b24e25854fa830f66851c2ec62a0c2bada0a2c1dcf29936363e6835f98ef",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "None": 0,
+    "Build": 1,
+    "Mine": 2,
+    "Interact": 3,
+    "Attack": 4,
+    "UseItem": 5,
+    "ThrowItem": 6,
+    "DropItem": 7,
+    "Event": 8
+  }
+}

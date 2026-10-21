@@ -1,0 +1,12 @@
+{
+  "name": "Aim Assist Target Mode",
+  "hash": "0d83dd09ba17168fa30c58f562340b6aed9dc5a3709865aa5acf40d50e7f704e",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "angle": 0,
+    "distance": 1
+  }
+}

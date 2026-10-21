@@ -1,0 +1,12 @@
+{
+  "name": "Scoreboard Identity Packet Type",
+  "hash": "80324ea9ef011db149cd716e864e6d33a136d5c2d95edbfb4e47272e1904c846",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "Update": 0,
+    "Remove": 1
+  }
+}

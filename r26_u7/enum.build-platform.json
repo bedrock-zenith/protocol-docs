@@ -1,0 +1,21 @@
+{
+  "name": "Build Platform",
+  "hash": "1eb32e93812b276312692a7a2d6ac0abe13f59fde320455f767b3c9c9267718b",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "i32",
+  "enum": {
+    "Google": 1,
+    "iOS": 2,
+    "OSX": 3,
+    "Amazon": 4,
+    "Win32": 8,
+    "Dedicated": 9,
+    "Sony": 11,
+    "Nintendo": 12,
+    "Xbox": 13,
+    "Linux": 15,
+    "Unknown": -1
+  }
+}

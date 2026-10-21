@@ -1,0 +1,22 @@
+{
+  "name": "Player Input Tick",
+  "hash": "77f69281e048f75d32089c9b8b23326aea59c727c663459a458547b27317e1fb",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Input Tick",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "u64",
+        "metadata": {
+          "min_value": 0
+        },
+        "reinterpret": "u64",
+        "data_encoding": "leb128"
+      }
+    }
+  ]
+}

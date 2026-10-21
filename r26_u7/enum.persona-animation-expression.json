@@ -1,0 +1,12 @@
+{
+  "name": "Persona Animation Expression",
+  "hash": "87ccee7730d0176229a335cf832f040db845eb1dd8e0141fef7b675fd305cbb4",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u32",
+  "enum": {
+    "Linear": 0,
+    "Blinking": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Camera Presets Packet Payload",
+  "hash": "ee809ac9f69d501fa656c9c7f2c4b96acedbedbe68015e3930dcf287c92a46da",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Camera Presets",
+      "is_constant": false,
+      "type": {
+        "name": "Camera Presets",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

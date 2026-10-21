@@ -1,0 +1,31 @@
+{
+  "name": "Resource Pack Client Response Packet Payload",
+  "hash": "45ec3ac8edbdc1e3e5f4464c6290876b6b72e7dc09a5fcd7a8d2ce0b9ef55bce",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Response",
+      "is_constant": false,
+      "type": {
+        "name": "Resource Pack Client Response Packet Payload Response",
+        "bind_type": "union",
+        "is_bind_type": true,
+        "enum_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        },
+        "control_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    }
+  ]
+}

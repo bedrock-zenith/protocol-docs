@@ -1,0 +1,10 @@
+{
+  "name": "Sound Event Identifier",
+  "hash": "bdff5c25ca69bbc2a2c1f13879d751885605145890b7e531a8bc9fcfaff82bbd",
+  "bind_type": "alias",
+  "is_bind_type": true,
+  "element_type": {
+    "name": "string",
+    "is_bind_type": false
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Locator Bar Packet Payload",
+  "hash": "c42662bdb30f21d2d163a57cd4eb976cce0502e7fb0a9ff499215b888463653d",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Waypoints",
+      "is_constant": false,
+      "type": {
+        "name": "array",
+        "is_bind_type": false,
+        "metadata": {
+          "max_length": 40000
+        },
+        "element_type": {
+          "name": "Locator Bar Waypoint Payload",
+          "bind_type": "struct",
+          "is_bind_type": true
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    }
+  ]
+}

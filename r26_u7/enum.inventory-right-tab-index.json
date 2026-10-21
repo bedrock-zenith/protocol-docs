@@ -1,0 +1,14 @@
+{
+  "name": "Inventory Right Tab Index",
+  "hash": "a7c9f90574dba0553e13b088907456e0906abb6e1c838f53ec9997f3cf445115",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "i32",
+  "enum": {
+    "None": 0,
+    "FullScreen": 1,
+    "Crafting": 2,
+    "Armor": 3
+  }
+}

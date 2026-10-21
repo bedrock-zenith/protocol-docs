@@ -1,0 +1,12 @@
+{
+  "name": "Cursor Item Drag State",
+  "hash": "accdf37317e30789065e792ee902ba6db8cc622fef795c1223c097ed719ef210",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "Start": 0,
+    "Stop": 1
+  }
+}

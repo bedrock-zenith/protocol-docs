@@ -1,0 +1,14 @@
+{
+  "name": "Editor World Type",
+  "hash": "cda29e7da5c32a2df0cb0ce2d87558c1ab5b3016c8214a14ed67dd6356324d7c",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "i32",
+  "enum": {
+    "NonEditor": 0,
+    "EditorProject": 1,
+    "EditorTestLevel": 2,
+    "EditorRealmsUpload": 3
+  }
+}

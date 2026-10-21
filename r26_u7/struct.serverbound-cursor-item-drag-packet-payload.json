@@ -1,0 +1,26 @@
+{
+  "name": "Serverbound Cursor Item Drag Packet Payload",
+  "hash": "91b8bcefa6e0043f32e790dc7839c21e989ec8213d820c2b983e1dc30acb7870",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "State",
+      "is_constant": false,
+      "type": {
+        "name": "State",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "numeric",
+        "data_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u8",
+          "reinterpret": "u8",
+          "data_encoding": "little_endian"
+        }
+      }
+    }
+  ]
+}

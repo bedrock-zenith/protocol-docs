@@ -1,0 +1,13 @@
+{
+  "name": "Serverbound Loading Screen Packet Type",
+  "hash": "6890ab8cc9fa7113a1eafae6e3f11c3495e50a97ae204d8fb609d5dd48e1020d",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "i32",
+  "enum": {
+    "Unknown": 0,
+    "StartLoadingScreen": 1,
+    "EndLoadingScreen": 2
+  }
+}

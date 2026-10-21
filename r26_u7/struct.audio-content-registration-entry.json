@@ -1,0 +1,54 @@
+{
+  "name": "Audio Content Registration Entry",
+  "hash": "62bba6279790d4d5fe307f938a685cdf19ba10145deba313b4117b4b2d89009b",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Audio Content Id",
+      "is_constant": false,
+      "type": {
+        "name": "string",
+        "is_bind_type": false,
+        "metadata": {
+          "min_length": 1,
+          "max_length": 36
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      }
+    },
+    {
+      "name": "Shared Metadata",
+      "is_constant": false,
+      "type": {
+        "name": "Signed Audio Content",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Server Content",
+      "is_constant": false,
+      "type": {
+        "name": "Signed Audio Content",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Playback Content",
+      "is_constant": false,
+      "type": {
+        "name": "Signed Audio Content",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Transition Attribute Data",
+  "hash": "8d4ad72a3b8f6319a8e1cae8c6d3c0252a94e9df67f8c3f5e979e5ed3700f382",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "From Attribute",
+      "is_constant": false,
+      "type": {
+        "name": "Transition Attribute Data From Attribute",
+        "bind_type": "union",
+        "is_bind_type": true,
+        "enum_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        },
+        "control_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    },
+    {
+      "name": "To Attribute",
+      "is_constant": false,
+      "type": {
+        "name": "Transition Attribute Data To Attribute",
+        "bind_type": "union",
+        "is_bind_type": true,
+        "enum_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        },
+        "control_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      }
+    },
+    {
+      "name": "Settings",
+      "is_constant": false,
+      "type": {
+        "name": "Transition Settings Data",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

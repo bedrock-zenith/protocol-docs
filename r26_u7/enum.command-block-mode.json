@@ -1,0 +1,13 @@
+{
+  "name": "Command Block Mode",
+  "hash": "7b164020705f10054d400d90382119a3bf99389919ff49294558e3010f498ff0",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u16",
+  "enum": {
+    "Normal": 0,
+    "Repeating": 1,
+    "Chain": 2
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Inventory Transaction Packet Payload Transaction Control",
+  "hash": "59d3f49df1a8a465062ffeb9cf923a144fbceb05822aa41728b92cf8329d7440",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u32",
+  "enum": {
+    "Normal Transaction Data": 0,
+    "Inventory Mismatch Data": 1,
+    "Item Use Inventory Transaction": 2,
+    "Item Use On Actor Inventory Transaction": 3,
+    "Item Release Inventory Transaction": 4
+  }
+}

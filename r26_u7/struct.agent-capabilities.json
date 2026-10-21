@@ -1,0 +1,21 @@
+{
+  "name": "Agent Capabilities",
+  "hash": "2cdba3d84916e52e3d74d285f65327e9d224e5100c844cddf9fc46cdbabafc07",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Can Modify Blocks",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "boolean",
+          "is_bind_type": false,
+          "data_encoding": "bool"
+        }
+      }
+    }
+  ]
+}
