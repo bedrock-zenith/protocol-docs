@@ -1,6 +1,6 @@
 {
   "name": "Item Stack Request Action Type",
-  "hash": "1605b87698da07be1492354c5025b2c207e75c9762d6ac07cfdbfbd7c1c3eb79",
+  "hash": "192cd7491fda92652bd54f23c39a9632f5ed6986088e847716534961afa9ddca",
   "bind_type": "enum",
   "is_bind_type": true,
   "enum_kind": "numeric",
@@ -22,7 +22,8 @@
     "CraftRecipeOptional": 15,
     "CraftRepairAndDisenchant": 16,
     "CraftLoom": 17,
-    "CraftNonImplemented": 18,
-    "CraftResults": 19
+    "CraftReservedAction": 18,
+    "CraftNonImplemented": 19,
+    "CraftResults": 20
   }
 }

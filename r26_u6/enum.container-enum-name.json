@@ -1,6 +1,6 @@
 {
   "name": "Container Enum Name",
-  "hash": "01efbc36c8334ded19d4b97b26e2bc98c7a1e4d72d5b1c97465ddea28fae0bab",
+  "hash": "aeb4d861b04ea130269708f7cdef2649a9b6bc1a3ac14852c97c0c6fa4386ac9",
   "bind_type": "enum",
   "is_bind_type": true,
   "enum_kind": "numeric",
@@ -72,6 +72,10 @@
     "CreatedOutputContainer": 60,
     "SmithingTableTemplateContainer": 61,
     "CrafterLevelEntityContainer": 62,
-    "DynamicContainer": 63
+    "DynamicContainer": 63,
+    "ReservedContainerA": 67,
+    "ReservedContainerB": 68,
+    "ReservedContainerC": 69,
+    "ReservedContainerD": 70
   }
 }

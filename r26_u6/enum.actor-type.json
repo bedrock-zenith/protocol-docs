@@ -1,6 +1,6 @@
 {
   "name": "Actor Type",
-  "hash": "a8f4ac378fa4c4af1043875ed5de32e47549cd49a9a17f6b9836d7aa7f91e86b",
+  "hash": "de480b693669d4b1ded12088b31e3fbbbe96eae6f33aac2868c0f06364bc0a01",
   "bind_type": "enum",
   "is_bind_type": true,
   "enum_kind": "numeric",
@@ -164,6 +164,8 @@
     "Parched": 1117079,
     "CamelHusk": 70552,
     "SulfurCube": 921,
-    "Cushion": 154
+    "Cushion": 154,
+    "Frostbite": 199579,
+    "IceBall": 4194460
   }
 }

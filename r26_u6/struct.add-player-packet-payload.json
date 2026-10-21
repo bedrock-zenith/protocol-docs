@@ -1,6 +1,6 @@
 {
   "name": "Add Player Packet Payload",
-  "hash": "ed6ef9d547a902d9cdfbee2c0056bb095750c4bc66ead2164d0fa5410241a542",
+  "hash": "be84b32abc344c53a9a36d77b5ce88d175fa2bf550a4bd97e961e2a8b224e4af",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [
@@ -161,6 +161,19 @@
           "interpretation": "u32",
           "reinterpret": "u32",
           "data_encoding": "leb128"
+        }
+      }
+    },
+    {
+      "name": "Passenger Block Data",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Passenger Of Block Arguments",
+          "bind_type": "struct",
+          "is_bind_type": true
         }
       }
     },

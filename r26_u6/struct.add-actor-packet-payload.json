@@ -1,6 +1,6 @@
 {
   "name": "Add Actor Packet Payload",
-  "hash": "2e3f75147659d96cea8bee3994bbd0e5ea57fc1f69836c097c1ca89cbf3dcb66",
+  "hash": "79ceb548d48ee0ee1e9cbd36f6ae7213130c4b0c72aa227a2f68652b3781536c",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [
@@ -141,6 +141,19 @@
           "interpretation": "u32",
           "reinterpret": "u32",
           "data_encoding": "leb128"
+        }
+      }
+    },
+    {
+      "name": "Passenger Block Data",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Passenger Of Block Arguments",
+          "bind_type": "struct",
+          "is_bind_type": true
         }
       }
     }

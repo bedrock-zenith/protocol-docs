@@ -1,6 +1,6 @@
 {
   "name": "Current Cmd Version",
-  "hash": "4cd06fcc209bfd01711253d82ca24608b6ecbeda4d35c49b9850da9487450af6",
+  "hash": "0d02a4b766fc3aa39458eb3277358bbb336b49066d551d582ccb1ae37a859d82",
   "bind_type": "enum",
   "is_bind_type": true,
   "enum_kind": "numeric",
@@ -53,7 +53,6 @@
     "LocateStructureOutput": 42,
     "PostBlockFlattening": 43,
     "TestForBlockCommandDoesNotIgnoreBlockState": 44,
-    "SameActorBlockReplacementRetainsItemsFix": 55,
     "Count": 56,
     "Latest": 55
   }

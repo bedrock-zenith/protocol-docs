@@ -1,6 +1,6 @@
 {
   "name": "Minecraft Packet Ids",
-  "hash": "aadbf870df69f19c338e1fd5604110bd7bd2c76c39747fd1b856052d418bf068",
+  "hash": "d4b082b691f41b10c81eb4b3b6cb0ee7618c887d72bbf0ea76304a25e67140fc",
   "bind_type": "enum",
   "is_bind_type": true,
   "enum_kind": "numeric",
@@ -135,6 +135,7 @@
     "SettingsCommandPacket": 140,
     "AnvilDamage": 141,
     "CompletedUsingItem": 142,
+    "ServerboundCursorItemDrag": 358,
     "NetworkSettings": 143,
     "PlayerAuthInputPacket": 144,
     "CreativeContent": 145,
@@ -222,6 +223,8 @@
     "SetPlayerFurnaceOptions": 351,
     "RecordStarted": 352,
     "ClientboundMatchmakingState": 353,
-    "ServerboundMatchmakingCancel": 356
+    "ServerboundMatchmakingCancel": 356,
+    "ClientboundPlayAudioContent": 359,
+    "ServerboundRegisterAudioContent": 360
   }
 }

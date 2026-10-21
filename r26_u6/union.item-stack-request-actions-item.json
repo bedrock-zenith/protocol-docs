@@ -1,6 +1,6 @@
 {
   "name": "Item Stack Request Actions Item",
-  "hash": "a3b0b9fd8d152c3bb6e7044988a43e831dea0bcde6636895666cdfb5f146c6d1",
+  "hash": "1f3f2ce522eb2c71f66ec390f07621567b690202fdd54285495812e28a5f0bea",
   "bind_type": "union",
   "is_bind_type": true,
   "fields": [
@@ -131,6 +131,14 @@
         "is_bind_type": true
       },
       "enum_literal": "craftloom"
+    },
+    {
+      "type": {
+        "name": "Item Stack Request Reserved Action",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "craftreservedaction"
     },
     {
       "type": {

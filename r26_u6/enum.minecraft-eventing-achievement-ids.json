@@ -1,6 +1,6 @@
 {
   "name": "Minecraft Eventing Achievement Ids",
-  "hash": "556fe5833fd161deaae8770449d8c495da42e70090fe8e55e040026172883fe1",
+  "hash": "5b0ede4b6683fd2bed303270deed2355ae8e6eed46d440bee3a0acb7112c4285",
   "bind_type": "enum",
   "is_bind_type": true,
   "enum_kind": "numeric",
@@ -87,6 +87,7 @@
     "GettingAnUpgrade": 123,
     "MonsterHunter": 124,
     "Diamonds": 125,
-    "PlethoraOfCats": 126
+    "PlethoraOfCats": 126,
+    "WhatGoesAroundComesAround": 127
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "Container Type",
-  "hash": "f2c0b16b3a7785fe0b9dec9e32457dcf2d56c7b95ee13a1fa594cd4ea3e3e187",
+  "hash": "db64ea0d6f4fead2e02af637ff5673a20ba7527cba811fb7ffc93def7a2399df",
   "bind_type": "enum",
   "is_bind_type": true,
   "enum_kind": "numeric",
@@ -44,6 +44,7 @@
     "SMITHING_TABLE": 33,
     "CHEST_BOAT": 34,
     "DECORATED_POT": 35,
-    "CRAFTER": 36
+    "CRAFTER": 36,
+    "RESERVED_CONTAINER_TYPE": 38
   }
 }
