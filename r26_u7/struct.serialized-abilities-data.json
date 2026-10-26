@@ -57,6 +57,7 @@
       "type": {
         "name": "array",
         "is_bind_type": false,
+        "vector_dimension": null,
         "element_type": {
           "name": "Serialized Abilities Data Serialized Layer",
           "bind_type": "struct",

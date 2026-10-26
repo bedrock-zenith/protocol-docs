@@ -13,6 +13,7 @@
         "metadata": {
           "max_length": 5
         },
+        "vector_dimension": null,
         "element_type": {
           "name": "Armor Slot And Damage Pair",
           "bind_type": "struct",

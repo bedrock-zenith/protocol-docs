@@ -63,6 +63,7 @@
       "type": {
         "name": "array",
         "is_bind_type": false,
+        "vector_dimension": null,
         "element_type": {
           "name": "Camera Spline Control Point",
           "bind_type": "struct",
@@ -83,6 +84,7 @@
       "type": {
         "name": "array",
         "is_bind_type": false,
+        "vector_dimension": null,
         "element_type": {
           "name": "Camera Spline Progress Key Frame",
           "bind_type": "struct",
@@ -103,6 +105,7 @@
       "type": {
         "name": "array",
         "is_bind_type": false,
+        "vector_dimension": null,
         "element_type": {
           "name": "Camera Spline Rotation Key Frame",
           "bind_type": "struct",

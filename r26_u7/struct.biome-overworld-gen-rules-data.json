@@ -10,6 +10,7 @@
       "type": {
         "name": "array",
         "is_bind_type": false,
+        "vector_dimension": null,
         "element_type": {
           "name": "Biome Weighted Data",
           "bind_type": "struct",
@@ -30,6 +31,7 @@
       "type": {
         "name": "array",
         "is_bind_type": false,
+        "vector_dimension": null,
         "element_type": {
           "name": "Biome Weighted Data",
           "bind_type": "struct",
@@ -50,6 +52,7 @@
       "type": {
         "name": "array",
         "is_bind_type": false,
+        "vector_dimension": null,
         "element_type": {
           "name": "Biome Weighted Data",
           "bind_type": "struct",
@@ -70,6 +73,7 @@
       "type": {
         "name": "array",
         "is_bind_type": false,
+        "vector_dimension": null,
         "element_type": {
           "name": "Biome Weighted Data",
           "bind_type": "struct",
@@ -90,6 +94,7 @@
       "type": {
         "name": "array",
         "is_bind_type": false,
+        "vector_dimension": null,
         "element_type": {
           "name": "Biome Conditional Transformation Data",
           "bind_type": "struct",
@@ -110,6 +115,7 @@
       "type": {
         "name": "array",
         "is_bind_type": false,
+        "vector_dimension": null,
         "element_type": {
           "name": "Biome Conditional Transformation Data",
           "bind_type": "struct",
@@ -130,6 +136,7 @@
       "type": {
         "name": "array",
         "is_bind_type": false,
+        "vector_dimension": null,
         "element_type": {
           "name": "Biome Weighted Temperature Data",
           "bind_type": "struct",

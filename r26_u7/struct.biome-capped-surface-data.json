@@ -10,6 +10,7 @@
       "type": {
         "name": "array",
         "is_bind_type": false,
+        "vector_dimension": null,
         "element_type": {
           "name": "integer",
           "is_bind_type": false,
@@ -35,6 +36,7 @@
       "type": {
         "name": "array",
         "is_bind_type": false,
+        "vector_dimension": null,
         "element_type": {
           "name": "integer",
           "is_bind_type": false,

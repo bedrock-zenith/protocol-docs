@@ -10,6 +10,7 @@
       "type": {
         "name": "array",
         "is_bind_type": false,
+        "vector_dimension": null,
         "element_type": {
           "name": "Shaped Recipe Payload",
           "bind_type": "struct",
@@ -30,6 +31,7 @@
       "type": {
         "name": "array",
         "is_bind_type": false,
+        "vector_dimension": null,
         "element_type": {
           "name": "Shapeless Recipe Payload",
           "bind_type": "struct",
@@ -50,6 +52,7 @@
       "type": {
         "name": "array",
         "is_bind_type": false,
+        "vector_dimension": null,
         "element_type": {
           "name": "Multi Recipe Payload",
           "bind_type": "struct",
@@ -70,6 +73,7 @@
       "type": {
         "name": "array",
         "is_bind_type": false,
+        "vector_dimension": null,
         "element_type": {
           "name": "Shapeless Recipe Payload",
           "bind_type": "struct",
@@ -90,6 +94,7 @@
       "type": {
         "name": "array",
         "is_bind_type": false,
+        "vector_dimension": null,
         "element_type": {
           "name": "Shapeless Recipe Payload",
           "bind_type": "struct",
@@ -110,6 +115,7 @@
       "type": {
         "name": "array",
         "is_bind_type": false,
+        "vector_dimension": null,
         "element_type": {
           "name": "Shaped Recipe Payload",
           "bind_type": "struct",
@@ -130,6 +136,7 @@
       "type": {
         "name": "array",
         "is_bind_type": false,
+        "vector_dimension": null,
         "element_type": {
           "name": "Smithing Transform Recipe Payload",
           "bind_type": "struct",
@@ -150,6 +157,7 @@
       "type": {
         "name": "array",
         "is_bind_type": false,
+        "vector_dimension": null,
         "element_type": {
           "name": "Smithing Trim Recipe Payload",
           "bind_type": "struct",
@@ -170,6 +178,7 @@
       "type": {
         "name": "array",
         "is_bind_type": false,
+        "vector_dimension": null,
         "element_type": {
           "name": "Potion Mix Data Entry",
           "bind_type": "struct",
@@ -190,6 +199,7 @@
       "type": {
         "name": "array",
         "is_bind_type": false,
+        "vector_dimension": null,
         "element_type": {
           "name": "Container Mix Data Entry",
           "bind_type": "struct",
@@ -210,6 +220,7 @@
       "type": {
         "name": "array",
         "is_bind_type": false,
+        "vector_dimension": null,
         "element_type": {
           "name": "Material Reducer Data Entry",
           "bind_type": "struct",

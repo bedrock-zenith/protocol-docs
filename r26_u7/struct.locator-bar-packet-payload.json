@@ -13,6 +13,7 @@
         "metadata": {
           "max_length": 40000
         },
+        "vector_dimension": null,
         "element_type": {
           "name": "Locator Bar Waypoint Payload",
           "bind_type": "struct",

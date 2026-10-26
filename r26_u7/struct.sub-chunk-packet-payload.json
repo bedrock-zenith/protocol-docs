@@ -40,6 +40,7 @@
         "metadata": {
           "max_length": 8192
         },
+        "vector_dimension": null,
         "element_type": {
           "name": "Sub Chunk Packet Data",
           "bind_type": "struct",

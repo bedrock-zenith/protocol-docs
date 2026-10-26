@@ -13,6 +13,7 @@
         "metadata": {
           "max_length": 500
         },
+        "vector_dimension": null,
         "element_type": {
           "name": "Clientbound Data Store Payload Updates Item",
           "bind_type": "union",

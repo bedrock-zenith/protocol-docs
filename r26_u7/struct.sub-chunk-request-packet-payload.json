@@ -22,6 +22,7 @@
         "metadata": {
           "max_length": 8192
         },
+        "vector_dimension": null,
         "element_type": {
           "name": "Sub Chunk Pos Offset",
           "bind_type": "struct",

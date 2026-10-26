@@ -24,6 +24,7 @@
       "type": {
         "name": "array",
         "is_bind_type": false,
+        "vector_dimension": null,
         "element_type": {
           "name": "Cerealizer Network Item Stack Descriptor Serialized Data",
           "bind_type": "struct",

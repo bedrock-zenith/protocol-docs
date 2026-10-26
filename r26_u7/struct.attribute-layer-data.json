@@ -49,6 +49,7 @@
         "metadata": {
           "max_length": 1024
         },
+        "vector_dimension": null,
         "element_type": {
           "name": "Environment Attribute Data",
           "bind_type": "struct",

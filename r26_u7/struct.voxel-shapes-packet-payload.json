@@ -10,6 +10,7 @@
       "type": {
         "name": "array",
         "is_bind_type": false,
+        "vector_dimension": null,
         "element_type": {
           "name": "Voxel Shapes Serializable Voxel Shape",
           "bind_type": "struct",

@@ -13,6 +13,7 @@
         "metadata": {
           "constrain": "Verify that specified items exist"
         },
+        "vector_dimension": null,
         "element_type": {
           "name": "Item Data",
           "bind_type": "struct",

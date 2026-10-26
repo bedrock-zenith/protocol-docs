@@ -13,6 +13,7 @@
         "metadata": {
           "max_length": 1048576
         },
+        "vector_dimension": null,
         "element_type": {
           "name": "Primitive Shape Data Payload",
           "bind_type": "struct",

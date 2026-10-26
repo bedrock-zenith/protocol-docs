@@ -36,6 +36,7 @@
       "type": {
         "name": "array",
         "is_bind_type": false,
+        "vector_dimension": null,
         "element_type": {
           "name": "Vec3",
           "bind_type": "struct",
@@ -56,6 +57,7 @@
       "type": {
         "name": "array",
         "is_bind_type": false,
+        "vector_dimension": null,
         "element_type": {
           "name": "Camera Instruction Spline Instruction Spline Progress Option",
           "bind_type": "struct",
@@ -76,6 +78,7 @@
       "type": {
         "name": "array",
         "is_bind_type": false,
+        "vector_dimension": null,
         "element_type": {
           "name": "Camera Instruction Spline Instruction Spline Rotation Option",
           "bind_type": "struct",

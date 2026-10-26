@@ -109,6 +109,7 @@
       "type": {
         "name": "array",
         "is_bind_type": false,
+        "vector_dimension": null,
         "element_type": {
           "name": "Memory Category Counter",
           "bind_type": "struct",
@@ -129,6 +130,7 @@
       "type": {
         "name": "array",
         "is_bind_type": false,
+        "vector_dimension": null,
         "element_type": {
           "name": "Entity Diagnostic Timing Info",
           "bind_type": "struct",
@@ -149,6 +151,7 @@
       "type": {
         "name": "array",
         "is_bind_type": false,
+        "vector_dimension": null,
         "element_type": {
           "name": "System Diagnostic Timing Info",
           "bind_type": "struct",
@@ -172,6 +175,7 @@
         "element_type": {
           "name": "array",
           "is_bind_type": false,
+          "vector_dimension": null,
           "element_type": {
             "name": "System Category",
             "bind_type": "struct",
@@ -193,6 +197,7 @@
       "type": {
         "name": "array",
         "is_bind_type": false,
+        "vector_dimension": null,
         "element_type": {
           "name": "Whisker Scope Data Summary",
           "bind_type": "struct",

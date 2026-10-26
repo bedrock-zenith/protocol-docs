@@ -22,6 +22,7 @@
         "metadata": {
           "max_length": 65535
         },
+        "vector_dimension": null,
         "element_type": {
           "name": "Pack Instance Id",
           "bind_type": "struct",

@@ -21,6 +21,7 @@
       "type": {
         "name": "array",
         "is_bind_type": false,
+        "vector_dimension": null,
         "element_type": {
           "name": "Material Reducer Entry Output",
           "bind_type": "struct",

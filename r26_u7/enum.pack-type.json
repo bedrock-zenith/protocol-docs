@@ -4,6 +4,7 @@
   "bind_type": "enum",
   "is_bind_type": true,
   "enum_kind": "literal",
+  "backing_integer": null,
   "enum": {
     "Invalid": 0,
     "Addon": 1,

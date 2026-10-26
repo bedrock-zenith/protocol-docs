@@ -74,6 +74,7 @@
         "metadata": {
           "max_length": 65
         },
+        "vector_dimension": null,
         "element_type": {
           "name": "Level Chunk Packet Payload Sub Chunk Metadata",
           "bind_type": "struct",

@@ -13,6 +13,7 @@
         "metadata": {
           "max_length": 3
         },
+        "vector_dimension": null,
         "element_type": {
           "name": "Item Enchant Option",
           "bind_type": "struct",

@@ -26,6 +26,7 @@
           "min_length": 1,
           "max_length": 100
         },
+        "vector_dimension": null,
         "element_type": {
           "name": "Item Stack Request Actions Item",
           "bind_type": "union",
@@ -60,6 +61,7 @@
       "type": {
         "name": "array",
         "is_bind_type": false,
+        "vector_dimension": null,
         "element_type": {
           "name": "string",
           "is_bind_type": false,

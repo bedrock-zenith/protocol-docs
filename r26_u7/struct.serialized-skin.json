@@ -52,6 +52,7 @@
       "type": {
         "name": "array",
         "is_bind_type": false,
+        "vector_dimension": null,
         "element_type": {
           "name": "Animated Image Data",
           "bind_type": "struct",
@@ -186,6 +187,7 @@
       "type": {
         "name": "array",
         "is_bind_type": false,
+        "vector_dimension": null,
         "element_type": {
           "name": "Serialized Persona Piece Handle",
           "bind_type": "struct",
@@ -212,17 +214,7 @@
           "is_bind_type": true,
           "exhaustive": "exhaustive",
           "enum_encoding": "literal",
-          "data_encoding": {
-            "name": "string",
-            "is_bind_type": false,
-            "length_encoding": {
-              "name": "integer",
-              "is_bind_type": false,
-              "interpretation": "i32",
-              "reinterpret": "i32",
-              "data_encoding": "zleb128"
-            }
-          }
+          "data_encoding": null
         },
         "value_type": {
           "name": "Tint Map Color",
@@ -292,17 +284,7 @@
         "is_bind_type": true,
         "exhaustive": "exhaustive",
         "enum_encoding": "literal",
-        "data_encoding": {
-          "name": "string",
-          "is_bind_type": false,
-          "length_encoding": {
-            "name": "integer",
-            "is_bind_type": false,
-            "interpretation": "i32",
-            "reinterpret": "i32",
-            "data_encoding": "zleb128"
-          }
-        }
+        "data_encoding": null
       }
     },
     {
