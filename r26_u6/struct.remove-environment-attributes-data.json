@@ -40,6 +40,7 @@
         "metadata": {
           "max_length": 1024
         },
+        "vector_dimension": null,
         "element_type": {
           "name": "string",
           "is_bind_type": false,

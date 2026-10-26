@@ -1,0 +1,2521 @@
+{
+  "name": "protocol",
+  "bind_type": "canonical_namespace",
+  "is_bind_type": false,
+  "types": [
+    {
+      "name": "String Attribute Operation",
+      "hash": "fdee5b62c70b1bfe7311370e314476717acaf71a3912b911dc96bf5bf6b3d571",
+      "bind_type": "enum",
+      "is_bind_type": true,
+      "enum_kind": "numeric",
+      "backing_integer": "i32",
+      "enum": {
+        "OVERRIDE": 0
+      }
+    },
+    {
+      "name": "String Attribute Data",
+      "hash": "d0fa2f4a99e6ca526fe132f6f94eb40d75b2671cbbeccc58556aef508b5ba30b",
+      "bind_type": "struct",
+      "is_bind_type": true,
+      "fields": [
+        {
+          "name": "Value",
+          "is_constant": false,
+          "type": {
+            "name": "string",
+            "is_bind_type": false,
+            "metadata": {
+              "max_length": 128
+            },
+            "length_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "i32",
+              "reinterpret": "i32",
+              "data_encoding": "zleb128"
+            }
+          }
+        },
+        {
+          "name": "Operation",
+          "is_constant": false,
+          "type": {
+            "name": "String Attribute Operation",
+            "bind_type": "enum",
+            "is_bind_type": true,
+            "exhaustive": "exhaustive",
+            "enum_encoding": "literal",
+            "data_encoding": null
+          },
+          "metadata": {
+            "default_value": "override"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Constant Attribute Data Attribute Control",
+      "hash": "273109a627ce3ad6139762fb176137b71a2244812a5e0cdcd2edd1b094bba372",
+      "bind_type": "enum",
+      "is_bind_type": true,
+      "enum_kind": "numeric",
+      "backing_integer": "u32",
+      "enum": {
+        "Bool Attribute Data": 0,
+        "Float Attribute Data": 1,
+        "Color Attribute Data": 2,
+        "String Attribute Data": 3
+      }
+    },
+    {
+      "name": "Constant Attribute Data Attribute",
+      "hash": "fb50cb178182c57138d55ba5ab088e132220563920c6f7103bc46e59f3826926",
+      "bind_type": "union",
+      "is_bind_type": true,
+      "fields": [
+        {
+          "type": {
+            "name": "Bool Attribute Data",
+            "bind_type": "struct",
+            "is_bind_type": true
+          },
+          "enum_literal": "Bool Attribute Data"
+        },
+        {
+          "type": {
+            "name": "Float Attribute Data",
+            "bind_type": "struct",
+            "is_bind_type": true
+          },
+          "enum_literal": "Float Attribute Data"
+        },
+        {
+          "type": {
+            "name": "Color Attribute Data",
+            "bind_type": "struct",
+            "is_bind_type": true
+          },
+          "enum_literal": "Color Attribute Data"
+        },
+        {
+          "type": {
+            "name": "String Attribute Data",
+            "bind_type": "struct",
+            "is_bind_type": true
+          },
+          "enum_literal": "String Attribute Data"
+        }
+      ],
+      "backing_enum": {
+        "name": "Constant Attribute Data Attribute Control",
+        "bind_type": "enum",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Transition Attribute Data From Attribute Control",
+      "hash": "dc502761ba19ab7ef09dc0087a53ed3e4458e6b84ad7a558f5bcca36d41d48c7",
+      "bind_type": "enum",
+      "is_bind_type": true,
+      "enum_kind": "numeric",
+      "backing_integer": "u32",
+      "enum": {
+        "Bool Attribute Data": 0,
+        "Float Attribute Data": 1,
+        "Color Attribute Data": 2,
+        "String Attribute Data": 3
+      }
+    },
+    {
+      "name": "Transition Attribute Data From Attribute",
+      "hash": "a40e9b5c52d31aab4cf3d401e6a2ca706cefcf398d2ccf63cf6527b05f5f5087",
+      "bind_type": "union",
+      "is_bind_type": true,
+      "fields": [
+        {
+          "type": {
+            "name": "Bool Attribute Data",
+            "bind_type": "struct",
+            "is_bind_type": true
+          },
+          "enum_literal": "Bool Attribute Data"
+        },
+        {
+          "type": {
+            "name": "Float Attribute Data",
+            "bind_type": "struct",
+            "is_bind_type": true
+          },
+          "enum_literal": "Float Attribute Data"
+        },
+        {
+          "type": {
+            "name": "Color Attribute Data",
+            "bind_type": "struct",
+            "is_bind_type": true
+          },
+          "enum_literal": "Color Attribute Data"
+        },
+        {
+          "type": {
+            "name": "String Attribute Data",
+            "bind_type": "struct",
+            "is_bind_type": true
+          },
+          "enum_literal": "String Attribute Data"
+        }
+      ],
+      "backing_enum": {
+        "name": "Transition Attribute Data From Attribute Control",
+        "bind_type": "enum",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Transition Attribute Data To Attribute Control",
+      "hash": "d04f9bf13c7911cc4f2a51b518173dc732b9b0f730e3cf77dd27c06f94c6d306",
+      "bind_type": "enum",
+      "is_bind_type": true,
+      "enum_kind": "numeric",
+      "backing_integer": "u32",
+      "enum": {
+        "Bool Attribute Data": 0,
+        "Float Attribute Data": 1,
+        "Color Attribute Data": 2,
+        "String Attribute Data": 3
+      }
+    },
+    {
+      "name": "Transition Attribute Data To Attribute",
+      "hash": "7b55789661885f85e5e47d9402a54824f0108dfb1ac387f4d8ad86c46df9a5ac",
+      "bind_type": "union",
+      "is_bind_type": true,
+      "fields": [
+        {
+          "type": {
+            "name": "Bool Attribute Data",
+            "bind_type": "struct",
+            "is_bind_type": true
+          },
+          "enum_literal": "Bool Attribute Data"
+        },
+        {
+          "type": {
+            "name": "Float Attribute Data",
+            "bind_type": "struct",
+            "is_bind_type": true
+          },
+          "enum_literal": "Float Attribute Data"
+        },
+        {
+          "type": {
+            "name": "Color Attribute Data",
+            "bind_type": "struct",
+            "is_bind_type": true
+          },
+          "enum_literal": "Color Attribute Data"
+        },
+        {
+          "type": {
+            "name": "String Attribute Data",
+            "bind_type": "struct",
+            "is_bind_type": true
+          },
+          "enum_literal": "String Attribute Data"
+        }
+      ],
+      "backing_enum": {
+        "name": "Transition Attribute Data To Attribute Control",
+        "bind_type": "enum",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Noise Transition Attribute Data From Attribute Control",
+      "hash": "86e402ecb95bae4b5ae25bb925dc5223ad1f5be290f6e5e79402079d21b2c890",
+      "bind_type": "enum",
+      "is_bind_type": true,
+      "enum_kind": "numeric",
+      "backing_integer": "u32",
+      "enum": {
+        "Bool Attribute Data": 0,
+        "Float Attribute Data": 1,
+        "Color Attribute Data": 2,
+        "String Attribute Data": 3
+      }
+    },
+    {
+      "name": "Noise Transition Attribute Data From Attribute",
+      "hash": "acb8b3e440abb497b66dee8d7fde794cd7130e30cac0f71839d178e653d8f5e9",
+      "bind_type": "union",
+      "is_bind_type": true,
+      "fields": [
+        {
+          "type": {
+            "name": "Bool Attribute Data",
+            "bind_type": "struct",
+            "is_bind_type": true
+          },
+          "enum_literal": "Bool Attribute Data"
+        },
+        {
+          "type": {
+            "name": "Float Attribute Data",
+            "bind_type": "struct",
+            "is_bind_type": true
+          },
+          "enum_literal": "Float Attribute Data"
+        },
+        {
+          "type": {
+            "name": "Color Attribute Data",
+            "bind_type": "struct",
+            "is_bind_type": true
+          },
+          "enum_literal": "Color Attribute Data"
+        },
+        {
+          "type": {
+            "name": "String Attribute Data",
+            "bind_type": "struct",
+            "is_bind_type": true
+          },
+          "enum_literal": "String Attribute Data"
+        }
+      ],
+      "backing_enum": {
+        "name": "Noise Transition Attribute Data From Attribute Control",
+        "bind_type": "enum",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Noise Transition Attribute Data To Attribute Control",
+      "hash": "329e04b5a181a0acc92bb3d0a3319bdd9d7ebe394b5c677e34b2167f8c3596dd",
+      "bind_type": "enum",
+      "is_bind_type": true,
+      "enum_kind": "numeric",
+      "backing_integer": "u32",
+      "enum": {
+        "Bool Attribute Data": 0,
+        "Float Attribute Data": 1,
+        "Color Attribute Data": 2,
+        "String Attribute Data": 3
+      }
+    },
+    {
+      "name": "Noise Transition Attribute Data To Attribute",
+      "hash": "bf90274567cd95da2b23027668f99cc18ef0bca068e09dbf155ee1bf85ab4fd1",
+      "bind_type": "union",
+      "is_bind_type": true,
+      "fields": [
+        {
+          "type": {
+            "name": "Bool Attribute Data",
+            "bind_type": "struct",
+            "is_bind_type": true
+          },
+          "enum_literal": "Bool Attribute Data"
+        },
+        {
+          "type": {
+            "name": "Float Attribute Data",
+            "bind_type": "struct",
+            "is_bind_type": true
+          },
+          "enum_literal": "Float Attribute Data"
+        },
+        {
+          "type": {
+            "name": "Color Attribute Data",
+            "bind_type": "struct",
+            "is_bind_type": true
+          },
+          "enum_literal": "Color Attribute Data"
+        },
+        {
+          "type": {
+            "name": "String Attribute Data",
+            "bind_type": "struct",
+            "is_bind_type": true
+          },
+          "enum_literal": "String Attribute Data"
+        }
+      ],
+      "backing_enum": {
+        "name": "Noise Transition Attribute Data To Attribute Control",
+        "bind_type": "enum",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Audio Content Playback Type",
+      "hash": "5b79ba46201e27906ce6f301fd9c30b7bbd5840d805d4129b7cefb03ceb17cd5",
+      "bind_type": "enum",
+      "is_bind_type": true,
+      "enum_kind": "numeric",
+      "backing_integer": "u8",
+      "enum": {
+        "Music": 0,
+        "Sound": 1,
+        "ConcurrentMusic": 2
+      }
+    },
+    {
+      "name": "Chat Formatting",
+      "hash": "2c5bfbb38a75acccdbba016c62acfd504f3f2903e0d0e86427a2f4193d40bc03",
+      "bind_type": "struct",
+      "is_bind_type": true,
+      "fields": [
+        {
+          "name": "Name Prefix",
+          "is_constant": false,
+          "type": {
+            "name": "optional",
+            "is_bind_type": false,
+            "element_type": {
+              "name": "string",
+              "is_bind_type": false,
+              "metadata": {
+                "max_length": 64
+              },
+              "length_encoding": {
+                "name": "integer",
+                "is_bind_type": false,
+                "interpretation": "i32",
+                "reinterpret": "i32",
+                "data_encoding": "zleb128"
+              }
+            }
+          }
+        },
+        {
+          "name": "Name Postfix",
+          "is_constant": false,
+          "type": {
+            "name": "optional",
+            "is_bind_type": false,
+            "element_type": {
+              "name": "string",
+              "is_bind_type": false,
+              "metadata": {
+                "max_length": 64
+              },
+              "length_encoding": {
+                "name": "integer",
+                "is_bind_type": false,
+                "interpretation": "i32",
+                "reinterpret": "i32",
+                "data_encoding": "zleb128"
+              }
+            }
+          }
+        },
+        {
+          "name": "Message Prefix",
+          "is_constant": false,
+          "type": {
+            "name": "optional",
+            "is_bind_type": false,
+            "element_type": {
+              "name": "string",
+              "is_bind_type": false,
+              "metadata": {
+                "max_length": 64
+              },
+              "length_encoding": {
+                "name": "integer",
+                "is_bind_type": false,
+                "interpretation": "i32",
+                "reinterpret": "i32",
+                "data_encoding": "zleb128"
+              }
+            }
+          }
+        },
+        {
+          "name": "Message Postfix",
+          "is_constant": false,
+          "type": {
+            "name": "optional",
+            "is_bind_type": false,
+            "element_type": {
+              "name": "string",
+              "is_bind_type": false,
+              "metadata": {
+                "max_length": 64
+              },
+              "length_encoding": {
+                "name": "integer",
+                "is_bind_type": false,
+                "interpretation": "i32",
+                "reinterpret": "i32",
+                "data_encoding": "zleb128"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Signed Chat",
+      "hash": "8d9e169fb0a9b5060759695511b6f583cb442573dd982dd179df37b9e031824a",
+      "bind_type": "struct",
+      "is_bind_type": true,
+      "fields": [
+        {
+          "name": "Key Id",
+          "is_constant": false,
+          "type": {
+            "name": "string",
+            "is_bind_type": false,
+            "metadata": {
+              "max_length": 128
+            },
+            "length_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "i32",
+              "reinterpret": "i32",
+              "data_encoding": "zleb128"
+            }
+          }
+        },
+        {
+          "name": "Sender Id",
+          "is_constant": false,
+          "type": {
+            "name": "string",
+            "is_bind_type": false,
+            "metadata": {
+              "max_length": 64
+            },
+            "length_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "i32",
+              "reinterpret": "i32",
+              "data_encoding": "zleb128"
+            }
+          }
+        },
+        {
+          "name": "Room Id",
+          "is_constant": false,
+          "type": {
+            "name": "string",
+            "is_bind_type": false,
+            "metadata": {
+              "max_length": 128
+            },
+            "length_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "i32",
+              "reinterpret": "i32",
+              "data_encoding": "zleb128"
+            }
+          }
+        },
+        {
+          "name": "Message Id",
+          "is_constant": false,
+          "type": {
+            "name": "string",
+            "is_bind_type": false,
+            "metadata": {
+              "max_length": 64
+            },
+            "length_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "i32",
+              "reinterpret": "i32",
+              "data_encoding": "zleb128"
+            }
+          }
+        },
+        {
+          "name": "Scan Text",
+          "is_constant": false,
+          "type": {
+            "name": "string",
+            "is_bind_type": false,
+            "metadata": {
+              "max_length": 512
+            },
+            "length_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "i32",
+              "reinterpret": "i32",
+              "data_encoding": "zleb128"
+            }
+          }
+        },
+        {
+          "name": "Redacted Text",
+          "is_constant": false,
+          "type": {
+            "name": "string",
+            "is_bind_type": false,
+            "metadata": {
+              "max_length": 512
+            },
+            "length_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "i32",
+              "reinterpret": "i32",
+              "data_encoding": "zleb128"
+            }
+          }
+        },
+        {
+          "name": "Signature",
+          "is_constant": false,
+          "type": {
+            "name": "string",
+            "is_bind_type": false,
+            "metadata": {
+              "max_length": 256
+            },
+            "length_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "i32",
+              "reinterpret": "i32",
+              "data_encoding": "zleb128"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Chat Packet Payload",
+      "hash": "78c64a6dafd9dbefed0fe8b94f649062d9b0ba2213d1d84cd3d095ca5f1e359c",
+      "bind_type": "struct",
+      "is_bind_type": true,
+      "fields": [
+        {
+          "name": "Signed Chat",
+          "is_constant": false,
+          "type": {
+            "name": "Signed Chat",
+            "bind_type": "struct",
+            "is_bind_type": true
+          }
+        },
+        {
+          "name": "Formatting",
+          "is_constant": false,
+          "type": {
+            "name": "optional",
+            "is_bind_type": false,
+            "element_type": {
+              "name": "Chat Formatting",
+              "bind_type": "struct",
+              "is_bind_type": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Music Playback Source",
+      "hash": "66193b256ac6e428f5411b26469253df3326d6ab43213903d1f3423f3a7058f6",
+      "bind_type": "enum",
+      "is_bind_type": true,
+      "enum_kind": "numeric",
+      "backing_integer": "u8",
+      "enum": {
+        "Local": 0,
+        "Online": 1
+      }
+    },
+    {
+      "name": "Clientbound Online Music Playback Response Packet Payload",
+      "hash": "a16879f948fe1184f4fd602c6ecd897f33d7d2b6e57b4b69180440a3a124dcb4",
+      "bind_type": "struct",
+      "is_bind_type": true,
+      "fields": [
+        {
+          "name": "Request Id",
+          "is_constant": false,
+          "type": {
+            "name": "integer",
+            "is_bind_type": false,
+            "interpretation": "u32",
+            "metadata": {
+              "min_value": 0
+            },
+            "reinterpret": "u32",
+            "data_encoding": "little_endian"
+          }
+        },
+        {
+          "name": "Source",
+          "is_constant": false,
+          "type": {
+            "name": "Music Playback Source",
+            "bind_type": "enum",
+            "is_bind_type": true,
+            "exhaustive": "exhaustive",
+            "enum_encoding": "literal",
+            "data_encoding": null
+          }
+        },
+        {
+          "name": "Shared Metadata",
+          "is_constant": false,
+          "type": {
+            "name": "Signed Audio Content",
+            "bind_type": "struct",
+            "is_bind_type": true
+          }
+        },
+        {
+          "name": "Playback Content",
+          "is_constant": false,
+          "type": {
+            "name": "Signed Audio Content",
+            "bind_type": "struct",
+            "is_bind_type": true
+          }
+        }
+      ]
+    },
+    {
+      "name": "Command Block Update Packet Payload",
+      "hash": "f3adb8d7aef76f34b0502f21d549ce42019290969744f310d9f374dcd0faee0f",
+      "bind_type": "struct",
+      "is_bind_type": true,
+      "fields": [
+        {
+          "name": "Target",
+          "is_constant": false,
+          "type": {
+            "name": "Command Block Update Packet Payload Target",
+            "bind_type": "union",
+            "is_bind_type": true,
+            "enum_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "u32",
+              "reinterpret": "u32",
+              "data_encoding": "leb128"
+            },
+            "control_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "u32",
+              "reinterpret": "u32",
+              "data_encoding": "leb128"
+            }
+          }
+        },
+        {
+          "name": "Command",
+          "is_constant": false,
+          "type": {
+            "name": "string",
+            "is_bind_type": false,
+            "length_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "i32",
+              "reinterpret": "i32",
+              "data_encoding": "zleb128"
+            }
+          }
+        },
+        {
+          "name": "Last Output",
+          "is_constant": false,
+          "type": {
+            "name": "string",
+            "is_bind_type": false,
+            "length_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "i32",
+              "reinterpret": "i32",
+              "data_encoding": "zleb128"
+            }
+          }
+        },
+        {
+          "name": "Name",
+          "is_constant": false,
+          "type": {
+            "name": "string",
+            "is_bind_type": false,
+            "length_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "i32",
+              "reinterpret": "i32",
+              "data_encoding": "zleb128"
+            }
+          }
+        },
+        {
+          "name": "Filtered Name",
+          "is_constant": false,
+          "type": {
+            "name": "string",
+            "is_bind_type": false,
+            "length_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "i32",
+              "reinterpret": "i32",
+              "data_encoding": "zleb128"
+            }
+          }
+        },
+        {
+          "name": "Track Output",
+          "is_constant": false,
+          "type": {
+            "name": "boolean",
+            "is_bind_type": false,
+            "data_encoding": "bool"
+          }
+        },
+        {
+          "name": "Tick Delay",
+          "is_constant": false,
+          "type": {
+            "name": "integer",
+            "is_bind_type": false,
+            "interpretation": "i32",
+            "reinterpret": "i32",
+            "data_encoding": "little_endian"
+          }
+        },
+        {
+          "name": "Execute On First Tick",
+          "is_constant": false,
+          "type": {
+            "name": "boolean",
+            "is_bind_type": false,
+            "data_encoding": "bool"
+          }
+        },
+        {
+          "name": "Last Output Is Raw Message",
+          "is_constant": false,
+          "type": {
+            "name": "boolean",
+            "is_bind_type": false,
+            "data_encoding": "bool"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Command Output Message",
+      "hash": "5507819960bc1e96552e2a211e506318cc4ba350f2a5e1c6c9821a38ccb2c1b3",
+      "bind_type": "struct",
+      "is_bind_type": true,
+      "fields": [
+        {
+          "name": "Message Id",
+          "is_constant": false,
+          "type": {
+            "name": "string",
+            "is_bind_type": false,
+            "length_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "i32",
+              "reinterpret": "i32",
+              "data_encoding": "zleb128"
+            }
+          }
+        },
+        {
+          "name": "Successful",
+          "is_constant": false,
+          "type": {
+            "name": "boolean",
+            "is_bind_type": false,
+            "data_encoding": "bool"
+          }
+        },
+        {
+          "name": "Parameters",
+          "is_constant": false,
+          "type": {
+            "name": "array",
+            "is_bind_type": false,
+            "vector_dimension": null,
+            "element_type": {
+              "name": "string",
+              "is_bind_type": false,
+              "length_encoding": {
+                "name": "integer",
+                "is_bind_type": false,
+                "interpretation": "i32",
+                "reinterpret": "i32",
+                "data_encoding": "zleb128"
+              }
+            },
+            "length_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "u32",
+              "reinterpret": "u32",
+              "data_encoding": "leb128"
+            }
+          },
+          "metadata": {
+            "default_value": []
+          }
+        },
+        {
+          "name": "Raw Message",
+          "is_constant": false,
+          "type": {
+            "name": "optional",
+            "is_bind_type": false,
+            "element_type": {
+              "name": "string",
+              "is_bind_type": false,
+              "length_encoding": {
+                "name": "integer",
+                "is_bind_type": false,
+                "interpretation": "i32",
+                "reinterpret": "i32",
+                "data_encoding": "zleb128"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Current Cmd Version",
+      "hash": "6a7e76bea640a6299ffec9c1956cf75e6129349976cbd4b8163427e123c42535",
+      "bind_type": "enum",
+      "is_bind_type": true,
+      "enum_kind": "numeric",
+      "backing_integer": "i32",
+      "enum": {
+        "Invalid": -1,
+        "Initial": 1,
+        "TpRotationClamping": 2,
+        "NewBedrockCmdSystem": 3,
+        "ExecuteUsesVec3": 4,
+        "CloneFixes": 5,
+        "UpdateAquatic": 6,
+        "EntitySelectorUsesVec3": 7,
+        "ContainersDontDropItemsAnymore": 8,
+        "FiltersObeyDimensions": 9,
+        "ExecuteAndBlockCommandAndSelfSelectorFixes": 10,
+        "InstantEffectsUseTicks": 11,
+        "DontRegisterBrokenFunctionCommands": 12,
+        "ClearSpawnPointCommand": 13,
+        "CloneAndTeleportRotationFixes": 14,
+        "TeleportDimensionFixes": 15,
+        "CloneUpdateBlockAndTimeFixes": 16,
+        "CloneIntersectFix": 17,
+        "FunctionExecuteOrderAndChestSlotFix": 18,
+        "NonTickingAreasNoLongerConsideredLoaded": 19,
+        "SpreadplayersHazardAndResolvePlayerByNameFix": 20,
+        "NewExecuteCommandSyntaxExperimentAndChestLootTableFixAndTeleportFacingVerticalUnclampedAndLocateBiomeAndFeatureMerged": 21,
+        "WaterloggingAddedToStructureCommand": 22,
+        "SelectorDistanceFilteredAndRelativeRotationFix": 23,
+        "NewSummonCommandAddedRotationOptionsAndBubbleColumnCloneFixAndExecuteInDimensionTeleportFixAndNewExecuteRotationFix": 24,
+        "NewExecuteCommandReleaseEnchantCommandLevelFixAndHasItemDataFixAndCommandDeferral": 25,
+        "ExecuteIfScoreFixes": 26,
+        "ReplaceItemAndLootReplaceBlockCommandsDoNotPlaceItemsIntoCauldronsFix": 27,
+        "ChangesToCommandOriginRotation": 28,
+        "RemoveAuxValueParameterFromBlockCommands": 29,
+        "VolumeSelectorFixes": 30,
+        "EnableSummonRotation": 31,
+        "SummonCommandDefaultRotation": 32,
+        "PositionalDimensionFiltering": 33,
+        "CommandSelectorHasItemFilterNoLongerCallsSameItemFunction": 34,
+        "AgentSweepingBlockTest": 34,
+        "BlockStateEquals": 35,
+        "CommandPositionFix": 35,
+        "CommandSelectorHasItemFilterUsesDataAsDamageForSelectingDamageableItems": 36,
+        "ExecuteDetectConditionSubcommandNotAllowNonLoadedBlocks": 37,
+        "RemoveSuicideKeyword": 38,
+        "CloneContainerBlockEntityRemovalFix": 39,
+        "StopSoundMusicFix": 40,
+        "SpreadPlayersStuckInGroundFixAndMaxHeightParameter": 41,
+        "LocateStructureOutput": 42,
+        "PostBlockFlattening": 43,
+        "TestForBlockCommandDoesNotIgnoreBlockState": 44,
+        "GameTestRunSetMultiTag": 56,
+        "Count": 57,
+        "Latest": 56
+      }
+    },
+    {
+      "name": "Container Enum Name",
+      "hash": "c9e21daefdea9158e86704c4b472d36522420a65146649d440cd1334666654d7",
+      "bind_type": "enum",
+      "is_bind_type": true,
+      "enum_kind": "numeric",
+      "backing_integer": "u8",
+      "enum": {
+        "AnvilInputContainer": 0,
+        "AnvilMaterialContainer": 1,
+        "AnvilResultPreviewContainer": 2,
+        "SmithingTableInputContainer": 3,
+        "SmithingTableMaterialContainer": 4,
+        "SmithingTableResultPreviewContainer": 5,
+        "ArmorContainer": 6,
+        "LevelEntityContainer": 7,
+        "BeaconPaymentContainer": 8,
+        "BrewingStandInputContainer": 9,
+        "BrewingStandResultContainer": 10,
+        "BrewingStandFuelContainer": 11,
+        "CombinedHotbarAndInventoryContainer": 12,
+        "CraftingInputContainer": 13,
+        "CraftingOutputPreviewContainer": 14,
+        "RecipeConstructionContainer": 15,
+        "RecipeNatureContainer": 16,
+        "RecipeItemsContainer": 17,
+        "RecipeFoodContainer": 64,
+        "RecipeBlocksContainer": 65,
+        "RecipeFurnaceItemsContainer": 66,
+        "RecipeSearchContainer": 18,
+        "RecipeSearchBarContainer": 19,
+        "RecipeEquipmentContainer": 20,
+        "RecipeBookContainer": 21,
+        "EnchantingInputContainer": 22,
+        "EnchantingMaterialContainer": 23,
+        "FurnaceFuelContainer": 24,
+        "FurnaceIngredientContainer": 25,
+        "FurnaceResultContainer": 26,
+        "HorseEquipContainer": 27,
+        "HotbarContainer": 28,
+        "InventoryContainer": 29,
+        "ShulkerBoxContainer": 30,
+        "TradeIngredient1Container": 31,
+        "TradeIngredient2Container": 32,
+        "TradeResultPreviewContainer": 33,
+        "OffhandContainer": 34,
+        "CompoundCreatorInput": 35,
+        "CompoundCreatorOutputPreview": 36,
+        "ElementConstructorOutputPreview": 37,
+        "MaterialReducerInput": 38,
+        "MaterialReducerOutput": 39,
+        "LabTableInput": 40,
+        "LoomInputContainer": 41,
+        "LoomDyeContainer": 42,
+        "LoomMaterialContainer": 43,
+        "LoomResultPreviewContainer": 44,
+        "BlastFurnaceIngredientContainer": 45,
+        "SmokerIngredientContainer": 46,
+        "Trade2Ingredient1Container": 47,
+        "Trade2Ingredient2Container": 48,
+        "Trade2ResultPreviewContainer": 49,
+        "GrindstoneInputContainer": 50,
+        "GrindstoneAdditionalContainer": 51,
+        "GrindstoneResultPreviewContainer": 52,
+        "StonecutterInputContainer": 53,
+        "StonecutterResultPreviewContainer": 54,
+        "CartographyInputContainer": 55,
+        "CartographyAdditionalContainer": 56,
+        "CartographyResultPreviewContainer": 57,
+        "BarrelContainer": 58,
+        "CursorContainer": 59,
+        "CreatedOutputContainer": 60,
+        "SmithingTableTemplateContainer": 61,
+        "CrafterLevelEntityContainer": 62,
+        "DynamicContainer": 63,
+        "DiscPressBlockContainer": 67,
+        "DiscPressDyeContainer": 68,
+        "DiscPressDiscContainer": 69,
+        "DiscPressResultPreviewContainer": 70
+      }
+    },
+    {
+      "name": "Container Type",
+      "hash": "e5d6b5c5b5bda2c713f376f2619145a960930211035e92849426e842a60964b0",
+      "bind_type": "enum",
+      "is_bind_type": true,
+      "enum_kind": "numeric",
+      "backing_integer": "i8",
+      "enum": {
+        "NONE": -9,
+        "INVENTORY": -1,
+        "CONTAINER": 0,
+        "WORKBENCH": 1,
+        "FURNACE": 2,
+        "ENCHANTMENT": 3,
+        "BREWING_STAND": 4,
+        "ANVIL": 5,
+        "DISPENSER": 6,
+        "DROPPER": 7,
+        "HOPPER": 8,
+        "CAULDRON": 9,
+        "MINECART_CHEST": 10,
+        "MINECART_HOPPER": 11,
+        "HORSE": 12,
+        "BEACON": 13,
+        "STRUCTURE_EDITOR": 14,
+        "TRADE": 15,
+        "COMMAND_BLOCK": 16,
+        "JUKEBOX": 17,
+        "ARMOR": 18,
+        "HAND": 19,
+        "COMPOUND_CREATOR": 20,
+        "ELEMENT_CONSTRUCTOR": 21,
+        "MATERIAL_REDUCER": 22,
+        "LAB_TABLE": 23,
+        "LOOM": 24,
+        "LECTERN": 25,
+        "GRINDSTONE": 26,
+        "BLAST_FURNACE": 27,
+        "SMOKER": 28,
+        "STONECUTTER": 29,
+        "CARTOGRAPHY": 30,
+        "HUD": 31,
+        "JIGSAW_EDITOR": 32,
+        "SMITHING_TABLE": 33,
+        "CHEST_BOAT": 34,
+        "DECORATED_POT": 35,
+        "CRAFTER": 36,
+        "DISC_PRESS": 38
+      }
+    },
+    {
+      "name": "Disconnect Fail Reason",
+      "hash": "cd429b13531064aef34111ed70f42236bd14f69f9456e36af8abf0dfd6384a56",
+      "bind_type": "enum",
+      "is_bind_type": true,
+      "enum_kind": "numeric",
+      "backing_integer": "i32",
+      "enum": {
+        "Unknown": 0,
+        "CantConnectNoInternet": 1,
+        "NoPermissions": 2,
+        "UnrecoverableError": 3,
+        "ThirdPartyBlocked": 4,
+        "ThirdPartyNoInternet": 5,
+        "ThirdPartyBadIP": 6,
+        "ThirdPartyNoServerOrServerLocked": 7,
+        "VersionMismatch": 8,
+        "SkinIssue": 9,
+        "InviteSessionNotFound": 10,
+        "EduLevelSettingsMissing": 11,
+        "LocalServerNotFound": 12,
+        "LegacyDisconnect": 13,
+        "INTERNAL_UserLeaveGameAttempted": 14,
+        "PlatformLockedSkinsError": 15,
+        "RealmsWorldUnassigned": 16,
+        "RealmsServerCantConnect": 17,
+        "RealmsServerHidden": 18,
+        "RealmsServerDisabledBeta": 19,
+        "RealmsServerDisabled": 20,
+        "CrossPlatformDisabled": 21,
+        "TESTONLY_CantConnect": 22,
+        "SessionNotFound": 23,
+        "ClientSettingsIncompatibleWithServer": 24,
+        "ServerFull": 25,
+        "InvalidPlatformSkin": 26,
+        "EditionVersionMismatch": 27,
+        "EditionMismatch": 28,
+        "LevelNewerThanExeVersion": 29,
+        "INTERNAL_NoFailOccurred": 30,
+        "BannedSkin": 31,
+        "Timeout": 32,
+        "ServerNotFound": 33,
+        "OutdatedServer": 34,
+        "OutdatedClient": 35,
+        "NoPremiumPlatform": 36,
+        "MultiplayerDisabled": 37,
+        "NoWiFi": 38,
+        "WorldCorruption": 39,
+        "NoReason": 40,
+        "Disconnected": 41,
+        "InvalidPlayer": 42,
+        "LoggedInOtherLocation": 43,
+        "ServerIdConflict": 44,
+        "NotAllowed": 45,
+        "NotAuthenticated": 46,
+        "InvalidTenant": 47,
+        "UnknownPacket": 48,
+        "UnexpectedPacket": 49,
+        "InvalidCommandRequestPacket": 50,
+        "HostSuspended": 51,
+        "LoginPacketNoRequest": 52,
+        "LoginPacketNoCert": 53,
+        "MissingClient": 54,
+        "Kicked": 55,
+        "KickedForExploit": 56,
+        "KickedForIdle": 57,
+        "ResourcePackProblem": 58,
+        "IncompatiblePack": 59,
+        "OutOfStorage": 60,
+        "InvalidLevel": 61,
+        "DisconnectPacket": 62,
+        "BlockMismatch": 63,
+        "InvalidHeights": 64,
+        "InvalidWidths": 65,
+        "ConnectionLost": 66,
+        "ZombieConnection": 67,
+        "Shutdown": 68,
+        "ReasonNotSet": 69,
+        "LoadingStateTimeout": 70,
+        "ResourcePackLoadingFailed": 71,
+        "SearchingForSessionLoadingScreenFailed": 72,
+        "NetherNetProtocolVersion": 73,
+        "SubsystemStatusError": 74,
+        "EmptyAuthFromDiscovery": 75,
+        "EmptyUrlFromDiscovery": 76,
+        "ExpiredAuthFromDiscovery": 77,
+        "UnknownSignalServiceSignInFailure": 78,
+        "XBLJoinLobbyFailure": 79,
+        "UnspecifiedClientInstanceDisconnection": 80,
+        "NetherNetSessionNotFound": 81,
+        "NetherNetCreatePeerConnection": 82,
+        "NetherNetICE": 83,
+        "NetherNetConnectRequest": 84,
+        "NetherNetConnectResponse": 85,
+        "NetherNetNegotiationTimeout": 86,
+        "NetherNetInactivityTimeout": 87,
+        "StaleConnectionBeingReplaced": 88,
+        "RealmsSessionNotFound": 89,
+        "BadPacket": 90,
+        "NetherNetFailedToCreateOffer": 91,
+        "NetherNetFailedToCreateAnswer": 92,
+        "NetherNetFailedToSetLocalDescription": 93,
+        "NetherNetFailedToSetRemoteDescription": 94,
+        "NetherNetNegotiationTimeoutWaitingForResponse": 95,
+        "NetherNetNegotiationTimeoutWaitingForAccept": 96,
+        "NetherNetIncomingConnectionIgnored": 97,
+        "NetherNetSignalingParsingFailure": 98,
+        "NetherNetSignalingUnknownError": 99,
+        "NetherNetSignalingUnicastDeliveryFailed": 100,
+        "NetherNetSignalingBroadcastDeliveryFailed": 101,
+        "NetherNetSignalingGenericDeliveryFailed": 102,
+        "EditorMismatchEditorWorld": 103,
+        "EditorMismatchVanillaWorld": 104,
+        "WorldTransferNotPrimaryClient": 105,
+        "INTERNAL_RequestServerShutdown": 106,
+        "ClientGameSetupCancelled": 107,
+        "ClientGameSetupFailed": 108,
+        "NoVenue": 109,
+        "NetherNetSignalingSigninFailed": 110,
+        "SessionAccessDenied": 111,
+        "ServiceSigninIssue": 112,
+        "NetherNetNoSignalingChannel": 113,
+        "NetherNetNotLoggedIn": 114,
+        "NetherNetClientSignalingError": 115,
+        "SubClientLoginDisabled": 116,
+        "DeepLinkTryingToOpenDemoWorldWhileSignedIn": 117,
+        "AsyncJoinTaskDenied": 118,
+        "RealmsTimelineRequired": 119,
+        "GuestWithoutHost": 120,
+        "FailedToJoinExperience": 121,
+        "NetherNetDataChannelClosed": 122,
+        "DiscoveryEnvironmentMismatch": 123,
+        "HostWithoutKeys": 124,
+        "HostSignedOut": 125,
+        "ScriptWatchdogException": 126,
+        "ScriptMemoryLimitExceeded": 127,
+        "StorageLowDuringGameplay": 128,
+        "StorageFullDuringGameplay": 129,
+        "LevelStorageCorruption": 130,
+        "EditionMismatchVanillaToEdu": 131,
+        "EditionMismatchEduToVanilla": 132,
+        "EditorMismatchEditorToVanilla": 133,
+        "EditorMismatchVanillaToEditor": 134,
+        "DenyListed": 135,
+        "NonceMissing": 136,
+        "NonceNotFound": 137,
+        "NonceExpired": 138,
+        "NonceNotValid": 139,
+        "HostDisconnected": 140,
+        "EditorJoinIntentPolicyFailure": 141,
+        "NetherNetIdentityNotAllowed": 142,
+        "InvalidName": 143,
+        "ExpiredToken": 144,
+        "HostAcceptsNoTypeOfAuth": 145,
+        "NotAuthenticatedFastFail": 146,
+        "EditorNotAllowed": 147,
+        "MissingStructureData": 148,
+        "UnsupportedTransport": 149,
+        "SubClientLoginNotBound": 150,
+        "SessionRuntimeError": 151,
+        "SessionInvalidResponse": 152,
+        "SessionNetworkError": 153,
+        "SessionServiceError": 154,
+        "SessionServiceUnavailable": 155,
+        "SessionThrottled": 156,
+        "SessionRequestRejected": 157,
+        "SessionUnknownError": 158
+      }
+    },
+    {
+      "name": "Input Mode",
+      "hash": "7c865ca1f2b4e56b8e80e1b845a87fbb688f925f4bf3b004081e7f90a39d18bb",
+      "bind_type": "enum",
+      "is_bind_type": true,
+      "enum_kind": "numeric",
+      "backing_integer": "u32",
+      "enum": {
+        "Undefined": 0,
+        "Mouse": 1,
+        "Touch": 2,
+        "GamePad": 3,
+        "GamePadAndMouse": 5,
+        "Count": 6
+      }
+    },
+    {
+      "name": "Item Stack Request Action Type",
+      "hash": "97e6f3afce95d8540fd0036c71ddffd42939ea7b074f81a411ee7ef692d29d0b",
+      "bind_type": "enum",
+      "is_bind_type": true,
+      "enum_kind": "numeric",
+      "backing_integer": "u8",
+      "enum": {
+        "Take": 0,
+        "Place": 1,
+        "Swap": 2,
+        "Drop": 3,
+        "Destroy": 4,
+        "Consume": 5,
+        "Create": 6,
+        "ScreenLabTableCombine": 9,
+        "ScreenBeaconPayment": 10,
+        "ScreenHUDMineBlock": 11,
+        "CraftRecipe": 12,
+        "CraftRecipeAuto": 13,
+        "CraftCreative": 14,
+        "CraftRecipeOptional": 15,
+        "CraftRepairAndDisenchant": 16,
+        "CraftLoom": 17,
+        "CraftDiscPress": 18,
+        "CraftNonImplemented": 19,
+        "CraftResults": 20
+      }
+    },
+    {
+      "name": "Item Stack Request Craft Disc Press Action",
+      "hash": "7f6cd1f3cce5b40092347d9dd56f1b01ffd10efd98b9ae56b8071d69931df17f",
+      "bind_type": "struct",
+      "is_bind_type": true,
+      "fields": [
+        {
+          "name": "Action Type",
+          "is_constant": true,
+          "type": {
+            "name": "Item Stack Request Action Type",
+            "bind_type": "enum",
+            "is_bind_type": true,
+            "exhaustive": "exhaustive",
+            "enum_encoding": "numeric",
+            "data_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "u8",
+              "reinterpret": "u8",
+              "data_encoding": "little_endian"
+            }
+          },
+          "metadata": {
+            "constant_value": "craftdiscpress"
+          }
+        },
+        {
+          "name": "Track Sound Event Id",
+          "is_constant": false,
+          "type": {
+            "name": "string",
+            "is_bind_type": false,
+            "metadata": {
+              "max_length": 256
+            },
+            "length_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "i32",
+              "reinterpret": "i32",
+              "data_encoding": "zleb128"
+            }
+          }
+        },
+        {
+          "name": "Num Crafts",
+          "is_constant": false,
+          "type": {
+            "name": "integer",
+            "is_bind_type": false,
+            "interpretation": "u8",
+            "metadata": {
+              "min_value": 1,
+              "max_value": 255
+            },
+            "reinterpret": "u8",
+            "data_encoding": "little_endian"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Item Stack Request Actions Item",
+      "hash": "fca371821d55b401266920ec6d0a646e1b582d8e8d87d7dd75e7cb32e5fb76db",
+      "bind_type": "union",
+      "is_bind_type": true,
+      "fields": [
+        {
+          "type": {
+            "name": "Item Stack Request Take Action",
+            "bind_type": "struct",
+            "is_bind_type": true
+          },
+          "enum_literal": "take"
+        },
+        {
+          "type": {
+            "name": "Item Stack Request Place Action",
+            "bind_type": "struct",
+            "is_bind_type": true
+          },
+          "enum_literal": "place"
+        },
+        {
+          "type": {
+            "name": "Item Stack Request Swap Action",
+            "bind_type": "struct",
+            "is_bind_type": true
+          },
+          "enum_literal": "swap"
+        },
+        {
+          "type": {
+            "name": "Item Stack Request Drop Action",
+            "bind_type": "struct",
+            "is_bind_type": true
+          },
+          "enum_literal": "drop"
+        },
+        {
+          "type": {
+            "name": "Item Stack Request Destroy Action",
+            "bind_type": "struct",
+            "is_bind_type": true
+          },
+          "enum_literal": "destroy"
+        },
+        {
+          "type": {
+            "name": "Item Stack Request Consume Action",
+            "bind_type": "struct",
+            "is_bind_type": true
+          },
+          "enum_literal": "consume"
+        },
+        {
+          "type": {
+            "name": "Item Stack Request Create Action",
+            "bind_type": "struct",
+            "is_bind_type": true
+          },
+          "enum_literal": "create"
+        },
+        {
+          "type": {
+            "name": "Item Stack Request Lab Table Combine Action",
+            "bind_type": "struct",
+            "is_bind_type": true
+          },
+          "enum_literal": "screenlabtablecombine"
+        },
+        {
+          "type": {
+            "name": "Item Stack Request Beacon Payment Action",
+            "bind_type": "struct",
+            "is_bind_type": true
+          },
+          "enum_literal": "screenbeaconpayment"
+        },
+        {
+          "type": {
+            "name": "Item Stack Request Mine Block Action",
+            "bind_type": "struct",
+            "is_bind_type": true
+          },
+          "enum_literal": "screenhudmineblock"
+        },
+        {
+          "type": {
+            "name": "Item Stack Request Craft Recipe Action",
+            "bind_type": "struct",
+            "is_bind_type": true
+          },
+          "enum_literal": "craftrecipe"
+        },
+        {
+          "type": {
+            "name": "Item Stack Request Craft Recipe Auto Action",
+            "bind_type": "struct",
+            "is_bind_type": true
+          },
+          "enum_literal": "craftrecipeauto"
+        },
+        {
+          "type": {
+            "name": "Item Stack Request Craft Creative Action",
+            "bind_type": "struct",
+            "is_bind_type": true
+          },
+          "enum_literal": "craftcreative"
+        },
+        {
+          "type": {
+            "name": "Item Stack Request Craft Recipe Optional Action",
+            "bind_type": "struct",
+            "is_bind_type": true
+          },
+          "enum_literal": "craftrecipeoptional"
+        },
+        {
+          "type": {
+            "name": "Item Stack Request Craft Repair And Disenchant Action",
+            "bind_type": "struct",
+            "is_bind_type": true
+          },
+          "enum_literal": "craftrepairanddisenchant"
+        },
+        {
+          "type": {
+            "name": "Item Stack Request Craft Loom Action",
+            "bind_type": "struct",
+            "is_bind_type": true
+          },
+          "enum_literal": "craftloom"
+        },
+        {
+          "type": {
+            "name": "Item Stack Request Craft Disc Press Action",
+            "bind_type": "struct",
+            "is_bind_type": true
+          },
+          "enum_literal": "craftdiscpress"
+        },
+        {
+          "type": {
+            "name": "Item Stack Request Craft Non Implemented Deprecated Action",
+            "bind_type": "struct",
+            "is_bind_type": true
+          },
+          "enum_literal": "craftnonimplemented"
+        },
+        {
+          "type": {
+            "name": "Item Stack Request Craft Results Deprecated Action",
+            "bind_type": "struct",
+            "is_bind_type": true
+          },
+          "enum_literal": "craftresults"
+        }
+      ],
+      "backing_enum": {
+        "name": "Item Stack Request Action Type",
+        "bind_type": "enum",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Level Sound Event",
+      "hash": "fdb1e9ac71b80d0855d0c101f5db5ed1747a8c0b97375a2088c0f7910581f113",
+      "bind_type": "enum",
+      "is_bind_type": true,
+      "enum_kind": "numeric",
+      "backing_integer": "u32",
+      "enum": {
+        "item.use.on": 0,
+        "hit": 1,
+        "step": 2,
+        "step.baby": 221,
+        "fly": 3,
+        "jump": 4,
+        "jump.prevent": 287,
+        "break": 5,
+        "place": 6,
+        "heavy.step": 7,
+        "gallop": 8,
+        "fall": 9,
+        "hurt": 17,
+        "hurt.baby": 219,
+        "hurt.in.water": 18,
+        "death": 14,
+        "death.baby": 220,
+        "death.in.water": 15,
+        "death.to.zombie": 16,
+        "ambient": 10,
+        "ambient.baby": 11,
+        "ambient.in.water": 12,
+        "ambient.in.air": 492,
+        "ambient.tame": 242,
+        "ambient.pollinate": 288,
+        "breathe": 13,
+        "mad": 19,
+        "boost": 20,
+        "bow": 21,
+        "squish.big": 22,
+        "squish.small": 23,
+        "fall.big": 24,
+        "fall.small": 25,
+        "splash": 26,
+        "fizz": 27,
+        "flap": 28,
+        "swim": 29,
+        "drink": 30,
+        "drink.honey": 294,
+        "drink.milk": 432,
+        "eat": 31,
+        "takeoff": 32,
+        "shake": 33,
+        "plop": 34,
+        "land": 35,
+        "saddle": 36,
+        "armor": 37,
+        "mob.armor_stand.place": 38,
+        "add.chest": 39,
+        "throw": 40,
+        "attack": 41,
+        "attack.nodamage": 42,
+        "attack.strong": 43,
+        "warn": 44,
+        "shear": 45,
+        "milk": 46,
+        "thunder": 47,
+        "explode": 48,
+        "fire": 49,
+        "ignite": 50,
+        "fuse": 51,
+        "stare": 52,
+        "spawn": 53,
+        "born": 223,
+        "shoot": 54,
+        "break.block": 55,
+        "launch": 56,
+        "blast": 57,
+        "large.blast": 58,
+        "twinkle": 59,
+        "remedy": 60,
+        "unfect": 61,
+        "convert_to_drowned": 211,
+        "levelup": 62,
+        "bow.hit": 63,
+        "bullet.hit": 64,
+        "extinguish.fire": 65,
+        "item.fizz": 66,
+        "chest.open": 67,
+        "chest.closed": 68,
+        "shulkerbox.open": 69,
+        "shulkerbox.closed": 70,
+        "enderchest.open": 71,
+        "enderchest.closed": 72,
+        "power.on": 73,
+        "power.off": 74,
+        "attach": 75,
+        "detach": 76,
+        "deny": 77,
+        "tripod": 78,
+        "pop": 79,
+        "drop.slot": 80,
+        "note": 81,
+        "thorns": 82,
+        "piston.in": 83,
+        "piston.out": 84,
+        "portal": 85,
+        "water": 86,
+        "lava.pop": 87,
+        "lava": 88,
+        "beacon.activate": 229,
+        "beacon.ambient": 230,
+        "beacon.deactivate": 231,
+        "beacon.power": 232,
+        "conduit.activate": 233,
+        "conduit.ambient": 234,
+        "conduit.attack": 235,
+        "conduit.deactivate": 236,
+        "conduit.short": 237,
+        "bubble.pop": 216,
+        "bubble.up": 214,
+        "bubble.upinside": 217,
+        "bubble.down": 215,
+        "bubble.downinside": 218,
+        "burp": 89,
+        "bucket.fill.water": 90,
+        "bucket.empty.water": 92,
+        "bucket.fill.lava": 91,
+        "bucket.empty.lava": 93,
+        "bucket.fill.fish": 212,
+        "bucket.empty.fish": 213,
+        "armor.equip_chain": 94,
+        "armor.equip_diamond": 95,
+        "armor.equip_elytra": 100,
+        "armor.equip_generic": 96,
+        "armor.equip_gold": 97,
+        "armor.equip_iron": 98,
+        "armor.equip_leather": 99,
+        "armor.equip_netherite": 317,
+        "record.13": 101,
+        "record.cat": 102,
+        "record.blocks": 103,
+        "record.chirp": 104,
+        "record.creator": 527,
+        "record.creator_music_box": 528,
+        "record.far": 105,
+        "record.mall": 106,
+        "record.mellohi": 107,
+        "record.stal": 108,
+        "record.strad": 109,
+        "record.ward": 110,
+        "record.11": 111,
+        "record.wait": 112,
+        "record.null": 113,
+        "record.pigstep": 314,
+        "record.precipice": 529,
+        "record.relic": 469,
+        "record.otherside": 371,
+        "record.5": 439,
+        "record.tears": 555,
+        "record.lava_chicken": 562,
+        "flop": 114,
+        "elderguardian.curse": 115,
+        "teleport": 118,
+        "shulker.open": 119,
+        "shulker.close": 120,
+        "mob.warning": 116,
+        "mob.warning.baby": 117,
+        "haggle": 121,
+        "haggle.yes": 122,
+        "haggle.no": 123,
+        "haggle.idle": 124,
+        "disappeared": 430,
+        "reappeared": 431,
+        "chorusgrow": 125,
+        "chorusdeath": 126,
+        "glass": 127,
+        "potion.brewed": 128,
+        "cast.spell": 129,
+        "prepare.attack": 130,
+        "prepare.summon": 131,
+        "prepare.wololo": 132,
+        "fang": 133,
+        "charge": 134,
+        "camera.take_picture": 135,
+        "leashknot.break": 137,
+        "leashknot.place": 136,
+        "growl": 138,
+        "whine": 139,
+        "pant": 140,
+        "purr": 141,
+        "purreow": 142,
+        "death.min.volume": 143,
+        "death.mid.volume": 144,
+        "imitate.blaze": 145,
+        "imitate.cave_spider": 146,
+        "imitate.creeper": 147,
+        "imitate.elder_guardian": 148,
+        "imitate.ender_dragon": 149,
+        "imitate.enderman": 150,
+        "imitate.endermite": 151,
+        "imitate.evocation_illager": 152,
+        "imitate.ghast": 153,
+        "imitate.husk": 154,
+        "imitate.magma_cube": 156,
+        "imitate.polar_bear": 157,
+        "imitate.shulker": 158,
+        "imitate.silverfish": 159,
+        "imitate.skeleton": 160,
+        "imitate.slime": 161,
+        "imitate.spider": 162,
+        "imitate.stray": 163,
+        "imitate.vex": 164,
+        "imitate.vindication_illager": 165,
+        "imitate.witch": 166,
+        "imitate.wither": 167,
+        "imitate.wither_skeleton": 168,
+        "imitate.wolf": 169,
+        "imitate.zombie": 170,
+        "imitate.zombie_pigman": 171,
+        "imitate.zombie_villager": 172,
+        "block.end_portal_frame.fill": 173,
+        "block.end_portal.spawn": 174,
+        "random.anvil_use": 175,
+        "bottle.dragonbreath": 176,
+        "balloonpop": 190,
+        "sparkler.active": 210,
+        "item.trident.hit": 178,
+        "item.trident.hit_ground": 185,
+        "item.trident.return": 179,
+        "item.trident.riptide_1": 180,
+        "item.trident.riptide_2": 181,
+        "item.trident.riptide_3": 182,
+        "item.trident.throw": 183,
+        "item.trident.thunder": 184,
+        "block.fletching_table.use": 187,
+        "elemconstruct.open": 188,
+        "icebomb.hit": 189,
+        "lt.reaction.icebomb": 191,
+        "lt.reaction.bleach": 192,
+        "lt.reaction.epaste": 193,
+        "lt.reaction.epaste2": 194,
+        "lt.reaction.fertilizer": 199,
+        "lt.reaction.fireball": 200,
+        "lt.reaction.mgsalt": 201,
+        "lt.reaction.miscfire": 202,
+        "lt.reaction.fire": 203,
+        "lt.reaction.miscexplosion": 204,
+        "lt.reaction.miscmystical": 205,
+        "lt.reaction.miscmystical2": 206,
+        "lt.reaction.product": 207,
+        "sparkler.use": 208,
+        "glowstick.use": 209,
+        "block.turtle_egg.break": 224,
+        "block.turtle_egg.crack": 225,
+        "block.turtle_egg.hatch": 226,
+        "block.turtle_egg.attack": 228,
+        "block.sniffer_egg.crack": 466,
+        "block.sniffer_egg.hatch": 467,
+        "block.frog_spawn.hatch": 433,
+        "block.frog_spawn.break": 435,
+        "swoop": 238,
+        "presneeze": 240,
+        "sneeze": 241,
+        "scared": 243,
+        "ambient.aggressive": 252,
+        "ambient.worried": 253,
+        "cant_breed": 254,
+        "block.scaffolding.climb": 244,
+        "block.bamboo_sapling.place": 239,
+        "crossbow.loading.start": 245,
+        "crossbow.loading.middle": 246,
+        "crossbow.loading.end": 247,
+        "crossbow.shoot": 248,
+        "crossbow.quick_charge.start": 249,
+        "crossbow.quick_charge.middle": 250,
+        "crossbow.quick_charge.end": 251,
+        "item.shield.block": 255,
+        "portal.travel": 177,
+        "item.book.put": 256,
+        "block.grindstone.use": 257,
+        "block.bell.hit": 258,
+        "block.campfire.crackle": 259,
+        "block.sweet_berry_bush.hurt": 262,
+        "block.sweet_berry_bush.pick": 263,
+        "block.stonecutter.use": 265,
+        "block.cartography_table.use": 264,
+        "block.composter.empty": 266,
+        "block.composter.fill": 267,
+        "block.composter.fill_success": 268,
+        "block.composter.ready": 269,
+        "roar": 260,
+        "stun": 261,
+        "block.barrel.open": 270,
+        "block.barrel.close": 271,
+        "raid.horn": 272,
+        "ui.stonecutter.take_result": 276,
+        "ui.cartography_table.take_result": 275,
+        "ui.loom.take_result": 277,
+        "block.smoker.smoke": 278,
+        "block.blastfurnace.fire_crackle": 279,
+        "block.smithing_table.use": 280,
+        "block.loom.use": 273,
+        "ambient.in.raid": 274,
+        "screech": 281,
+        "sleep": 282,
+        "block.furnace.lit": 283,
+        "convert_mooshroom": 284,
+        "milk_suspiciously": 285,
+        "celebrate": 286,
+        "block.beehive.enter": 290,
+        "block.beehive.exit": 291,
+        "block.beehive.shear": 293,
+        "block.beehive.work": 292,
+        "block.beehive.drip": 289,
+        "ambient.cave": 295,
+        "angry": 302,
+        "retreat": 296,
+        "converted_to_zombified": 297,
+        "step_lava": 299,
+        "tempt": 300,
+        "panic": 301,
+        "admire": 298,
+        "particle.soul_escape.quiet": 312,
+        "particle.soul_escape.loud": 313,
+        "respawn_anchor.charge": 308,
+        "respawn_anchor.deplete": 309,
+        "respawn_anchor.set_spawn": 310,
+        "respawn_anchor.ambient": 311,
+        "ambient.crimson_forest.mood": 307,
+        "ambient.warped_forest.mood": 303,
+        "ambient.soulsand_valley.mood": 304,
+        "ambient.nether_wastes.mood": 305,
+        "ambient.crimson_forest.additions": 327,
+        "ambient.warped_forest.additions": 323,
+        "ambient.soulsand_valley.additions": 324,
+        "ambient.nether_wastes.additions": 325,
+        "ambient.basalt_deltas.additions": 326,
+        "ambient.crimson_forest.loop": 322,
+        "ambient.warped_forest.loop": 318,
+        "ambient.soulsand_valley.loop": 319,
+        "ambient.nether_wastes.loop": 320,
+        "ambient.basalt_deltas.loop": 321,
+        "lodestone_compass.link_compass_to_lodestone": 315,
+        "ambient.basalt_deltas.mood": 306,
+        "power.on.sculk_sensor": 328,
+        "power.off.sculk_sensor": 329,
+        "smithing_table.use": 316,
+        "default": 186,
+        "lay_egg": 227,
+        "lay_spawn": 434,
+        "bucket.fill.powder_snow": 330,
+        "bucket.empty.powder_snow": 331,
+        "cauldron_drip.water.pointed_dripstone": 332,
+        "cauldron_drip.lava.pointed_dripstone": 333,
+        "tilt_down.big_dripleaf": 337,
+        "tilt_up.big_dripleaf": 338,
+        "drip.water.pointed_dripstone": 334,
+        "pick_berries.cave_vines": 336,
+        "drip.lava.pointed_dripstone": 335,
+        "copper.wax.on": 339,
+        "copper.wax.off": 340,
+        "scrape": 341,
+        "item.spyglass.use": 345,
+        "item.spyglass.stop_using": 346,
+        "chime.amethyst_block": 347,
+        "mob.player.hurt_drown": 342,
+        "mob.player.hurt_on_fire": 343,
+        "mob.player.hurt_freeze": 344,
+        "ambient.screamer": 348,
+        "hurt.screamer": 349,
+        "death.screamer": 350,
+        "milk.screamer": 351,
+        "jump_to_block": 352,
+        "pre_ram": 353,
+        "pre_ram.screamer": 354,
+        "ram_impact": 355,
+        "ram_impact.screamer": 356,
+        "squid.ink_squirt": 357,
+        "glow_squid.ink_squirt": 358,
+        "convert_to_stray": 359,
+        "cake.add_candle": 360,
+        "extinguish.candle": 361,
+        "ambient.candle": 362,
+        "block.click": 363,
+        "block.click.fail": 364,
+        "block.sculk_catalyst.bloom": 365,
+        "block.sculk_shrieker.shriek": 366,
+        "nearby_close": 367,
+        "nearby_closer": 368,
+        "nearby_closest": 369,
+        "agitated": 370,
+        "listening": 375,
+        "heartbeat": 376,
+        "tongue": 372,
+        "item_given": 428,
+        "item_taken": 429,
+        "item_thrown": 438,
+        "irongolem.crack": 373,
+        "irongolem.repair": 374,
+        "horn_break": 377,
+        "horn_call0": 383,
+        "horn_call1": 384,
+        "horn_call2": 385,
+        "horn_call3": 386,
+        "horn_call4": 387,
+        "horn_call5": 388,
+        "horn_call6": 389,
+        "horn_call7": 390,
+        "imitate.warden": 426,
+        "listening_angry": 427,
+        "sonic_boom": 436,
+        "sonic_charge": 437,
+        "convert_to_frog": 440,
+        "block.sculk.spread": 379,
+        "charge.sculk": 380,
+        "block.sculk_sensor.place": 381,
+        "block.sculk_shrieker.place": 382,
+        "block.enchanting_table.use": 442,
+        "bundle.drop_contents": 445,
+        "bundle.insert": 446,
+        "bundle.insert_fail": 533,
+        "bundle.remove_one": 447,
+        "step_sand": 443,
+        "dash_ready": 444,
+        "pressure_plate.click_off": 448,
+        "pressure_plate.click_on": 449,
+        "button.click_off": 450,
+        "button.click_on": 451,
+        "door.open": 452,
+        "door.close": 453,
+        "trapdoor.open": 454,
+        "trapdoor.close": 455,
+        "fence_gate.open": 456,
+        "fence_gate.close": 457,
+        "insert": 458,
+        "pickup": 459,
+        "insert_enchanted": 460,
+        "pickup_enchanted": 461,
+        "shatter_pot": 464,
+        "break_pot": 465,
+        "brush": 462,
+        "brush_completed": 463,
+        "block.sign.waxed_interact_fail": 468,
+        "note.bass": 470,
+        "pumpkin.carve": 471,
+        "mob.husk.convert_to_zombie": 472,
+        "mob.pig.death": 473,
+        "mob.hoglin.converted_to_zombified": 474,
+        "ambient.underwater.enter": 475,
+        "ambient.underwater.exit": 476,
+        "bottle.fill": 477,
+        "bottle.empty": 478,
+        "block.decorated_pot.insert": 481,
+        "block.decorated_pot.insert_fail": 482,
+        "crafter.craft": 479,
+        "crafter.fail": 480,
+        "crafter.disable_slot": 483,
+        "block.copper_bulb.turn_on": 490,
+        "block.copper_bulb.turn_off": 491,
+        "breeze_wind_charge.burst": 493,
+        "imitate.breeze": 494,
+        "trial_spawner.open_shutter": 484,
+        "trial_spawner.detect_player": 486,
+        "trial_spawner.close_shutter": 488,
+        "trial_spawner.spawn_mob": 487,
+        "trial_spawner.eject_item": 485,
+        "trial_spawner.ambient": 489,
+        "mob.armadillo.brush": 495,
+        "mob.armadillo.scute_drop": 496,
+        "armor.equip_wolf": 497,
+        "armor.unequip_wolf": 498,
+        "reflect": 499,
+        "vault.open_shutter": 500,
+        "vault.close_shutter": 501,
+        "vault.eject_item": 502,
+        "vault.insert_item": 503,
+        "vault.insert_item_fail": 504,
+        "vault.ambient": 505,
+        "vault.activate": 506,
+        "vault.deactivate": 507,
+        "hurt.reduced": 508,
+        "wind_charge.burst": 509,
+        "armor.break_wolf": 512,
+        "armor.crack_wolf": 511,
+        "armor.repair_wolf": 513,
+        "mace.smash_air": 514,
+        "mace.smash_ground": 515,
+        "mace.heavy_smash_ground": 520,
+        "trial_spawner.charge_activate": 516,
+        "trial_spawner.ambient_ominous": 517,
+        "apply_effect.bad_omen": 523,
+        "apply_effect.raid_omen": 524,
+        "apply_effect.trial_omen": 525,
+        "ominous_item_spawner.spawn_item": 518,
+        "ominous_bottle.end_use": 519,
+        "ominous_item_spawner.spawn_item_begin": 521,
+        "ominous_item_spawner.about_to_spawn_item": 526,
+        "imitate.bogged": 510,
+        "vault.reject_rewarded_player": 530,
+        "imitate.drowned": 531,
+        "sponge.absorb": 534,
+        "imitate.creaking": 532,
+        "block.creaking_heart.trail": 536,
+        "creaking_heart_spawn": 537,
+        "activate": 538,
+        "deactivate": 539,
+        "freeze": 540,
+        "unfreeze": 541,
+        "open": 542,
+        "open_long": 543,
+        "close": 544,
+        "close_long": 545,
+        "imitate.phantom": 546,
+        "imitate.zoglin": 547,
+        "imitate.guardian": 548,
+        "imitate.ravager": 549,
+        "imitate.pillager": 550,
+        "place_in_water": 551,
+        "state_change": 552,
+        "imitate.happy_ghast": 553,
+        "armor.unequip_generic": 554,
+        "ambient.weather.the_end_light_flash": 556,
+        "lead.leash": 557,
+        "lead.unleash": 558,
+        "lead.break": 559,
+        "unsaddle": 560,
+        "armor.equip_copper": 561,
+        "place_item": 563,
+        "single_swap": 564,
+        "multi_swap": 565,
+        "item.enchant.lunge1": 566,
+        "item.enchant.lunge2": 567,
+        "item.enchant.lunge3": 568,
+        "attack.critical": 569,
+        "item.spear.attack_hit": 570,
+        "item.spear.attack_miss": 571,
+        "item.wooden_spear.attack_hit": 572,
+        "item.wooden_spear.attack_miss": 573,
+        "imitate.parched": 574,
+        "imitate.camel_husk": 575,
+        "item.spear.use": 576,
+        "item.wooden_spear.use": 577,
+        "saddle_in_water": 578,
+        "item.stone_spear.attack_hit": 579,
+        "item.iron_spear.attack_hit": 580,
+        "item.copper_spear.attack_hit": 581,
+        "item.golden_spear.attack_hit": 582,
+        "item.diamond_spear.attack_hit": 583,
+        "item.netherite_spear.attack_hit": 584,
+        "item.stone_spear.attack_miss": 585,
+        "item.iron_spear.attack_miss": 586,
+        "item.copper_spear.attack_miss": 587,
+        "item.golden_spear.attack_miss": 588,
+        "item.diamond_spear.attack_miss": 589,
+        "item.netherite_spear.attack_miss": 590,
+        "item.stone_spear.use": 591,
+        "item.iron_spear.use": 592,
+        "item.copper_spear.use": 593,
+        "item.golden_spear.use": 594,
+        "item.diamond_spear.use": 595,
+        "item.netherite_spear.use": 596,
+        "pause_growth": 597,
+        "reset_growth": 598,
+        "pushed_by_player": 599,
+        "bounce": 600,
+        "slime_landing": 601,
+        "absorb_block": 602,
+        "eject_block": 603,
+        "geyser_eruption_start": 604,
+        "geyser_eruption_active": 605,
+        "record.bounce": 606,
+        "bucket.fill.land_animal": 607,
+        "bucket.empty.land_animal": 608,
+        "geyser_continuous_eruption_start": 609,
+        "geyser_continuous_eruption_active": 610,
+        "mount": 611,
+        "dismount": 612,
+        "straw_bed.break_leave": 613,
+        "convert_to_frostbite": 614,
+        "convert_to_zombie": 615,
+        "crack": 616,
+        "undefined": 617
+      }
+    },
+    {
+      "name": "Managed Chat Join Info",
+      "hash": "f11eddf3b30d28eea1bfe428e79c54bcc9a7c8be8e52543458481d81133609c3",
+      "bind_type": "struct",
+      "is_bind_type": true,
+      "fields": [
+        {
+          "name": "Enabled",
+          "is_constant": false,
+          "type": {
+            "name": "boolean",
+            "is_bind_type": false,
+            "data_encoding": "bool"
+          },
+          "metadata": {
+            "default_value": false
+          }
+        }
+      ]
+    },
+    {
+      "name": "Minecraft Packet Ids",
+      "hash": "260b7d8b507ab65a9c55ab9ae10496d554b8b349b00d02e7b6ffb665b906e0a1",
+      "bind_type": "enum",
+      "is_bind_type": true,
+      "enum_kind": "numeric",
+      "backing_integer": "i32",
+      "enum": {
+        "KeepAlive": 0,
+        "Login": 1,
+        "PlayStatus": 2,
+        "ServerToClientHandshake": 3,
+        "ClientToServerHandshake": 4,
+        "Disconnect": 5,
+        "ResourcePacksInfo": 6,
+        "ResourcePackStack": 7,
+        "ResourcePackClientResponse": 8,
+        "Text": 9,
+        "SetTime": 10,
+        "StartGame": 11,
+        "AddPlayer": 12,
+        "AddActor": 13,
+        "RemoveActor": 14,
+        "AddItemActor": 15,
+        "ServerPlayerPostMovePosition": 16,
+        "TakeItemActor": 17,
+        "MoveAbsoluteActor": 18,
+        "MovePlayer": 19,
+        "UpdateBlock": 21,
+        "AddPainting": 22,
+        "LevelEvent": 25,
+        "TileEvent": 26,
+        "ActorEvent": 27,
+        "MobEffect": 28,
+        "UpdateAttributes": 29,
+        "InventoryTransaction": 30,
+        "PlayerEquipment": 31,
+        "MobArmorEquipment": 32,
+        "Interact": 33,
+        "BlockPickRequest": 34,
+        "ActorPickRequest": 35,
+        "PlayerAction": 36,
+        "HurtArmor": 38,
+        "SetActorData": 39,
+        "SetActorMotion": 40,
+        "SetActorLink": 41,
+        "SetHealth": 42,
+        "SetSpawnPosition": 43,
+        "Animate": 44,
+        "Respawn": 45,
+        "ContainerOpen": 46,
+        "ContainerClose": 47,
+        "PlayerHotbar": 48,
+        "InventoryContent": 49,
+        "InventorySlot": 50,
+        "ContainerSetData": 51,
+        "CraftingData": 52,
+        "GuiDataPickItem": 54,
+        "BlockActorData": 56,
+        "FullChunkData": 58,
+        "SetCommandsEnabled": 59,
+        "SetDifficulty": 60,
+        "ChangeDimension": 61,
+        "SetPlayerGameType": 62,
+        "PlayerList": 63,
+        "SimpleEvent": 64,
+        "LegacyTelemetryEvent": 65,
+        "SpawnExperienceOrb": 66,
+        "MapData": 67,
+        "MapInfoRequest": 68,
+        "RequestChunkRadius": 69,
+        "ChunkRadiusUpdated": 70,
+        "GameRulesChanged": 72,
+        "Camera": 73,
+        "BossEvent": 74,
+        "ShowCredits": 75,
+        "AvailableCommands": 76,
+        "CommandRequest": 77,
+        "CommandBlockUpdate": 78,
+        "CommandOutput": 79,
+        "UpdateTrade": 80,
+        "UpdateEquip": 81,
+        "ResourcePackDataInfo": 82,
+        "ResourcePackChunkData": 83,
+        "ResourcePackChunkRequest": 84,
+        "Transfer": 85,
+        "PlaySound": 86,
+        "StopSound": 87,
+        "SetTitle": 88,
+        "AddBehaviorTree": 89,
+        "StructureBlockUpdate": 90,
+        "ShowStoreOffer": 91,
+        "PurchaseReceipt": 92,
+        "PlayerSkin": 93,
+        "SubclientLogin": 94,
+        "AutomationClientConnect": 95,
+        "SetLastHurtBy": 96,
+        "BookEdit": 97,
+        "NPCRequest": 98,
+        "PhotoTransfer": 99,
+        "ShowModalForm": 100,
+        "ModalFormResponse": 101,
+        "ServerSettingsRequest": 102,
+        "ServerSettingsResponse": 103,
+        "ShowProfile": 104,
+        "SetDefaultGameType": 105,
+        "RemoveObjective": 106,
+        "SetDisplayObjective": 107,
+        "SetScore": 108,
+        "LabTable": 109,
+        "UpdateBlockSynced": 110,
+        "MoveDeltaActor": 111,
+        "SetScoreboardIdentity": 112,
+        "SetLocalPlayerAsInit": 113,
+        "UpdateSoftEnum": 114,
+        "Ping": 115,
+        "ScriptCustomEvent": 117,
+        "SpawnParticleEffect": 118,
+        "AvailableActorIDList": 119,
+        "NetworkChunkPublisherUpdate": 121,
+        "BiomeDefinitionList": 122,
+        "LevelSoundEvent": 123,
+        "LevelEventGeneric": 124,
+        "LecternUpdate": 125,
+        "ClientCacheStatus": 129,
+        "OnScreenTextureAnimation": 130,
+        "MapCreateLockedCopy": 131,
+        "StructureTemplateDataExportRequest": 132,
+        "StructureTemplateDataExportResponse": 133,
+        "ClientCacheBlobStatusPacket": 135,
+        "ClientCacheMissResponsePacket": 136,
+        "EducationSettingsPacket": 137,
+        "Emote": 138,
+        "MultiplayerSettingsPacket": 139,
+        "SettingsCommandPacket": 140,
+        "AnvilDamage": 141,
+        "CompletedUsingItem": 142,
+        "ServerboundCursorItemDrag": 358,
+        "NetworkSettings": 143,
+        "PlayerAuthInputPacket": 144,
+        "CreativeContent": 145,
+        "PlayerEnchantOptions": 146,
+        "ItemStackRequest": 147,
+        "ItemStackResponse": 148,
+        "PlayerArmorDamage": 149,
+        "CodeBuilderPacket": 150,
+        "UpdatePlayerGameType": 151,
+        "EmoteList": 152,
+        "PositionTrackingDBServerBroadcast": 153,
+        "PositionTrackingDBClientRequest": 154,
+        "DebugInfoPacket": 155,
+        "PacketViolationWarning": 156,
+        "MotionPredictionHints": 157,
+        "TriggerAnimation": 158,
+        "CameraShake": 159,
+        "PlayerFogSetting": 160,
+        "CorrectPlayerMovePredictionPacket": 161,
+        "ItemRegistryPacket": 162,
+        "ClientBoundDebugRendererPacket": 164,
+        "SyncActorProperty": 165,
+        "SimulationTypePacket": 168,
+        "NpcDialoguePacket": 169,
+        "EduUriResourcePacket": 170,
+        "CreatePhotoPacket": 171,
+        "UpdateSubChunkBlocks": 172,
+        "SubChunkPacket": 174,
+        "SubChunkRequestPacket": 175,
+        "PlayerStartItemCooldown": 176,
+        "ScriptMessagePacket": 177,
+        "CodeBuilderSourcePacket": 178,
+        "TickingAreasLoadStatus": 179,
+        "DimensionDataPacket": 180,
+        "AgentAction": 181,
+        "ChangeMobProperty": 182,
+        "LessonProgressPacket": 183,
+        "RequestAbilityPacket": 184,
+        "RequestPermissionsPacket": 185,
+        "ToastRequest": 186,
+        "UpdateAbilitiesPacket": 187,
+        "UpdateAdventureSettingsPacket": 188,
+        "DeathInfo": 189,
+        "EditorNetworkPacket": 190,
+        "FeatureRegistryPacket": 191,
+        "ServerStats": 192,
+        "RequestNetworkSettings": 193,
+        "GameTestRequestPacket": 194,
+        "GameTestResultsPacket": 195,
+        "PlayerClientInputPermissions": 196,
+        "CameraPresets": 198,
+        "UnlockedRecipes": 199,
+        "TitleSpecificPacketsStart": 200,
+        "TitleSpecificPacketsEnd": 299,
+        "CameraInstruction": 300,
+        "TrimData": 302,
+        "OpenSign": 303,
+        "AgentAnimation": 304,
+        "RefreshEntitlementsPacket": 305,
+        "PlayerToggleCrafterSlotRequestPacket": 306,
+        "SetPlayerInventoryOptions": 307,
+        "SetHudPacket": 308,
+        "AwardAchievementPacket": 309,
+        "ClientboundCloseScreen": 310,
+        "ServerboundLoadingScreenPacket": 312,
+        "JigsawStructureDataPacket": 313,
+        "CurrentStructureFeaturePacket": 314,
+        "ServerboundDiagnosticsPacket": 315,
+        "CameraAimAssist": 316,
+        "ContainerRegistryCleanup": 317,
+        "MovementEffect": 318,
+        "CameraAimAssistActorPriority": 339,
+        "CameraAimAssistPresets": 320,
+        "ClientCameraAimAssist": 321,
+        "ClientMovementPredictionSyncPacket": 322,
+        "UpdateClientOptions": 323,
+        "PlayerVideoCapturePacket": 324,
+        "PlayerUpdateEntityOverridesPacket": 325,
+        "PlayerLocation": 326,
+        "SyncWorldClocks": 344,
+        "SendPartyDestinationCookie": 349,
+        "PartyDestinationCookieResponse": 350,
+        "SetPlayerFurnaceOptions": 351,
+        "RecordStarted": 352,
+        "ClientboundMatchmakingState": 353,
+        "ServerboundMatchmakingCancel": 356,
+        "ClientboundPlayAudioContent": 359,
+        "ServerboundRegisterAudioContent": 360,
+        "Chat": 361,
+        "ClientboundOnlineMusicPlaybackResponse": 363,
+        "ServerboundRequestOnlineMusicPlayback": 362
+      }
+    },
+    {
+      "name": "Serverbound Request Online Music Playback Packet Payload",
+      "hash": "7abbee463f372aaa2f2f0a378af2a2d7cb77547388b76c838372872041543fd3",
+      "bind_type": "struct",
+      "is_bind_type": true,
+      "fields": [
+        {
+          "name": "Request Id",
+          "is_constant": false,
+          "type": {
+            "name": "integer",
+            "is_bind_type": false,
+            "interpretation": "u32",
+            "metadata": {
+              "min_value": 0
+            },
+            "reinterpret": "u32",
+            "data_encoding": "little_endian"
+          }
+        },
+        {
+          "name": "Sound Event Name",
+          "is_constant": false,
+          "type": {
+            "name": "string",
+            "is_bind_type": false,
+            "metadata": {
+              "min_length": 1,
+              "max_length": 256
+            },
+            "length_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "i32",
+              "reinterpret": "i32",
+              "data_encoding": "zleb128"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Server Config",
+      "hash": "5a3b41963f595366bb754b1a55e45777d348534534bf4b9eedb2915cab386615",
+      "bind_type": "struct",
+      "is_bind_type": true,
+      "fields": [
+        {
+          "name": "Gathering",
+          "is_constant": false,
+          "type": {
+            "name": "optional",
+            "is_bind_type": false,
+            "element_type": {
+              "name": "Gatherings Config",
+              "bind_type": "struct",
+              "is_bind_type": true
+            }
+          }
+        },
+        {
+          "name": "Client Store Entry Point",
+          "is_constant": false,
+          "type": {
+            "name": "optional",
+            "is_bind_type": false,
+            "element_type": {
+              "name": "Client Store Entry Point Config",
+              "bind_type": "struct",
+              "is_bind_type": true
+            }
+          }
+        },
+        {
+          "name": "Presence",
+          "is_constant": false,
+          "type": {
+            "name": "optional",
+            "is_bind_type": false,
+            "element_type": {
+              "name": "Presence Config",
+              "bind_type": "struct",
+              "is_bind_type": true
+            }
+          }
+        },
+        {
+          "name": "Managed Chat",
+          "is_constant": false,
+          "type": {
+            "name": "optional",
+            "is_bind_type": false,
+            "element_type": {
+              "name": "Managed Chat Join Info",
+              "bind_type": "struct",
+              "is_bind_type": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Structure Block Update Packet Payload",
+      "hash": "d9b906039b6436298b2b6fb821062680c8aee91abae7dcbbee94130242a0f440",
+      "bind_type": "struct",
+      "is_bind_type": true,
+      "fields": [
+        {
+          "name": "Block Position",
+          "is_constant": false,
+          "type": {
+            "name": "Block Pos",
+            "bind_type": "struct",
+            "is_bind_type": true
+          }
+        },
+        {
+          "name": "Structure Data",
+          "is_constant": false,
+          "type": {
+            "name": "Structure Editor Data",
+            "bind_type": "struct",
+            "is_bind_type": true
+          }
+        },
+        {
+          "name": "Trigger",
+          "is_constant": false,
+          "type": {
+            "name": "boolean",
+            "is_bind_type": false,
+            "data_encoding": "bool"
+          }
+        },
+        {
+          "name": "Is Waterlogged",
+          "is_constant": false,
+          "type": {
+            "name": "boolean",
+            "is_bind_type": false,
+            "data_encoding": "bool"
+          }
+        },
+        {
+          "name": "Keep Structure Void",
+          "is_constant": false,
+          "type": {
+            "name": "boolean",
+            "is_bind_type": false,
+            "data_encoding": "bool"
+          }
+        }
+      ]
+    }
+  ]
+}

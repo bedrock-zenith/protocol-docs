@@ -34,6 +34,7 @@
         "metadata": {
           "min_length": 1
         },
+        "vector_dimension": null,
         "element_type": {
           "name": "Item Stack Request Network Item Instance Descriptor",
           "bind_type": "struct",

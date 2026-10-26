@@ -19,6 +19,7 @@
       "type": {
         "name": "array",
         "is_bind_type": false,
+        "vector_dimension": null,
         "element_type": {
           "name": "Item Stack Response Slot Info",
           "bind_type": "struct",

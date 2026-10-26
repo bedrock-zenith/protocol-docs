@@ -48,23 +48,14 @@
       "type": {
         "name": "array",
         "is_bind_type": false,
+        "vector_dimension": null,
         "element_type": {
           "name": "Player Auth Input Data",
           "bind_type": "enum",
           "is_bind_type": true,
           "exhaustive": "exhaustive",
           "enum_encoding": "literal",
-          "data_encoding": {
-            "name": "string",
-            "is_bind_type": false,
-            "length_encoding": {
-              "name": "integer",
-              "is_bind_type": false,
-              "interpretation": "i32",
-              "reinterpret": "i32",
-              "data_encoding": "zleb128"
-            }
-          }
+          "data_encoding": null
         },
         "length_encoding": {
           "name": "integer",
@@ -194,6 +185,7 @@
           "metadata": {
             "max_length": 100
           },
+          "vector_dimension": null,
           "element_type": {
             "name": "Player Block Action Data",
             "bind_type": "struct",

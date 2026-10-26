@@ -92,6 +92,7 @@
       "type": {
         "name": "array",
         "is_bind_type": false,
+        "vector_dimension": null,
         "element_type": {
           "name": "Actor Runtime Id",
           "bind_type": "struct",

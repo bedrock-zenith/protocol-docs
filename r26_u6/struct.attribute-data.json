@@ -91,6 +91,7 @@
       "type": {
         "name": "array",
         "is_bind_type": false,
+        "vector_dimension": null,
         "element_type": {
           "name": "Attribute Modifier",
           "bind_type": "struct",

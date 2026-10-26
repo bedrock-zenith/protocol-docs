@@ -1,0 +1,11 @@
+{
+  "name": "String Attribute Operation",
+  "hash": "fdee5b62c70b1bfe7311370e314476717acaf71a3912b911dc96bf5bf6b3d571",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "i32",
+  "enum": {
+    "OVERRIDE": 0
+  }
+}

@@ -36,6 +36,7 @@
         "metadata": {
           "max_length": 9216
         },
+        "vector_dimension": null,
         "element_type": {
           "name": "Chunk Pos",
           "bind_type": "struct",

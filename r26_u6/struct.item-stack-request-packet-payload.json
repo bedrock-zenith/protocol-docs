@@ -13,6 +13,7 @@
         "metadata": {
           "max_length": 100
         },
+        "vector_dimension": null,
         "element_type": {
           "name": "Item Stack Request",
           "bind_type": "struct",

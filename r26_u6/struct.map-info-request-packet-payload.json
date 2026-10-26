@@ -22,6 +22,7 @@
         "metadata": {
           "max_length": 16384
         },
+        "vector_dimension": null,
         "element_type": {
           "name": "Anonymous Namespace Map Info Request Packet Anon Client Pixels Proxy",
           "bind_type": "struct",

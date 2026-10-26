@@ -150,6 +150,7 @@
       "type": {
         "name": "array",
         "is_bind_type": false,
+        "vector_dimension": null,
         "element_type": {
           "name": "Actor Link",
           "bind_type": "struct",

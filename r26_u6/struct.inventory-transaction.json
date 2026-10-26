@@ -13,6 +13,7 @@
         "metadata": {
           "constrain": "Verify that the number of InventoryActions does not exceed 100"
         },
+        "vector_dimension": null,
         "element_type": {
           "name": "Inventory Action",
           "bind_type": "struct",

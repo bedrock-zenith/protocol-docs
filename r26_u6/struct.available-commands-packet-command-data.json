@@ -63,17 +63,7 @@
         "is_bind_type": true,
         "exhaustive": "exhaustive",
         "enum_encoding": "literal",
-        "data_encoding": {
-          "name": "string",
-          "is_bind_type": false,
-          "length_encoding": {
-            "name": "integer",
-            "is_bind_type": false,
-            "interpretation": "i32",
-            "reinterpret": "i32",
-            "data_encoding": "zleb128"
-          }
-        }
+        "data_encoding": null
       }
     },
     {
@@ -96,6 +86,7 @@
         "metadata": {
           "max_length": 250
         },
+        "vector_dimension": null,
         "element_type": {
           "name": "integer",
           "is_bind_type": false,
@@ -124,6 +115,7 @@
         "metadata": {
           "max_length": 250
         },
+        "vector_dimension": null,
         "element_type": {
           "name": "Available Commands Packet Overload Data",
           "bind_type": "struct",

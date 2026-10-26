@@ -1,0 +1,45 @@
+{
+  "name": "Constant Attribute Data Attribute",
+  "hash": "fb50cb178182c57138d55ba5ab088e132220563920c6f7103bc46e59f3826926",
+  "bind_type": "union",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "type": {
+        "name": "Bool Attribute Data",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Bool Attribute Data"
+    },
+    {
+      "type": {
+        "name": "Float Attribute Data",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Float Attribute Data"
+    },
+    {
+      "type": {
+        "name": "Color Attribute Data",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "Color Attribute Data"
+    },
+    {
+      "type": {
+        "name": "String Attribute Data",
+        "bind_type": "struct",
+        "is_bind_type": true
+      },
+      "enum_literal": "String Attribute Data"
+    }
+  ],
+  "backing_enum": {
+    "name": "Constant Attribute Data Attribute Control",
+    "bind_type": "enum",
+    "is_bind_type": true
+  }
+}

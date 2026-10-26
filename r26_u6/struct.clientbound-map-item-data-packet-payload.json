@@ -58,6 +58,7 @@
           "metadata": {
             "max_length": 65535
           },
+          "vector_dimension": null,
           "element_type": {
             "name": "Actor Unique Id",
             "bind_type": "struct",
@@ -104,6 +105,7 @@
           "metadata": {
             "max_length": 65535
           },
+          "vector_dimension": null,
           "element_type": {
             "name": "Map Item Tracked Actor Unique Id",
             "bind_type": "struct",
@@ -131,6 +133,7 @@
           "metadata": {
             "max_length": 65535
           },
+          "vector_dimension": null,
           "element_type": {
             "name": "Map Decoration",
             "bind_type": "struct",
@@ -218,6 +221,7 @@
           "metadata": {
             "max_length": 16384
           },
+          "vector_dimension": null,
           "element_type": {
             "name": "integer",
             "is_bind_type": false,

@@ -1,0 +1,20 @@
+{
+  "name": "Managed Chat Join Info",
+  "hash": "f11eddf3b30d28eea1bfe428e79c54bcc9a7c8be8e52543458481d81133609c3",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Enabled",
+      "is_constant": false,
+      "type": {
+        "name": "boolean",
+        "is_bind_type": false,
+        "data_encoding": "bool"
+      },
+      "metadata": {
+        "default_value": false
+      }
+    }
+  ]
+}

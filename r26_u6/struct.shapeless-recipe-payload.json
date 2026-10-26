@@ -28,6 +28,7 @@
         "metadata": {
           "max_length": 128
         },
+        "vector_dimension": null,
         "element_type": {
           "name": "Recipe Ingredient",
           "bind_type": "struct",
@@ -48,6 +49,7 @@
       "type": {
         "name": "array",
         "is_bind_type": false,
+        "vector_dimension": null,
         "element_type": {
           "name": "Network Item Instance Descriptor Data",
           "bind_type": "struct",

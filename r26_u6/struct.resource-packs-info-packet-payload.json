@@ -58,6 +58,7 @@
         "metadata": {
           "max_length": 65535
         },
+        "vector_dimension": null,
         "element_type": {
           "name": "Pack Info Data",
           "bind_type": "struct",

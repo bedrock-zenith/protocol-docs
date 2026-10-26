@@ -10,6 +10,7 @@
       "type": {
         "name": "array",
         "is_bind_type": false,
+        "vector_dimension": null,
         "element_type": {
           "name": "string",
           "is_bind_type": false,
@@ -36,6 +37,7 @@
       "type": {
         "name": "array",
         "is_bind_type": false,
+        "vector_dimension": null,
         "element_type": {
           "name": "string",
           "is_bind_type": false,
@@ -62,6 +64,7 @@
       "type": {
         "name": "array",
         "is_bind_type": false,
+        "vector_dimension": null,
         "element_type": {
           "name": "string",
           "is_bind_type": false,
@@ -88,6 +91,7 @@
       "type": {
         "name": "array",
         "is_bind_type": false,
+        "vector_dimension": null,
         "element_type": {
           "name": "Available Commands Packet Enum Data",
           "bind_type": "struct",
@@ -111,6 +115,7 @@
         "metadata": {
           "max_length": 16
         },
+        "vector_dimension": null,
         "element_type": {
           "name": "Available Commands Packet Chained Subcommand Data",
           "bind_type": "struct",
@@ -131,6 +136,7 @@
       "type": {
         "name": "array",
         "is_bind_type": false,
+        "vector_dimension": null,
         "element_type": {
           "name": "Available Commands Packet Command Data",
           "bind_type": "struct",
@@ -151,6 +157,7 @@
       "type": {
         "name": "array",
         "is_bind_type": false,
+        "vector_dimension": null,
         "element_type": {
           "name": "Available Commands Packet Soft Enum Data",
           "bind_type": "struct",
@@ -171,6 +178,7 @@
       "type": {
         "name": "array",
         "is_bind_type": false,
+        "vector_dimension": null,
         "element_type": {
           "name": "Available Commands Packet Constrained Value Data",
           "bind_type": "struct",

@@ -1,0 +1,29 @@
+{
+  "name": "Item Stack Request Action Type",
+  "hash": "97e6f3afce95d8540fd0036c71ddffd42939ea7b074f81a411ee7ef692d29d0b",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "Take": 0,
+    "Place": 1,
+    "Swap": 2,
+    "Drop": 3,
+    "Destroy": 4,
+    "Consume": 5,
+    "Create": 6,
+    "ScreenLabTableCombine": 9,
+    "ScreenBeaconPayment": 10,
+    "ScreenHUDMineBlock": 11,
+    "CraftRecipe": 12,
+    "CraftRecipeAuto": 13,
+    "CraftCreative": 14,
+    "CraftRecipeOptional": 15,
+    "CraftRepairAndDisenchant": 16,
+    "CraftLoom": 17,
+    "CraftDiscPress": 18,
+    "CraftNonImplemented": 19,
+    "CraftResults": 20
+  }
+}

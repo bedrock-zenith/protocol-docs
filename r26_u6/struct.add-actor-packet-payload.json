@@ -92,6 +92,7 @@
       "type": {
         "name": "array",
         "is_bind_type": false,
+        "vector_dimension": null,
         "element_type": {
           "name": "Synced Attribute",
           "bind_type": "struct",
@@ -130,6 +131,7 @@
       "type": {
         "name": "array",
         "is_bind_type": false,
+        "vector_dimension": null,
         "element_type": {
           "name": "Actor Link",
           "bind_type": "struct",

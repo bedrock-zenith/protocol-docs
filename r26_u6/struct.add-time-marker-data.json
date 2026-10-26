@@ -27,6 +27,7 @@
         "metadata": {
           "max_length": 256
         },
+        "vector_dimension": null,
         "element_type": {
           "name": "Time Marker Data",
           "bind_type": "struct",

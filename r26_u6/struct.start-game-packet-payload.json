@@ -161,6 +161,7 @@
       "type": {
         "name": "array",
         "is_bind_type": false,
+        "vector_dimension": null,
         "element_type": {
           "name": "Server Block Property",
           "bind_type": "struct",

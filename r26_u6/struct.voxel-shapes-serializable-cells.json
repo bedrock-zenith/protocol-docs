@@ -58,6 +58,7 @@
         "metadata": {
           "max_length": 256048
         },
+        "vector_dimension": null,
         "element_type": {
           "name": "integer",
           "is_bind_type": false,

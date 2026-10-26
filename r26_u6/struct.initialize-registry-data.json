@@ -13,6 +13,7 @@
         "metadata": {
           "max_length": 256
         },
+        "vector_dimension": null,
         "element_type": {
           "name": "World Clock Data",
           "bind_type": "struct",

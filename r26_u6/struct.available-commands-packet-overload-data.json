@@ -19,6 +19,7 @@
       "type": {
         "name": "array",
         "is_bind_type": false,
+        "vector_dimension": null,
         "element_type": {
           "name": "Available Commands Packet Param Data",
           "bind_type": "struct",

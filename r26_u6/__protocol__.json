@@ -4168,6 +4168,7 @@
       "bind_type": "enum",
       "is_bind_type": true,
       "enum_kind": "literal",
+      "backing_integer": null,
       "enum": {
         "Invalid": 0,
         "Addon": 1,
@@ -4406,6 +4407,7 @@
       "bind_type": "enum",
       "is_bind_type": true,
       "enum_kind": "literal",
+      "backing_integer": null,
       "enum": {
         "Unset": 0,
         "False": 1,
@@ -5150,6 +5152,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "integer",
               "is_bind_type": false,
@@ -5914,6 +5917,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Data Item Entry",
               "bind_type": "struct",
@@ -6172,6 +6176,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Property Sync Data Property Sync Int Entry",
               "bind_type": "struct",
@@ -6192,6 +6197,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Property Sync Data Property Sync Float Entry",
               "bind_type": "struct",
@@ -6302,6 +6308,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Synced Attribute",
               "bind_type": "struct",
@@ -6340,6 +6347,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Actor Link",
               "bind_type": "struct",
@@ -6758,6 +6766,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Serialized Abilities Data Serialized Layer",
               "bind_type": "struct",
@@ -6962,6 +6971,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Actor Link",
               "bind_type": "struct",
@@ -7119,6 +7129,7 @@
             "metadata": {
               "max_length": 256
             },
+            "vector_dimension": null,
             "element_type": {
               "name": "Time Marker Data",
               "bind_type": "struct",
@@ -7547,6 +7558,7 @@
             "metadata": {
               "max_length": 67108864
             },
+            "vector_dimension": null,
             "element_type": {
               "name": "integer",
               "is_bind_type": false,
@@ -7727,6 +7739,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Actor Runtime Id",
               "bind_type": "struct",
@@ -7799,17 +7812,7 @@
               "is_bind_type": true,
               "exhaustive": "exhaustive",
               "enum_encoding": "literal",
-              "data_encoding": {
-                "name": "string",
-                "is_bind_type": false,
-                "length_encoding": {
-                  "name": "integer",
-                  "is_bind_type": false,
-                  "interpretation": "i32",
-                  "reinterpret": "i32",
-                  "data_encoding": "zleb128"
-                }
-              }
+              "data_encoding": null
             }
           }
         },
@@ -8133,6 +8136,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Attribute Modifier",
               "bind_type": "struct",
@@ -8173,17 +8177,7 @@
             "is_bind_type": true,
             "exhaustive": "exhaustive",
             "enum_encoding": "literal",
-            "data_encoding": {
-              "name": "string",
-              "is_bind_type": false,
-              "length_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "i32",
-                "reinterpret": "i32",
-                "data_encoding": "zleb128"
-              }
-            }
+            "data_encoding": null
           },
           "metadata": {
             "default_value": "override"
@@ -8217,17 +8211,7 @@
             "is_bind_type": true,
             "exhaustive": "exhaustive",
             "enum_encoding": "literal",
-            "data_encoding": {
-              "name": "string",
-              "is_bind_type": false,
-              "length_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "i32",
-                "reinterpret": "i32",
-                "data_encoding": "zleb128"
-              }
-            }
+            "data_encoding": null
           },
           "metadata": {
             "default_value": "override"
@@ -8303,17 +8287,7 @@
             "is_bind_type": true,
             "exhaustive": "exhaustive",
             "enum_encoding": "literal",
-            "data_encoding": {
-              "name": "string",
-              "is_bind_type": false,
-              "length_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "i32",
-                "reinterpret": "i32",
-                "data_encoding": "zleb128"
-              }
-            }
+            "data_encoding": null
           },
           "metadata": {
             "default_value": "override"
@@ -8851,6 +8825,7 @@
             "metadata": {
               "max_length": 1024
             },
+            "vector_dimension": null,
             "element_type": {
               "name": "Environment Attribute Data",
               "bind_type": "struct",
@@ -9144,6 +9119,7 @@
             "metadata": {
               "max_length": 32
             },
+            "vector_dimension": null,
             "element_type": {
               "name": "Available Commands Packet Chained Subcommand Relationship",
               "bind_type": "struct",
@@ -9245,6 +9221,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Available Commands Packet Param Data",
               "bind_type": "struct",
@@ -9326,17 +9303,7 @@
             "is_bind_type": true,
             "exhaustive": "exhaustive",
             "enum_encoding": "literal",
-            "data_encoding": {
-              "name": "string",
-              "is_bind_type": false,
-              "length_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "i32",
-                "reinterpret": "i32",
-                "data_encoding": "zleb128"
-              }
-            }
+            "data_encoding": null
           }
         },
         {
@@ -9359,6 +9326,7 @@
             "metadata": {
               "max_length": 250
             },
+            "vector_dimension": null,
             "element_type": {
               "name": "integer",
               "is_bind_type": false,
@@ -9387,6 +9355,7 @@
             "metadata": {
               "max_length": 250
             },
+            "vector_dimension": null,
             "element_type": {
               "name": "Available Commands Packet Overload Data",
               "bind_type": "struct",
@@ -9446,6 +9415,7 @@
             "metadata": {
               "max_length": 250
             },
+            "vector_dimension": null,
             "element_type": {
               "name": "integer",
               "is_bind_type": false,
@@ -9495,6 +9465,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "integer",
               "is_bind_type": false,
@@ -9546,6 +9517,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "string",
               "is_bind_type": false,
@@ -9580,6 +9552,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "string",
               "is_bind_type": false,
@@ -9606,6 +9579,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "string",
               "is_bind_type": false,
@@ -9632,6 +9606,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "string",
               "is_bind_type": false,
@@ -9658,6 +9633,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Available Commands Packet Enum Data",
               "bind_type": "struct",
@@ -9681,6 +9657,7 @@
             "metadata": {
               "max_length": 16
             },
+            "vector_dimension": null,
             "element_type": {
               "name": "Available Commands Packet Chained Subcommand Data",
               "bind_type": "struct",
@@ -9701,6 +9678,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Available Commands Packet Command Data",
               "bind_type": "struct",
@@ -9721,6 +9699,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Available Commands Packet Soft Enum Data",
               "bind_type": "struct",
@@ -9741,6 +9720,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Available Commands Packet Constrained Value Data",
               "bind_type": "struct",
@@ -9849,6 +9829,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "integer",
               "is_bind_type": false,
@@ -9874,6 +9855,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "integer",
               "is_bind_type": false,
@@ -10049,6 +10031,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Biome Weighted Data",
               "bind_type": "struct",
@@ -10209,6 +10192,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Biome Coordinate Data",
               "bind_type": "struct",
@@ -10395,6 +10379,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Biome Consolidated Feature Data",
               "bind_type": "struct",
@@ -10423,6 +10408,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Biome Conditional Transformation Data",
               "bind_type": "struct",
@@ -10614,6 +10600,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Biome Weighted Data",
               "bind_type": "struct",
@@ -10634,6 +10621,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Biome Weighted Data",
               "bind_type": "struct",
@@ -10654,6 +10642,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Biome Weighted Data",
               "bind_type": "struct",
@@ -10674,6 +10663,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Biome Weighted Data",
               "bind_type": "struct",
@@ -10694,6 +10684,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Biome Conditional Transformation Data",
               "bind_type": "struct",
@@ -10714,6 +10705,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Biome Conditional Transformation Data",
               "bind_type": "struct",
@@ -10734,6 +10726,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Biome Weighted Temperature Data",
               "bind_type": "struct",
@@ -10790,6 +10783,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "integer",
               "is_bind_type": false,
@@ -10859,6 +10853,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Biome Replacement Data",
               "bind_type": "struct",
@@ -11079,6 +11074,7 @@
               "min_length": 1,
               "max_length": 100
             },
+            "vector_dimension": null,
             "element_type": {
               "name": "float",
               "is_bind_type": false,
@@ -11109,6 +11105,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "integer",
               "is_bind_type": false,
@@ -11134,6 +11131,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Serialized Noise Block Specifier",
               "bind_type": "struct",
@@ -11456,6 +11454,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Biome Element Data",
               "bind_type": "struct",
@@ -11644,6 +11643,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "integer",
               "is_bind_type": false,
@@ -11800,6 +11800,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "string",
               "is_bind_type": false,
@@ -12497,6 +12498,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Aim Assist Actor Priority Data",
               "bind_type": "struct",
@@ -12858,6 +12860,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "string",
               "is_bind_type": false,
@@ -12887,6 +12890,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "string",
               "is_bind_type": false,
@@ -12916,6 +12920,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "string",
               "is_bind_type": false,
@@ -12945,6 +12950,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "string",
               "is_bind_type": false,
@@ -13014,6 +13020,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "string",
               "is_bind_type": false,
@@ -13129,6 +13136,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Camera Aim Assist Category Definition",
               "bind_type": "struct",
@@ -13149,6 +13157,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Camera Aim Assist Preset Definition",
               "bind_type": "struct",
@@ -13355,17 +13364,7 @@
             "is_bind_type": true,
             "exhaustive": "exhaustive",
             "enum_encoding": "literal",
-            "data_encoding": {
-              "name": "string",
-              "is_bind_type": false,
-              "length_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "i32",
-                "reinterpret": "i32",
-                "data_encoding": "zleb128"
-              }
-            }
+            "data_encoding": null
           }
         },
         {
@@ -13707,17 +13706,7 @@
             "is_bind_type": true,
             "exhaustive": "exhaustive",
             "enum_encoding": "literal",
-            "data_encoding": {
-              "name": "string",
-              "is_bind_type": false,
-              "length_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "i32",
-                "reinterpret": "i32",
-                "data_encoding": "zleb128"
-              }
-            }
+            "data_encoding": null
           }
         }
       ]
@@ -13757,17 +13746,7 @@
             "is_bind_type": true,
             "exhaustive": "exhaustive",
             "enum_encoding": "literal",
-            "data_encoding": {
-              "name": "string",
-              "is_bind_type": false,
-              "length_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "i32",
-                "reinterpret": "i32",
-                "data_encoding": "zleb128"
-              }
-            }
+            "data_encoding": null
           }
         }
       ]
@@ -13810,6 +13789,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Vec3",
               "bind_type": "struct",
@@ -13830,6 +13810,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Camera Instruction Spline Instruction Spline Progress Option",
               "bind_type": "struct",
@@ -13850,6 +13831,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Camera Instruction Spline Instruction Spline Rotation Option",
               "bind_type": "struct",
@@ -14681,17 +14663,7 @@
               "is_bind_type": true,
               "exhaustive": "exhaustive",
               "enum_encoding": "literal",
-              "data_encoding": {
-                "name": "string",
-                "is_bind_type": false,
-                "length_encoding": {
-                  "name": "integer",
-                  "is_bind_type": false,
-                  "interpretation": "i32",
-                  "reinterpret": "i32",
-                  "data_encoding": "zleb128"
-                }
-              }
+              "data_encoding": null
             }
           }
         }
@@ -14738,17 +14710,7 @@
               "is_bind_type": true,
               "exhaustive": "exhaustive",
               "enum_encoding": "literal",
-              "data_encoding": {
-                "name": "string",
-                "is_bind_type": false,
-                "length_encoding": {
-                  "name": "integer",
-                  "is_bind_type": false,
-                  "interpretation": "i32",
-                  "reinterpret": "i32",
-                  "data_encoding": "zleb128"
-                }
-              }
+              "data_encoding": null
             }
           }
         }
@@ -14819,6 +14781,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Camera Spline Control Point",
               "bind_type": "struct",
@@ -14839,6 +14802,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Camera Spline Progress Key Frame",
               "bind_type": "struct",
@@ -14859,6 +14823,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Camera Spline Rotation Key Frame",
               "bind_type": "struct",
@@ -14887,6 +14852,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Camera Spline Definition",
               "bind_type": "struct",
@@ -15034,17 +15000,7 @@
             "is_bind_type": true,
             "exhaustive": "exhaustive",
             "enum_encoding": "literal",
-            "data_encoding": {
-              "name": "string",
-              "is_bind_type": false,
-              "length_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "i32",
-                "reinterpret": "i32",
-                "data_encoding": "zleb128"
-              }
-            }
+            "data_encoding": null
           },
           "metadata": {
             "constant_value": "changeentity"
@@ -15111,17 +15067,7 @@
             "is_bind_type": true,
             "exhaustive": "exhaustive",
             "enum_encoding": "literal",
-            "data_encoding": {
-              "name": "string",
-              "is_bind_type": false,
-              "length_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "i32",
-                "reinterpret": "i32",
-                "data_encoding": "zleb128"
-              }
-            }
+            "data_encoding": null
           },
           "metadata": {
             "constant_value": "changefakeplayer"
@@ -15291,17 +15237,7 @@
             "is_bind_type": true,
             "exhaustive": "exhaustive",
             "enum_encoding": "literal",
-            "data_encoding": {
-              "name": "string",
-              "is_bind_type": false,
-              "length_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "i32",
-                "reinterpret": "i32",
-                "data_encoding": "zleb128"
-              }
-            }
+            "data_encoding": null
           },
           "metadata": {
             "constant_value": "changeplayer"
@@ -15417,17 +15353,7 @@
             "is_bind_type": true,
             "exhaustive": "exhaustive",
             "enum_encoding": "literal",
-            "data_encoding": {
-              "name": "string",
-              "is_bind_type": false,
-              "length_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "i32",
-                "reinterpret": "i32",
-                "data_encoding": "zleb128"
-              }
-            }
+            "data_encoding": null
           },
           "metadata": {
             "constant_value": "clearoverrides"
@@ -15450,6 +15376,7 @@
             "metadata": {
               "max_length": 512
             },
+            "vector_dimension": null,
             "element_type": {
               "name": "Attribute Layer Data",
               "bind_type": "struct",
@@ -15552,6 +15479,7 @@
             "metadata": {
               "max_length": 1024
             },
+            "vector_dimension": null,
             "element_type": {
               "name": "Environment Attribute Data",
               "bind_type": "struct",
@@ -15610,6 +15538,7 @@
             "metadata": {
               "max_length": 1024
             },
+            "vector_dimension": null,
             "element_type": {
               "name": "string",
               "is_bind_type": false,
@@ -15925,6 +15854,7 @@
               "metadata": {
                 "max_length": 65535
               },
+              "vector_dimension": null,
               "element_type": {
                 "name": "Actor Unique Id",
                 "bind_type": "struct",
@@ -15971,6 +15901,7 @@
               "metadata": {
                 "max_length": 65535
               },
+              "vector_dimension": null,
               "element_type": {
                 "name": "Map Item Tracked Actor Unique Id",
                 "bind_type": "struct",
@@ -15998,6 +15929,7 @@
               "metadata": {
                 "max_length": 65535
               },
+              "vector_dimension": null,
               "element_type": {
                 "name": "Map Decoration",
                 "bind_type": "struct",
@@ -16085,6 +16017,7 @@
               "metadata": {
                 "max_length": 16384
               },
+              "vector_dimension": null,
               "element_type": {
                 "name": "integer",
                 "is_bind_type": false,
@@ -16364,17 +16297,7 @@
             "is_bind_type": true,
             "exhaustive": "exhaustive",
             "enum_encoding": "literal",
-            "data_encoding": {
-              "name": "string",
-              "is_bind_type": false,
-              "length_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "i32",
-                "reinterpret": "i32",
-                "data_encoding": "zleb128"
-              }
-            }
+            "data_encoding": null
           }
         },
         {
@@ -16506,6 +16429,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "string",
               "is_bind_type": false,
@@ -17182,6 +17106,7 @@
             "metadata": {
               "max_length": 500
             },
+            "vector_dimension": null,
             "element_type": {
               "name": "Clientbound Data Store Payload Updates Item",
               "bind_type": "union",
@@ -17227,6 +17152,7 @@
             "metadata": {
               "max_length": 4095
             },
+            "vector_dimension": null,
             "element_type": {
               "name": "integer",
               "is_bind_type": false,
@@ -17255,6 +17181,7 @@
             "metadata": {
               "max_length": 4095
             },
+            "vector_dimension": null,
             "element_type": {
               "name": "integer",
               "is_bind_type": false,
@@ -17328,6 +17255,7 @@
             "metadata": {
               "max_length": 4095
             },
+            "vector_dimension": null,
             "element_type": {
               "name": "Missing Blob Data",
               "bind_type": "struct",
@@ -17839,17 +17767,7 @@
             "is_bind_type": true,
             "exhaustive": "exhaustive",
             "enum_encoding": "literal",
-            "data_encoding": {
-              "name": "string",
-              "is_bind_type": false,
-              "length_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "i32",
-                "reinterpret": "i32",
-                "data_encoding": "zleb128"
-              }
-            }
+            "data_encoding": null
           }
         },
         {
@@ -17934,6 +17852,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "string",
               "is_bind_type": false,
@@ -17974,17 +17893,7 @@
             "is_bind_type": true,
             "exhaustive": "exhaustive",
             "enum_encoding": "literal",
-            "data_encoding": {
-              "name": "string",
-              "is_bind_type": false,
-              "length_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "i32",
-                "reinterpret": "i32",
-                "data_encoding": "zleb128"
-              }
-            }
+            "data_encoding": null
           }
         },
         {
@@ -18007,6 +17916,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Command Output Message",
               "bind_type": "struct",
@@ -18122,17 +18032,7 @@
             "is_bind_type": true,
             "exhaustive": "exhaustive",
             "enum_encoding": "literal",
-            "data_encoding": {
-              "name": "string",
-              "is_bind_type": false,
-              "length_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "i32",
-                "reinterpret": "i32",
-                "data_encoding": "zleb128"
-              }
-            }
+            "data_encoding": null
           }
         }
       ]
@@ -18447,6 +18347,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Full Container Name",
               "bind_type": "struct",
@@ -18727,6 +18628,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Material Reducer Entry Output",
               "bind_type": "struct",
@@ -19228,6 +19130,7 @@
               "metadata": {
                 "max_length": 128
               },
+              "vector_dimension": null,
               "element_type": {
                 "name": "Recipe Ingredient",
                 "bind_type": "struct",
@@ -19297,6 +19200,7 @@
             "metadata": {
               "max_length": 128
             },
+            "vector_dimension": null,
             "element_type": {
               "name": "Recipe Ingredient",
               "bind_type": "struct",
@@ -19317,6 +19221,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Network Item Instance Descriptor Data",
               "bind_type": "struct",
@@ -19429,6 +19334,7 @@
             "metadata": {
               "max_length": 128
             },
+            "vector_dimension": null,
             "element_type": {
               "name": "Recipe Ingredient",
               "bind_type": "struct",
@@ -19449,6 +19355,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Network Item Instance Descriptor Data",
               "bind_type": "struct",
@@ -19691,6 +19598,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Shaped Recipe Payload",
               "bind_type": "struct",
@@ -19711,6 +19619,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Shapeless Recipe Payload",
               "bind_type": "struct",
@@ -19731,6 +19640,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Multi Recipe Payload",
               "bind_type": "struct",
@@ -19751,6 +19661,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Shapeless Recipe Payload",
               "bind_type": "struct",
@@ -19771,6 +19682,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Shapeless Recipe Payload",
               "bind_type": "struct",
@@ -19791,6 +19703,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Shaped Recipe Payload",
               "bind_type": "struct",
@@ -19811,6 +19724,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Smithing Transform Recipe Payload",
               "bind_type": "struct",
@@ -19831,6 +19745,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Smithing Trim Recipe Payload",
               "bind_type": "struct",
@@ -19851,6 +19766,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Potion Mix Data Entry",
               "bind_type": "struct",
@@ -19871,6 +19787,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Container Mix Data Entry",
               "bind_type": "struct",
@@ -19891,6 +19808,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Material Reducer Data Entry",
               "bind_type": "struct",
@@ -20092,6 +20010,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Creative Group Info Payload",
               "bind_type": "struct",
@@ -20112,6 +20031,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Creative Item Entry Payload",
               "bind_type": "struct",
@@ -20230,6 +20150,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "string",
               "is_bind_type": false,
@@ -20374,17 +20295,7 @@
             "is_bind_type": true,
             "exhaustive": "exhaustive",
             "enum_encoding": "literal",
-            "data_encoding": {
-              "name": "string",
-              "is_bind_type": false,
-              "length_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "i32",
-                "reinterpret": "i32",
-                "data_encoding": "zleb128"
-              }
-            }
+            "data_encoding": null
           }
         },
         {
@@ -21021,6 +20932,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Mce Uuid",
               "bind_type": "struct",
@@ -21326,6 +21238,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Experiment Toggle",
               "bind_type": "struct",
@@ -21401,6 +21314,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Feature Registry Feature Binary Json Format",
               "bind_type": "struct",
@@ -21432,17 +21346,7 @@
             "is_bind_type": true,
             "exhaustive": "exhaustive",
             "enum_encoding": "literal",
-            "data_encoding": {
-              "name": "string",
-              "is_bind_type": false,
-              "length_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "i32",
-                "reinterpret": "i32",
-                "data_encoding": "zleb128"
-              }
-            }
+            "data_encoding": null
           },
           "metadata": {
             "constant_value": "setfloatoverride"
@@ -21603,6 +21507,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Game Rule",
               "bind_type": "struct",
@@ -22265,6 +22170,7 @@
             "metadata": {
               "max_length": 256
             },
+            "vector_dimension": null,
             "element_type": {
               "name": "Time Marker Data",
               "bind_type": "struct",
@@ -22296,6 +22202,7 @@
             "metadata": {
               "max_length": 256
             },
+            "vector_dimension": null,
             "element_type": {
               "name": "World Clock Data",
               "bind_type": "struct",
@@ -22468,17 +22375,7 @@
             "is_bind_type": true,
             "exhaustive": "exhaustive",
             "enum_encoding": "literal",
-            "data_encoding": {
-              "name": "string",
-              "is_bind_type": false,
-              "length_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "i32",
-                "reinterpret": "i32",
-                "data_encoding": "zleb128"
-              }
-            }
+            "data_encoding": null
           },
           "metadata": {
             "constant_value": "setintoverride"
@@ -22658,6 +22555,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Cerealizer Network Item Stack Descriptor Serialized Data",
               "bind_type": "struct",
@@ -22707,6 +22605,7 @@
             "metadata": {
               "constrain": "Verify that the number of InventoryActions does not exceed 100"
             },
+            "vector_dimension": null,
             "element_type": {
               "name": "Inventory Action",
               "bind_type": "struct",
@@ -22950,6 +22849,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "integer",
               "is_bind_type": false,
@@ -23378,6 +23278,7 @@
             "element_type": {
               "name": "array",
               "is_bind_type": false,
+              "vector_dimension": null,
               "element_type": {
                 "name": "Legacy Set Slot",
                 "bind_type": "struct",
@@ -23517,6 +23418,7 @@
             "element_type": {
               "name": "array",
               "is_bind_type": false,
+              "vector_dimension": null,
               "element_type": {
                 "name": "Enchantment Instance",
                 "bind_type": "struct",
@@ -23616,6 +23518,7 @@
             "metadata": {
               "constrain": "Verify that specified items exist"
             },
+            "vector_dimension": null,
             "element_type": {
               "name": "Item Data",
               "bind_type": "struct",
@@ -24343,6 +24246,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Recipe Ingredient",
               "bind_type": "struct",
@@ -24796,6 +24700,7 @@
             "metadata": {
               "min_length": 1
             },
+            "vector_dimension": null,
             "element_type": {
               "name": "Item Stack Request Network Item Instance Descriptor",
               "bind_type": "struct",
@@ -24874,6 +24779,7 @@
               "min_length": 1,
               "max_length": 100
             },
+            "vector_dimension": null,
             "element_type": {
               "name": "Item Stack Request Actions Item",
               "bind_type": "union",
@@ -24908,6 +24814,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "string",
               "is_bind_type": false,
@@ -24966,6 +24873,7 @@
             "metadata": {
               "max_length": 100
             },
+            "vector_dimension": null,
             "element_type": {
               "name": "Item Stack Request",
               "bind_type": "struct",
@@ -25093,6 +25001,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Item Stack Response Slot Info",
               "bind_type": "struct",
@@ -25151,6 +25060,7 @@
             "element_type": {
               "name": "array",
               "is_bind_type": false,
+              "vector_dimension": null,
               "element_type": {
                 "name": "Item Stack Response Container Info",
                 "bind_type": "struct",
@@ -25180,6 +25090,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Item Stack Response Info",
               "bind_type": "struct",
@@ -26014,6 +25925,7 @@
             "metadata": {
               "max_length": 65
             },
+            "vector_dimension": null,
             "element_type": {
               "name": "Level Chunk Packet Payload Sub Chunk Metadata",
               "bind_type": "struct",
@@ -27109,6 +27021,7 @@
             "metadata": {
               "max_length": 40000
             },
+            "vector_dimension": null,
             "element_type": {
               "name": "Locator Bar Waypoint Payload",
               "bind_type": "struct",
@@ -27212,6 +27125,7 @@
             "metadata": {
               "max_length": 16384
             },
+            "vector_dimension": null,
             "element_type": {
               "name": "Anonymous Namespace Map Info Request Packet Anon Client Pixels Proxy",
               "bind_type": "struct",
@@ -27323,6 +27237,7 @@
             "metadata": {
               "max_length": 4
             },
+            "vector_dimension": null,
             "element_type": {
               "name": "string",
               "is_bind_type": false,
@@ -28304,6 +28219,7 @@
             "metadata": {
               "max_length": 9216
             },
+            "vector_dimension": null,
             "element_type": {
               "name": "Chunk Pos",
               "bind_type": "struct",
@@ -28698,6 +28614,7 @@
             "element_type": {
               "name": "array",
               "is_bind_type": false,
+              "vector_dimension": null,
               "element_type": {
                 "name": "Legacy Set Slot",
                 "bind_type": "struct",
@@ -29299,6 +29216,7 @@
             "metadata": {
               "max_length": 5
             },
+            "vector_dimension": null,
             "element_type": {
               "name": "Armor Slot And Damage Pair",
               "bind_type": "struct",
@@ -29411,23 +29329,14 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Player Auth Input Data",
               "bind_type": "enum",
               "is_bind_type": true,
               "exhaustive": "exhaustive",
               "enum_encoding": "literal",
-              "data_encoding": {
-                "name": "string",
-                "is_bind_type": false,
-                "length_encoding": {
-                  "name": "integer",
-                  "is_bind_type": false,
-                  "interpretation": "i32",
-                  "reinterpret": "i32",
-                  "data_encoding": "zleb128"
-                }
-              }
+              "data_encoding": null
             },
             "length_encoding": {
               "name": "integer",
@@ -29557,6 +29466,7 @@
               "metadata": {
                 "max_length": 100
               },
+              "vector_dimension": null,
               "element_type": {
                 "name": "Player Block Action Data",
                 "bind_type": "struct",
@@ -29645,6 +29555,7 @@
             "metadata": {
               "max_length": 3
             },
+            "vector_dimension": null,
             "element_type": {
               "name": "Item Enchant Option",
               "bind_type": "struct",
@@ -29673,6 +29584,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "string",
               "is_bind_type": false,
@@ -29902,6 +29814,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Animated Image Data",
               "bind_type": "struct",
@@ -30036,6 +29949,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Serialized Persona Piece Handle",
               "bind_type": "struct",
@@ -30062,17 +29976,7 @@
               "is_bind_type": true,
               "exhaustive": "exhaustive",
               "enum_encoding": "literal",
-              "data_encoding": {
-                "name": "string",
-                "is_bind_type": false,
-                "length_encoding": {
-                  "name": "integer",
-                  "is_bind_type": false,
-                  "interpretation": "i32",
-                  "reinterpret": "i32",
-                  "data_encoding": "zleb128"
-                }
-              }
+              "data_encoding": null
             },
             "value_type": {
               "name": "Tint Map Color",
@@ -30142,17 +30046,7 @@
             "is_bind_type": true,
             "exhaustive": "exhaustive",
             "enum_encoding": "literal",
-            "data_encoding": {
-              "name": "string",
-              "is_bind_type": false,
-              "length_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "i32",
-                "reinterpret": "i32",
-                "data_encoding": "zleb128"
-              }
-            }
+            "data_encoding": null
           }
         },
         {
@@ -30389,6 +30283,7 @@
             "metadata": {
               "max_length": 1000
             },
+            "vector_dimension": null,
             "element_type": {
               "name": "Player List Packet Payload Entries Item",
               "bind_type": "union",
@@ -30632,17 +30527,7 @@
             "is_bind_type": true,
             "exhaustive": "exhaustive",
             "enum_encoding": "literal",
-            "data_encoding": {
-              "name": "string",
-              "is_bind_type": false,
-              "length_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "i32",
-                "reinterpret": "i32",
-                "data_encoding": "zleb128"
-              }
-            }
+            "data_encoding": null
           },
           "metadata": {
             "constant_value": "removeoverride"
@@ -31328,6 +31213,7 @@
             "metadata": {
               "max_length": 1048576
             },
+            "vector_dimension": null,
             "element_type": {
               "name": "Primitive Shape Data Payload",
               "bind_type": "struct",
@@ -31359,6 +31245,7 @@
             "metadata": {
               "max_length": 10000
             },
+            "vector_dimension": null,
             "element_type": {
               "name": "string",
               "is_bind_type": false,
@@ -31469,17 +31356,7 @@
             "is_bind_type": true,
             "exhaustive": "exhaustive",
             "enum_encoding": "literal",
-            "data_encoding": {
-              "name": "string",
-              "is_bind_type": false,
-              "length_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "i32",
-                "reinterpret": "i32",
-                "data_encoding": "zleb128"
-              }
-            }
+            "data_encoding": null
           },
           "metadata": {
             "constant_value": "remove"
@@ -31544,6 +31421,7 @@
             "metadata": {
               "max_length": 256
             },
+            "vector_dimension": null,
             "element_type": {
               "name": "integer",
               "is_bind_type": false,
@@ -31874,17 +31752,7 @@
             "is_bind_type": true,
             "exhaustive": "exhaustive",
             "enum_encoding": "literal",
-            "data_encoding": {
-              "name": "string",
-              "is_bind_type": false,
-              "length_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "i32",
-                "reinterpret": "i32",
-                "data_encoding": "zleb128"
-              }
-            }
+            "data_encoding": null
           },
           "metadata": {
             "constant_value": "cancel"
@@ -31907,17 +31775,7 @@
             "is_bind_type": true,
             "exhaustive": "exhaustive",
             "enum_encoding": "literal",
-            "data_encoding": {
-              "name": "string",
-              "is_bind_type": false,
-              "length_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "i32",
-                "reinterpret": "i32",
-                "data_encoding": "zleb128"
-              }
-            }
+            "data_encoding": null
           },
           "metadata": {
             "constant_value": "downloading"
@@ -31932,6 +31790,7 @@
             "metadata": {
               "max_length": 65535
             },
+            "vector_dimension": null,
             "element_type": {
               "name": "string",
               "is_bind_type": false,
@@ -31969,17 +31828,7 @@
             "is_bind_type": true,
             "exhaustive": "exhaustive",
             "enum_encoding": "literal",
-            "data_encoding": {
-              "name": "string",
-              "is_bind_type": false,
-              "length_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "i32",
-                "reinterpret": "i32",
-                "data_encoding": "zleb128"
-              }
-            }
+            "data_encoding": null
           },
           "metadata": {
             "constant_value": "downloadingfinished"
@@ -32002,17 +31851,7 @@
             "is_bind_type": true,
             "exhaustive": "exhaustive",
             "enum_encoding": "literal",
-            "data_encoding": {
-              "name": "string",
-              "is_bind_type": false,
-              "length_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "i32",
-                "reinterpret": "i32",
-                "data_encoding": "zleb128"
-              }
-            }
+            "data_encoding": null
           },
           "metadata": {
             "constant_value": "resourcepackstackfinished"
@@ -32215,6 +32054,7 @@
             "metadata": {
               "max_length": 65535
             },
+            "vector_dimension": null,
             "element_type": {
               "name": "Pack Info Data",
               "bind_type": "struct",
@@ -32262,6 +32102,7 @@
             "metadata": {
               "max_length": 65535
             },
+            "vector_dimension": null,
             "element_type": {
               "name": "Pack Instance Id",
               "bind_type": "struct",
@@ -32458,17 +32299,7 @@
             "is_bind_type": true,
             "exhaustive": "exhaustive",
             "enum_encoding": "literal",
-            "data_encoding": {
-              "name": "string",
-              "is_bind_type": false,
-              "length_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "i32",
-                "reinterpret": "i32",
-                "data_encoding": "zleb128"
-              }
-            }
+            "data_encoding": null
           }
         },
         {
@@ -32580,17 +32411,7 @@
             "is_bind_type": true,
             "exhaustive": "exhaustive",
             "enum_encoding": "literal",
-            "data_encoding": {
-              "name": "string",
-              "is_bind_type": false,
-              "length_encoding": {
-                "name": "integer",
-                "is_bind_type": false,
-                "interpretation": "i32",
-                "reinterpret": "i32",
-                "data_encoding": "zleb128"
-              }
-            }
+            "data_encoding": null
           }
         }
       ]
@@ -32889,6 +32710,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Memory Category Counter",
               "bind_type": "struct",
@@ -32909,6 +32731,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Entity Diagnostic Timing Info",
               "bind_type": "struct",
@@ -32929,6 +32752,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "System Diagnostic Timing Info",
               "bind_type": "struct",
@@ -32952,6 +32776,7 @@
             "element_type": {
               "name": "array",
               "is_bind_type": false,
+              "vector_dimension": null,
               "element_type": {
                 "name": "System Category",
                 "bind_type": "struct",
@@ -32973,6 +32798,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Whisker Scope Data Summary",
               "bind_type": "struct",
@@ -33113,6 +32939,7 @@
             "metadata": {
               "max_length": 64
             },
+            "vector_dimension": null,
             "element_type": {
               "name": "Audio Content Registration Entry",
               "bind_type": "struct",
@@ -33716,23 +33543,14 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Hud Element",
               "bind_type": "enum",
               "is_bind_type": true,
               "exhaustive": "exhaustive",
               "enum_encoding": "literal",
-              "data_encoding": {
-                "name": "string",
-                "is_bind_type": false,
-                "length_encoding": {
-                  "name": "integer",
-                  "is_bind_type": false,
-                  "interpretation": "i32",
-                  "reinterpret": "i32",
-                  "data_encoding": "zleb128"
-                }
-              }
+              "data_encoding": null
             },
             "length_encoding": {
               "name": "integer",
@@ -33944,6 +33762,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Scoreboard Identity Packet Info",
               "bind_type": "struct",
@@ -33972,6 +33791,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Set Score Packet Payload Score Info Item",
               "bind_type": "union",
@@ -34682,6 +34502,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Server Block Property",
               "bind_type": "struct",
@@ -35673,6 +35494,7 @@
             "metadata": {
               "max_length": 8192
             },
+            "vector_dimension": null,
             "element_type": {
               "name": "Sub Chunk Packet Data",
               "bind_type": "struct",
@@ -35713,6 +35535,7 @@
             "metadata": {
               "max_length": 8192
             },
+            "vector_dimension": null,
             "element_type": {
               "name": "Sub Chunk Pos Offset",
               "bind_type": "struct",
@@ -35834,6 +35657,7 @@
             "metadata": {
               "max_length": 256
             },
+            "vector_dimension": null,
             "element_type": {
               "name": "Sync World Clock State Data",
               "bind_type": "struct",
@@ -36228,6 +36052,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Trim Pattern",
               "bind_type": "struct",
@@ -36248,6 +36073,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Trim Material",
               "bind_type": "struct",
@@ -36294,6 +36120,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "string",
               "is_bind_type": false,
@@ -36371,6 +36198,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Attribute Data",
               "bind_type": "struct",
@@ -36744,6 +36572,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "string",
               "is_bind_type": false,
@@ -36869,6 +36698,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Update Sub Chunk Network Block Info",
               "bind_type": "struct",
@@ -36889,6 +36719,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Update Sub Chunk Network Block Info",
               "bind_type": "struct",
@@ -37132,6 +36963,7 @@
             "metadata": {
               "max_length": 256048
             },
+            "vector_dimension": null,
             "element_type": {
               "name": "integer",
               "is_bind_type": false,
@@ -37179,6 +37011,7 @@
               "min_length": 1,
               "max_length": 128
             },
+            "vector_dimension": null,
             "element_type": {
               "name": "float",
               "is_bind_type": false,
@@ -37205,6 +37038,7 @@
               "min_length": 1,
               "max_length": 128
             },
+            "vector_dimension": null,
             "element_type": {
               "name": "float",
               "is_bind_type": false,
@@ -37231,6 +37065,7 @@
               "min_length": 1,
               "max_length": 128
             },
+            "vector_dimension": null,
             "element_type": {
               "name": "float",
               "is_bind_type": false,
@@ -37261,6 +37096,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "Voxel Shapes Serializable Voxel Shape",
               "bind_type": "struct",
@@ -38993,6 +38829,7 @@
           "type": {
             "name": "array",
             "is_bind_type": false,
+            "vector_dimension": null,
             "element_type": {
               "name": "string",
               "is_bind_type": false,

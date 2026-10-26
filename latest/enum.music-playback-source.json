@@ -1,0 +1,12 @@
+{
+  "name": "Music Playback Source",
+  "hash": "66193b256ac6e428f5411b26469253df3326d6ab43213903d1f3423f3a7058f6",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "Local": 0,
+    "Online": 1
+  }
+}

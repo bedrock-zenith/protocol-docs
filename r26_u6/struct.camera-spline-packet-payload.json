@@ -10,6 +10,7 @@
       "type": {
         "name": "array",
         "is_bind_type": false,
+        "vector_dimension": null,
         "element_type": {
           "name": "Camera Spline Definition",
           "bind_type": "struct",
