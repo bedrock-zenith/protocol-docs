@@ -1,6 +1,6 @@
 {
   "name": "Disconnect Fail Reason",
-  "hash": "cd429b13531064aef34111ed70f42236bd14f69f9456e36af8abf0dfd6384a56",
+  "hash": "dc8e8afaba9dfdb71851a7b2581b652310d4a4f7bddcab7cdc3272459144d37e",
   "bind_type": "enum",
   "is_bind_type": true,
   "enum_kind": "numeric",
@@ -164,6 +164,7 @@
     "SessionServiceUnavailable": 155,
     "SessionThrottled": 156,
     "SessionRequestRejected": 157,
-    "SessionUnknownError": 158
+    "SessionUnknownError": 158,
+    "BrokenData": 159
   }
 }

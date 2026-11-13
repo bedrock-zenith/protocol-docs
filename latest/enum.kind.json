@@ -1,0 +1,13 @@
+{
+  "name": "Kind",
+  "hash": "89658490438bc4c112cfbec8638b82e90cc99093a318ced9b686068aad6a4ccb",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "Request": 0,
+    "Closed": 1,
+    "Confirmed": 2
+  }
+}

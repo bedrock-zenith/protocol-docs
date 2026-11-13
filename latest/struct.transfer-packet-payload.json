@@ -1,6 +1,6 @@
 {
   "name": "Transfer Packet Payload",
-  "hash": "ee6049ac1aaacf2f71b02b3b0050b4358b15c4b8e5be744eda7a465418f81b66",
+  "hash": "00769da906bc815e4af4ac00f2e1c5a24094a99838c0ede573921f0a799eba84",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [
@@ -50,6 +50,19 @@
         "is_bind_type": false,
         "element_type": {
           "name": "Gatherings Config",
+          "bind_type": "struct",
+          "is_bind_type": true
+        }
+      }
+    },
+    {
+      "name": "Server Transfer Settings",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Transfer Player Ui Options",
           "bind_type": "struct",
           "is_bind_type": true
         }

@@ -1,6 +1,6 @@
 {
   "name": "Minecraft Packet Ids",
-  "hash": "260b7d8b507ab65a9c55ab9ae10496d554b8b349b00d02e7b6ffb665b906e0a1",
+  "hash": "6a8dfb1dd984557b7ba53b592c2092a06067c03a116ead0ba873094b1709601b",
   "bind_type": "enum",
   "is_bind_type": true,
   "enum_kind": "numeric",
@@ -226,6 +226,10 @@
     "ServerboundRegisterAudioContent": 360,
     "Chat": 361,
     "ClientboundOnlineMusicPlaybackResponse": 363,
-    "ServerboundRequestOnlineMusicPlayback": 362
+    "ServerboundRequestOnlineMusicPlayback": 362,
+    "PlayerToggleArmorVisibilityRequestPacket": 364,
+    "ClientboundMusicPlaybackFailure": 365,
+    "VirtualContainerOpen": 366,
+    "VirtualContainerClose": 367
   }
 }

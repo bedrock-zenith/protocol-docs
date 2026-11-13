@@ -19,6 +19,9 @@
       "type": {
         "name": "array",
         "is_bind_type": false,
+        "metadata": {
+          "max_length": 6
+        },
         "vector_dimension": null,
         "element_type": {
           "name": "Mce Uuid",

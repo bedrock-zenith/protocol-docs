@@ -1,0 +1,38 @@
+{
+  "name": "Clientbound Matchmaking State Packet Payload",
+  "hash": "c72c197e9b6704e722724e3945452191f80f97bde9d1562adc71e4b5faef8f84",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "State",
+      "is_constant": false,
+      "type": {
+        "name": "Matchmaking State",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "literal",
+        "data_encoding": null
+      }
+    },
+    {
+      "name": "Destination Name",
+      "is_constant": false,
+      "type": {
+        "name": "string",
+        "is_bind_type": false,
+        "metadata": {
+          "max_length": 100
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      }
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "name": "Level Sound Event",
-  "hash": "fdb1e9ac71b80d0855d0c101f5db5ed1747a8c0b97375a2088c0f7910581f113",
+  "hash": "21ef380a442cee4f6b325f259706fffd00b7cabbf3ef09a43679adab2c7c5b22",
   "bind_type": "enum",
   "is_bind_type": true,
   "enum_kind": "numeric",
@@ -578,6 +578,9 @@
     "convert_to_frostbite": 614,
     "convert_to_zombie": 615,
     "crack": 616,
-    "undefined": 617
+    "ice_ball.throw": 617,
+    "record.flurry": 618,
+    "imitate.frostbite": 619,
+    "undefined": 620
   }
 }

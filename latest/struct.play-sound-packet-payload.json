@@ -1,6 +1,6 @@
 {
   "name": "Play Sound Packet Payload",
-  "hash": "c62367076b504d2ee52982aa20fb50fc892e1873086e6e8001dfd085cfd75d02",
+  "hash": "47fce57cd95399df67b0b0fd7f88f93a1766ae7b72724128809f7a6f1ea27153",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [
@@ -95,6 +95,34 @@
           "interpretation": "f32",
           "reinterpret": "f32",
           "data_encoding": "little_endian"
+        }
+      }
+    },
+    {
+      "name": "Start Delay Seconds",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "float",
+          "is_bind_type": false,
+          "interpretation": "f32",
+          "reinterpret": "f32",
+          "data_encoding": "little_endian"
+        }
+      }
+    },
+    {
+      "name": "Attach Options",
+      "is_constant": false,
+      "type": {
+        "name": "optional",
+        "is_bind_type": false,
+        "element_type": {
+          "name": "Sound Attach Options",
+          "bind_type": "struct",
+          "is_bind_type": true
         }
       }
     }

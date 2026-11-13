@@ -1,0 +1,17 @@
+{
+  "name": "Sound Attach Options",
+  "hash": "ea664037bcdd2bcdf69008aa702ac831668927aacc026324079f1c330a933933",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Entity To Attach To Id",
+      "is_constant": false,
+      "type": {
+        "name": "Actor Runtime Id",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

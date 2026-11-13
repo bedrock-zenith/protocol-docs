@@ -1,6 +1,6 @@
 {
   "name": "Container Enum Name",
-  "hash": "c9e21daefdea9158e86704c4b472d36522420a65146649d440cd1334666654d7",
+  "hash": "0554d481028ba289a85408229d3957966300f9b73b19bd7ec2fe1b6aa26a071f",
   "bind_type": "enum",
   "is_bind_type": true,
   "enum_kind": "numeric",
@@ -76,6 +76,7 @@
     "DiscPressBlockContainer": 67,
     "DiscPressDyeContainer": 68,
     "DiscPressDiscContainer": 69,
-    "DiscPressResultPreviewContainer": 70
+    "DiscPressResultPreviewContainer": 70,
+    "VirtualContainer": 71
   }
 }

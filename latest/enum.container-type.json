@@ -1,6 +1,6 @@
 {
   "name": "Container Type",
-  "hash": "e5d6b5c5b5bda2c713f376f2619145a960930211035e92849426e842a60964b0",
+  "hash": "f9b1ede3528a8e898d0df3f4ffb618c6cfa54e2bc85e6c0add871f00e50ffefd",
   "bind_type": "enum",
   "is_bind_type": true,
   "enum_kind": "numeric",
@@ -45,6 +45,7 @@
     "CHEST_BOAT": 34,
     "DECORATED_POT": 35,
     "CRAFTER": 36,
-    "DISC_PRESS": 38
+    "DISC_PRESS": 38,
+    "VIRTUAL_CONTAINER": 39
   }
 }

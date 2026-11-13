@@ -1,6 +1,6 @@
 {
   "name": "Resource Pack Stack Packet Payload",
-  "hash": "ff34e4e2345ca6650eded1bc80329f47664c908ac4821be7bfba17c2ee08c842",
+  "hash": "bac5067555c0bc40b3c06f4bdd55d90e3ccd06106193115393140c1c4414cf79",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [
@@ -62,12 +62,21 @@
       }
     },
     {
-      "name": "Include Editor Packs",
+      "name": "Editor Pack Types",
       "is_constant": false,
       "type": {
-        "name": "boolean",
-        "is_bind_type": false,
-        "data_encoding": "bool"
+        "name": "Editor Pack Type",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "non_exhaustive",
+        "enum_encoding": "numeric",
+        "data_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u8",
+          "reinterpret": "u8",
+          "data_encoding": "little_endian"
+        }
       }
     }
   ]

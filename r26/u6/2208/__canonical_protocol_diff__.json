@@ -1,0 +1,186 @@
+{
+  "name": "protocol",
+  "is_bind_type": false,
+  "bind_type": "canonical_namespace",
+  "protocol_version": 2208,
+  "minecraft_version": "1.26.60-beta.23",
+  "types": [
+    {
+      "name": "Current Cmd Version",
+      "hash": "5eabe128707a22224a2b335d3dc31212559fb44eee8be9cc58741d9ed693fc94",
+      "bind_type": "enum",
+      "is_bind_type": true,
+      "enum_kind": "numeric",
+      "backing_integer": "i32",
+      "enum": {
+        "Invalid": -1,
+        "Initial": 1,
+        "TpRotationClamping": 2,
+        "NewBedrockCmdSystem": 3,
+        "ExecuteUsesVec3": 4,
+        "CloneFixes": 5,
+        "UpdateAquatic": 6,
+        "EntitySelectorUsesVec3": 7,
+        "ContainersDontDropItemsAnymore": 8,
+        "FiltersObeyDimensions": 9,
+        "ExecuteAndBlockCommandAndSelfSelectorFixes": 10,
+        "InstantEffectsUseTicks": 11,
+        "DontRegisterBrokenFunctionCommands": 12,
+        "ClearSpawnPointCommand": 13,
+        "CloneAndTeleportRotationFixes": 14,
+        "TeleportDimensionFixes": 15,
+        "CloneUpdateBlockAndTimeFixes": 16,
+        "CloneIntersectFix": 17,
+        "FunctionExecuteOrderAndChestSlotFix": 18,
+        "NonTickingAreasNoLongerConsideredLoaded": 19,
+        "SpreadplayersHazardAndResolvePlayerByNameFix": 20,
+        "NewExecuteCommandSyntaxExperimentAndChestLootTableFixAndTeleportFacingVerticalUnclampedAndLocateBiomeAndFeatureMerged": 21,
+        "WaterloggingAddedToStructureCommand": 22,
+        "SelectorDistanceFilteredAndRelativeRotationFix": 23,
+        "NewSummonCommandAddedRotationOptionsAndBubbleColumnCloneFixAndExecuteInDimensionTeleportFixAndNewExecuteRotationFix": 24,
+        "NewExecuteCommandReleaseEnchantCommandLevelFixAndHasItemDataFixAndCommandDeferral": 25,
+        "ExecuteIfScoreFixes": 26,
+        "ReplaceItemAndLootReplaceBlockCommandsDoNotPlaceItemsIntoCauldronsFix": 27,
+        "ChangesToCommandOriginRotation": 28,
+        "RemoveAuxValueParameterFromBlockCommands": 29,
+        "VolumeSelectorFixes": 30,
+        "EnableSummonRotation": 31,
+        "SummonCommandDefaultRotation": 32,
+        "PositionalDimensionFiltering": 33,
+        "CommandSelectorHasItemFilterNoLongerCallsSameItemFunction": 34,
+        "AgentSweepingBlockTest": 34,
+        "BlockStateEquals": 35,
+        "CommandPositionFix": 35,
+        "CommandSelectorHasItemFilterUsesDataAsDamageForSelectingDamageableItems": 36,
+        "ExecuteDetectConditionSubcommandNotAllowNonLoadedBlocks": 37,
+        "RemoveSuicideKeyword": 38,
+        "CloneContainerBlockEntityRemovalFix": 39,
+        "StopSoundMusicFix": 40,
+        "SpreadPlayersStuckInGroundFixAndMaxHeightParameter": 41,
+        "LocateStructureOutput": 42,
+        "PostBlockFlattening": 43,
+        "TestForBlockCommandDoesNotIgnoreBlockState": 44,
+        "Count": 55,
+        "Latest": 54
+      }
+    },
+    {
+      "name": "Level Chunk Packet Payload",
+      "hash": "d5a1550f2f52b0eeccb59bde9f852c4ee0c62b04a7faa6150ddd08d055a95298",
+      "bind_type": "struct",
+      "is_bind_type": true,
+      "fields": [
+        {
+          "name": "Chunk Position",
+          "is_constant": false,
+          "type": {
+            "name": "Chunk Pos",
+            "bind_type": "struct",
+            "is_bind_type": true
+          }
+        },
+        {
+          "name": "Dimension Id",
+          "is_constant": false,
+          "type": {
+            "name": "Dimension Type",
+            "bind_type": "struct",
+            "is_bind_type": true
+          }
+        },
+        {
+          "name": "Sub Chunks Count",
+          "is_constant": false,
+          "type": {
+            "name": "integer",
+            "is_bind_type": false,
+            "interpretation": "u32",
+            "metadata": {
+              "min_value": 0,
+              "max_value": 64
+            },
+            "reinterpret": "u32",
+            "data_encoding": "leb128"
+          }
+        },
+        {
+          "name": "Client Request Sub Chunk Limit",
+          "is_constant": false,
+          "type": {
+            "name": "optional",
+            "is_bind_type": false,
+            "element_type": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "i32",
+              "metadata": {
+                "min_value": -1,
+                "max_value": 64
+              },
+              "reinterpret": "i32",
+              "data_encoding": "zleb128"
+            }
+          }
+        },
+        {
+          "name": "Cache Enabled",
+          "is_constant": false,
+          "type": {
+            "name": "boolean",
+            "is_bind_type": false,
+            "data_encoding": "bool"
+          }
+        },
+        {
+          "name": "Cache Metadata",
+          "is_constant": false,
+          "type": {
+            "name": "array",
+            "is_bind_type": false,
+            "metadata": {
+              "max_length": 65
+            },
+            "vector_dimension": null,
+            "element_type": {
+              "name": "Level Chunk Packet Payload Sub Chunk Metadata",
+              "bind_type": "struct",
+              "is_bind_type": true
+            },
+            "length_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "u32",
+              "reinterpret": "u32",
+              "data_encoding": "leb128"
+            }
+          }
+        },
+        {
+          "name": "Serialized Chunk Data",
+          "is_constant": false,
+          "type": {
+            "name": "string",
+            "is_bind_type": false,
+            "length_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "i32",
+              "reinterpret": "i32",
+              "data_encoding": "zleb128"
+            }
+          }
+        },
+        {
+          "name": "Is Client Biome Update",
+          "is_constant": false,
+          "type": {
+            "name": "boolean",
+            "is_bind_type": false,
+            "data_encoding": "bool"
+          }
+        }
+      ]
+    }
+  ],
+  "packets": []
+}

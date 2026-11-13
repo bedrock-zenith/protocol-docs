@@ -1,6 +1,6 @@
 {
   "name": "Network Settings Packet Payload",
-  "hash": "f7262fd4f2091b25e38911a1184207cf4a763ccb0976329e9cd2fa83c4628af0",
+  "hash": "1ccf5e10b3d7102a6a8d567153230c90faaca8c664d71861f0490919b079de7d",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [
@@ -69,6 +69,24 @@
         "interpretation": "f32",
         "reinterpret": "f32",
         "data_encoding": "little_endian"
+      }
+    },
+    {
+      "name": "Sctp Recovery Profile",
+      "is_constant": false,
+      "type": {
+        "name": "Sctp Recovery Profile",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "numeric",
+        "data_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u8",
+          "reinterpret": "u8",
+          "data_encoding": "little_endian"
+        }
       }
     }
   ]

@@ -1,0 +1,45 @@
+{
+  "name": "Data Store Change The New Variable Value",
+  "hash": "dadb995da6f701649c0e146b879ae1072c02240a114935a2e8daf7451b290f1e",
+  "bind_type": "union",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "type": {
+        "name": "float",
+        "is_bind_type": false,
+        "interpretation": "f64",
+        "reinterpret": "f64",
+        "data_encoding": "little_endian"
+      },
+      "enum_literal": "float"
+    },
+    {
+      "type": {
+        "name": "boolean",
+        "is_bind_type": false,
+        "data_encoding": "bool"
+      },
+      "enum_literal": "boolean"
+    },
+    {
+      "type": {
+        "name": "string",
+        "is_bind_type": false,
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      },
+      "enum_literal": "string"
+    }
+  ],
+  "backing_enum": {
+    "name": "Data Store Change The New Variable Value Control",
+    "bind_type": "enum",
+    "is_bind_type": true
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Virtual Container Close Kind",
+  "hash": "6ee5c1ad41dcdf3230992172686bac764c805b620f074ac576a41f97c7aee9a2",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "Request": 0,
+    "Closed": 1,
+    "Confirmed": 2
+  }
+}

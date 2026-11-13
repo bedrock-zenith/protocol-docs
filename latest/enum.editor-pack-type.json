@@ -1,0 +1,13 @@
+{
+  "name": "Editor Pack Type",
+  "hash": "02bfe0a1e23a1ede42313b2a729ed98f86383722da04e325a2e1ab6434ff3e1b",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "None": 0,
+    "Core": 1,
+    "Annotation": 2
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "name": "Clientbound Online Music Playback Response Packet Payload",
+  "hash": "dabbf2bdee72396497032eeab8a838e9b72c109080b2db4d8ab002d7e97838e8",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Request Id",
+      "is_constant": false,
+      "type": {
+        "name": "integer",
+        "is_bind_type": false,
+        "interpretation": "u32",
+        "metadata": {
+          "min_value": 0
+        },
+        "reinterpret": "u32",
+        "data_encoding": "little_endian"
+      }
+    },
+    {
+      "name": "State",
+      "is_constant": false,
+      "type": {
+        "name": "Music Playback State",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "literal",
+        "data_encoding": null
+      }
+    },
+    {
+      "name": "Shared Metadata",
+      "is_constant": false,
+      "type": {
+        "name": "Signed Audio Content",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Playback Content",
+      "is_constant": false,
+      "type": {
+        "name": "Signed Audio Content",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    }
+  ]
+}

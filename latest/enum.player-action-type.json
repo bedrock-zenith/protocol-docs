@@ -1,6 +1,6 @@
 {
   "name": "Player Action Type",
-  "hash": "c9a16b253cc9d44140637e1fff2d5b1ab0271c0fc463e06087ae540beae4766b",
+  "hash": "4c4eb1fd9ad42ae2b80925a41e93b3dc29c392a3ad0bebdef3e7ddcba84c3a6a",
   "bind_type": "enum",
   "is_bind_type": true,
   "enum_kind": "numeric",
@@ -39,7 +39,7 @@
     "StartFlying": 34,
     "StopFlying": 35,
     "StartUsingItem": 37,
-    "InternalUpdate": 38,
+    "SwapOffhand": 38,
     "Count": 39
   }
 }

@@ -1,0 +1,199 @@
+{
+  "name": "Clientbound Update Sound Data Packet Payload",
+  "hash": "d3385bc71dc7e70c8a812578856ab3508d7d1dfe950d8961fed4e2a64b5e8055",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Server Sound Handle",
+      "is_constant": false,
+      "type": {
+        "name": "Server Sound Handle",
+        "bind_type": "struct",
+        "is_bind_type": true
+      }
+    },
+    {
+      "name": "Stop",
+      "is_constant": false,
+      "type": {
+        "name": "Clientbound Update Sound Data Packet Payload Stop",
+        "bind_type": "union",
+        "is_bind_type": true,
+        "enum_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        },
+        "control_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      },
+      "metadata": {
+        "default_value": {}
+      }
+    },
+    {
+      "name": "Set Volume",
+      "is_constant": false,
+      "type": {
+        "name": "Clientbound Update Sound Data Packet Payload Set Volume",
+        "bind_type": "union",
+        "is_bind_type": true,
+        "enum_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        },
+        "control_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      },
+      "metadata": {
+        "default_value": {}
+      }
+    },
+    {
+      "name": "Set Pitch",
+      "is_constant": false,
+      "type": {
+        "name": "Clientbound Update Sound Data Packet Payload Set Pitch",
+        "bind_type": "union",
+        "is_bind_type": true,
+        "enum_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        },
+        "control_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      },
+      "metadata": {
+        "default_value": {}
+      }
+    },
+    {
+      "name": "Fade",
+      "is_constant": false,
+      "type": {
+        "name": "Clientbound Update Sound Data Packet Payload Fade",
+        "bind_type": "union",
+        "is_bind_type": true,
+        "enum_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        },
+        "control_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      },
+      "metadata": {
+        "default_value": {}
+      }
+    },
+    {
+      "name": "Seek To",
+      "is_constant": false,
+      "type": {
+        "name": "Clientbound Update Sound Data Packet Payload Seek To",
+        "bind_type": "union",
+        "is_bind_type": true,
+        "enum_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        },
+        "control_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      },
+      "metadata": {
+        "default_value": {}
+      }
+    },
+    {
+      "name": "Pause",
+      "is_constant": false,
+      "type": {
+        "name": "Clientbound Update Sound Data Packet Payload Pause",
+        "bind_type": "union",
+        "is_bind_type": true,
+        "enum_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        },
+        "control_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      },
+      "metadata": {
+        "default_value": {}
+      }
+    },
+    {
+      "name": "Resume",
+      "is_constant": false,
+      "type": {
+        "name": "Clientbound Update Sound Data Packet Payload Resume",
+        "bind_type": "union",
+        "is_bind_type": true,
+        "enum_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        },
+        "control_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
+      },
+      "metadata": {
+        "default_value": {}
+      }
+    }
+  ]
+}

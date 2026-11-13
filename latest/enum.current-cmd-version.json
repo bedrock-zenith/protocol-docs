@@ -1,6 +1,6 @@
 {
   "name": "Current Cmd Version",
-  "hash": "6a7e76bea640a6299ffec9c1956cf75e6129349976cbd4b8163427e123c42535",
+  "hash": "41c94e3bf9ec1aecca8a88169b13f89f546a55335416de531a4a05693518a191",
   "bind_type": "enum",
   "is_bind_type": true,
   "enum_kind": "numeric",
@@ -54,7 +54,8 @@
     "PostBlockFlattening": 43,
     "TestForBlockCommandDoesNotIgnoreBlockState": 44,
     "GameTestRunSetMultiTag": 56,
-    "Count": 57,
-    "Latest": 56
+    "SameActorBlockReplacementRetainsItemsFix": 57,
+    "Count": 58,
+    "Latest": 57
   }
 }

@@ -1,0 +1,13 @@
+{
+  "name": "Data Store Change The New Variable Value Control",
+  "hash": "dfaa5ccb294eaeb1005acf7c68b0db1aed7f4850c0b904801e3aa42eaca96fa7",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u32",
+  "enum": {
+    "float": 0,
+    "boolean": 1,
+    "string": 2
+  }
+}

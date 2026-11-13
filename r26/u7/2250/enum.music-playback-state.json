@@ -1,0 +1,14 @@
+{
+  "name": "Music Playback State",
+  "hash": "01c181a7a544aa2496d0f08174f7264f459c39ee60c9bc13187274e2a236a4dd",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "Local": 0,
+    "Online": 1,
+    "NotFound": 2,
+    "Pending": 3
+  }
+}

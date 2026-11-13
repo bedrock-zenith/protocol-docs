@@ -1,0 +1,18 @@
+{
+  "name": "Virtual Container Close Cause",
+  "hash": "2820558488a60f069f413058f30a6325b6a10515c37f58f96be4215e5a004cea",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "Unknown": 0,
+    "UserClosed": 1,
+    "ServerRequested": 2,
+    "UserBusy": 3,
+    "ClientNotReady": 4,
+    "InvalidContents": 5,
+    "UiCreationFailed": 6,
+    "UiCancelled": 7
+  }
+}

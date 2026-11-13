@@ -12,8 +12,8 @@
         "is_bind_type": false,
         "interpretation": "i32",
         "metadata": {
-          "min_value": 2238,
-          "max_value": 2238
+          "min_value": 2259,
+          "max_value": 2259
         },
         "reinterpret": "i32",
         "data_encoding": "big_endian"

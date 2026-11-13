@@ -1,6 +1,6 @@
 {
   "name": "Message And Params",
-  "hash": "d9761709139176c1e987e42e3a814ca5427f33b9151b02a91efd9eb67a923827",
+  "hash": "0819758ae10e544a0e51fc37b5799030cc524dd4ff2cae65c3c023250f542337",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [
@@ -75,6 +75,18 @@
       },
       "metadata": {
         "default_value": []
+      }
+    },
+    {
+      "name": "Queue",
+      "is_constant": false,
+      "type": {
+        "name": "boolean",
+        "is_bind_type": false,
+        "data_encoding": "bool"
+      },
+      "metadata": {
+        "default_value": false
       }
     }
   ]

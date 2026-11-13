@@ -1,0 +1,38 @@
+{
+  "name": "Music Playback Failure Entry",
+  "hash": "2ea5a4447960c891a46f3eb7905296800e97e3c754033680dcfa4faa3c28e57f",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "State",
+      "is_constant": false,
+      "type": {
+        "name": "Music Playback State",
+        "bind_type": "enum",
+        "is_bind_type": true,
+        "exhaustive": "exhaustive",
+        "enum_encoding": "literal",
+        "data_encoding": null
+      }
+    },
+    {
+      "name": "Description",
+      "is_constant": false,
+      "type": {
+        "name": "string",
+        "is_bind_type": false,
+        "metadata": {
+          "max_length": 65536
+        },
+        "length_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "i32",
+          "reinterpret": "i32",
+          "data_encoding": "zleb128"
+        }
+      }
+    }
+  ]
+}

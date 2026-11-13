@@ -1,0 +1,13 @@
+{
+  "name": "Sctp Recovery Profile",
+  "hash": "7bb73aecf9247173066573c7aa2329b9f8174cace535a91bd6dda275de9da5ec",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "Default": 0,
+    "Balanced": 2,
+    "Fast": 1
+  }
+}

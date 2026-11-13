@@ -1,0 +1,19 @@
+{
+  "name": "Set Volume",
+  "hash": "b8f5ab8c1ba00e9e81e21da6da583f8610a9b78e4d6a099bf12ce1c3f97589a0",
+  "bind_type": "struct",
+  "is_bind_type": true,
+  "fields": [
+    {
+      "name": "Volume",
+      "is_constant": false,
+      "type": {
+        "name": "float",
+        "is_bind_type": false,
+        "interpretation": "f32",
+        "reinterpret": "f32",
+        "data_encoding": "little_endian"
+      }
+    }
+  ]
+}

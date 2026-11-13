@@ -1,37 +1,18 @@
 {
   "name": "Data Store Change",
-  "hash": "5864971858f7a2b0ab857bc7b817483a9ac656e158595b315daf980c629d50f1",
+  "hash": "c972ee2f95cc0ab63af687448f33398efe778d2d7ae6f16f89704934fbb58edf",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [
     {
-      "name": "Data Store Name",
+      "name": "Variable Name",
       "is_constant": false,
       "type": {
         "name": "string",
         "is_bind_type": false,
         "metadata": {
           "min_length": 1,
-          "max_length": 1000
-        },
-        "length_encoding": {
-          "name": "integer",
-          "is_bind_type": false,
-          "interpretation": "i32",
-          "reinterpret": "i32",
-          "data_encoding": "zleb128"
-        }
-      }
-    },
-    {
-      "name": "Property",
-      "is_constant": false,
-      "type": {
-        "name": "string",
-        "is_bind_type": false,
-        "metadata": {
-          "min_length": 1,
-          "max_length": 1000
+          "max_length": 2000
         },
         "length_encoding": {
           "name": "integer",
@@ -58,11 +39,26 @@
       }
     },
     {
-      "name": "The New Property Value",
+      "name": "The New Variable Value",
       "is_constant": false,
       "type": {
-        "name": "ddui_dynamic",
-        "is_bind_type": false
+        "name": "Data Store Change The New Variable Value",
+        "bind_type": "union",
+        "is_bind_type": true,
+        "enum_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        },
+        "control_encoding": {
+          "name": "integer",
+          "is_bind_type": false,
+          "interpretation": "u32",
+          "reinterpret": "u32",
+          "data_encoding": "leb128"
+        }
       }
     }
   ]

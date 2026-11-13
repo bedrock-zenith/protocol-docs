@@ -1,6 +1,6 @@
 {
   "name": "Clientbound Online Music Playback Response Packet Payload",
-  "hash": "a16879f948fe1184f4fd602c6ecd897f33d7d2b6e57b4b69180440a3a124dcb4",
+  "hash": "dabbf2bdee72396497032eeab8a838e9b72c109080b2db4d8ab002d7e97838e8",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [
@@ -19,10 +19,10 @@
       }
     },
     {
-      "name": "Source",
+      "name": "State",
       "is_constant": false,
       "type": {
-        "name": "Music Playback Source",
+        "name": "Music Playback State",
         "bind_type": "enum",
         "is_bind_type": true,
         "exhaustive": "exhaustive",

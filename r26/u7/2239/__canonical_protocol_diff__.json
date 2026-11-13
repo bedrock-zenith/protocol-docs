@@ -1,0 +1,106 @@
+{
+  "name": "protocol",
+  "is_bind_type": false,
+  "bind_type": "canonical_namespace",
+  "protocol_version": 2239,
+  "minecraft_version": "1.26.70-beta.22",
+  "types": [
+    {
+      "name": "Editor Pack Type",
+      "hash": "02bfe0a1e23a1ede42313b2a729ed98f86383722da04e325a2e1ab6434ff3e1b",
+      "bind_type": "enum",
+      "is_bind_type": true,
+      "enum_kind": "numeric",
+      "backing_integer": "u8",
+      "enum": {
+        "None": 0,
+        "Core": 1,
+        "Annotation": 2
+      }
+    },
+    {
+      "name": "Resource Pack Stack Packet Payload",
+      "hash": "bac5067555c0bc40b3c06f4bdd55d90e3ccd06106193115393140c1c4414cf79",
+      "bind_type": "struct",
+      "is_bind_type": true,
+      "fields": [
+        {
+          "name": "Texture Pack Required",
+          "is_constant": false,
+          "type": {
+            "name": "boolean",
+            "is_bind_type": false,
+            "data_encoding": "bool"
+          }
+        },
+        {
+          "name": "Texture Pack List",
+          "is_constant": false,
+          "type": {
+            "name": "array",
+            "is_bind_type": false,
+            "metadata": {
+              "max_length": 65535
+            },
+            "vector_dimension": null,
+            "element_type": {
+              "name": "Pack Instance Id",
+              "bind_type": "struct",
+              "is_bind_type": true
+            },
+            "length_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "u32",
+              "reinterpret": "u32",
+              "data_encoding": "leb128"
+            }
+          }
+        },
+        {
+          "name": "Base Game Version",
+          "is_constant": false,
+          "type": {
+            "name": "string",
+            "is_bind_type": false,
+            "length_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "i32",
+              "reinterpret": "i32",
+              "data_encoding": "zleb128"
+            }
+          }
+        },
+        {
+          "name": "Experiments",
+          "is_constant": false,
+          "type": {
+            "name": "Experiments",
+            "bind_type": "struct",
+            "is_bind_type": true
+          }
+        },
+        {
+          "name": "Editor Pack Types",
+          "is_constant": false,
+          "type": {
+            "name": "Editor Pack Type",
+            "bind_type": "enum",
+            "is_bind_type": true,
+            "exhaustive": "non_exhaustive",
+            "enum_encoding": "numeric",
+            "data_encoding": {
+              "name": "integer",
+              "is_bind_type": false,
+              "interpretation": "u8",
+              "reinterpret": "u8",
+              "data_encoding": "little_endian"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "packets": []
+}

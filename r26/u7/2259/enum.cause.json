@@ -1,0 +1,18 @@
+{
+  "name": "Cause",
+  "hash": "66d045761f4974e9af184355c8f2ad8d8e89499ec0ac6715bd6e4ae63e445387",
+  "bind_type": "enum",
+  "is_bind_type": true,
+  "enum_kind": "numeric",
+  "backing_integer": "u8",
+  "enum": {
+    "Unknown": 0,
+    "UserClosed": 1,
+    "ServerRequested": 2,
+    "UserBusy": 3,
+    "ClientNotReady": 4,
+    "InvalidContents": 5,
+    "UiCreationFailed": 6,
+    "UiCancelled": 7
+  }
+}

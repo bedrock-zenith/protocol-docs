@@ -1,55 +1,18 @@
 {
   "name": "Data Store Update",
-  "hash": "5b151092d8d9be73981df168079215740ac0ced8dfaaeda719e38f67d6a0261c",
+  "hash": "f116c59cb8dee74ac85b61fc340effbdd7d882d848dd15ce56f18aabc81c9cf6",
   "bind_type": "struct",
   "is_bind_type": true,
   "fields": [
     {
-      "name": "Data Store Name",
+      "name": "Variable Name",
       "is_constant": false,
       "type": {
         "name": "string",
         "is_bind_type": false,
         "metadata": {
           "min_length": 1,
-          "max_length": 1000
-        },
-        "length_encoding": {
-          "name": "integer",
-          "is_bind_type": false,
-          "interpretation": "i32",
-          "reinterpret": "i32",
-          "data_encoding": "zleb128"
-        }
-      }
-    },
-    {
-      "name": "Property",
-      "is_constant": false,
-      "type": {
-        "name": "string",
-        "is_bind_type": false,
-        "metadata": {
-          "min_length": 1,
-          "max_length": 1000
-        },
-        "length_encoding": {
-          "name": "integer",
-          "is_bind_type": false,
-          "interpretation": "i32",
-          "reinterpret": "i32",
-          "data_encoding": "zleb128"
-        }
-      }
-    },
-    {
-      "name": "Path",
-      "is_constant": false,
-      "type": {
-        "name": "string",
-        "is_bind_type": false,
-        "metadata": {
-          "max_length": 1000
+          "max_length": 2000
         },
         "length_encoding": {
           "name": "integer",
@@ -84,22 +47,7 @@
       }
     },
     {
-      "name": "Property Update Count",
-      "is_constant": false,
-      "type": {
-        "name": "integer",
-        "is_bind_type": false,
-        "interpretation": "u32",
-        "metadata": {
-          "min_value": 0,
-          "max_value": 4294967294
-        },
-        "reinterpret": "u32",
-        "data_encoding": "little_endian"
-      }
-    },
-    {
-      "name": "Path Update Count",
+      "name": "Update Count",
       "is_constant": false,
       "type": {
         "name": "integer",
